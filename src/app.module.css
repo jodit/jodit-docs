@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+}
+.root * {
+  box-sizing: border-box;
+}
+.sidebar {
+  padding: 10px;
+  whiteSpace: nowrap;
+  height: 100vh;
+  overflow: auto;
+  background-color: aliceblue;
+  width: 200px;
+}
+.main {
+  padding: 10px;
+  flex: 1;
+  height: 100vh;
+  overflow: auto;
+}
+.selected {
+  color: red;
+}
