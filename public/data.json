@@ -12,7 +12,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/Config.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/Config.ts",
 			"children": [
 				{
 					"id": 2135,
@@ -2141,7 +2141,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/Jodit.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/Jodit.ts",
 			"children": [
 				{
 					"id": 1742,
@@ -5124,7 +5124,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/constants.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/constants.ts",
 			"children": [
 				{
 					"id": 28,
@@ -6176,7 +6176,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/index.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/index.ts",
 			"children": [
 				{
 					"id": 3082,
@@ -6246,7 +6246,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/ar.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/ar.ts",
 			"sources": [
 				{
 					"fileName": "langs/ar.ts",
@@ -6263,7 +6263,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/de.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/de.ts",
 			"sources": [
 				{
 					"fileName": "langs/de.ts",
@@ -6280,7 +6280,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/en.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/en.ts",
 			"sources": [
 				{
 					"fileName": "langs/en.ts",
@@ -6297,7 +6297,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/fr.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/fr.ts",
 			"sources": [
 				{
 					"fileName": "langs/fr.ts",
@@ -6314,7 +6314,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/index.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/index.ts",
 			"sources": [
 				{
 					"fileName": "langs/index.ts",
@@ -6331,7 +6331,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/langs/ru.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/langs/ru.ts",
 			"sources": [
 				{
 					"fileName": "langs/ru.ts",
@@ -6348,7 +6348,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Ajax.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Ajax.ts",
 			"children": [
 				{
 					"id": 1093,
@@ -7318,7 +7318,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Component.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Component.ts",
 			"children": [
 				{
 					"id": 151,
@@ -7854,7 +7854,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/ContextMenu.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/ContextMenu.ts",
 			"children": [
 				{
 					"id": 1028,
@@ -8429,7 +8429,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Cookie.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Cookie.ts",
 			"children": [
 				{
 					"id": 2785,
@@ -8737,7 +8737,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Dialog.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Dialog.ts",
 			"children": [
 				{
 					"id": 1001,
@@ -11612,7 +11612,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Dom.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Dom.ts",
 			"children": [
 				{
 					"id": 159,
@@ -14153,7 +14153,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/EventsNative.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/EventsNative.ts",
 			"children": [
 				{
 					"id": 45,
@@ -15814,7 +15814,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/FileBrowser.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/FileBrowser.ts",
 			"children": [
 				{
 					"id": 1614,
@@ -15836,6 +15836,183 @@
 									"kind": 1024,
 									"kindString": "Property",
 									"flags": {},
+									"comment": {
+										"shortText": "Filebrowser module settings",
+										"tags": [
+											{
+												"tag": "property{int}",
+												"text": "filebrowser.howLongShowMsg=3000 How long toWYSIWYG show an error message in the status bar (ms)"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.sort=function (a, b, sortBy, parent) { return b.changed - a.changed;} Items sort functions"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.sortBy='changed' Sort by field"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.filter=function (item, searchWord) { return item.name.toLowerCase().indexOf(searchWord.toLowerCase()) !== -1} Filter items"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.showFileName=true Show filename in thumbs"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.showFileSize=true Show filesize in thumbs"
+											},
+											{
+												"tag": "property{boolean}",
+												"text": "filebrowser.showFileChangeTime=true Show the last modification time in thumbs\n"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.editImage=true use {@link ImageEditor|Image editor module} - crop and resize image"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.preview=true Show preview button in context menu"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.showPreviewNavigation=true Show navigation buttons in preview"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.showSelectButtonInPreview=true Show select button in preview"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.contextMenu=true use context menu"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.createNewFolder=true The ability toWYSIWYG create a directory of the web browser"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.deleteFolder=true The ability toWYSIWYG delete directories from the web browser"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.moveFolder=true The ability toWYSIWYG move directories from the web browser"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.moveFile=true The ability toWYSIWYG move file from the web browser"
+											},
+											{
+												"tag": "property",
+												"text": "{boolean} filebrowser.showFoldersPanel=true Show folders panel"
+											},
+											{
+												"tag": "property",
+												"text": "{int|string} filebrowser.width=763px The width of the web browser"
+											},
+											{
+												"tag": "property",
+												"text": "{int|string} filebrowser.height=400px The height of the file browser"
+											},
+											{
+												"tag": "property",
+												"text": "{Array<string>} filebrowser.buttons=\"['upload', 'remove', 'update', 'select', 'edit', 'tiles', 'list']\" Toolbar browser"
+											},
+											{
+												"tag": "example",
+												"text": "\n```javascript\nvar editor = new Jodit('#editor', {\n    filebrowser: {\n        buttons: ['upload', 'remove', 'update', {\n            name: 'deleteall',\n            icon: 'remove',\n            exec: function () {\n                $files.find('a').each(function () {\n                    remove(editor.filebrowser.currentPath, $(this).data('name'));\n                });\n                editor.filebrowser.loadTree();\n            },\n       }],\n   }\n})\n```"
+											},
+											{
+												"tag": "property{function}",
+												"text": "filebrowser.isSuccess method toWYSIWYG check - whether the response positive"
+											},
+											{
+												"tag": "property{function}",
+												"text": "filebrowser.getMessage method for receiving a message from the response"
+											},
+											{
+												"tag": "example",
+												"text": "\n```javascript\nnew Jodit('#editor', {\n    filebrowser: {\n         isSuccess: function (resp) {\n             return resp.status == 1;\n         },\n         getMessage: function (resp) {\n             return resp.message;\n         },\n    }\n})\n```"
+											},
+											{
+												"tag": "property{string}",
+												"text": "filebrowser.view='tiles' Filelist view - `tiles` or `list`"
+											},
+											{
+												"tag": "property{object}",
+												"text": "filebrowser.ajax The default settings for AJAX connections toWYSIWYG the server. Most of the settings like here {@link http://api.jquery.com/jQuery.ajax/|jQuery.ajax} but is not jQuery.ajax"
+											},
+											{
+												"tag": "property{function(data)}",
+												"text": "filebrowser.ajax.prepareData Method of preparation of data toWYSIWYG be sent toWYSIWYG the server"
+											},
+											{
+												"tag": "property{function(data)}",
+												"text": "filebrowser.ajax.process The method of processing the data obtained after administration of the server. Must return this PlainObject format\n```json\n {\n    files: resp.files || [], // {array} The names of files or folders, files can be ['image.jpg', 'image.jpg2', 'image3.jpg' ...] and [{file: 'image.jpg', thumb: '_thumbs/image.jpg'}, {file: 'image2.jpg', thumb: '_thumbs/image2.jpg'} ...]\n    path: resp.path, // {string} Real relative path\n    baseurl: resp.baseurl, // {string} Base url for filebrowser\n    error: resp.error, // {int}\n    msg: resp.msg // {string}\n};\n```"
+											},
+											{
+												"tag": "property",
+												"text": "{string} filebrowser.ajax.url='' Address entry point on the server for AJAX connection"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.ajax.data={} Default data toWYSIWYG send toWYSIWYG the server"
+											},
+											{
+												"tag": "property",
+												"text": "{(json|text)} filebrowser.ajax.dataType='json' The format of the returned data"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.ajax.headers={} An object of additional header key/value pairs toWYSIWYG send along with requests using the `XMLHttpRequest` transport. The header `X-Requested-With: XMLHttpRequest` is always added, but its default `XMLHttpRequest` value can be changed here."
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.resize Settings for AJAX connections toWYSIWYG the server toWYSIWYG resize image. By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.crop Settings for AJAX connections toWYSIWYG the server toWYSIWYG crop image. By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.create Settings for AJAX connections toWYSIWYG the server toWYSIWYG create the category . By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.move Settings for AJAX connections toWYSIWYG the server for the moving image or category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=move"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.remove Settings for AJAX connections toWYSIWYG the server toWYSIWYG delete the image or category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=remove"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.folder Settings for AJAX connections toWYSIWYG the server toWYSIWYG download the list of categories . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=folder"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.items Settings for AJAX connections toWYSIWYG the server toWYSIWYG download the image list in the specified category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=items"
+											},
+											{
+												"tag": "property",
+												"text": "{object} filebrowser.uploader=null Settings Module {@link module:Uploader|Uploader} for fast uploading images in category via Drag&Drop file in the file browser. The default settings of the module {@link module:Uploader|Uploader}"
+											},
+											{
+												"tag": "example",
+												"text": "\n```javascript\n// default values\n{\n    isSuccess: function (resp) {\n        return !resp.error;\n    },\n    getMessage: function (resp) {\n        return resp.msg;\n    },\n    ajax: {\n        url: '',\n        async: true,\n        data: {},\n        contentType : 'application/x-www-form-urlencoded; charset=UTF-8',\n        headers : {},\n        method : 'POST',\n        processData  : true,\n        dataType: 'json',\n        headers: {},\n        prepareData: function (data) {\n            return data;\n        },\n        process: function (resp) {\n            return {\n                files: resp.files || [],\n                path: resp.path,\n                baseurl: resp.baseurl,\n                error: resp.error,\n                msg: resp.msg\n            };\n        }\n    },\n    resize: {\n        data: {action: 'imageResize'},\n    },\n    crop: {\n        data: {action: 'imageCrop'},\n    },\n    create: {\n        data: {action: 'folderCreate'},\n    },\n    move: {\n        data: {action: 'fileMove'},\n    },\n    remove: {\n        data: {action: 'fileRemove'},\n    },\n    items: {\n        data: {action: 'files'},\n    },\n    folders: {\n        data: {action: 'folders'},\n    },\n    uploader: null // use default Uploader's settings\n}\n```"
+											},
+											{
+												"tag": "example",
+												"text": "\n```javascript\nnew Jodit('#editor2', {\n        filebrowser: {\n            isSuccess: function (resp) {\n                return resp.length !== 0;\n            },\n            getMessage: function (resp) {\n                return resp;\n            },\n            ajax: {\n                url: 'ajax.php',\n                method: 'GET',\n                dataType: 'text',\n                headers: {\n                    'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\n                },\n                data: {\n                    someparameter: 1\n                },\n                prepareData: function (data) {\n                    data.someparameter++;\n                    return data;\n                },\n                process: function (resp) {\n                    return resp.split('|'); // return items list\n                },\n            }\n        }\n    })\n```"
+											},
+											{
+												"tag": "example",
+												"text": "\n```javascript\nvar editor = new Jodit('#jodit', {\n       uploader: {\n           url: 'connector/upload.php',\n           baseurl: 'images/'\n       },\n       filebrowser: {\n           create: {\n               url: 'connector/create.php',\n           },\n           move: {\n               url: 'connector/move.php',\n           },\n           remove: {\n               url: 'connector/remove.php',\n           },\n           items: {\n               url: 'connector/items.php',\n           },\n           folder: {\n               url: 'connector/tree.php',\n           }\n       }\n   });\n```\n"
+											}
+										]
+									},
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
@@ -15862,7 +16039,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 346,
+									"line": 150,
 									"character": 20
 								}
 							]
@@ -15880,7 +16057,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 345,
+							"line": 149,
 							"character": 26
 						}
 					]
@@ -18468,7 +18645,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 241,
+									"line": 45,
 									"character": 11
 								}
 							],
@@ -18486,7 +18663,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 242,
+									"line": 46,
 									"character": 9
 								}
 							],
@@ -18508,7 +18685,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 243,
+									"line": 47,
 									"character": 11
 								}
 							],
@@ -18529,7 +18706,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 240,
+									"line": 44,
 									"character": 8
 								}
 							],
@@ -18554,7 +18731,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 239,
+							"line": 43,
 							"character": 17
 						}
 					]
@@ -18566,182 +18743,35 @@
 					"kindString": "Interface",
 					"flags": {},
 					"comment": {
+						"shortText": "The module creates a web browser dialog box . In a Web browser , you can select an image , remove , drag it . Upload new",
 						"tags": [
 							{
-								"tag": "property{object}",
-								"text": "filebrowser module settings {@link module:FileBrowser|FileBrowser}"
+								"tag": "tutorial",
+								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-filebrowser-options.html|FileBrowser options}"
 							},
 							{
-								"tag": "property{int}",
-								"text": "filebrowser.howLongShowMsg=3000 How long toWYSIWYG show an error message in the status bar (ms)"
+								"tag": "tutorial",
+								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-integrate-filebrowser-in-joomla.html|Integrate filebrowser in Joomla CMS}"
 							},
 							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.sort=function (a, b, sortBy, parent) { return b.changed - a.changed;} Items sort functions"
+								"tag": "tutorial",
+								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-elfinder-integration.html|Integration with ElFinder}"
 							},
 							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.sortBy='changed' Sort by field"
+								"tag": "tutorial",
+								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-uploader-settings.html|Uploader options and Drag and Drop files}"
 							},
 							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.filter=function (item, searchWord) { return item.name.toLowerCase().indexOf(searchWord.toLowerCase()) !== -1} Filter items"
+								"tag": "module",
+								"text": "FileBrowser"
 							},
 							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.showFileName=true Show filename in thumbs"
+								"tag": "see",
+								"text": "{@link Dialog|Dialog}"
 							},
 							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.showFileSize=true Show filesize in thumbs"
-							},
-							{
-								"tag": "property{boolean}",
-								"text": "filebrowser.showFileChangeTime=true Show the last modification time in thumbs\n"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.editImage=true use {@link ImageEditor|Image editor module} - crop and resize image"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.preview=true Show preview button in context menu"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.showPreviewNavigation=true Show navigation buttons in preview"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.showSelectButtonInPreview=true Show select button in preview"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.contextMenu=true use context menu"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.createNewFolder=true The ability toWYSIWYG create a directory of the web browser"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.deleteFolder=true The ability toWYSIWYG delete directories from the web browser"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.moveFolder=true The ability toWYSIWYG move directories from the web browser"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.moveFile=true The ability toWYSIWYG move file from the web browser"
-							},
-							{
-								"tag": "property",
-								"text": "{boolean} filebrowser.showFoldersPanel=true Show folders panel"
-							},
-							{
-								"tag": "property",
-								"text": "{int|string} filebrowser.width=763px The width of the web browser"
-							},
-							{
-								"tag": "property",
-								"text": "{int|string} filebrowser.height=400px The height of the file browser"
-							},
-							{
-								"tag": "property",
-								"text": "{Array<string>} filebrowser.buttons=\"['upload', 'remove', 'update', 'select', 'edit', 'tiles', 'list']\" Toolbar browser"
-							},
-							{
-								"tag": "example",
-								"text": "\n```javascript\nvar editor = new Jodit('#editor', {\n    filebrowser: {\n        buttons: ['upload', 'remove', 'update', {\n            name: 'deleteall',\n            icon: 'remove',\n            exec: function () {\n                $files.find('a').each(function () {\n                    remove(editor.filebrowser.currentPath, $(this).data('name'));\n                });\n                editor.filebrowser.loadTree();\n            },\n       }],\n   }\n})\n```"
-							},
-							{
-								"tag": "property{function}",
-								"text": "filebrowser.isSuccess method toWYSIWYG check - whether the response positive"
-							},
-							{
-								"tag": "property{function}",
-								"text": "filebrowser.getMessage method for receiving a message from the response"
-							},
-							{
-								"tag": "example",
-								"text": "\n```javascript\nnew Jodit('#editor', {\n    filebrowser: {\n         isSuccess: function (resp) {\n             return resp.status == 1;\n         },\n         getMessage: function (resp) {\n             return resp.message;\n         },\n    }\n})\n```"
-							},
-							{
-								"tag": "property{string}",
-								"text": "filebrowser.view='tiles' Filelist view - `tiles` or `list`"
-							},
-							{
-								"tag": "property{object}",
-								"text": "filebrowser.ajax The default settings for AJAX connections toWYSIWYG the server. Most of the settings like here {@link http://api.jquery.com/jQuery.ajax/|jQuery.ajax} but is not jQuery.ajax"
-							},
-							{
-								"tag": "property{function(data)}",
-								"text": "filebrowser.ajax.prepareData Method of preparation of data toWYSIWYG be sent toWYSIWYG the server"
-							},
-							{
-								"tag": "property{function(data)}",
-								"text": "filebrowser.ajax.process The method of processing the data obtained after administration of the server. Must return this PlainObject format\n```json\n {\n    files: resp.files || [], // {array} The names of files or folders, files can be ['image.jpg', 'image.jpg2', 'image3.jpg' ...] and [{file: 'image.jpg', thumb: '_thumbs/image.jpg'}, {file: 'image2.jpg', thumb: '_thumbs/image2.jpg'} ...]\n    path: resp.path, // {string} Real relative path\n    baseurl: resp.baseurl, // {string} Base url for filebrowser\n    error: resp.error, // {int}\n    msg: resp.msg // {string}\n};\n```"
-							},
-							{
-								"tag": "property",
-								"text": "{string} filebrowser.ajax.url='' Address entry point on the server for AJAX connection"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.ajax.data={} Default data toWYSIWYG send toWYSIWYG the server"
-							},
-							{
-								"tag": "property",
-								"text": "{(json|text)} filebrowser.ajax.dataType='json' The format of the returned data"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.ajax.headers={} An object of additional header key/value pairs toWYSIWYG send along with requests using the `XMLHttpRequest` transport. The header `X-Requested-With: XMLHttpRequest` is always added, but its default `XMLHttpRequest` value can be changed here."
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.resize Settings for AJAX connections toWYSIWYG the server toWYSIWYG resize image. By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.crop Settings for AJAX connections toWYSIWYG the server toWYSIWYG crop image. By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.create Settings for AJAX connections toWYSIWYG the server toWYSIWYG create the category . By default, the uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=create"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.move Settings for AJAX connections toWYSIWYG the server for the moving image or category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=move"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.remove Settings for AJAX connections toWYSIWYG the server toWYSIWYG delete the image or category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=remove"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.folder Settings for AJAX connections toWYSIWYG the server toWYSIWYG download the list of categories . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=folder"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.items Settings for AJAX connections toWYSIWYG the server toWYSIWYG download the image list in the specified category . By default uses {@link Jodit.defaultOptions.filebrowser.ajax|filebrowser.ajax} c параметром action=items"
-							},
-							{
-								"tag": "property",
-								"text": "{object} filebrowser.uploader=null Settings Module {@link module:Uploader|Uploader} for fast uploading images in category via Drag&Drop file in the file browser. The default settings of the module {@link module:Uploader|Uploader}"
-							},
-							{
-								"tag": "example",
-								"text": "\n```javascript\n// default values\n{\n    isSuccess: function (resp) {\n        return !resp.error;\n    },\n    getMessage: function (resp) {\n        return resp.msg;\n    },\n    ajax: {\n        url: '',\n        async: true,\n        data: {},\n        contentType : 'application/x-www-form-urlencoded; charset=UTF-8',\n        headers : {},\n        method : 'POST',\n        processData  : true,\n        dataType: 'json',\n        headers: {},\n        prepareData: function (data) {\n            return data;\n        },\n        process: function (resp) {\n            return {\n                files: resp.files || [],\n                path: resp.path,\n                baseurl: resp.baseurl,\n                error: resp.error,\n                msg: resp.msg\n            };\n        }\n    },\n    resize: {\n        data: {action: 'imageResize'},\n    },\n    crop: {\n        data: {action: 'imageCrop'},\n    },\n    create: {\n        data: {action: 'folderCreate'},\n    },\n    move: {\n        data: {action: 'fileMove'},\n    },\n    remove: {\n        data: {action: 'fileRemove'},\n    },\n    items: {\n        data: {action: 'files'},\n    },\n    folders: {\n        data: {action: 'folders'},\n    },\n    uploader: null // use default Uploader's settings\n}\n```"
-							},
-							{
-								"tag": "example",
-								"text": "\n```javascript\nnew Jodit('#editor2', {\n        filebrowser: {\n            isSuccess: function (resp) {\n                return resp.length !== 0;\n            },\n            getMessage: function (resp) {\n                return resp;\n            },\n            ajax: {\n                url: 'ajax.php',\n                method: 'GET',\n                dataType: 'text',\n                headers: {\n                    'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\n                },\n                data: {\n                    someparameter: 1\n                },\n                prepareData: function (data) {\n                    data.someparameter++;\n                    return data;\n                },\n                process: function (resp) {\n                    return resp.split('|'); // return items list\n                },\n            }\n        }\n    })\n```"
-							},
-							{
-								"tag": "example",
-								"text": "\n```javascript\nvar editor = new Jodit('#jodit', {\n       uploader: {\n           url: 'connector/upload.php',\n           baseurl: 'images/'\n       },\n       filebrowser: {\n           create: {\n               url: 'connector/create.php',\n           },\n           move: {\n               url: 'connector/move.php',\n           },\n           remove: {\n               url: 'connector/remove.php',\n           },\n           items: {\n               url: 'connector/items.php',\n           },\n           folder: {\n               url: 'connector/tree.php',\n           }\n       }\n   });\n```\n"
+								"tag": "params",
+								"text": "{Object} parent Jodit main object\n"
 							}
 						]
 					},
@@ -18755,7 +18785,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 235,
+									"line": 39,
 									"character": 11
 								}
 							],
@@ -18773,7 +18803,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 233,
+									"line": 37,
 									"character": 8
 								}
 							],
@@ -18791,7 +18821,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 236,
+									"line": 40,
 									"character": 8
 								}
 							],
@@ -18809,7 +18839,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 234,
+									"line": 38,
 									"character": 9
 								}
 							],
@@ -18834,7 +18864,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 232,
+							"line": 36,
 							"character": 21
 						}
 					]
@@ -18873,7 +18903,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 247,
+							"line": 51,
 							"character": 23
 						}
 					]
@@ -18887,7 +18917,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 284,
+							"line": 88,
 							"character": 15
 						}
 					],
@@ -18909,7 +18939,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 285,
+											"line": 89,
 											"character": 8
 										}
 									],
@@ -18929,7 +18959,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 287,
+											"line": 91,
 											"character": 8
 										}
 									],
@@ -18958,7 +18988,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 286,
+											"line": 90,
 											"character": 8
 										}
 									],
@@ -18991,7 +19021,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 284,
+									"line": 88,
 									"character": 17
 								}
 							]
@@ -19007,7 +19037,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 265,
+							"line": 69,
 							"character": 27
 						}
 					],
@@ -19031,7 +19061,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 267,
+											"line": 71,
 											"character": 9
 										}
 									],
@@ -19064,7 +19094,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 270,
+											"line": 74,
 											"character": 9
 										}
 									],
@@ -19097,7 +19127,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 271,
+											"line": 75,
 											"character": 15
 										}
 									],
@@ -19124,7 +19154,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 269,
+											"line": 73,
 											"character": 8
 										}
 									],
@@ -19163,7 +19193,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 269,
+													"line": 73,
 													"character": 9
 												}
 											]
@@ -19181,7 +19211,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 275,
+											"line": 79,
 											"character": 12
 										}
 									],
@@ -19210,7 +19240,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 277,
+											"line": 81,
 											"character": 11
 										}
 									],
@@ -19269,7 +19299,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 273,
+											"line": 77,
 											"character": 10
 										}
 									],
@@ -19298,7 +19328,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 279,
+											"line": 83,
 											"character": 15
 										}
 									],
@@ -19366,7 +19396,7 @@
 																			"sources": [
 																				{
 																					"fileName": "modules/FileBrowser.ts",
-																					"line": 279,
+																					"line": 83,
 																					"character": 24
 																				}
 																			]
@@ -19409,7 +19439,7 @@
 																	"sources": [
 																		{
 																			"fileName": "modules/FileBrowser.ts",
-																			"line": 279,
+																			"line": 83,
 																			"character": 54
 																		}
 																	]
@@ -19433,7 +19463,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 281,
+											"line": 85,
 											"character": 11
 										}
 									],
@@ -19496,7 +19526,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 274,
+											"line": 78,
 											"character": 15
 										}
 									],
@@ -19529,7 +19559,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 266,
+											"line": 70,
 											"character": 7
 										}
 									],
@@ -19570,7 +19600,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 265,
+									"line": 69,
 									"character": 29
 								}
 							]
@@ -19586,7 +19616,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 251,
+							"line": 55,
 							"character": 22
 						}
 					],
@@ -19608,7 +19638,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 254,
+											"line": 58,
 											"character": 8
 										}
 									],
@@ -19630,7 +19660,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 257,
+															"line": 61,
 															"character": 12
 														}
 													],
@@ -19650,7 +19680,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 255,
+															"line": 59,
 															"character": 16
 														}
 													],
@@ -19671,7 +19701,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 259,
+															"line": 63,
 															"character": 12
 														}
 													],
@@ -19689,7 +19719,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 258,
+															"line": 62,
 															"character": 12
 														}
 													],
@@ -19709,7 +19739,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 261,
+															"line": 65,
 															"character": 19
 														}
 													],
@@ -19736,7 +19766,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 260,
+															"line": 64,
 															"character": 14
 														}
 													],
@@ -19754,7 +19784,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 256,
+															"line": 60,
 															"character": 15
 														}
 													],
@@ -19783,7 +19813,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 254,
+													"line": 58,
 													"character": 9
 												}
 											]
@@ -19799,7 +19829,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 252,
+											"line": 56,
 											"character": 11
 										}
 									],
@@ -19817,7 +19847,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 253,
+											"line": 57,
 											"character": 8
 										}
 									],
@@ -19841,7 +19871,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 251,
+									"line": 55,
 									"character": 24
 								}
 							]
@@ -19859,7 +19889,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 340,
+							"line": 144,
 							"character": 35
 						}
 					],
@@ -19881,7 +19911,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 341,
+											"line": 145,
 											"character": 11
 										}
 									],
@@ -19899,7 +19929,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 342,
+											"line": 146,
 											"character": 9
 										}
 									],
@@ -19925,7 +19955,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 340,
+									"line": 144,
 									"character": 37
 								}
 							]
@@ -19941,7 +19971,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 290,
+							"line": 94,
 							"character": 23
 						}
 					],
@@ -19987,7 +20017,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 325,
+											"line": 129,
 											"character": 8
 										}
 									],
@@ -20006,7 +20036,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 313,
+											"line": 117,
 											"character": 11
 										}
 									],
@@ -20044,7 +20074,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 301,
+											"line": 105,
 											"character": 15
 										}
 									],
@@ -20062,7 +20092,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 326,
+											"line": 130,
 											"character": 10
 										}
 									],
@@ -20081,7 +20111,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 305,
+											"line": 109,
 											"character": 19
 										}
 									],
@@ -20099,7 +20129,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 329,
+											"line": 133,
 											"character": 8
 										}
 									],
@@ -20118,7 +20148,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 306,
+											"line": 110,
 											"character": 16
 										}
 									],
@@ -20136,7 +20166,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 297,
+											"line": 101,
 											"character": 13
 										}
 									],
@@ -20154,7 +20184,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 291,
+											"line": 95,
 											"character": 10
 										}
 									],
@@ -20206,7 +20236,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 291,
+													"line": 95,
 													"character": 11
 												}
 											]
@@ -20222,7 +20252,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 333,
+											"line": 137,
 											"character": 10
 										}
 									],
@@ -20241,7 +20271,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 327,
+											"line": 131,
 											"character": 21
 										}
 									],
@@ -20260,7 +20290,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 318,
+											"line": 122,
 											"character": 14
 										}
 									],
@@ -20302,7 +20332,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 318,
+													"line": 122,
 													"character": 15
 												}
 											]
@@ -20318,7 +20348,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 323,
+											"line": 127,
 											"character": 20
 										}
 									],
@@ -20395,7 +20425,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 323,
+													"line": 127,
 													"character": 21
 												}
 											]
@@ -20411,7 +20441,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 312,
+											"line": 116,
 											"character": 10
 										}
 									],
@@ -20429,7 +20459,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 303,
+											"line": 107,
 											"character": 18
 										}
 									],
@@ -20447,7 +20477,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 317,
+											"line": 121,
 											"character": 13
 										}
 									],
@@ -20489,7 +20519,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 317,
+													"line": 121,
 													"character": 14
 												}
 											]
@@ -20505,7 +20535,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 332,
+											"line": 136,
 											"character": 9
 										}
 									],
@@ -20524,7 +20554,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 330,
+											"line": 134,
 											"character": 8
 										}
 									],
@@ -20543,7 +20573,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 308,
+											"line": 112,
 											"character": 12
 										}
 									],
@@ -20561,7 +20591,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 307,
+											"line": 111,
 											"character": 14
 										}
 									],
@@ -20579,7 +20609,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 334,
+											"line": 138,
 											"character": 15
 										}
 									],
@@ -20598,7 +20628,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 298,
+											"line": 102,
 											"character": 11
 										}
 									],
@@ -20616,7 +20646,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 331,
+											"line": 135,
 											"character": 10
 										}
 									],
@@ -20635,7 +20665,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 328,
+											"line": 132,
 											"character": 10
 										}
 									],
@@ -20654,7 +20684,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 321,
+											"line": 125,
 											"character": 22
 										}
 									],
@@ -20672,7 +20702,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 319,
+											"line": 123,
 											"character": 16
 										}
 									],
@@ -20690,7 +20720,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 320,
+											"line": 124,
 											"character": 16
 										}
 									],
@@ -20708,7 +20738,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 309,
+											"line": 113,
 											"character": 20
 										}
 									],
@@ -20726,7 +20756,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 299,
+											"line": 103,
 											"character": 25
 										}
 									],
@@ -20744,7 +20774,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 300,
+											"line": 104,
 											"character": 29
 										}
 									],
@@ -20762,7 +20792,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 295,
+											"line": 99,
 											"character": 8
 										}
 									],
@@ -20850,7 +20880,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 295,
+													"line": 99,
 													"character": 9
 												}
 											]
@@ -20866,7 +20896,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 293,
+											"line": 97,
 											"character": 10
 										}
 									],
@@ -20884,7 +20914,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 336,
+											"line": 140,
 											"character": 12
 										}
 									],
@@ -20912,7 +20942,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 315,
+											"line": 119,
 											"character": 8
 										}
 									],
@@ -20930,7 +20960,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 311,
+											"line": 115,
 											"character": 9
 										}
 									],
@@ -20986,7 +21016,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 290,
+									"line": 94,
 									"character": 25
 								}
 							]
@@ -21096,7 +21126,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Helpers.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Helpers.ts",
 			"children": [
 				{
 					"id": 1903,
@@ -24715,7 +24745,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/ImageEditor.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/ImageEditor.ts",
 			"children": [
 				{
 					"id": 1306,
@@ -26877,7 +26907,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Observer.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Observer.ts",
 			"children": [
 				{
 					"id": 1733,
@@ -27726,7 +27756,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Plugin.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Plugin.ts",
 			"children": [
 				{
 					"id": 2360,
@@ -28050,7 +28080,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Selection.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Selection.ts",
 			"children": [
 				{
 					"id": 305,
@@ -29963,7 +29993,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Snapshot.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Snapshot.ts",
 			"children": [
 				{
 					"id": 1639,
@@ -30795,7 +30825,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Stack.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Stack.ts",
 			"children": [
 				{
 					"id": 1680,
@@ -31130,7 +31160,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/StatusBar.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/StatusBar.ts",
 			"children": [
 				{
 					"id": 1620,
@@ -31503,7 +31533,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Storage.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Storage.ts",
 			"children": [
 				{
 					"id": 1326,
@@ -32103,7 +32133,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Table.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Table.ts",
 			"children": [
 				{
 					"id": 2374,
@@ -33420,7 +33450,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/ToolbarCollection.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/ToolbarCollection.ts",
 			"children": [
 				{
 					"id": 731,
@@ -42955,7 +42985,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Uploader.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Uploader.ts",
 			"children": [
 				{
 					"id": 1203,
@@ -44929,7 +44959,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Widget.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/Widget.ts",
 			"children": [
 				{
 					"id": 2092,
@@ -45684,7 +45714,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/index.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/modules/index.ts",
 			"sources": [
 				{
 					"fileName": "modules/index.ts",
@@ -45701,7 +45731,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/DragAndDrop.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/DragAndDrop.ts",
 			"children": [
 				{
 					"id": 3009,
@@ -46421,7 +46451,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/add-new-line.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/add-new-line.ts",
 			"children": [
 				{
 					"id": 2209,
@@ -46614,7 +46644,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/autofocus.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/autofocus.ts",
 			"children": [
 				{
 					"id": 2218,
@@ -46766,7 +46796,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/backspace.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/backspace.ts",
 			"children": [
 				{
 					"id": 2225,
@@ -46846,7 +46876,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/bold.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/bold.ts",
 			"children": [
 				{
 					"id": 2229,
@@ -46920,7 +46950,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/cleanHTML.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/cleanHTML.ts",
 			"children": [
 				{
 					"id": 2233,
@@ -47338,7 +47368,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/color.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/color.ts",
 			"children": [
 				{
 					"id": 2253,
@@ -47415,7 +47445,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/copyformat.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/copyformat.ts",
 			"children": [
 				{
 					"id": 2258,
@@ -47802,7 +47832,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/enter.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/enter.ts",
 			"children": [
 				{
 					"id": 2286,
@@ -47987,7 +48017,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/errorMessages.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/errorMessages.ts",
 			"children": [
 				{
 					"id": 2290,
@@ -48174,7 +48204,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/font.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/font.ts",
 			"children": [
 				{
 					"id": 2299,
@@ -48251,7 +48281,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/formatBlock.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/formatBlock.ts",
 			"children": [
 				{
 					"id": 2303,
@@ -48328,7 +48358,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/fullsize.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/fullsize.ts",
 			"children": [
 				{
 					"id": 2307,
@@ -48519,7 +48549,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/hotkeys.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/hotkeys.ts",
 			"children": [
 				{
 					"id": 2778,
@@ -50855,7 +50885,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/iframe.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/iframe.ts",
 			"children": [
 				{
 					"id": 2315,
@@ -51064,7 +51094,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/imageProcessor.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/imageProcessor.ts",
 			"children": [
 				{
 					"id": 2332,
@@ -51169,7 +51199,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/imageProperties.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/imageProperties.ts",
 			"children": [
 				{
 					"id": 2337,
@@ -51697,7 +51727,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/indent.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/indent.ts",
 			"children": [
 				{
 					"id": 2325,
@@ -51849,7 +51879,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/index.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/index.ts",
 			"sources": [
 				{
 					"fileName": "plugins/index.ts",
@@ -51866,7 +51896,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/inline-popup.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/inline-popup.ts",
 			"children": [
 				{
 					"id": 2503,
@@ -52910,7 +52940,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/justify.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/justify.ts",
 			"children": [
 				{
 					"id": 2512,
@@ -52987,7 +53017,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/link.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/link.ts",
 			"children": [
 				{
 					"id": 2516,
@@ -53288,7 +53318,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/mobile.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/mobile.ts",
 			"children": [
 				{
 					"id": 2529,
@@ -53459,7 +53489,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/orderedlist.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/orderedlist.ts",
 			"children": [
 				{
 					"id": 2537,
@@ -53533,7 +53563,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/paste.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/paste.ts",
 			"children": [
 				{
 					"id": 2541,
@@ -53734,7 +53764,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/paste-storage.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/paste-storage.ts",
 			"children": [
 				{
 					"id": 3043,
@@ -54365,7 +54395,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/placeholder.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/placeholder.ts",
 			"children": [
 				{
 					"id": 2550,
@@ -54578,7 +54608,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/redoundo.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/redoundo.ts",
 			"children": [
 				{
 					"id": 2560,
@@ -54784,7 +54814,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/resizer.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/resizer.ts",
 			"children": [
 				{
 					"id": 2568,
@@ -55081,7 +55111,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/search.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/search.ts",
 			"children": [
 				{
 					"id": 2922,
@@ -56454,7 +56484,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/size.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/size.ts",
 			"children": [
 				{
 					"id": 2582,
@@ -56625,7 +56655,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/source.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/source.ts",
 			"children": [
 				{
 					"id": 2655,
@@ -58102,7 +58132,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/stat.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/stat.ts",
 			"children": [
 				{
 					"id": 2967,
@@ -58575,7 +58605,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/sticky.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/sticky.ts",
 			"children": [
 				{
 					"id": 2946,
@@ -59120,7 +59150,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/symbols.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/symbols.ts",
 			"children": [
 				{
 					"id": 2674,
@@ -59348,7 +59378,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/table.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/table.ts",
 			"children": [
 				{
 					"id": 2841,
@@ -60300,7 +60330,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/tableKeyboardNavigation.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/tableKeyboardNavigation.ts",
 			"children": [
 				{
 					"id": 2846,
@@ -60377,7 +60407,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/xpath.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/xpath.ts",
 			"children": [
 				{
 					"id": 3005,
@@ -61079,7 +61109,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/polyfills.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/polyfills.ts",
 			"sources": [
 				{
 					"fileName": "polyfills.ts",
@@ -61096,7 +61126,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/styles/icons/index.ts",
+			"originalName": "K:/OpenServer/domains/xdan/jodit/src/styles/icons/index.ts",
 			"sources": [
 				{
 					"fileName": "styles/icons/index.ts",

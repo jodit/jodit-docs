@@ -1,17 +1,36 @@
 .root {
   display: flex;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  line-height: 1.5;
+  font-weight: 400;
 }
 .root * {
   box-sizing: border-box;
 }
 .sidebar {
   padding: 10px;
-  whiteSpace: nowrap;
+  white-space: nowrap;
   height: 100vh;
   overflow: auto;
-  background-color: aliceblue;
+  background-color: #d9e6ff;
   width: 200px;
 }
+.sidebar a {
+  display: block;
+} 
+
+.sidebar h4 {
+  padding: 10px 0 5px;
+  color: #0c0c0c82;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-bottom: 1px solid #0c0c0c3b;
+}
+
 .main {
   padding: 10px;
   flex: 1;
@@ -20,4 +39,13 @@
 }
 .selected {
   color: red;
+}
+
+.root a {
+  text-decoration: none;
+  color: #000;
+  line-height: 2em;
+}
+.root a:hover {
+  color: #5698ff;;
 }
