@@ -7,6 +7,7 @@ import {DataComponent} from "../data/DataComponent";
 import {Options} from "../options/Options";
 import Title from "../Title";
 import Search from "../Search";
+import {BASE_URL} from "../../consts";
 
 export class Types extends DataComponent {
     static types = [
@@ -34,7 +35,7 @@ export class Types extends DataComponent {
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
                      <div key={option}>
-                        <Link to={"/types/" + option + "/"}>{option}</Link>
+                        <Link to={BASE_URL + "types/" + option + "/"}>{option}</Link>
                     </div>
                 ))}</div>;
             }

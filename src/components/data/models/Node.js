@@ -4,6 +4,7 @@ import Comment from "./Comment";
 import Source from "./Source";
 import Model, {is_scalar} from "./Model";
 import Flag from "./Flag";
+import {BASE_URL} from "../../../consts";
 
 
 export default class Node extends Model{
@@ -90,7 +91,7 @@ export default class Node extends Model{
         //
         // parts.shift();
 
-		return '/types/' + this.name.replace(/[^\w]/g, '-') + '/';
+		return BASE_URL + 'types/' + this.name.replace(/[^\w]/g, '-') + '/';
 	}
 
 	getAnchor(plaintext = false) {

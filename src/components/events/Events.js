@@ -7,6 +7,7 @@ import {DataComponent} from "../data/DataComponent";
 import {Options} from "../options/Options";
 import Title from "../Title";
 import Search from "../Search";
+import {BASE_URL} from "../../consts";
 
 export class Events extends DataComponent {
     static reg = /\{@link[\s]+event:[\s]*([\w]+)\}/;
@@ -40,7 +41,7 @@ export class Events extends DataComponent {
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
                     <div key={option}>
-                        <Link to={"/events/" + option.replace(/[^\w]/g, '-') + "/"}>{option}</Link>
+                        <Link to={BASE_URL + "events/" + option.replace(/[^\w]/g, '-') + "/"}>{option}</Link>
                     </div>
                 ))}</div>;
             }

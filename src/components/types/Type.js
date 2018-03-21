@@ -9,6 +9,7 @@ import Title from "../Title";
 import NotFound from "../NotFound";
 import {TypeScript} from "../methods/Method";
 import Back from "../Back";
+import {BASE_URL} from "../../consts";
 
 const PrintOption = (props) => {
     const {info} = props;
@@ -51,7 +52,7 @@ export class Type extends DataComponent {
 
         return (
             <div className={styles.root}>
-                <Back to={'/types/'}>Back to Types</Back>
+                <Back to={BASE_URL + 'types/'}>Back to Types</Back>
                 {!Data.data ? 'Loading...' : <div className={styles.info}>
                     <Title>{match.params.typeName}</Title>
                     <PrintOption info={info}/>

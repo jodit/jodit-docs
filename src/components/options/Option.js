@@ -11,6 +11,7 @@ import { agate as codeStyle} from 'react-syntax-highlighter/styles/hljs';
 import NotFound from "../NotFound";
 import Title from "../Title";
 import Back from "../Back";
+import {BASE_URL} from "../../consts";
 
 registerLanguage('javascript', js);
 registerLanguage('css', css);
@@ -38,7 +39,7 @@ export const Tag = (tag, index) => {
                 <tbody>
                     <tr>
                         <th>Fires:</th>
-                        <td><span><Link to={/events/ + Jodit.modules.Helpers.trim(tag.text).replace(/[^\w]/, '.') + '/'}>{tag.text}</Link></span></td>
+                        <td><span><Link to={BASE_URL + 'events/' + Jodit.modules.Helpers.trim(tag.text).replace(/[^\w]/, '.') + '/'}>{tag.text}</Link></span></td>
                     </tr>
                 </tbody>
             </table>);
@@ -128,7 +129,7 @@ export class Option extends DataComponent {
 
         return (
             <div className={styles.root}>
-                <Back to={'/options/'}>Back to Options</Back>
+                <Back to={BASE_URL + 'options/'}>Back to Options</Back>
                 {!Data.data ? 'Loading...' : (
                 <div className={styles.info}>
                     <Title>{match.params.optionName}</Title>

@@ -12,8 +12,7 @@ import {Method} from "./components/methods/Method";
 import {Data} from "./components/data/Data";
 import NotFound from "./components/NotFound";
 import {Started} from "./components/started/Started";
-
-
+import {BASE_URL} from "./consts";
 
 
 class App extends Component {
@@ -24,38 +23,38 @@ class App extends Component {
             <Root>
                 <SideBar>
                     <SideBarItem>
-                        <NavLink exact={true} activeClassName={styles.selected} to={"/"}>Get started</NavLink>
+                        <NavLink exact={true} activeClassName={styles.selected} to={BASE_URL}>Get started</NavLink>
                     </SideBarItem>
                     <h4>API</h4>
                     <SideBarItem>
-                        <NavLink activeClassName={styles.selected} to={"/options/"}>Options</NavLink>
+                        <NavLink activeClassName={styles.selected} to={BASE_URL + "options/"}>Options</NavLink>
                     </SideBarItem>
                     <SideBarItem>
-                        <NavLink activeClassName={styles.selected}  to={"/methods/"}>Methods</NavLink>
+                        <NavLink activeClassName={styles.selected}  to={BASE_URL + "methods/"}>Methods</NavLink>
                     </SideBarItem>
                     <SideBarItem>
-                        <NavLink activeClassName={styles.selected}  to={"/events/"}>Events</NavLink>
+                        <NavLink activeClassName={styles.selected}  to={BASE_URL + "events/"}>Events</NavLink>
                     </SideBarItem>
                     <SideBarItem>
-                        <NavLink activeClassName={styles.selected}  to={"/types/"}>Types</NavLink>
+                        <NavLink activeClassName={styles.selected}  to={BASE_URL + "types/"}>Types</NavLink>
                     </SideBarItem>
                 </SideBar>
                 <Main>
                     <Switch>
-                        <Route exact={true} path={"/"} component={Started}/>
+                        <Route exact={true} path={BASE_URL} component={Started}/>
 
-                        <Route exact={true} path={"/options/"} component={Options}/>
-                        <Route path={"/options/:optionName/"} component={Option}/>
+                        <Route exact={true} path={BASE_URL + "options/"} component={Options}/>
+                        <Route path={BASE_URL + "options/:optionName/"} component={Option}/>
 
-                        <Route exact={true} path={"/types/"} component={Types}/>
-                        <Route path={"/types/:typeName/"} component={Type}/>
+                        <Route exact={true} path={BASE_URL + "types/"} component={Types}/>
+                        <Route path={BASE_URL + "types/:typeName/"} component={Type}/>
 
 
-                        <Route exact={true} path={"/methods/"} component={Methods}/>
-                        <Route path={"/methods/:name/"} component={Method}/>
+                        <Route exact={true} path={BASE_URL + "methods/"} component={Methods}/>
+                        <Route path={BASE_URL + "methods/:name/"} component={Method}/>
 
-                        <Route exact={true} path={"/events/"} component={Events}/>
-                        <Route  path={"/events/:name/"} component={Event}/>
+                        <Route exact={true} path={BASE_URL + "events/"} component={Events}/>
+                        <Route  path={BASE_URL + "events/:name/"} component={Event}/>
 
                         <Route component={NotFound} />
                     </Switch>

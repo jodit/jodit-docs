@@ -10,6 +10,7 @@ import ts from 'react-syntax-highlighter/languages/hljs/typescript';
 import Title from "../Title";
 import NotFound from "../NotFound";
 import Back from "../Back";
+import {BASE_URL} from "../../consts";
 
 registerLanguage('typescript', ts);
 
@@ -61,7 +62,7 @@ export class Method extends DataComponent {
 
         return (
             <div className={styles.root}>
-                <Back to={'/methods/'}>Back to Methods</Back>
+                <Back to={BASE_URL + 'methods/'}>Back to Methods</Back>
                 {!Data.data ? 'Loading...' : <div className={styles.info}>
                     <Title>{match.params.name.replace('-', '.')}</Title>
                     <PrintOption info={info}/>

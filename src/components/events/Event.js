@@ -7,6 +7,7 @@ import {Source, Tags} from "../options/Option";
 import Title from "../Title";
 import NotFound from "../NotFound";
 import Back from "../Back";
+import {BASE_URL} from "../../consts";
 
 const ShortText = (info) => {
     if (info.description) {
@@ -69,7 +70,7 @@ export class Event extends DataComponent {
 
         return (
             <div className={styles.root}>
-                <Back to={'/events/'}>Back to Events</Back>
+                <Back to={BASE_URL + 'events/'}>Back to Events</Back>
                 {!Data.data ? 'Loading...' :  <div className={styles.info}>
                     <Title>{eventName}</Title>
                     <ShortText {...info.jsdoc}/>

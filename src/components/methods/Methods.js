@@ -6,6 +6,7 @@ import {DataComponent} from "../data/DataComponent";
 import {Options} from "../options/Options";
 import Title from "../Title";
 import Search from "../Search";
+import {BASE_URL} from "../../consts";
 
 export class Methods extends DataComponent {
     static isMethod(haystack) {
@@ -32,7 +33,7 @@ export class Methods extends DataComponent {
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
                     <div key={option}>
-                        <Link to={"/methods/" + option.replace(/\./, '-') + "/"}>{option}</Link>
+                        <Link to={BASE_URL + "methods/" + option.replace(/\./, '-') + "/"}>{option}</Link>
                     </div>
                 ))}</div>;
             }
