@@ -1,18 +1,14 @@
 import React from 'react';
-import styles from './style.module.css';
+import styles from '../options/style.module.css';
 import {Data} from "../data/Data";
-import Jodit from "jodit";
 import {DataComponent} from "../data/DataComponent";
-import SyntaxHighlighter, { registerLanguage } from "react-syntax-highlighter/light";
-import js from 'react-syntax-highlighter/languages/hljs/javascript';
-import css from 'react-syntax-highlighter/languages/hljs/css';
-import { agate as codeStyle} from 'react-syntax-highlighter/styles/hljs';
+import { renderToStaticMarkup } from 'react-dom/server'
 import {Types} from "./Types";
 import {PrintType, ShortText, Source, Tags} from "../options/Option";
-registerLanguage('javascript', js);
-registerLanguage('css', css);
-
-
+import Title from "../Title";
+import NotFound from "../NotFound";
+import {TypeScript} from "../methods/Method";
+import Back from "../Back";
 
 const PrintOption = (props) => {
     const {info} = props;
@@ -22,7 +18,7 @@ const PrintOption = (props) => {
             <tbody>
             <tr>
                 <td>Type:</td>
-                <td><pre><PrintType {...info}/></pre></td>
+                <td><TypeScript>{renderToStaticMarkup(<PrintType {...info}/>)}</TypeScript></td>
             </tr>
             <tr>
                 <td>Source:</td>
@@ -43,16 +39,23 @@ export class Type extends DataComponent {
         let info = null;
 
         Data.findInfo('', Data.data, (needle, haystack) => {
-                if (Types.types.indexOf(haystack.kindString) !== -1 && haystack.name === match.params.typeName) {
-                    info = haystack;
-                    return true;
-                }
+            if (Types.types.indexOf(haystack.kindString) !== -1 && haystack.name === match.params.typeName) {
+                info = haystack;
+                return true;
+            }
         });
 
+        if (Data.data && !info) {
+            return <NotFound/>;
+        }
+
         return (
-            <div className={styles.info}>
-                <h1>{match.params.typeName}</h1>
-                {!Data.data ? 'Loading...' : <PrintOption info={info}/>}
+            <div className={styles.root}>
+                <Back to={'/types/'}>Back to Types</Back>
+                {!Data.data ? 'Loading...' : <div className={styles.info}>
+                    <Title>{match.params.typeName}</Title>
+                    <PrintOption info={info}/>
+                </div>}
             </div>
         )
     }

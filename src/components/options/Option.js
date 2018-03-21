@@ -2,11 +2,16 @@ import React from 'react';
 import styles from './style.module.css';
 import {Data} from "../data/Data";
 import Jodit from "jodit";
+import {Link} from "react-router-dom";
 import {DataComponent} from "../data/DataComponent";
 import SyntaxHighlighter, { registerLanguage } from "react-syntax-highlighter/light";
 import js from 'react-syntax-highlighter/languages/hljs/javascript';
 import css from 'react-syntax-highlighter/languages/hljs/css';
 import { agate as codeStyle} from 'react-syntax-highlighter/styles/hljs';
+import NotFound from "../NotFound";
+import Title from "../Title";
+import Back from "../Back";
+
 registerLanguage('javascript', js);
 registerLanguage('css', css);
 
@@ -26,12 +31,21 @@ export const Source = (info) => {
     </a>);
 };
 
-export const Tag = (tag) => {
+export const Tag = (tag, index) => {
     switch (tag.tag) {
+        case 'fires':
+            return (<table key={index} className={styles.meta}>
+                <tbody>
+                    <tr>
+                        <th>Fires:</th>
+                        <td><span><Link to={/events/ + Jodit.modules.Helpers.trim(tag.text).replace(/[^\w]/, '.') + '/'}>{tag.text}</Link></span></td>
+                    </tr>
+                </tbody>
+            </table>);
         case 'example': {
             const code = tag.text.replace(/```([\w]+)?/g, '').replace(/^[\s]+/g, '').replace(/[\s;]+$/g, '');
 
-            return (<div className={styles.code}>
+            return (<div key={index} className={styles.code}>
                 <label>EXAMPLE</label>
                 <SyntaxHighlighter showLineNumbers={false} language='javascript' style={codeStyle}>{code}</SyntaxHighlighter>
             </div>)
@@ -60,7 +74,7 @@ export const ShortText = (info) => {
 
 export const PrintType = (info) => {
     if (info.type) {
-        return info.type.toString();
+        return info.type.toString(true);
     }
 
     return '';
@@ -72,18 +86,18 @@ const PrintOption = (props) => {
     return <div>
         <table className={styles.meta}>
             <tbody>
-            <tr>
-                <td>Type:</td>
-                <td><span><PrintType {...info}/></span></td>
-            </tr>
-            <tr>
-                <td>Default:</td>
-                <td><pre><DefaultValue {...info}/></pre></td>
-            </tr>
-            <tr>
-                <td>Source:</td>
-                <td><span><Source {...info}/></span></td>
-            </tr>
+                <tr>
+                    <td>Type:</td>
+                    <td><span><PrintType {...info}/></span></td>
+                </tr>
+                <tr>
+                    <td>Default:</td>
+                    <td><pre><DefaultValue {...info}/></pre></td>
+                </tr>
+                <tr>
+                    <td>Source:</td>
+                    <td><span><Source {...info}/></span></td>
+                </tr>
             </tbody>
         </table>
 
@@ -95,10 +109,9 @@ const PrintOption = (props) => {
 
 export class Option extends DataComponent {
     render() {
-        const {match} = this.props;
-        let info = null;
+        let {match} = this.props, info = null;
 
-        Data.findInfo('', Data.data, (needle, haystack) => {
+        info || Data.findInfo('', Data.data, (needle, haystack) => {
             if (haystack.name === 'Config' && Array.isArray(haystack.children)) {
                 Data.findInfo('', haystack, (needle, haystack) => {
                     if (haystack.kindString === 'Property' && haystack.name === match.params.optionName) {
@@ -109,10 +122,19 @@ export class Option extends DataComponent {
             }
         });
 
+        if (Data.data && !info) {
+            return <NotFound/>;
+        }
+
         return (
-            <div className={styles.info}>
-                <h1>{match.params.optionName}</h1>
-                {!Data.data ? 'Loading...' : <PrintOption info={info}/>}
+            <div className={styles.root}>
+                <Back to={'/options/'}>Back to Options</Back>
+                {!Data.data ? 'Loading...' : (
+                <div className={styles.info}>
+                    <Title>{match.params.optionName}</Title>
+                    <PrintOption info={info}/>
+                </div>
+                )}
             </div>
         )
     }

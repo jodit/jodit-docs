@@ -1,0 +1,10 @@
+.root a {
+  color: #0098f7;
+}
+.root pre{
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #333;
+  color: #fff;
+}

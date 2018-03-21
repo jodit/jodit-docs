@@ -2320,7 +2320,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1071,
+									"line": 1076,
 									"character": 24
 								}
 							],
@@ -4011,6 +4011,10 @@
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
+									"comment": {
+										"shortText": "Return current editor mode: Jodit.MODE_WYSIWYG, Jodit.MODE_SOURCE or Jodit.MODE_SPLIT",
+										"returns": "\n"
+									},
 									"type": {
 										"type": "intrinsic",
 										"name": "number"
@@ -4020,7 +4024,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 865,
+									"line": 870,
 									"character": 11
 								}
 							]
@@ -4085,7 +4089,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1067,
+									"line": 1072,
 									"character": 15
 								}
 							]
@@ -4123,7 +4127,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 881,
+									"line": 886,
 									"character": 15
 								}
 							]
@@ -4166,7 +4170,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1041,
+									"line": 1046,
 									"character": 14
 								}
 							]
@@ -4251,7 +4255,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 990,
+									"line": 995,
 									"character": 8
 								}
 							]
@@ -4309,7 +4313,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 868,
+									"line": 873,
 									"character": 16
 								}
 							]
@@ -4338,7 +4342,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1072,
+									"line": 1077,
 									"character": 14
 								}
 							]
@@ -4706,7 +4710,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 891,
+									"line": 896,
 									"character": 11
 								}
 							]
@@ -4754,7 +4758,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1052,
+									"line": 1057,
 									"character": 15
 								}
 							]
@@ -4811,7 +4815,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 1074,
+									"line": 1079,
 									"character": 18
 								}
 							]
@@ -4849,7 +4853,7 @@
 							"sources": [
 								{
 									"fileName": "Jodit.ts",
-									"line": 950,
+									"line": 955,
 									"character": 14
 								}
 							]
@@ -28347,7 +28351,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 807,
+																	"line": 818,
 																	"character": 119
 																}
 															]
@@ -28429,7 +28433,7 @@
 																		"sources": [
 																			{
 																				"fileName": "modules/Selection.ts",
-																				"line": 807,
+																				"line": 818,
 																				"character": 172
 																			}
 																		]
@@ -28439,7 +28443,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 807,
+																	"line": 818,
 																	"character": 156
 																}
 															]
@@ -28458,7 +28462,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 807,
+									"line": 818,
 									"character": 12
 								}
 							]
@@ -28767,7 +28771,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 786,
+									"line": 797,
 									"character": 11
 								}
 							]
@@ -29487,7 +29491,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 771,
+									"line": 782,
 									"character": 10
 								}
 							]
@@ -29507,6 +29511,15 @@
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
+									"comment": {
+										"shortText": "Set range selection",
+										"tags": [
+											{
+												"tag": "fires",
+												"text": "changeSelection\n"
+											}
+										]
+									},
 									"parameters": [
 										{
 											"id": 372,
@@ -29514,6 +29527,7 @@
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {},
+											"comment": {},
 											"type": {
 												"type": "reference",
 												"name": "Range"
@@ -29529,7 +29543,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 758,
+									"line": 764,
 									"character": 15
 								}
 							]
@@ -33505,7 +33519,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 644,
+									"line": 656,
 									"character": 49
 								}
 							],
@@ -33747,7 +33761,7 @@
 					"sources": [
 						{
 							"fileName": "modules/ToolbarCollection.ts",
-							"line": 644,
+							"line": 656,
 							"character": 25
 						}
 					],
@@ -33837,7 +33851,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 565,
+									"line": 577,
 									"character": 6
 								}
 							],
@@ -34742,7 +34756,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 678,
+									"line": 690,
 									"character": 55
 								}
 							],
@@ -34764,7 +34778,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 684,
+									"line": 696,
 									"character": 21
 								}
 							],
@@ -34789,7 +34803,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 809,
+									"line": 821,
 									"character": 22
 								}
 							],
@@ -34870,7 +34884,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 851,
+									"line": 863,
 									"character": 24
 								}
 							],
@@ -34966,7 +34980,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 711,
+									"line": 723,
 									"character": 28
 								}
 							]
@@ -35009,7 +35023,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 815,
+									"line": 827,
 									"character": 21
 								}
 							]
@@ -35052,7 +35066,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 691,
+									"line": 703,
 									"character": 15
 								}
 							]
@@ -35143,7 +35157,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 735,
+									"line": 747,
 									"character": 9
 								}
 							]
@@ -35172,7 +35186,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 776,
+									"line": 788,
 									"character": 9
 								}
 							]
@@ -35202,7 +35216,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 811,
+									"line": 823,
 									"character": 20
 								}
 							]
@@ -35303,7 +35317,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 860,
+									"line": 872,
 									"character": 12
 								}
 							],
@@ -35340,7 +35354,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 685,
+									"line": 697,
 									"character": 18
 								}
 							]
@@ -35369,7 +35383,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 787,
+									"line": 799,
 									"character": 30
 								}
 							]
@@ -35399,7 +35413,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 852,
+									"line": 864,
 									"character": 22
 								}
 							]
@@ -35442,7 +35456,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 697,
+									"line": 709,
 									"character": 15
 								}
 							]
@@ -35490,7 +35504,7 @@
 					"sources": [
 						{
 							"fileName": "modules/ToolbarCollection.ts",
-							"line": 678,
+							"line": 690,
 							"character": 30
 						}
 					],
@@ -35851,7 +35865,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 660,
+									"line": 672,
 									"character": 16
 								}
 							],
@@ -35890,7 +35904,7 @@
 									"sources": [
 										{
 											"fileName": "modules/ToolbarCollection.ts",
-											"line": 660,
+											"line": 672,
 											"character": 17
 										}
 									]
@@ -35935,7 +35949,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 662,
+									"line": 674,
 									"character": 17
 								}
 							]
@@ -35997,7 +36011,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 673,
+									"line": 685,
 									"character": 18
 								}
 							]
@@ -36023,7 +36037,7 @@
 					"sources": [
 						{
 							"fileName": "modules/ToolbarCollection.ts",
-							"line": 659,
+							"line": 671,
 							"character": 24
 						}
 					]
@@ -37570,7 +37584,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 651,
+									"line": 663,
 									"character": 54
 								}
 							],
@@ -37812,7 +37826,7 @@
 					"sources": [
 						{
 							"fileName": "modules/ToolbarCollection.ts",
-							"line": 651,
+							"line": 663,
 							"character": 29
 						}
 					],
@@ -37875,7 +37889,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 628,
+									"line": 640,
 									"character": 6
 								}
 							]
@@ -37892,7 +37906,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 630,
+									"line": 642,
 									"character": 31
 								}
 							],
@@ -37914,7 +37928,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 607,
+									"line": 619,
 									"character": 20
 								}
 							],
@@ -37935,7 +37949,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 608,
+									"line": 620,
 									"character": 19
 								}
 							],
@@ -37970,7 +37984,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 625,
+									"line": 637,
 									"character": 16
 								}
 							]
@@ -38000,7 +38014,7 @@
 							"sources": [
 								{
 									"fileName": "modules/ToolbarCollection.ts",
-									"line": 610,
+									"line": 622,
 									"character": 16
 								}
 							]
@@ -38035,7 +38049,7 @@
 					"sources": [
 						{
 							"fileName": "modules/ToolbarCollection.ts",
-							"line": 606,
+							"line": 618,
 							"character": 20
 						}
 					]

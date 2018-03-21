@@ -3,6 +3,10 @@ import styles from '../options/style.module.css';
 import {Data} from "../data/Data";
 import {DataComponent} from "../data/DataComponent";
 import {Events} from "./Events";
+import {Source, Tags} from "../options/Option";
+import Title from "../Title";
+import NotFound from "../NotFound";
+import Back from "../Back";
 
 const ShortText = (info) => {
     if (info.description) {
@@ -14,37 +18,64 @@ const ShortText = (info) => {
     return '';
 };
 
-const PrintOption = (props) => {
-    /**
-     * @type Node
-     */
-    const info = props.info;
+const Fires = (props) => {
+    const fires = props.info;
 
-
-    return <div>
-        <ShortText {...info}/>
-    </div>;
+    return (<table className={styles.meta}>
+        <thead>
+            <tr>
+                <th>Expression:</th>
+                <th>Source:</th>
+            </tr>
+        </thead>
+        <tbody>
+            {fires.fires.map((data) => {
+                return  (<tr key={data}>
+                    <td><pre>{data.expr}</pre></td>
+                    <td><span><Source sources={[{fileName: data.file, line: data.line}]}/></span></td>
+                </tr>);
+            })}
+        </tbody>
+    </table>);
 };
 
 export class Event extends DataComponent {
     render() {
         const {match} = this.props;
-        let info = null;
+        let info = {
+            jsdoc: null,
+            fires: null,
+        }, eventName = match.params.name.replace('-', '.');
 
         Data.findInfo('', Data.xData, (needle, haystack) => {
             if (Events.isMatch(haystack)) {
-                let eventname = (haystack.memberof ? haystack.memberof + '.' : '') + haystack.name;
+                let eventname = haystack.name;
                 if (eventname === match.params.name) {
-                    info = haystack;
+                    info.jsdoc = haystack;
                     return true;
                 }
             }
         });
 
+        if (Data.firesData) {
+            if (Data.firesData[eventName]) {
+                info.fires = Data.firesData[eventName];
+            }
+        }
+
+        if (Data.xData && !info.jsdoc && !info.fires) {
+            return <NotFound/>;
+        }
+
         return (
-            <div className={styles.info}>
-                <h1>{match.params.name.replace('-', '.')}</h1>
-                {!Data.data ? 'Loading...' : <PrintOption info={info}/>}
+            <div className={styles.root}>
+                <Back to={'/events/'}>Back to Events</Back>
+                {!Data.data ? 'Loading...' :  <div className={styles.info}>
+                    <Title>{eventName}</Title>
+                    <ShortText {...info.jsdoc}/>
+                    {info.jsdoc && info.jsdoc.examples && <Tags comment={{tags: info.jsdoc.examples.map((text) => ({tag: 'example', text: text.replace(/\r/g, '\n')}))}}/>}
+                    {info.fires && <Fires info={info.fires}/>}
+                </div>}
             </div>
         )
     }

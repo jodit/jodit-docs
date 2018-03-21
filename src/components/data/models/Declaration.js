@@ -19,11 +19,11 @@ export default class Declaration extends NodeType{
 
 		return prefix;
 	}
-	toString() {
+	toString(plaintext = false) {
 		let prefix = this.getPrefix();
 
 		if (this.signatures[0] !== undefined) {
-			return this.signatures[0].toString();
+			return this.signatures[0].toString(plaintext);
 		}
 
 		if (this.children[0] !== undefined) {
@@ -32,7 +32,7 @@ export default class Declaration extends NodeType{
 			result.push('{\n');
 
 			this.children.forEach((type) => {
-				result.push([prefix, '  ', type.name, (type.flags.isOptional ? '?' : ''), ': ', type.type.toString(), '\n']);
+				result.push([prefix, '  ', type.name, (type.flags.isOptional ? '?' : ''), ': ', type.type.toString(plaintext), '\n']);
 			});
 
 			result.push(prefix + '}');
@@ -41,7 +41,7 @@ export default class Declaration extends NodeType{
 		}
 
 		if (this.indexSignature[0] !== undefined) {
-			return this.indexSignature[0].toString();
+			return this.indexSignature[0].toString(plaintext);
 		}
 
 		return 'unknown';

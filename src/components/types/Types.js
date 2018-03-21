@@ -1,9 +1,12 @@
 import React from 'react';
-import styles from './style.module.css';
+import styles from '../options/style.module.css';
 
 import {Link} from "react-router-dom";
 import {Data} from "../data/Data";
 import {DataComponent} from "../data/DataComponent";
+import {Options} from "../options/Options";
+import Title from "../Title";
+import Search from "../Search";
 
 export class Types extends DataComponent {
     static types = [
@@ -21,12 +24,14 @@ export class Types extends DataComponent {
             });
 
             links = [];
-            const columnCount = 4,
-                part = Math.ceil(options.length / columnCount);
+            const part = Math.ceil(options.length / Options.columnCount);
 
-            options = options.sort();
+            options = options.filter((eventname) => {
+                return eventname.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1;
+            }).sort();
 
-            for (let i = 1; i <= columnCount; i += 1) {
+
+            for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
                      <div key={option}>
                         <Link to={"/types/" + option + "/"}>{option}</Link>
@@ -36,8 +41,12 @@ export class Types extends DataComponent {
         }
 
         return (
-            <div className={styles.options}>
-                {links}
+            <div className={styles.root}>
+                <Title>Types</Title>
+                <Search onSearch={this.onSearch}/>
+                <div className={styles.options}>
+                    {links}
+                </div>
             </div>
         )
     }

@@ -40,8 +40,8 @@ export default class Signature extends Node {
 			'): ', this.type.toString(playntext)];
 	}
 
-    toString() {
-        return this.__toString();
+    toString(plaintext = false) {
+        return this.__toString(plaintext);
     }
 
 

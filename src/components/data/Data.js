@@ -5,6 +5,9 @@ import ExtraModel from "./models/ExtraModel";
 export class Data {
     static data = null;
     static xData = null;
+    static firesData = null;
+    static started = null;
+
     static checkInfo(needle, haystack) {
         if (haystack.name !== undefined && haystack.name.replace(/"/g, '') === needle) {
             return Data.findInfo(needle, haystack, (needle, haystack) => {
@@ -46,19 +49,26 @@ export class Data {
     static callbacks = [];
     static load(callback) {
 
-        Data.callbacks.push(callback);
+        callback && Data.callbacks.push(callback);
 
         Data.data || Data.loading || Promise.all([
-            fetch(process.env.PUBLIC_URL + '/data.json'),
-            fetch(process.env.PUBLIC_URL + '/data-event.json'),
-        ])
+                fetch(process.env.PUBLIC_URL + '/data.json'),
+                fetch(process.env.PUBLIC_URL + '/data-event.json'),
+                fetch(process.env.PUBLIC_URL + '/fires-event-data.json'),
+                fetch(process.env.PUBLIC_URL + '/README.md'),
+            ])
             .then((data) => {
-                return Promise.all(data.map(res => res.json()));
+                return Promise.all(data.map(res => res.url.match(/\.json$/) ? res.json() : res.text()));
             })
             .then((data)=> {
                 Data.data = new Node(data[0], null);
                 Data.xData = new ExtraModel(data[1], null);
+                Data.firesData = new ExtraModel(data[2], null);
+                Data.started = data[3];
+
                 Data.callbacks.forEach(call => call());
-            })
+            });
+
+        Data.loading = true;
     }
 }

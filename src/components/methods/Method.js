@@ -2,15 +2,20 @@ import React from 'react';
 import styles from '../options/style.module.css';
 import {Data} from "../data/Data";
 import {DataComponent} from "../data/DataComponent";
-
 import {ShortText, Source, Tags} from "../options/Option";
 import {Methods} from "./Methods";
 import {agate as codeStyle} from "react-syntax-highlighter/styles/hljs/index";
 import SyntaxHighlighter, { registerLanguage } from "react-syntax-highlighter/light";
 import ts from 'react-syntax-highlighter/languages/hljs/typescript';
+import Title from "../Title";
+import NotFound from "../NotFound";
+import Back from "../Back";
 
 registerLanguage('typescript', ts);
 
+export const TypeScript = (props) => {
+    return <SyntaxHighlighter showLineNumbers={false} language='typescript' style={codeStyle}>{props.children}</SyntaxHighlighter>;
+};
 const PrintOption = (props) => {
     /**
      * @type Node
@@ -20,7 +25,7 @@ const PrintOption = (props) => {
     let code = info.signatures[0].toCode();
 
     return <div>
-        <SyntaxHighlighter showLineNumbers={false} language='typescript' style={codeStyle}>{code}</SyntaxHighlighter>
+        <TypeScript>{code}</TypeScript>
         <table className={styles.meta}>
             <tbody>
             <tr>
@@ -50,10 +55,17 @@ export class Method extends DataComponent {
             }
         });
 
+        if (Data.data && !info) {
+            return <NotFound/>;
+        }
+
         return (
-            <div className={styles.info}>
-                <h1>{match.params.name.replace('-', '.')}</h1>
-                {!Data.data ? 'Loading...' : <PrintOption info={info}/>}
+            <div className={styles.root}>
+                <Back to={'/methods/'}>Back to Methods</Back>
+                {!Data.data ? 'Loading...' : <div className={styles.info}>
+                    <Title>{match.params.name.replace('-', '.')}</Title>
+                    <PrintOption info={info}/>
+                </div>}
             </div>
         )
     }

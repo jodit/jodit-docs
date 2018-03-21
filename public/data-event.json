@@ -6478,11 +6478,11 @@
       "___s": true
     },
     {
-      "comment": "/**\r\n * @property {object} uploader {@link Uploader|Uploader}'s settings\r\n * @property {string} uploader.url Point of entry for file uploader\r\n * @property {string} uploader.format='json' The format of the received data\r\n * @property {string} uploader.headers=null An object of additional header key/value pairs toWYSIWYG send along with requests using the XMLHttpRequest transport. See {@link Ajax.defaultAjaxOptions|Ajax.defaultAjaxOptions}\r\n * @property {function} uploader.prepareData Before send file will called this function. First argument it gets [new FormData ()](https://developer.mozilla.org/en/docs/Web/API/FormData), you can use this if you want add some POST parameter.\r\n * @property {object|boolean} uploader.data=false POST parameters.\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *      uploader: {\r\n *          prepareData: function (formdata) {\r\n *              formdata.append('id', 24); // $_POST['id'] on server\r\n *              formdata.append('name', 'Some parameter');  // $_POST['name'] on server\r\n *          }\r\n *      }\r\n * });\r\n * ```\r\n * @property {function} uploader.isSuccess Check if received data was positive\r\n * @property {function} uploader.getMessage If you need display a message use this\r\n * @property {function(data)} uploader.process The method of processing data received from the server. Must return this PlainObject format `{\r\n * {\r\n *     files: resp.files || [], // {array} The names of uploaded files.\r\n *     path: resp.path, // {string} Real relative path\r\n *     baseurl: resp.baseurl, // {string} Base url for filebrowser\r\n *     error: resp.error, // {int}\r\n *     msg: resp.msg // {string}\r\n * };`\r\n * @property {function} uploader.error Process negative situation. For example file wasn't uploaded because of file permoission\r\n * @property {function} uploader.defaultHandlerSuccess Default success result processor. In first param it get `uploader.process` result\r\n * @property {function} uploader.defaultHandlerError Default error result processor\r\n * @tutorial uploader-settings\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *     uploader: {\r\n *         url: 'connector/index.php?action=upload',\r\n *         format: 'json',\r\n *         headers: {\r\n *             'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r\n *         },\r\n *         prepareData: function (data) {\r\n *             data.append('id', 24); //\r\n *         },\r\n *         data: {\r\n *              csrf: document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r\n *         }\r\n *         isSuccess: function (resp) {\r\n *             return !resp.error;\r\n *         },\r\n *         getMessage: function (resp) {\r\n *             return resp.msg;\r\n *         },\r\n *         process: function (resp) {\r\n *              return {\r\n *                  files: resp.files || [],\r\n *                  path: resp.path,\r\n *                  baseurl: resp.baseurl,\r\n *                  error: resp.error,\r\n *                  msg: resp.msg\r\n *              };\r\n *         },\r\n *        defaultHandlerSuccess: function (data, resp) {\r\n *            var i, field = 'files';\r\n *            if (data[field] && data[field].length) {\r\n *                for (i = 0; i < data[field].length; i += 1) {\r\n *                    this.selection.insertImage(data.baseurl + data[field][i]);\r\n *                }\r\n *            }\r\n *         },\r\n *         error: function (e) {\r\n *             this.events.fire('{@link event:errorMessage|errorMessage}', [e.getMessage(), 'error', 4000])\r\n *         }\r\n *     }\r\n * })\r\n * ```\r\n */",
+      "comment": "/**\r\n * @property {object} uploader {@link Uploader|Uploader}'s settings\r\n * @property {string} uploader.url Point of entry for file uploader\r\n * @property {string} uploader.format='json' The format of the received data\r\n * @property {string} uploader.headers=null An object of additional header key/value pairs toWYSIWYG send along with requests using the XMLHttpRequest transport. See {@link Ajax.defaultAjaxOptions|Ajax.defaultAjaxOptions}\r\n * @property {function} uploader.prepareData Before send file will called this function. First argument it gets [new FormData ()](https://developer.mozilla.org/en/docs/Web/API/FormData), you can use this if you want add some POST parameter.\r\n * @property {object|boolean} uploader.data=false POST parameters.\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *      uploader: {\r\n *          prepareData: function (formdata) {\r\n *              formdata.append('id', 24); // $_POST['id'] on server\r\n *              formdata.append('name', 'Some parameter');  // $_POST['name'] on server\r\n *          }\r\n *      }\r\n * });\r\n * ```\r\n * @property {function} uploader.isSuccess Check if received data was positive\r\n * @property {function} uploader.getMessage If you need display a message use this\r\n * @property {function(data)} uploader.process The method of processing data received from the server. Must return this PlainObject format `{\r\n * {\r\n *     files: resp.files || [], // {array} The names of uploaded files.\r\n *     path: resp.path, // {string} Real relative path\r\n *     baseurl: resp.baseurl, // {string} Base url for filebrowser\r\n *     error: resp.error, // {int}\r\n *     msg: resp.msg // {string}\r\n * };`\r\n * @property {function} uploader.error Process negative situation. For example file wasn't uploaded because of file permoission\r\n * @property {function} uploader.defaultHandlerSuccess Default success result processor. In first param it get `uploader.process` result\r\n * @property {function} uploader.defaultHandlerError Default error result processor\r\n * @tutorial uploader-settings\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *     uploader: {\r\n *         url: 'connector/index.php?action=upload',\r\n *         format: 'json',\r\n *         headers: {\r\n *             'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r\n *         },\r\n *         prepareData: function (data) {\r\n *             data.append('id', 24); //\r\n *         },\r\n *         data: {\r\n *              csrf: document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r\n *         }\r\n *         isSuccess: function (resp) {\r\n *             return !resp.error;\r\n *         },\r\n *         getMessage: function (resp) {\r\n *             return resp.msg;\r\n *         },\r\n *         process: function (resp) {\r\n *              return {\r\n *                  files: resp.files || [],\r\n *                  path: resp.path,\r\n *                  baseurl: resp.baseurl,\r\n *                  error: resp.error,\r\n *                  msg: resp.msg\r\n *              };\r\n *         },\r\n *        defaultHandlerSuccess: function (data, resp) {\r\n *            var i, field = 'files';\r\n *            if (data[field] && data[field].length) {\r\n *                for (i = 0; i < data[field].length; i += 1) {\r\n *                    this.selection.insertImage(data.baseurl + data[field][i]);\r\n *                }\r\n *            }\r\n *         },\r\n *         error: function (e) {\r\n *             this.events.fire('errorMessage', [e.getMessage(), 'error', 4000])\r\n *         }\r\n *     }\r\n * })\r\n * ```\r\n */",
       "meta": {
         "range": [
-          181770,
-          182758
+          181743,
+          182731
         ],
         "filename": "jodit.js",
         "lineno": 4670,
@@ -6613,7 +6613,7 @@
       ],
       "examples": [
         "```javascript\rnew Jodit('#editor', {\r     uploader: {\r         prepareData: function (formdata) {\r             formdata.append('id', 24); // $_POST['id'] on server\r             formdata.append('name', 'Some parameter');  // $_POST['name'] on server\r         }\r     }\r});\r```",
-        "```javascript\rnew Jodit('#editor', {\r    uploader: {\r        url: 'connector/index.php?action=upload',\r        format: 'json',\r        headers: {\r            'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r        },\r        prepareData: function (data) {\r            data.append('id', 24); //\r        },\r        data: {\r             csrf: document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r        }\r        isSuccess: function (resp) {\r            return !resp.error;\r        },\r        getMessage: function (resp) {\r            return resp.msg;\r        },\r        process: function (resp) {\r             return {\r                 files: resp.files || [],\r                 path: resp.path,\r                 baseurl: resp.baseurl,\r                 error: resp.error,\r                 msg: resp.msg\r             };\r        },\r       defaultHandlerSuccess: function (data, resp) {\r           var i, field = 'files';\r           if (data[field] && data[field].length) {\r               for (i = 0; i < data[field].length; i += 1) {\r                   this.selection.insertImage(data.baseurl + data[field][i]);\r               }\r           }\r        },\r        error: function (e) {\r            this.events.fire('{@link event:errorMessage|errorMessage}', [e.getMessage(), 'error', 4000])\r        }\r    }\r})\r```"
+        "```javascript\rnew Jodit('#editor', {\r    uploader: {\r        url: 'connector/index.php?action=upload',\r        format: 'json',\r        headers: {\r            'X-CSRF-Token': document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r        },\r        prepareData: function (data) {\r            data.append('id', 24); //\r        },\r        data: {\r             csrf: document.querySelector('meta[name=\"csrf-token\"]').getAttribute('content')\r        }\r        isSuccess: function (resp) {\r            return !resp.error;\r        },\r        getMessage: function (resp) {\r            return resp.msg;\r        },\r        process: function (resp) {\r             return {\r                 files: resp.files || [],\r                 path: resp.path,\r                 baseurl: resp.baseurl,\r                 error: resp.error,\r                 msg: resp.msg\r             };\r        },\r       defaultHandlerSuccess: function (data, resp) {\r           var i, field = 'files';\r           if (data[field] && data[field].length) {\r               for (i = 0; i < data[field].length; i += 1) {\r                   this.selection.insertImage(data.baseurl + data[field][i]);\r               }\r           }\r        },\r        error: function (e) {\r            this.events.fire('errorMessage', [e.getMessage(), 'error', 4000])\r        }\r    }\r})\r```"
       ],
       "tutorials": [
         "uploader-settings"
@@ -6738,8 +6738,8 @@
       "comment": "/**\r\n     * Upload images toWYSIWYG a server by its URL, making it through the connector server.\r\n     *\r\n     * @param {string} url\r\n     * @param {HandlerSuccess} [handlerSuccess]\r\n     * @param {HandlerError} [handlerError]\r\n     */",
       "meta": {
         "range": [
-          194116,
-          195104
+          194089,
+          195077
         ],
         "filename": "jodit.js",
         "lineno": 4955,
@@ -6803,8 +6803,8 @@
       "comment": "/**\r\n     * Build color picker\r\n     *\r\n     * @param {Jodit} editor\r\n     * @param {function} callback Callback 'function (color) {}'\r\n     * @param {string} [coldColor] Color value ex. #fff or rgb(123, 123, 123) or rgba(123, 123, 123, 1)\r\n     * @example\r\n     * ```javascript\r\n     * $tabs = TabsWidget(editor, {\r\n     *    'Text' : ColorPickerWidget(editor, function (color) {\r\n     *         box.style.color = color;\r\n     *     }, box.style.color),\r\n     *     'Background' : ColorPickerWidget(editor, function (color) {\r\n     *         box.style.backgroundColor = color;\r\n     *     }, box.style.backgroundColor),\r\n     * });\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          196347,
-          199404
+          196320,
+          199377
         ],
         "filename": "jodit.js",
         "lineno": 5019,
@@ -6875,8 +6875,8 @@
       "comment": "/**\r\n     * Build tabs system\r\n     *\r\n     * @param {Jodit} editor\r\n     * @param {object} tabs PlainObject where 'key' will be tab's Title and `value` is tab's content\r\n     * @param {object} state You can use for this param any HTML element for remembering active tab\r\n     * @param {string} state.activeTab\r\n     *\r\n     * @example\r\n     * ```javascript\r\n     * let tabs = widget.create('Tabs', {\r\n     *    'Images': '<div>Images</div>',\r\n     *    'Title 2': editor.helper.dom('<div>Some content</div>'),\r\n     *    'Color Picker': ColorPickerWidget(editor, function (color) {\r\n     *         box.style.color = color;\r\n     *     }, box.style.color),\r\n     * });\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          200106,
-          202807
+          200079,
+          202780
         ],
         "filename": "jodit.js",
         "lineno": 5092,
@@ -6955,8 +6955,8 @@
       "comment": "/**\r\n     *\r\n     * @param {Jodit} editor\r\n     * @param {Widget.ImageSelectorCallbacks} callbacks\r\n     * @param {HTMLElement} elm\r\n     * @param {Function} close Close popup\r\n     * @return {HTMLDivElement}\r\n     * @constructor\r\n     */",
       "meta": {
         "range": [
-          203058,
-          206799
+          203031,
+          206772
         ],
         "filename": "jodit.js",
         "lineno": 5159,
@@ -7043,8 +7043,8 @@
       "comment": "/**\r\n         * Get current event name\r\n         *\r\n         * @example\r\n         * ```javascript\r\n         * parent.events.on('openDialog closeDialog', function () {\r\n         *     if (parent.events.current === 'closeDialog') {\r\n         *         alert('Dialog was closed');\r\n         *     } else {\r\n         *         alert('Dialog was opened');\r\n         *     }\r\n         * });\r\n         * ```\r\n         */",
       "meta": {
         "range": [
-          210001,
-          210018
+          209974,
+          209991
         ],
         "filename": "jodit.js",
         "lineno": 5318,
@@ -7074,8 +7074,8 @@
       "comment": "/**\r\n     * Sets the handler for the specified event ( Event List ) for a given element .\r\n     *\r\n     * @param {object|string} subjectOrEvents - The object for which toWYSIWYG set an event handler\r\n     * @param {string|Function} eventsOrCallback - List of events , separated by a space or comma\r\n     * @param {function} [handlerOrSelector] - The event handler\r\n     * @param {selector} [selector] - Selector for capturing\r\n     * @param {Boolean} [onTop=false] - Set handler in first\r\n     *\r\n     * @example\r\n     * ```javascript\r\n     * // set global handler\r\n     * parent.on('beforeCommand', function (command) {\r\n     *     alert('command');\r\n     * });\r\n     * ```\r\n     * * @example\r\n     * ```javascript\r\n     * // set global handler\r\n     * parent.on(document.body, 'click', function (e) {\r\n     *     alert(this.href);\r\n     * }, 'a');\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          213112,
-          216526
+          213085,
+          216499
         ],
         "filename": "jodit.js",
         "lineno": 5397,
@@ -7176,8 +7176,8 @@
       "comment": "/**\r\n     * Disable all handlers specified event ( Event List ) for a given element. Either a specific event handler.\r\n     *\r\n     * @param {object} subjectOrEvents - The object which is disabled handlers\r\n     * @param {string|Function} [eventsOrCallback] - List of events, separated by a space or comma , which is necessary toWYSIWYG disable the handlers for a given object\r\n     * @param {function} [handler] - Specific event handler toWYSIWYG be removed\r\n     *\r\n     * @example\r\n     * ```javascript\r\n     * var a = {name: \"Anton\"};\r\n     * parent.events.on(a, 'open', function () {\r\n     *     alert(this.name);\r\n     * });\r\n     *\r\n     * parent.events.fire(a, 'open');\r\n     * parent.events.off(a, 'open');\r\n     * var b = {name: \"Ivan\"}, hndlr = function () {\r\n     *  alert(this.name);\r\n     * };\r\n     * parent.events.on(b, 'open close', hndlr);\r\n     * parent.events.fire(a, 'open');\r\n     * parent.events.off(a, 'open', hndlr);\r\n     * parent.events.fire(a, 'close');\r\n     * parent.events.on('someGlobalEvents', function () {\r\n     *   console.log(this); // parent\r\n     * });\r\n     * parent.events.fire('someGlobalEvents');\r\n     * parent.events.off('someGlobalEvents');\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          217746,
-          220551
+          217719,
+          220524
         ],
         "filename": "jodit.js",
         "lineno": 5506,
@@ -7254,8 +7254,8 @@
       "comment": "/**\r\n     * Sets the handler for the specified event (Event List) for a given element .\r\n     *\r\n     * @param {object|string} subjectOrEvents - The object which is caused by certain events\r\n     * @param {string|Array} eventsList - List of events , separated by a space or comma\r\n     * @param {Array} [args] - Options for the event handler\r\n     * @return {boolean} `false` if one of the handlers return `false`\r\n     * @example\r\n     * ```javascript\r\n     * var dialog = new Jodit.modules.Dialog();\r\n     * parent.events.on('afterClose', function () {\r\n     *     dialog.destruct(); // will be removed from DOM\r\n     * });\r\n     * dialog.open('Hello world!!!');\r\n     * ```\r\n     *  or you can trigger native browser listener\r\n     *  ```javascript\r\n     *  var events = new Jodit.modules.EventsNative();\r\n     *  events.on(document.body, 'click',function (event) {\r\n     *      alert('click on ' + event.target.id );\r\n     *  });\r\n     *  events.fire(document.body.querySelector('div'), 'click');\r\n     *  ```\r\n     *\r\n     */",
       "meta": {
         "range": [
-          223433,
-          225637
+          223406,
+          225610
         ],
         "filename": "jodit.js",
         "lineno": 5632,
@@ -7344,8 +7344,8 @@
       "comment": "/**\r\n         * Set focus in editor\r\n         */",
       "meta": {
         "range": [
-          230324,
-          231603
+          230297,
+          231576
         ],
         "filename": "jodit.js",
         "lineno": 5798,
@@ -7379,8 +7379,8 @@
       "comment": "/**\r\n         * Apply some css rules for all selections. It method wraps selections in nodeName tag.\r\n         *\r\n         * @param {object} cssRules\r\n         * @param {string} nodeName\r\n         * @param {object} options\r\n         */",
       "meta": {
         "range": [
-          233569,
-          241773
+          233542,
+          241746
         ],
         "filename": "jodit.js",
         "lineno": 5865,
@@ -7454,8 +7454,8 @@
       "comment": "/**\r\n     * Remove all selected content\r\n     */",
       "meta": {
         "range": [
-          241864,
-          242208
+          241837,
+          242181
         ],
         "filename": "jodit.js",
         "lineno": 6007,
@@ -7530,8 +7530,8 @@
       "comment": "/**\r\n     * Remove all markers\r\n     */",
       "meta": {
         "range": [
-          243924,
-          244210
+          243897,
+          244183
         ],
         "filename": "jodit.js",
         "lineno": 6063,
@@ -7561,8 +7561,8 @@
       "comment": "/**\r\n     * Restores user selections using marker invisible elements in the DOM.\r\n     *\r\n     * @param {markerInfo[]|null} selectionInfo\r\n     */",
       "meta": {
         "range": [
-          244369,
-          246100
+          244342,
+          246073
         ],
         "filename": "jodit.js",
         "lineno": 6075,
@@ -7608,8 +7608,8 @@
       "comment": "/**\r\n     * Saves selections using marker invisible elements in the DOM.\r\n     *\r\n     * @return markerInfo[]\r\n     */",
       "meta": {
         "range": [
-          246231,
-          248218
+          246204,
+          248191
         ],
         "filename": "jodit.js",
         "lineno": 6118,
@@ -7654,8 +7654,8 @@
       "comment": "/**\r\n     * Checks whether the current selection is something or just set the cursor is\r\n     *\r\n     * @return boolean true Selection does't have content\r\n     */",
       "meta": {
         "range": [
-          248394,
-          248686
+          248367,
+          248659
         ],
         "filename": "jodit.js",
         "lineno": 6178,
@@ -7691,8 +7691,8 @@
       "comment": "/**\r\n     * Checks whether the editor currently in focus\r\n     *\r\n     * @return boolean\r\n     */",
       "meta": {
         "range": [
-          248796,
-          249004
+          248769,
+          248977
         ],
         "filename": "jodit.js",
         "lineno": 6192,
@@ -7724,8 +7724,8 @@
       "comment": "/**\r\n     * Returns the current element under the cursor inside editor\r\n     *\r\n     * @return false|Node The element under the cursor or false if undefined or not in editor\r\n     */",
       "meta": {
         "range": [
-          249199,
-          251209
+          249172,
+          251182
         ],
         "filename": "jodit.js",
         "lineno": 6200,
@@ -7769,8 +7769,8 @@
       "comment": "/**\r\n     * Insert element in editor\r\n     *\r\n     * @param {Node} node\r\n     * @param {Boolean} [insertCursorAfter=true] After insert, cursor will move after element\r\n     * @param {Boolean} [fireChange=true] After insert, editor fire change event. You can prevent this behavior\r\n     */",
       "meta": {
         "range": [
-          251510,
-          253211
+          251483,
+          253184
         ],
         "filename": "jodit.js",
         "lineno": 6245,
@@ -7841,8 +7841,8 @@
       "comment": "/**\r\n     * Inserts in the current cursor position some HTML snippet\r\n     *\r\n     * @param  {string} html HTML The text toWYSIWYG be inserted into the document\r\n     * @example\r\n     * ```javascript\r\n     * parent.selection.insertHTML('<img src=\"image.png\"/>');\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          253507,
-          255293
+          253480,
+          255266
         ],
         "filename": "jodit.js",
         "lineno": 6300,
@@ -7892,8 +7892,8 @@
       "comment": "/**\r\n     * Insert image in editor\r\n     *\r\n     * @param  {string|HTMLImageElement} url URL for image, or HTMLImageElement\r\n     * @param  {string} [styles] If specified, it will be applied <code>$(image).css(styles)</code>\r\n     *\r\n     * @fired afterInsertImage\r\n     */",
       "meta": {
         "range": [
-          255579,
-          257535
+          255552,
+          257508
         ],
         "filename": "jodit.js",
         "lineno": 6349,
@@ -7992,8 +7992,8 @@
       "comment": "/**\r\n     * Set cursor after the node\r\n     *\r\n     * @param {Node} node\r\n     * @return {Node} fake invisible textnode. After insert it can be removed\r\n     */",
       "meta": {
         "range": [
-          257708,
-          258750
+          257681,
+          258723
         ],
         "filename": "jodit.js",
         "lineno": 6402,
@@ -8048,8 +8048,8 @@
       "comment": "/**\r\n     * Checks if the cursor is at the end(start) block\r\n     *\r\n     * @param  {boolean} start=false true - check whether the cursor is at the start block\r\n     * @param {HTMLElement} parentBlock - Find in this\r\n     *\r\n     * @return {boolean | null} true - the cursor is at the end(start) block, null - cursor somewhere outside\r\n     */",
       "meta": {
         "range": [
-          259106,
-          260866
+          259079,
+          260839
         ],
         "filename": "jodit.js",
         "lineno": 6433,
@@ -8121,8 +8121,8 @@
       "comment": "/**\r\n     * Set cursor before the node\r\n     *\r\n     * @param {Node} node\r\n     * @return {Text} fake invisible textnode. After insert it can be removed\r\n     */",
       "meta": {
         "range": [
-          261040,
-          262083
+          261013,
+          262056
         ],
         "filename": "jodit.js",
         "lineno": 6478,
@@ -8177,8 +8177,8 @@
       "comment": "/**\r\n     * Set cursor in the node\r\n     *\r\n     * @param {Node} node\r\n     * @param {boolean} [inStart=false] set cursor in start of element\r\n     */",
       "meta": {
         "range": [
-          262246,
-          263594
+          262219,
+          263567
         ],
         "filename": "jodit.js",
         "lineno": 6507,
@@ -8235,14 +8235,73 @@
       "___s": true
     },
     {
+      "comment": "/**\r\n     * Set range selection\r\n     *\r\n     * @param range\r\n     * @fires changeSelection\r\n     */",
+      "meta": {
+        "range": [
+          263680,
+          264023
+        ],
+        "filename": "jodit.js",
+        "lineno": 6546,
+        "columnno": 4,
+        "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
+        "code": {
+          "id": "astnode100028499",
+          "name": "Select.prototype.selectRange",
+          "type": "FunctionExpression",
+          "funcscope": "<anonymous>",
+          "paramnames": [
+            "range"
+          ]
+        },
+        "vars": {
+          "sel": "<anonymous>~Select#selectRange~sel"
+        }
+      },
+      "description": "Set range selection",
+      "params": [
+        {
+          "name": "range"
+        }
+      ],
+      "fires": [
+        "event:changeSelection"
+      ],
+      "name": "selectRange",
+      "longname": "<anonymous>~Select#selectRange",
+      "kind": "function",
+      "memberof": "<anonymous>~Select",
+      "scope": "instance",
+      "___id": "T000002R001773",
+      "___s": true
+    },
+    {
+      "comment": "/**\r\n         * Fired after change selection\r\n         *\r\n         * @event changeSelection\r\n         */",
+      "meta": {
+        "filename": "jodit.js",
+        "lineno": 6550,
+        "columnno": 8,
+        "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
+        "code": {}
+      },
+      "description": "Fired after change selection",
+      "kind": "event",
+      "name": "changeSelection",
+      "longname": "event:changeSelection",
+      "scope": "inner",
+      "memberof": "module:Uploader",
+      "___id": "T000002R001775",
+      "___s": true
+    },
+    {
       "comment": "/**\r\n     * Select node\r\n     *\r\n     * @param {Node} node\r\n     * @param {boolean} [inward=false] select all inside\r\n     */",
       "meta": {
         "range": [
-          263968,
-          264654
+          264161,
+          264847
         ],
         "filename": "jodit.js",
-        "lineno": 6552,
+        "lineno": 6563,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8289,14 +8348,14 @@
       "kind": "function",
       "memberof": "<anonymous>~Select",
       "scope": "instance",
-      "___id": "T000002R001775",
+      "___id": "T000002R001776",
       "___s": true
     },
     {
       "comment": "/**\r\n * Module to generate context menu\r\n *\r\n * @module ContextMenu\r\n * @param {Object} parent Jodit main object\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6731,
+        "lineno": 6742,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -8318,14 +8377,14 @@
       "longname": "module:ContextMenu",
       "scope": "inner",
       "memberof": "module:Uploader",
-      "___id": "T000002R001841",
+      "___id": "T000002R001842",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Hide context menu\r\n         *\r\n         * @method hide\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6741,
+        "lineno": 6752,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -8336,14 +8395,14 @@
       "longname": "module:ContextMenu~hide",
       "scope": "inner",
       "memberof": "module:ContextMenu",
-      "___id": "T000002R001845",
+      "___id": "T000002R001846",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Generate and show context menu\r\n     *\r\n     * @method show\r\n     * @param {number} x Global coordinate by X\r\n     * @param {number} y Global coordinate by Y\r\n     * @param {Action[]} actions Array with plainobjects {icon: 'bin', title: 'Delete', exec: function () { do smth}}\r\n     * @example\r\n     * ```javascript\r\n     * parent.show(e.clientX, e.clientY, [{icon: 'bin', title: 'Delete', exec: function () { alert(1) }]);\r\n     * ```\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6758,
+        "lineno": 6769,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -8386,14 +8445,14 @@
       "longname": "module:ContextMenu~show",
       "scope": "inner",
       "memberof": "module:ContextMenu",
-      "___id": "T000002R001849",
+      "___id": "T000002R001850",
       "___s": true
     },
     {
       "comment": "/**\r\n * The module monitors the status of the editor and creates / deletes the required number of Undo / Redo shots . To track changes in use {@link https://developer.mozilla.org/ru/docs/Web/API/MutationObserver|MutationObserver}\r\n *\r\n * @module Observer\r\n * @see {@link Snapshot|Snapshot}\r\n * @params {Jodit} parent Jodit main object\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6890,
+        "lineno": 6901,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -8415,18 +8474,18 @@
       "longname": "module:Observer",
       "scope": "inner",
       "memberof": "module:ContextMenu",
-      "___id": "T000002R001899",
+      "___id": "T000002R001900",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Return state of the WYSIWYG editor to step back\r\n     */",
       "meta": {
         "range": [
-          278343,
-          278439
+          278536,
+          278632
         ],
         "filename": "jodit.js",
-        "lineno": 6932,
+        "lineno": 6943,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8443,18 +8502,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Observer",
       "scope": "instance",
-      "___id": "T000002R001911",
+      "___id": "T000002R001912",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Return the state of the WYSIWYG editor to step forward\r\n     */",
       "meta": {
         "range": [
-          278527,
-          278623
+          278720,
+          278816
         ],
         "filename": "jodit.js",
-        "lineno": 6938,
+        "lineno": 6949,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8471,18 +8530,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Observer",
       "scope": "instance",
-      "___id": "T000002R001912",
+      "___id": "T000002R001913",
       "___s": true
     },
     {
       "comment": "/**\r\n * Module for creating snapshot of editor which includes html content and the current selection\r\n */",
       "meta": {
         "range": [
-          280030,
-          285539
+          280223,
+          285732
         ],
         "filename": "jodit.js",
-        "lineno": 6981,
+        "lineno": 6992,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8499,18 +8558,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R001929",
+      "___id": "T000002R001930",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Calc count element before some node in parentNode. All text nodes are joined\r\n     *\r\n     * @param {Node | null} elm\r\n     * @return {number}\r\n     */",
       "meta": {
         "range": [
-          280454,
-          281080
+          280647,
+          281273
         ],
         "filename": "jodit.js",
-        "lineno": 6994,
+        "lineno": 7005,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8555,18 +8614,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "static",
-      "___id": "T000002R001933",
+      "___id": "T000002R001934",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Calc whole hierarchy path before some element in editor's tree\r\n     *\r\n     * @param {Node | null} elm\r\n     * @return {number[]}\r\n     * @private\r\n     */",
       "meta": {
         "range": [
-          281261,
-          281718
+          281454,
+          281911
         ],
         "filename": "jodit.js",
-        "lineno": 7018,
+        "lineno": 7029,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8610,18 +8669,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "instance",
-      "___id": "T000002R001942",
+      "___id": "T000002R001943",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Calc normal offset in joined text nodes\r\n     *\r\n     * @param {Node | null} elm\r\n     * @param {number} offset\r\n     * @return {number}\r\n     */",
       "meta": {
         "range": [
-          281888,
-          282229
+          282081,
+          282422
         ],
         "filename": "jodit.js",
-        "lineno": 7038,
+        "lineno": 7049,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8673,18 +8732,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "static",
-      "___id": "T000002R001945",
+      "___id": "T000002R001946",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Creates object a snapshot of editor: html and the current selection. Current selection calculate by offset by start document\r\n     *\r\n     * @return {object} {html: string, range: {startContainer: int, startOffset: int, endContainer: int, endOffset: int}} или {html: string} при отсутствии выделения\r\n     */",
       "meta": {
         "range": [
-          282562,
-          283865
+          282755,
+          284058
         ],
         "filename": "jodit.js",
-        "lineno": 7052,
+        "lineno": 7063,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8722,18 +8781,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "instance",
-      "___id": "T000002R001948",
+      "___id": "T000002R001949",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Compare two snapshotes, if and htmls and selections match, then return true\r\n     *\r\n     * @param {SnapshotType} first - the first snapshote\r\n     * @param {SnapshotType} second - second shot\r\n     * @return {boolean}\r\n     */",
       "meta": {
         "range": [
-          284356,
-          284514
+          284549,
+          284707
         ],
         "filename": "jodit.js",
-        "lineno": 7096,
+        "lineno": 7107,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8782,18 +8841,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "static",
-      "___id": "T000002R001976",
+      "___id": "T000002R001977",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Restores the state of the editor of the snapshot. Rebounding is not only html but selected text\r\n     *\r\n     * @param {object} snapshot - snapshot of editor resulting from the `{@link Snapshot~make|make}`\r\n     * @see make\r\n     */",
       "meta": {
         "range": [
-          284771,
-          285489
+          284964,
+          285682
         ],
         "filename": "jodit.js",
-        "lineno": 7105,
+        "lineno": 7116,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8830,14 +8889,14 @@
       "kind": "function",
       "memberof": "<anonymous>~Snapshot",
       "scope": "instance",
-      "___id": "T000002R001977",
+      "___id": "T000002R001978",
       "___s": true
     },
     {
       "comment": "/**\r\n * Module for working with tables . Delete, insert , merger, division of cells , rows and columns. When creating elements such as <table> for each of them\r\n * creates a new instance Jodit.modules.TableProcessor and it can be accessed via $('table').data('table-processor')\r\n *\r\n * @module Table\r\n * @param {Object} parent Jodit main object\r\n * @param {HTMLTableElement} table Table for which to create a module\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 7200,
+        "lineno": 7211,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -8868,18 +8927,18 @@
       "longname": "module:Table",
       "scope": "inner",
       "memberof": "module:Observer",
-      "___id": "T000002R002002",
+      "___id": "T000002R002003",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @return {HTMLTableCellElement[]}\r\n     */",
       "meta": {
         "range": [
-          288572,
-          288770
+          288765,
+          288963
         ],
         "filename": "jodit.js",
-        "lineno": 7225,
+        "lineno": 7236,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8916,18 +8975,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002010",
+      "___id": "T000002R002011",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @param {HTMLTableElement} table\r\n     * @return {number}\r\n     */",
       "meta": {
         "range": [
-          288860,
-          288941
+          289053,
+          289134
         ],
         "filename": "jodit.js",
-        "lineno": 7232,
+        "lineno": 7243,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -8964,18 +9023,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002011",
+      "___id": "T000002R002012",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @param {HTMLTableElement} table\r\n     * @return {number}\r\n     */",
       "meta": {
         "range": [
-          289031,
-          289260
+          289224,
+          289453
         ],
         "filename": "jodit.js",
-        "lineno": 7239,
+        "lineno": 7250,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9016,18 +9075,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002012",
+      "___id": "T000002R002013",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {function(HTMLTableCellElement, int, int, int, int):boolean} [callback] if return false cycle break\r\n     * @return {Array}\r\n     */",
       "meta": {
         "range": [
-          289472,
-          290837
+          289665,
+          291030
         ],
         "filename": "jodit.js",
-        "lineno": 7251,
+        "lineno": 7262,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9084,18 +9143,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002014",
+      "___id": "T000002R002015",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Get cell coordinate in formal table (without colspan and rowspan)\r\n     */",
       "meta": {
         "range": [
-          290936,
-          291568
+          291129,
+          291761
         ],
         "filename": "jodit.js",
-        "lineno": 7287,
+        "lineno": 7298,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9124,18 +9183,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002037",
+      "___id": "T000002R002038",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Inserts a new line after row what contains the selected cell\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {Boolean|HTMLTableRowElement} [line=false] Insert a new line after/before this line contains the selected cell\r\n     * @param {Boolean} [after=true] Insert a new line after line contains the selected cell\r\n     */",
       "meta": {
         "range": [
-          291930,
-          292696
+          292123,
+          292889
         ],
         "filename": "jodit.js",
-        "lineno": 7312,
+        "lineno": 7323,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9196,18 +9255,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002049",
+      "___id": "T000002R002050",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Remove row\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {int} rowIndex\r\n     */",
       "meta": {
         "range": [
-          292818,
-          294600
+          293011,
+          294793
         ],
         "filename": "jodit.js",
-        "lineno": 7335,
+        "lineno": 7346,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9251,18 +9310,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002057",
+      "___id": "T000002R002058",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Insert column before / after all the columns containing the selected cells\r\n     *\r\n     */",
       "meta": {
         "range": [
-          294716,
-          296059
+          294909,
+          296252
         ],
         "filename": "jodit.js",
-        "lineno": 7381,
+        "lineno": 7392,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9292,18 +9351,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002068",
+      "___id": "T000002R002069",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Insert column before / after all the columns containing the selected cells\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {int} [j]\r\n     */",
       "meta": {
         "range": [
-          296240,
-          297138
+          296433,
+          297331
         ],
         "filename": "jodit.js",
-        "lineno": 7420,
+        "lineno": 7431,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9347,18 +9406,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002080",
+      "___id": "T000002R002081",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Define bound for selected cells\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {Array.<HTMLTableCellElement>} selectedCells\r\n     * @return {number[][]}\r\n     */",
       "meta": {
         "range": [
-          297340,
-          299224
+          297533,
+          299417
         ],
         "filename": "jodit.js",
-        "lineno": 7453,
+        "lineno": 7464,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9416,18 +9475,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002088",
+      "___id": "T000002R002089",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     */",
       "meta": {
         "range": [
-          299297,
-          301969
+          299490,
+          302162
         ],
         "filename": "jodit.js",
-        "lineno": 7500,
+        "lineno": 7511,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9463,18 +9522,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002122",
+      "___id": "T000002R002123",
       "___s": true
     },
     {
       "comment": "/**\r\n     * It combines all of the selected cells into one. The contents of the cells will also be combined\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     *\r\n     */",
       "meta": {
         "range": [
-          302154,
-          304901
+          302347,
+          305094
         ],
         "filename": "jodit.js",
-        "lineno": 7574,
+        "lineno": 7585,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9516,18 +9575,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002153",
+      "___id": "T000002R002154",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Divides all selected by `jodit_focused_cell` class table cell in 2 parts vertical. Those division into 2 columns\r\n     */",
       "meta": {
         "range": [
-          305047,
-          306876
+          305240,
+          307069
         ],
         "filename": "jodit.js",
-        "lineno": 7638,
+        "lineno": 7649,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9555,18 +9614,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002173",
+      "___id": "T000002R002174",
       "___s": true
     },
     {
       "comment": "/**\r\n     * It splits all the selected cells into 2 parts horizontally. Those. are added new row\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     */",
       "meta": {
         "range": [
-          307042,
-          308460
+          307235,
+          308653
         ],
         "filename": "jodit.js",
-        "lineno": 7685,
+        "lineno": 7696,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9602,18 +9661,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002185",
+      "___id": "T000002R002186",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableCellElement} cell\r\n     * @param {string} key\r\n     * @param {string} value\r\n     * @param {HTMLTableCellElement[]} __marked\r\n     * @private\r\n     */",
       "meta": {
         "range": [
-          308660,
-          308916
+          308853,
+          309109
         ],
         "filename": "jodit.js",
-        "lineno": 7723,
+        "lineno": 7734,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9673,18 +9732,18 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002194",
+      "___id": "T000002R002195",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Set column width used delta value\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {int} j column\r\n     * @param {int} delta\r\n     * @param {boolean} noUnmark\r\n     * @param {HTMLTableCellElement[]} __marked\r\n     */",
       "meta": {
         "range": [
-          310603,
-          311084
+          310796,
+          311277
         ],
         "filename": "jodit.js",
-        "lineno": 7773,
+        "lineno": 7784,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9756,14 +9815,14 @@
       "kind": "function",
       "memberof": "<anonymous>~Table",
       "scope": "static",
-      "___id": "T000002R002199",
+      "___id": "T000002R002200",
       "___s": true
     },
     {
       "comment": "/**\n  `Promise.resolve` returns a promise that will become resolved with the\n  passed `value`. It is shorthand for the following:\n\n  ```javascript\n  let promise = new Promise(function(resolve, reject){\n    resolve(1);\n  });\n\n  promise.then(function(value){\n    // value === 1\n  });\n  ```\n\n  Instead of writing the above, your code now simply becomes the following:\n\n  ```javascript\n  let promise = Promise.resolve(1);\n\n  promise.then(function(value){\n    // value === 1\n  });\n  ```\n\n  @method resolve\n  @static\n  @param {Any} value value that the returned promise will be resolved with\n  Useful for tooling.\n  @return {Promise} a promise that will become fulfilled with the given\n  `value`\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8310,
+        "lineno": 8321,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -9795,14 +9854,14 @@
       ],
       "longname": "module:Table.resolve",
       "memberof": "module:Table",
-      "___id": "T000002R002358",
+      "___id": "T000002R002359",
       "___s": true
     },
     {
       "comment": "/**\n  `Promise.all` accepts an array of promises, and returns a new promise which\n  is fulfilled with an array of fulfillment values for the passed promises, or\n  rejected with the reason of the first passed promise to be rejected. It casts all\n  elements of the passed iterable to promises as it runs this algorithm.\n\n  Example:\n\n  ```javascript\n  let promise1 = resolve(1);\n  let promise2 = resolve(2);\n  let promise3 = resolve(3);\n  let promises = [ promise1, promise2, promise3 ];\n\n  Promise.all(promises).then(function(array){\n    // The array here would be [ 1, 2, 3 ];\n  });\n  ```\n\n  If any of the `promises` given to `all` are rejected, the first promise\n  that is rejected will be given as an argument to the returned promises's\n  rejection handler. For example:\n\n  Example:\n\n  ```javascript\n  let promise1 = resolve(1);\n  let promise2 = reject(new Error(\"2\"));\n  let promise3 = reject(new Error(\"3\"));\n  let promises = [ promise1, promise2, promise3 ];\n\n  Promise.all(promises).then(function(array){\n    // Code here never runs because there are rejected promises!\n  }, function(error) {\n    // error.message === \"2\"\n  });\n  ```\n\n  @method all\n  @static\n  @param {Array} entries array of promises\n  @param {String} label optional string for labeling the promise.\n  Useful for tooling.\n  @return {Promise} promise that is fulfilled when all `promises` have been\n  fulfilled, or rejected if any of them become rejected.\n  @static\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8703,
+        "lineno": 8714,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -9843,14 +9902,14 @@
       ],
       "longname": "module:Table.all",
       "memberof": "module:Table",
-      "___id": "T000002R002454",
+      "___id": "T000002R002455",
       "___s": true
     },
     {
       "comment": "/**\n  `Promise.race` returns a new promise which is settled in the same way as the\n  first passed promise to settle.\n\n  Example:\n\n  ```javascript\n  let promise1 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 1');\n    }, 200);\n  });\n\n  let promise2 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 2');\n    }, 100);\n  });\n\n  Promise.race([promise1, promise2]).then(function(result){\n    // result === 'promise 2' because it was resolved before promise1\n    // was resolved.\n  });\n  ```\n\n  `Promise.race` is deterministic in that only the state of the first\n  settled promise matters. For example, even if other promises given to the\n  `promises` array argument are resolved, but the first settled promise has\n  become rejected before the other promises became fulfilled, the returned\n  promise will become rejected:\n\n  ```javascript\n  let promise1 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 1');\n    }, 200);\n  });\n\n  let promise2 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      reject(new Error('promise 2'));\n    }, 100);\n  });\n\n  Promise.race([promise1, promise2]).then(function(result){\n    // Code here never runs\n  }, function(reason){\n    // reason.message === 'promise 2' because promise 2 became rejected before\n    // promise 1 became fulfilled\n  });\n  ```\n\n  An example real-world use case is implementing timeouts:\n\n  ```javascript\n  Promise.race([ajax('foo.json'), timeout(5000)])\n  ```\n\n  @method race\n  @static\n  @param {Array} promises array of promises to observe\n  Useful for tooling.\n  @return {Promise} a promise which settles in the same way as the first passed\n  promise to settle.\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8754,
+        "lineno": 8765,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -9882,14 +9941,14 @@
       ],
       "longname": "module:Table.race",
       "memberof": "module:Table",
-      "___id": "T000002R002456",
+      "___id": "T000002R002457",
       "___s": true
     },
     {
       "comment": "/**\n  `Promise.reject` returns a promise rejected with the passed `reason`.\n  It is shorthand for the following:\n\n  ```javascript\n  let promise = new Promise(function(resolve, reject){\n    reject(new Error('WHOOPS'));\n  });\n\n  promise.then(function(value){\n    // Code here doesn't run because the promise is rejected!\n  }, function(reason){\n    // reason.message === 'WHOOPS'\n  });\n  ```\n\n  Instead of writing the above, your code now simply becomes the following:\n\n  ```javascript\n  let promise = Promise.reject(new Error('WHOOPS'));\n\n  promise.then(function(value){\n    // Code here doesn't run because the promise is rejected!\n  }, function(reason){\n    // reason.message === 'WHOOPS'\n  });\n  ```\n\n  @method reject\n  @static\n  @param {Any} reason value that the returned promise will be rejected with.\n  Useful for tooling.\n  @return {Promise} a promise rejected with the given `reason`.\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8837,
+        "lineno": 8848,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -9921,18 +9980,18 @@
       ],
       "longname": "module:Table.reject",
       "memberof": "module:Table",
-      "___id": "T000002R002461",
+      "___id": "T000002R002462",
       "___s": true
     },
     {
       "comment": "/**\n  Promise objects represent the eventual result of an asynchronous operation. The\n  primary way of interacting with a promise is through its `then` method, which\n  registers callbacks to receive either a promise's eventual value or the reason\n  why the promise cannot be fulfilled.\n\n  Terminology\n  -----------\n\n  - `promise` is an object or function with a `then` method whose behavior conforms to this specification.\n  - `thenable` is an object or function that defines a `then` method.\n  - `value` is any legal JavaScript value (including undefined, a thenable, or a promise).\n  - `exception` is a value that is thrown using the throw statement.\n  - `reason` is a value that indicates why a promise was rejected.\n  - `settled` the final resting state of a promise, fulfilled or rejected.\n\n  A promise can be in one of three states: pending, fulfilled, or rejected.\n\n  Promises that are fulfilled have a fulfillment value and are in the fulfilled\n  state.  Promises that are rejected have a rejection reason and are in the\n  rejected state.  A fulfillment value is never a thenable.\n\n  Promises can also be said to *resolve* a value.  If this value is also a\n  promise, then the original promise's settled state will match the value's\n  settled state.  So a promise that *resolves* a promise that rejects will\n  itself reject, and a promise that *resolves* a promise that fulfills will\n  itself fulfill.\n\n\n  Basic Usage:\n  ------------\n\n  ```js\n  let promise = new Promise(function(resolve, reject) {\n    // on success\n    resolve(value);\n\n    // on failure\n    reject(reason);\n  });\n\n  promise.then(function(value) {\n    // on fulfillment\n  }, function(reason) {\n    // on rejection\n  });\n  ```\n\n  Advanced Usage:\n  ---------------\n\n  Promises shine when abstracting away asynchronous interactions such as\n  `XMLHttpRequest`s.\n\n  ```js\n  function getJSON(url) {\n    return new Promise(function(resolve, reject){\n      let xhr = new XMLHttpRequest();\n\n      xhr.open('GET', url);\n      xhr.onreadystatechange = handler;\n      xhr.responseType = 'json';\n      xhr.setRequestHeader('Accept', 'application/json');\n      xhr.send();\n\n      function handler() {\n        if (this.readyState === this.DONE) {\n          if (this.status === 200) {\n            resolve(this.response);\n          } else {\n            reject(new Error('getJSON: `' + url + '` failed with status: [' + this.status + ']'));\n          }\n        }\n      };\n    });\n  }\n\n  getJSON('/posts.json').then(function(json) {\n    // on fulfillment\n  }, function(reason) {\n    // on rejection\n  });\n  ```\n\n  Unlike callbacks, promises are great composable primitives.\n\n  ```js\n  Promise.all([\n    getJSON('/posts'),\n    getJSON('/comments')\n  ]).then(function(values){\n    values[0] // => postsJSON\n    values[1] // => commentsJSON\n\n    return values;\n  });\n  ```\n\n  @class Promise\n  @param {Function} resolver\n  Useful for tooling.\n  @constructor\n*/",
       "meta": {
         "range": [
-          341314,
-          347719
+          341507,
+          347912
         ],
         "filename": "jodit.js",
-        "lineno": 8991,
+        "lineno": 9002,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -9960,14 +10019,14 @@
       "longname": "<anonymous>~Promise$1",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R002467",
+      "___id": "T000002R002468",
       "___s": true
     },
     {
       "comment": "/**\n  The primary way of interacting with a promise is through its `then` method,\n  which registers callbacks to receive either a promise's eventual value or the\n  reason why the promise cannot be fulfilled.\n   ```js\n  findUser().then(function(user){\n    // user is available\n  }, function(reason){\n    // user is unavailable, and you are given the reason why\n  });\n  ```\n   Chaining\n  --------\n   The return value of `then` is itself a promise.  This second, 'downstream'\n  promise is resolved with the return value of the first promise's fulfillment\n  or rejection handler, or rejected if the handler throws an exception.\n   ```js\n  findUser().then(function (user) {\n    return user.name;\n  }, function (reason) {\n    return 'default name';\n  }).then(function (userName) {\n    // If `findUser` fulfilled, `userName` will be the user's name, otherwise it\n    // will be `'default name'`\n  });\n   findUser().then(function (user) {\n    throw new Error('Found user, but still unhappy');\n  }, function (reason) {\n    throw new Error('`findUser` rejected and we're unhappy');\n  }).then(function (value) {\n    // never reached\n  }, function (reason) {\n    // if `findUser` fulfilled, `reason` will be 'Found user, but still unhappy'.\n    // If `findUser` rejected, `reason` will be '`findUser` rejected and we're unhappy'.\n  });\n  ```\n  If the downstream promise does not specify a rejection handler, rejection reasons will be propagated further downstream.\n   ```js\n  findUser().then(function (user) {\n    throw new PedagogicalException('Upstream error');\n  }).then(function (value) {\n    // never reached\n  }).then(function (value) {\n    // never reached\n  }, function (reason) {\n    // The `PedgagocialException` is propagated all the way down to here\n  });\n  ```\n   Assimilation\n  ------------\n   Sometimes the value you want to propagate to a downstream promise can only be\n  retrieved asynchronously. This can be achieved by returning a promise in the\n  fulfillment or rejection handler. The downstream promise will then be pending\n  until the returned promise is settled. This is called *assimilation*.\n   ```js\n  findUser().then(function (user) {\n    return findCommentsByAuthor(user);\n  }).then(function (comments) {\n    // The user's comments are now available\n  });\n  ```\n   If the assimliated promise rejects, then the downstream promise will also reject.\n   ```js\n  findUser().then(function (user) {\n    return findCommentsByAuthor(user);\n  }).then(function (comments) {\n    // If `findCommentsByAuthor` fulfills, we'll have the value here\n  }, function (reason) {\n    // If `findCommentsByAuthor` rejects, we'll have the reason here\n  });\n  ```\n   Simple Example\n  --------------\n   Synchronous Example\n   ```javascript\n  let result;\n   try {\n    result = findResult();\n    // success\n  } catch(reason) {\n    // failure\n  }\n  ```\n   Errback Example\n   ```js\n  findResult(function(result, err){\n    if (err) {\n      // failure\n    } else {\n      // success\n    }\n  });\n  ```\n   Promise Example;\n   ```javascript\n  findResult().then(function(result){\n    // success\n  }, function(reason){\n    // failure\n  });\n  ```\n   Advanced Example\n  --------------\n   Synchronous Example\n   ```javascript\n  let author, books;\n   try {\n    author = findAuthor();\n    books  = findBooksByAuthor(author);\n    // success\n  } catch(reason) {\n    // failure\n  }\n  ```\n   Errback Example\n   ```js\n   function foundBooks(books) {\n   }\n   function failure(reason) {\n   }\n   findAuthor(function(author, err){\n    if (err) {\n      failure(err);\n      // failure\n    } else {\n      try {\n        findBoooksByAuthor(author, function(books, err) {\n          if (err) {\n            failure(err);\n          } else {\n            try {\n              foundBooks(books);\n            } catch(reason) {\n              failure(reason);\n            }\n          }\n        });\n      } catch(error) {\n        failure(err);\n      }\n      // success\n    }\n  });\n  ```\n   Promise Example;\n   ```javascript\n  findAuthor().\n    then(findBooksByAuthor).\n    then(function(books){\n      // found books\n  }).catch(function(reason){\n    // something went wrong\n  });\n  ```\n   @method then\n  @param {Function} onFulfilled\n  @param {Function} onRejected\n  Useful for tooling.\n  @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9003,
+        "lineno": 9014,
         "columnno": 2,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10006,14 +10065,14 @@
       "longname": "module:Table~then",
       "scope": "inner",
       "memberof": "module:Table",
-      "___id": "T000002R002473",
+      "___id": "T000002R002474",
       "___s": true
     },
     {
       "comment": "/**\n  `catch` is simply sugar for `then(undefined, onRejection)` which makes it the same\n  as the catch block of a try/catch statement.\n  ```js\n  function findAuthor(){\n  throw new Error('couldn't find that author');\n  }\n  // synchronous\n  try {\n  findAuthor();\n  } catch(reason) {\n  // something went wrong\n  }\n  // async with promises\n  findAuthor().catch(function(reason){\n  // something went wrong\n  });\n  ```\n  @method catch\n  @param {Function} onRejection\n  Useful for tooling.\n  @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9164,
+        "lineno": 9175,
         "columnno": 2,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10044,14 +10103,14 @@
       "longname": "module:Table~catch",
       "scope": "inner",
       "memberof": "module:Table",
-      "___id": "T000002R002474",
+      "___id": "T000002R002475",
       "___s": true
     },
     {
       "comment": "/**\n    `finally` will be invoked regardless of the promise's fate just as native\n    try/catch/finally behaves\n  \n    Synchronous example:\n  \n    ```js\n    findAuthor() {\n      if (Math.random() > 0.5) {\n        throw new Error();\n      }\n      return new Author();\n    }\n  \n    try {\n      return findAuthor(); // succeed or fail\n    } catch(error) {\n      return findOtherAuther();\n    } finally {\n      // always runs\n      // doesn't affect the return value\n    }\n    ```\n  \n    Asynchronous example:\n  \n    ```js\n    findAuthor().catch(function(reason){\n      return findOtherAuther();\n    }).finally(function(){\n      // author was either found, or not\n    });\n    ```\n  \n    @method finally\n    @param {Function} callback\n    @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9193,
+        "lineno": 9204,
         "columnno": 2,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10081,18 +10140,18 @@
       "longname": "module:Table~finally",
       "scope": "inner",
       "memberof": "module:Table",
-      "___id": "T000002R002476",
+      "___id": "T000002R002477",
       "___s": true
     },
     {
       "comment": "/**\r\n * Create helper\r\n * @type {boolean}\r\n */",
       "meta": {
         "range": [
-          355731,
-          355774
+          355924,
+          355967
         ],
         "filename": "jodit.js",
-        "lineno": 9503,
+        "lineno": 9514,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10115,18 +10174,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002607",
+      "___id": "T000002R002608",
       "___s": true
     },
     {
       "comment": "/**\r\n * On dbl click on empty space of editor it add new P element\r\n * @type {boolean}\r\n */",
       "meta": {
         "range": [
-          355870,
-          355923
+          356063,
+          356116
         ],
         "filename": "jodit.js",
-        "lineno": 9508,
+        "lineno": 9519,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10149,18 +10208,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002608",
+      "___id": "T000002R002609",
       "___s": true
     },
     {
       "comment": "/**\r\n * Whar kind of tags it will be impact\r\n * @type {string[]}\r\n */",
       "meta": {
         "range": [
-          355997,
-          356089
+          356190,
+          356282
         ],
         "filename": "jodit.js",
-        "lineno": 9513,
+        "lineno": 9524,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10183,18 +10242,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002609",
+      "___id": "T000002R002610",
       "___s": true
     },
     {
       "comment": "/**\r\n * Create helper for adding new paragraph(Jodit.defaultOptions.enter tag) before iframe, table or image\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          356237,
-          362437
+          356430,
+          362630
         ],
         "filename": "jodit.js",
-        "lineno": 9519,
+        "lineno": 9530,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10237,18 +10296,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R002610",
+      "___id": "T000002R002611",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property{boolean} autofocus=false true After loading the page into the editor once the focus is set\r\n */",
       "meta": {
         "range": [
-          362989,
-          363032
+          363182,
+          363225
         ],
         "filename": "jodit.js",
-        "lineno": 9684,
+        "lineno": 9695,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10273,18 +10332,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002656",
+      "___id": "T000002R002657",
       "___s": true
     },
     {
       "comment": "/**\r\n * Autofocus plugin - set focus inside the editor after reload\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          363139,
-          363838
+          363332,
+          364031
         ],
         "filename": "jodit.js",
-        "lineno": 9690,
+        "lineno": 9701,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10316,14 +10375,14 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R002657",
+      "___id": "T000002R002658",
       "___s": true
     },
     {
       "comment": "/**\r\n * Plug-in process entering Backspace key\r\n *\r\n * @module backspace\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9730,
+        "lineno": 9741,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10334,18 +10393,18 @@
       "longname": "module:backspace",
       "scope": "inner",
       "memberof": "module:Table",
-      "___id": "T000002R002665",
+      "___id": "T000002R002666",
       "___s": true
     },
     {
       "comment": "/**\r\n * Bold plugin - change B to Strong, i to Em\r\n */",
       "meta": {
         "range": [
-          377098,
-          378066
+          377291,
+          378259
         ],
         "filename": "jodit.js",
-        "lineno": 10015,
+        "lineno": 10026,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10368,18 +10427,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R002751",
+      "___id": "T000002R002752",
       "___s": true
     },
     {
       "comment": "/**\r\n * Clean HTML after removeFormat and insertHorizontalRule command\r\n */",
       "meta": {
         "range": [
-          378992,
-          387194
+          379185,
+          387387
         ],
         "filename": "jodit.js",
-        "lineno": 10077,
+        "lineno": 10088,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10409,18 +10468,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R002781",
+      "___id": "T000002R002782",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process commands `background` and `forecolor`\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          390597,
-          391292
+          390790,
+          391485
         ],
         "filename": "jodit.js",
-        "lineno": 10341,
+        "lineno": 10352,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10452,14 +10511,14 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R002864",
+      "___id": "T000002R002865",
       "___s": true
     },
     {
       "comment": "/**\r\n * Plug-in copy and paste formatting from elements\r\n *\r\n * @module copyformat\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 10381,
+        "lineno": 10392,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10470,18 +10529,18 @@
       "longname": "module:copyformat",
       "scope": "inner",
       "memberof": "module:backspace",
-      "___id": "T000002R002875",
+      "___id": "T000002R002876",
       "___s": true
     },
     {
       "comment": "/**\r\n * Insert default paragraph\r\n *\r\n * @param {Jodit} editor\r\n * @param {Node} [fake]\r\n * @param {String} [wrapperTag]\r\n * @param {CSSStyleSheet} [style]\r\n * @return {HTMLElement}\r\n */",
       "meta": {
         "range": [
-          394716,
-          395448
+          394909,
+          395641
         ],
         "filename": "jodit.js",
-        "lineno": 10473,
+        "lineno": 10484,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10553,18 +10612,18 @@
       "kind": "function",
       "memberof": "module:copyformat",
       "scope": "static",
-      "___id": "T000002R002900",
+      "___id": "T000002R002901",
       "___s": true
     },
     {
       "comment": "/**\r\n * One of most important core plugins. It is responsible for all the browsers to have the same effect when the Enter button is pressed. By default, it should insert the <p>\r\n */",
       "meta": {
         "range": [
-          395635,
-          402898
+          395828,
+          403091
         ],
         "filename": "jodit.js",
-        "lineno": 10494,
+        "lineno": 10505,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10586,18 +10645,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R002904",
+      "___id": "T000002R002905",
       "___s": true
     },
     {
       "comment": "/**\r\n* @property{boolean} showMessageErrors=true\r\n*/",
       "meta": {
         "range": [
-          403383,
-          403433
+          403576,
+          403626
         ],
         "filename": "jodit.js",
-        "lineno": 10646,
+        "lineno": 10657,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10622,18 +10681,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002934",
+      "___id": "T000002R002935",
       "___s": true
     },
     {
       "comment": "/**\r\n* @property{int} showMessageErrorTime=3000 How long show messages\r\n*/",
       "meta": {
         "range": [
-          403512,
-          403565
+          403705,
+          403758
         ],
         "filename": "jodit.js",
-        "lineno": 10650,
+        "lineno": 10661,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10658,18 +10717,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002935",
+      "___id": "T000002R002936",
       "___s": true
     },
     {
       "comment": "/**\r\n* @property{int} showMessageErrorOffsetPx=3 Offset fo message\r\n*/",
       "meta": {
         "range": [
-          403640,
-          403694
+          403833,
+          403887
         ],
         "filename": "jodit.js",
-        "lineno": 10654,
+        "lineno": 10665,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10694,18 +10753,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R002936",
+      "___id": "T000002R002937",
       "___s": true
     },
     {
       "comment": "/**\r\n * Plugin toWYSIWYG display pop-up messages in the lower right corner of the editor\r\n */",
       "meta": {
         "range": [
-          403792,
-          405777
+          403985,
+          405970
         ],
         "filename": "jodit.js",
-        "lineno": 10658,
+        "lineno": 10669,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10730,14 +10789,14 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R002937",
+      "___id": "T000002R002938",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Вывести всплывающее сообщение внизу редактора\r\n         *\r\n         * @event errorMessage\r\n         * @param {string} message  Сообщение\r\n         * @param {string} className Дополнительный класс собобщения. Допускаются info, error, success\r\n         * @param {string} timeout Сколько миллисекунд показывать. По умолчанию используется options.showMessageErrorTime = 2000\r\n         * @example\r\n         * ```javascript\r\n         * parent.events.fire('errorMessage', 'Error 123. File has not been upload');\r\n         * parent.events.fire('errorMessage', 'You can upload file', 'info', 4000);\r\n         * parent.events.fire('errorMessage', 'File was uploaded', 'success', 4000);\r\n         * ```\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 10669,
+        "lineno": 10680,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -10780,18 +10839,18 @@
       "longname": "event:errorMessage",
       "scope": "inner",
       "memberof": "module:copyformat",
-      "___id": "T000002R002943",
+      "___id": "T000002R002944",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process commands `fontsize` and `fontname`\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          409829,
-          410458
+          410022,
+          410651
         ],
         "filename": "jodit.js",
-        "lineno": 10791,
+        "lineno": 10802,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10823,18 +10882,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R002983",
+      "___id": "T000002R002984",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process command - `formatblock`\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          413348,
-          415262
+          413541,
+          415455
         ],
         "filename": "jodit.js",
-        "lineno": 10890,
+        "lineno": 10901,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10865,18 +10924,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003018",
+      "___id": "T000002R003019",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process `toggleFullSize` event, and behavior - set/unset fullsize mode\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          416628,
-          418587
+          416821,
+          418780
         ],
         "filename": "jodit.js",
-        "lineno": 10974,
+        "lineno": 10985,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10913,18 +10972,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003042",
+      "___id": "T000002R003043",
       "___s": true
     },
     {
       "comment": "/**\r\n * When this option is enabled, the editor's content will be placed in an iframe and isolated from the rest of the page.\r\n *\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *    iframe = true;\r\n *    iframeStyle = 'html{margin: 0px;}body{padding:10px;background:transparent;color:#000;position:relative;z-index: 2;user-select:auto;margin:0px;overflow:hidden;}body:after{content:\"\";clear:both;display:block}';\r\n * });\r\n * ```\r\n */",
       "meta": {
         "range": [
-          419472,
-          419512
+          419665,
+          419705
         ],
         "filename": "jodit.js",
-        "lineno": 11053,
+        "lineno": 11064,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10945,18 +11004,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003065",
+      "___id": "T000002R003066",
       "___s": true
     },
     {
       "comment": "/**\r\n * Base URL where the root directory for {@link Jodit.defaultOptions.iframe|iframe} mode\r\n *\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *    iframe: true,\r\n *    iframeBaseUrl: 'http://xdsoft.net/jodit/docs/',\r\n * });\r\n * ```\r\n */",
       "meta": {
         "range": [
-          419769,
-          419813
+          419962,
+          420006
         ],
         "filename": "jodit.js",
-        "lineno": 11065,
+        "lineno": 11076,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -10977,18 +11036,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003066",
+      "___id": "T000002R003067",
       "___s": true
     },
     {
       "comment": "/**\r\n * Custom style toWYSIWYG be used inside the iframe toWYSIWYG display content.\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *    iframe: true,\r\n *    iframeStyle: 'html{margin: 0px;}',\r\n * })\r\n * ```\r\n */",
       "meta": {
         "range": [
-          420042,
-          421702
+          420235,
+          421895
         ],
         "filename": "jodit.js",
-        "lineno": 11076,
+        "lineno": 11087,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11009,18 +11068,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003067",
+      "___id": "T000002R003068",
       "___s": true
     },
     {
       "comment": "/**\r\n * Custom stylesheet files toWYSIWYG be used inside the iframe toWYSIWYG display content.\r\n *\r\n * @example\r\n * ```javascript\r\n * new Jodit('#editor', {\r\n *    iframe: true,\r\n *    iframeCSSLinks: ['styles/default.css'],\r\n * })\r\n * ```\r\n */",
       "meta": {
         "range": [
-          421951,
-          421996
+          422144,
+          422189
         ],
         "filename": "jodit.js",
-        "lineno": 11153,
+        "lineno": 11164,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11041,18 +11100,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003068",
+      "___id": "T000002R003069",
       "___s": true
     },
     {
       "comment": "/**\r\n * Iframe plugin - use `iframe` instead of DIV in editor. It can be need when you want attach custom styles in editor in backend of you system\r\n */",
       "meta": {
         "range": [
-          422153,
-          425806
+          422346,
+          425999
         ],
         "filename": "jodit.js",
-        "lineno": 11157,
+        "lineno": 11168,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11074,18 +11133,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003069",
+      "___id": "T000002R003070",
       "___s": true
     },
     {
       "comment": "/**\r\n * The number of pixels to use for indenting the current line.\r\n * @type {number}\r\n */",
       "meta": {
         "range": [
-          426910,
-          426953
+          427103,
+          427146
         ],
         "filename": "jodit.js",
-        "lineno": 11264,
+        "lineno": 11275,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11108,18 +11167,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003096",
+      "___id": "T000002R003097",
       "___s": true
     },
     {
       "comment": "/**\r\n * Indents the line containing the selection or insertion point.\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          427058,
-          428466
+          427251,
+          428659
         ],
         "filename": "jodit.js",
-        "lineno": 11269,
+        "lineno": 11280,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11151,18 +11210,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003097",
+      "___id": "T000002R003098",
       "___s": true
     },
     {
       "comment": "/**\r\n * Change editor's size after load all images\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          429015,
-          429952
+          429208,
+          430145
         ],
         "filename": "jodit.js",
-        "lineno": 11325,
+        "lineno": 11336,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11193,18 +11252,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003113",
+      "___id": "T000002R003114",
       "___s": true
     },
     {
       "comment": "/**\r\n * Show dialog with image's options\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          431191,
-          455624
+          431384,
+          455817
         ],
         "filename": "jodit.js",
-        "lineno": 11391,
+        "lineno": 11402,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11236,18 +11295,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003142",
+      "___id": "T000002R003143",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Open dialog editing image properties\r\n     *\r\n     * @example\r\n     * ```javascript\r\n     * var editor = new Jodit('#editor');\r\n     *     img = editor.editorDocument.createElement('img');\r\n     *\r\n     * img.setAttribute('src', 'images/someimage.png');\r\n     * editor.{@link Selection~select|select}(img);\r\n     * // open the properties of the editing window\r\n     * editor.plugins.image.open.call(img); // `this` must be HTMLImageElement\r\n     * ```\r\n     */",
       "meta": {
         "range": [
-          431713,
-          455102
+          431906,
+          455295
         ],
         "filename": "jodit.js",
-        "lineno": 11406,
+        "lineno": 11417,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11300,18 +11359,18 @@
       "memberof": "<anonymous>~imageProperties",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003143",
+      "___id": "T000002R003144",
       "___s": true
     },
     {
       "comment": "/**\r\n * Support inline toolbar\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          465143,
-          473411
+          465336,
+          473604
         ],
         "filename": "jodit.js",
-        "lineno": 12120,
+        "lineno": 12131,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11337,18 +11396,18 @@
       "kind": "member",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003340",
+      "___id": "T000002R003341",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process commands: `justifyfull`, `justifyleft`, `justifyright`, `justifycenter`\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          476343,
-          478156
+          476536,
+          478349
         ],
         "filename": "jodit.js",
-        "lineno": 12370,
+        "lineno": 12381,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11380,14 +11439,14 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003433",
+      "___id": "T000002R003434",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process link. Insert, dbclick or remove format\r\n *\r\n * @module plugins/link\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 12539,
+        "lineno": 12550,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -11398,18 +11457,18 @@
       "longname": "module:plugins/link",
       "scope": "inner",
       "memberof": "module:copyformat",
-      "___id": "T000002R003476",
+      "___id": "T000002R003477",
       "___s": true
     },
     {
       "comment": "/**\r\n * After resize it will change buttons set for different sizes\r\n *\r\n * @type {boolean}\r\n */",
       "meta": {
         "range": [
-          486246,
-          486294
+          486439,
+          486487
         ],
         "filename": "jodit.js",
-        "lineno": 12626,
+        "lineno": 12637,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11432,18 +11491,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003498",
+      "___id": "T000002R003499",
       "___s": true
     },
     {
       "comment": "/**\r\n * Rebuild toolbar in depends of editor's width\r\n */",
       "meta": {
         "range": [
-          487268,
-          489088
+          487461,
+          489281
         ],
         "filename": "jodit.js",
-        "lineno": 12652,
+        "lineno": 12663,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11468,18 +11527,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003510",
+      "___id": "T000002R003511",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process commands insertOrderedList and insertUnOrderedList\r\n */",
       "meta": {
         "range": [
-          489916,
-          490810
+          490109,
+          491003
         ],
         "filename": "jodit.js",
-        "lineno": 12729,
+        "lineno": 12740,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11501,14 +11560,14 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003537",
+      "___id": "T000002R003538",
       "___s": true
     },
     {
       "comment": "/**\r\n * Ask before paste HTML source\r\n *\r\n * @module insertHTML\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 12777,
+        "lineno": 12788,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -11519,14 +11578,14 @@
       "longname": "module:insertHTML",
       "scope": "inner",
       "memberof": "module:plugins/link",
-      "___id": "T000002R003554",
+      "___id": "T000002R003555",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Triggered before pasting something into the Jodit Editor\r\n         *\r\n         * @event beforePaste\r\n         * @param {ClipboardEvent} event\r\n         * @return Returning false in the handler assigned toWYSIWYG the event will cancel the current action.\r\n         * @example\r\n         * ```javascript\r\n         * var editor = new Jodit(\"#redactor\");\r\n         * editor.events.on('beforePaste', function (event) {\r\n             *     return false; // deny paste\r\n             * });\r\n         * ```\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 12901,
+        "lineno": 12912,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -11555,14 +11614,14 @@
       "longname": "event:beforePaste",
       "scope": "inner",
       "memberof": "module:insertHTML",
-      "___id": "T000002R003586",
+      "___id": "T000002R003587",
       "___s": true
     },
     {
       "comment": "/**\r\n                 * Triggered after the content is pasted from the clipboard into the Jodit. If a string is returned the new string will be used as the pasted content.\r\n                 *\r\n                 * @event beforePaste\r\n                 * @param {ClipboardEvent} event\r\n                 * @return Return {string|undefined}\r\n                 * @example\r\n                 * ```javascript\r\n                 * var editor = new Jodit(\"#redactor\");\r\n                 * editor.events.on('beforePaste', function (event) {\r\n                     *     return false; // deny paste\r\n                     * });\r\n                 * ```\r\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 12939,
+        "lineno": 12950,
         "columnno": 16,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -11597,14 +11656,14 @@
       "longname": "event:beforePaste",
       "scope": "inner",
       "memberof": "module:insertHTML",
-      "___id": "T000002R003598",
+      "___id": "T000002R003599",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Triggered after pasting something into the Jodit\r\n         *\r\n         * @event afterPaste\r\n         * @param {ClipboardEvent} event\r\n         * @return Return {string|undefined}\r\n         * @example\r\n         * ```javascript\r\n         * var editor = new Jodit(\"#redactor\");\r\n         * editor.events.on('afterPaste', function (event) {\r\n             *     return false; // deny paste\r\n             * });\r\n         * ```\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 12967,
+        "lineno": 12978,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -11639,18 +11698,18 @@
       "longname": "event:afterPaste",
       "scope": "inner",
       "memberof": "module:insertHTML",
-      "___id": "T000002R003601",
+      "___id": "T000002R003602",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property {boolean} useInputsPlaceholder=true use a placeholder from original input field, if it was set\r\n * @example\r\n * ```javascript\r\n * //<textarea id=\"editor\" placeholder=\"start typing text ...\" cols=\"30\" rows=\"10\"></textarea>\r\n * var editor = new Jodit('#editor', {\r\n *    useInputsPlaceholder: true\r\n * });\r\n * ```\r\n */",
       "meta": {
         "range": [
-          505598,
-          505651
+          505791,
+          505844
         ],
         "filename": "jodit.js",
-        "lineno": 13089,
+        "lineno": 13100,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11682,18 +11741,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003620",
+      "___id": "T000002R003621",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property {string} placeholder='Type something' Default placeholder\r\n * @example\r\n * ```javascript\r\n * var editor = new Jodit('#editor', {\r\n *    placeholder: 'start typing text ...'\r\n * });\r\n * ```\r\n */",
       "meta": {
         "range": [
-          505867,
-          505923
+          506060,
+          506116
         ],
         "filename": "jodit.js",
-        "lineno": 13099,
+        "lineno": 13110,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11725,18 +11784,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003621",
+      "___id": "T000002R003622",
       "___s": true
     },
     {
       "comment": "/**\r\n * Show placeholder inside empty editor\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          506007,
-          509231
+          506200,
+          509424
         ],
         "filename": "jodit.js",
-        "lineno": 13105,
+        "lineno": 13116,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11775,18 +11834,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003622",
+      "___id": "T000002R003623",
       "___s": true
     },
     {
       "comment": "/**\r\n * Custom process Redo and Undo functionality\r\n */",
       "meta": {
         "range": [
-          510638,
-          511342
+          510831,
+          511535
         ],
         "filename": "jodit.js",
-        "lineno": 13226,
+        "lineno": 13237,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11803,18 +11862,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003668",
+      "___id": "T000002R003669",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property{boolean} useTableResizer=true Use true frame for editing table size\r\n */",
       "meta": {
         "range": [
-          511962,
-          512010
+          512155,
+          512203
         ],
         "filename": "jodit.js",
-        "lineno": 13270,
+        "lineno": 13281,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11839,18 +11898,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003682",
+      "___id": "T000002R003683",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property{boolean} useImageResizer=true Use true image editing frame size\r\n */",
       "meta": {
         "range": [
-          512101,
-          512149
+          512294,
+          512342
         ],
         "filename": "jodit.js",
-        "lineno": 13274,
+        "lineno": 13285,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11875,18 +11934,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003683",
+      "___id": "T000002R003684",
       "___s": true
     },
     {
       "comment": "/**\r\n * @property {object} resizer\r\n * @property {int} resizer.min_width=10 The minimum width for the editable element\r\n * @property {int} resizer.min_height=10 The minimum height for the item being edited\r\n * @property {boolean} resizer.showSize=true Show size\r\n */",
       "meta": {
         "range": [
-          512420,
-          512521
+          512613,
+          512714
         ],
         "filename": "jodit.js",
-        "lineno": 13281,
+        "lineno": 13292,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -11943,18 +12002,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R003684",
+      "___id": "T000002R003685",
       "___s": true
     },
     {
       "comment": "/**\r\n * Resize table and img\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          512585,
-          523652
+          512778,
+          523845
         ],
         "filename": "jodit.js",
-        "lineno": 13290,
+        "lineno": 13301,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12008,18 +12067,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003688",
+      "___id": "T000002R003689",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Bind an edit element toWYSIWYG element\r\n     * @param {HTMLElement} element The element that you want toWYSIWYG add a function toWYSIWYG resize\r\n     */",
       "meta": {
         "range": [
-          515656,
-          518043
+          515849,
+          518236
         ],
         "filename": "jodit.js",
-        "lineno": 13349,
+        "lineno": 13360,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12055,18 +12114,18 @@
       "kind": "function",
       "memberof": "<anonymous>~resizer",
       "scope": "inner",
-      "___id": "T000002R003730",
+      "___id": "T000002R003731",
       "___s": true
     },
     {
       "comment": "/**\r\n * Resize editor\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          524238,
-          528681
+          524431,
+          528874
         ],
         "filename": "jodit.js",
-        "lineno": 13560,
+        "lineno": 13571,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12107,18 +12166,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R003771",
+      "___id": "T000002R003772",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Show gutter\r\n     */",
       "meta": {
         "range": [
-          529932,
-          529948
+          530125,
+          530141
         ],
         "filename": "jodit.js",
-        "lineno": 13691,
+        "lineno": 13702,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12134,18 +12193,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#sourceEditorNativeOptions",
       "scope": "static",
-      "___id": "T000002R003821",
+      "___id": "T000002R003822",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Default theme\r\n     */",
       "meta": {
         "range": [
-          529995,
-          530026
+          530188,
+          530219
         ],
         "filename": "jodit.js",
-        "lineno": 13695,
+        "lineno": 13706,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12161,18 +12220,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#sourceEditorNativeOptions",
       "scope": "static",
-      "___id": "T000002R003822",
+      "___id": "T000002R003823",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Default mode\r\n     */",
       "meta": {
         "range": [
-          530072,
-          530093
+          530265,
+          530286
         ],
         "filename": "jodit.js",
-        "lineno": 13699,
+        "lineno": 13710,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12188,18 +12247,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#sourceEditorNativeOptions",
       "scope": "static",
-      "___id": "T000002R003823",
+      "___id": "T000002R003824",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Wrap lines. Possible values - \"off\", 80-100..., true, \"free\"\r\n     */",
       "meta": {
         "range": [
-          530187,
-          530197
+          530380,
+          530390
         ],
         "filename": "jodit.js",
-        "lineno": 13703,
+        "lineno": 13714,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12215,18 +12274,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#sourceEditorNativeOptions",
       "scope": "static",
-      "___id": "T000002R003824",
+      "___id": "T000002R003825",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Highlight active line\r\n     */",
       "meta": {
         "range": [
-          530252,
-          530277
+          530445,
+          530470
         ],
         "filename": "jodit.js",
-        "lineno": 13707,
+        "lineno": 13718,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12242,14 +12301,14 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#sourceEditorNativeOptions",
       "scope": "static",
-      "___id": "T000002R003825",
+      "___id": "T000002R003826",
       "___s": true
     },
     {
       "comment": "/**\r\n * Plug-in change simple textarea on CodeMirror editor in Source code mode\r\n *\r\n * @module source\r\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 13726,
+        "lineno": 13737,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12260,18 +12319,18 @@
       "longname": "module:source",
       "scope": "inner",
       "memberof": "module:insertHTML",
-      "___id": "T000002R003833",
+      "___id": "T000002R003834",
       "___s": true
     },
     {
       "comment": "/**\r\n * The plugin inserts characters that are not part of the standard keyboard.\r\n */",
       "meta": {
         "range": [
-          553657,
-          557923
+          553850,
+          558116
         ],
         "filename": "jodit.js",
-        "lineno": 14194,
+        "lineno": 14205,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12288,18 +12347,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R003985",
+      "___id": "T000002R003986",
       "___s": true
     },
     {
       "comment": "/**\r\n * You can redefine hotkeys for some command\r\n *\r\n * var jodit = new Jodit('#editor', {\r\n *  commandToHotkeys: {\r\n *      bold: 'ctrl+shift+b',\r\n *      italic: ['ctrl+i', 'ctrl+b'],\r\n *  }\r\n * })\r\n * @type {{}}\r\n */",
       "meta": {
         "range": [
-          559128,
-          559320
+          559321,
+          559513
         ],
         "filename": "jodit.js",
-        "lineno": 14309,
+        "lineno": 14320,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12322,18 +12381,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1",
       "scope": "static",
-      "___id": "T000002R004026",
+      "___id": "T000002R004027",
       "___s": true
     },
     {
       "comment": "/**\r\n * Allow set hotkey for command or button\r\n */",
       "meta": {
         "range": [
-          559380,
-          564950
+          559573,
+          565143
         ],
         "filename": "jodit.js",
-        "lineno": 14318,
+        "lineno": 14329,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12350,18 +12409,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R004031",
+      "___id": "T000002R004032",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process tables in editor\r\n */",
       "meta": {
         "range": [
-          573248,
-          590239
+          573441,
+          590432
         ],
         "filename": "jodit.js",
-        "lineno": 14665,
+        "lineno": 14676,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12378,18 +12437,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R004230",
+      "___id": "T000002R004231",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {Jodit} editor\r\n     */",
       "meta": {
         "range": [
-          573401,
-          583974
+          573594,
+          584167
         ],
         "filename": "jodit.js",
-        "lineno": 14671,
+        "lineno": 14682,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12426,18 +12485,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R004231",
+      "___id": "T000002R004232",
       "___s": true
     },
     {
       "comment": "/**\r\n         *\r\n         * @param {string} command\r\n         */",
       "meta": {
         "range": [
-          577041,
-          579397
+          577234,
+          579590
         ],
         "filename": "jodit.js",
-        "lineno": 14738,
+        "lineno": 14749,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12472,18 +12531,18 @@
       "kind": "function",
       "memberof": "<anonymous>~TableProcessor~_this",
       "scope": "static",
-      "___id": "T000002R004260",
+      "___id": "T000002R004261",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableElement} [table]\r\n     * @param {HTMLTableCellElement} [current_cell]\r\n     * @private\r\n     */",
       "meta": {
         "range": [
-          584118,
-          584567
+          584311,
+          584760
         ],
         "filename": "jodit.js",
-        "lineno": 14875,
+        "lineno": 14886,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12527,18 +12586,18 @@
       "kind": "function",
       "memberof": "<anonymous>~TableProcessor",
       "scope": "instance",
-      "___id": "T000002R004283",
+      "___id": "T000002R004284",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @param {HTMLTableCellElement} cell\r\n     * @param {boolean|null} [wholeTable=null] true - resize whole table by left side, false - resize whole table by right side, null - resize column\r\n     * @private\r\n     */",
       "meta": {
         "range": [
-          584921,
-          585262
+          585114,
+          585455
         ],
         "filename": "jodit.js",
-        "lineno": 14894,
+        "lineno": 14905,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12587,18 +12646,18 @@
       "kind": "function",
       "memberof": "<anonymous>~TableProcessor",
       "scope": "instance",
-      "___id": "T000002R004286",
+      "___id": "T000002R004287",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Calc helper resizer position\r\n     *\r\n     * @param {HTMLTableElement} table\r\n     * @param {HTMLTableCellElement} cell\r\n     * @param {int} [offsetX=0]\r\n     * @param {int} [delta=0]\r\n     *\r\n     * @private\r\n     */",
       "meta": {
         "range": [
-          585504,
-          586923
+          585697,
+          587116
         ],
         "filename": "jodit.js",
-        "lineno": 14910,
+        "lineno": 14921,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12671,14 +12730,14 @@
       "kind": "function",
       "memberof": "<anonymous>~TableProcessor",
       "scope": "instance",
-      "___id": "T000002R004291",
+      "___id": "T000002R004292",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Set cookie value\r\n     *\r\n     * @method set\r\n     * @param {string|number} name\r\n     * @param {string|number} value\r\n     * @param {int} [days] if it value < 0 cookie removed\r\n     * @example\r\n     * ```javascript\r\n     * Jodit.modules.Cookie.set('somename', somevalue, 5);\r\n     * ```\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15027,
+        "lineno": 15038,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12722,14 +12781,14 @@
       "longname": "module:source~set",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004330",
+      "___id": "T000002R004331",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Get cookie value by key\r\n     *\r\n     * @method get\r\n     * @param {string} name\r\n     * @return {string}\r\n     * @example\r\n     * ```javascript\r\n     * console.log(Jodit.modules.Cookie.get('somename'));\r\n     * ```\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15051,
+        "lineno": 15062,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12762,14 +12821,14 @@
       "longname": "module:source~get",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004338",
+      "___id": "T000002R004339",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Remove cookie by key\r\n     *\r\n     * @method remove\r\n     * @param {string} name\r\n     * @example\r\n     * ```javascript\r\n     * Jodit.modules.Cookie.remove('somename');\r\n     * ```\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15075,
+        "lineno": 15086,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12793,18 +12852,18 @@
       "longname": "module:source~remove",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004348",
+      "___id": "T000002R004349",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Container for set/get value\r\n         * @type {Storage}\r\n         */",
       "meta": {
         "range": [
-          599894,
-          599969
+          600087,
+          600162
         ],
         "filename": "jodit.js",
-        "lineno": 15285,
+        "lineno": 15296,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -12827,14 +12886,14 @@
       "kind": "member",
       "memberof": "<anonymous>~FileBrowser~_this",
       "scope": "static",
-      "___id": "T000002R004471",
+      "___id": "T000002R004472",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Get path by url. You can use this method in another modules\r\n         *\r\n         * @method getPathByUrl\r\n         * @param {string} url Full url\r\n         * @param {function} success\r\n         * @param {string} success.path path toWYSIWYG file from connector's root (without filename)\r\n         * @param {string} success.name filename\r\n         * @param {function} onFailed filename\r\n         * @param {string} onFailed.message\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15301,
+        "lineno": 15312,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12899,14 +12958,14 @@
       "longname": "module:source~getPathByUrl",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004479",
+      "___id": "T000002R004480",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Create a directory on the server\r\n         *\r\n         * @method create\r\n         * @param {string} name Name the new folder\r\n         * @param {string} path Relative toWYSIWYG the directory in which you want toWYSIWYG create a folder\r\n         * @param {string} source Server source key\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15352,
+        "lineno": 15363,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12946,14 +13005,14 @@
       "longname": "module:source~create",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004492",
+      "___id": "T000002R004493",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Move a file / directory on the server\r\n         *\r\n         * @method move\r\n         * @param {string} filepath The relative path toWYSIWYG the file / folder source\r\n         * @param {string} path Relative toWYSIWYG the directory where you want toWYSIWYG move the file / folder\r\n         * @param {string} source Source\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15377,
+        "lineno": 15388,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -12993,14 +13052,14 @@
       "longname": "module:source~move",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004499",
+      "___id": "T000002R004500",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Close dialog\r\n         * @method close\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15400,
+        "lineno": 15411,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13011,14 +13070,14 @@
       "longname": "module:source~close",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004504",
+      "___id": "T000002R004505",
       "___s": true
     },
     {
       "comment": "/**\r\n         * It opens a web browser window\r\n         *\r\n         * @method open\r\n         * @param {Function} callback The function that will be called after the file selection in the browser\r\n         * @example\r\n         * ```javascript\r\n         * var fb = new Jodit.modules.FileBrowser(parent);\r\n         * fb.open(function (data) {\r\n         *     var i;\r\n         *     for (i = 0;i < data.files.length; i += 1) {\r\n         *         parent.selection.insertImage(data.baseurl + data.files[i]);\r\n         *     }\r\n         * });\r\n         * ```\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15407,
+        "lineno": 15418,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13043,14 +13102,14 @@
       "longname": "module:source~open",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004506",
+      "___id": "T000002R004507",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Open Image Editor\r\n         *\r\n         * @method openImageEditor\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15472,
+        "lineno": 15483,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13061,18 +13120,18 @@
       "longname": "module:source~openImageEditor",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004520",
+      "___id": "T000002R004521",
       "___s": true
     },
     {
       "comment": "/**\r\n     *\r\n     * @return {boolean}\r\n     */",
       "meta": {
         "range": [
-          628939,
-          629073
+          629132,
+          629266
         ],
         "filename": "jodit.js",
-        "lineno": 15817,
+        "lineno": 15828,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13097,14 +13156,14 @@
       "kind": "function",
       "memberof": "<anonymous>~FileBrowser",
       "scope": "instance",
-      "___id": "T000002R004620",
+      "___id": "T000002R004621",
       "___s": true
     },
     {
       "comment": "/**\r\n     * It displays a message in the status bar of filebrowser\r\n     *\r\n     * @method status\r\n     * @param {string} message Message\r\n     * @param {boolean} [success] true It will be shown a message light . If no option is specified , an error will be shown the red\r\n     * @example\r\n     * ```javascript\r\n     * parent.filebrowser.status('There was an error uploading file', false);\r\n     * ```\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15820,
+        "lineno": 15831,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13139,14 +13198,14 @@
       "longname": "module:source~status",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004621",
+      "___id": "T000002R004622",
       "___s": true
     },
     {
       "comment": "/**\r\n     * Deleting a file / directory on the server\r\n     *\r\n     * @method remove\r\n     * @param {string} path Relative toWYSIWYG the directory\r\n     * @param {string} file The filename\r\n     * @param {string} source Source\r\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15987,
+        "lineno": 15998,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13186,18 +13245,18 @@
       "longname": "module:source~remove",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004665",
+      "___id": "T000002R004666",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.closeAfterSave=false Close editor after save image\r\n     */",
       "meta": {
         "range": [
-          639939,
-          639960
+          640132,
+          640153
         ],
         "filename": "jodit.js",
-        "lineno": 16073,
+        "lineno": 16084,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13220,18 +13279,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004697",
+      "___id": "T000002R004698",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{string|int} imageeditor.width=85% Default dialog width by screen\r\n     */",
       "meta": {
         "range": [
-          640068,
-          640080
+          640261,
+          640273
         ],
         "filename": "jodit.js",
-        "lineno": 16077,
+        "lineno": 16088,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13254,18 +13313,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004698",
+      "___id": "T000002R004699",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{string|int} imageeditor.height=85% Default dialog height by screen\r\n     */",
       "meta": {
         "range": [
-          640190,
-          640203
+          640383,
+          640396
         ],
         "filename": "jodit.js",
-        "lineno": 16081,
+        "lineno": 16092,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13288,18 +13347,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004699",
+      "___id": "T000002R004700",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.crop=true Show tab cropping\r\n     */",
       "meta": {
         "range": [
-          640295,
-          640305
+          640488,
+          640498
         ],
         "filename": "jodit.js",
-        "lineno": 16085,
+        "lineno": 16096,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13322,18 +13381,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004700",
+      "___id": "T000002R004701",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.resize=true Show tab resizing\r\n     */",
       "meta": {
         "range": [
-          640399,
-          640411
+          640592,
+          640604
         ],
         "filename": "jodit.js",
-        "lineno": 16089,
+        "lineno": 16100,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13356,18 +13415,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004701",
+      "___id": "T000002R004702",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.resizeUseRatio=true Keep aspect ratio on resize\r\n     */",
       "meta": {
         "range": [
-          640523,
-          640543
+          640716,
+          640736
         ],
         "filename": "jodit.js",
-        "lineno": 16093,
+        "lineno": 16104,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13390,18 +13449,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004702",
+      "___id": "T000002R004703",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{int} imageeditor.resizeMinWidth=20 minimal width on resize\r\n     */",
       "meta": {
         "range": [
-          640645,
-          640663
+          640838,
+          640856
         ],
         "filename": "jodit.js",
-        "lineno": 16097,
+        "lineno": 16108,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13424,18 +13483,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004703",
+      "___id": "T000002R004704",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.resizeMinHeight=20 minimal height on resize\r\n     */",
       "meta": {
         "range": [
-          640771,
-          640790
+          640964,
+          640983
         ],
         "filename": "jodit.js",
-        "lineno": 16101,
+        "lineno": 16112,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13458,18 +13517,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004704",
+      "___id": "T000002R004705",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{boolean} imageeditor.cropUseRatio=true Keep aspect ratio on crop\r\n     */",
       "meta": {
         "range": [
-          640898,
-          640916
+          641091,
+          641109
         ],
         "filename": "jodit.js",
-        "lineno": 16105,
+        "lineno": 16116,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13492,18 +13551,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004705",
+      "___id": "T000002R004706",
       "___s": true
     },
     {
       "comment": "/**\r\n     * @property{string} imageeditor.cropDefaultWidth=70% In the tab, crop the image is displayed not in real size. Boxing default size for it\r\n     * @property{string} imageeditor.cropDefaultHeight=70%\r\n     */",
       "meta": {
         "range": [
-          641145,
-          641168
+          641338,
+          641361
         ],
         "filename": "jodit.js",
-        "lineno": 16110,
+        "lineno": 16121,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13532,18 +13591,18 @@
       "kind": "member",
       "memberof": "<anonymous>~Config_1.Config#imageeditor",
       "scope": "static",
-      "___id": "T000002R004706",
+      "___id": "T000002R004707",
       "___s": true
     },
     {
       "comment": "/**\r\n * The module allows you toWYSIWYG edit the image: resize or cut any part of it\r\n *\r\n */",
       "meta": {
         "range": [
-          641305,
-          669517
+          641498,
+          669710
         ],
         "filename": "jodit.js",
-        "lineno": 16117,
+        "lineno": 16128,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13560,14 +13619,14 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R004708",
+      "___id": "T000002R004709",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Hide image editor\r\n         *\r\n         * @method hide\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16125,
+        "lineno": 16136,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13578,14 +13637,14 @@
       "longname": "module:source~hide",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004715",
+      "___id": "T000002R004716",
       "___s": true
     },
     {
       "comment": "/**\r\n         * Open image editor\r\n         *\r\n         * @method open\r\n         * @param {string} url\r\n         * @param {function} save\r\n         * @param {string} [save.name] new filename\r\n         * @param {object} save.data Bound box for resize and crop operation\r\n         * @param {string} save.data.action resize or crop\r\n         * @param {object} save.data.box Bound box\r\n         * @param {function} save.success called after success operation\r\n         * @param {function} save.failed called after failed operation\r\n         * @example\r\n         * ```javascript\r\n         * var jodit = new Jodit('.editor', {\r\n         *     imageeditor: {\r\n         *         crop: false,\r\n         *         closeAfterSave: true,\r\n         *         width: 500\r\n         *     }\r\n         * });\r\n         * jodit.imageeditor.open('http://xdsoft.net/jodit/images/test.png', function (name, data, success, failed) {\r\n         *     var img = jodit.node.create('img');\r\n         *     img.setAttribute('src', 'http://xdsoft.net/jodit/images/test.png');\r\n         *     if (box.action !== 'resize') {\r\n         *          return failed('Sorry it is work only in resize mode. For croping use FileBrowser');\r\n         *     }\r\n         *     img.style.width = data.w;\r\n         *     img.style.height = data.h;\r\n         *     jodit.selection.insertNode(img);\r\n         *     success();\r\n         * });\r\n         * ```\r\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16212,
+        "lineno": 16223,
         "columnno": 8,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {}
@@ -13672,18 +13731,18 @@
       "longname": "module:source~open",
       "scope": "inner",
       "memberof": "module:source",
-      "___id": "T000002R004764",
+      "___id": "T000002R004765",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process navigate keypressing in table cell\r\n *\r\n * @param {Jodit} editor\r\n */",
       "meta": {
         "range": [
-          670045,
-          674094
+          670238,
+          674287
         ],
         "filename": "jodit.js",
-        "lineno": 16645,
+        "lineno": 16656,
         "columnno": 0,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13714,18 +13773,18 @@
       "kind": "function",
       "memberof": "<anonymous>",
       "scope": "inner",
-      "___id": "T000002R004870",
+      "___id": "T000002R004871",
       "___s": true
     },
     {
       "comment": "/**\r\n * Search plugin. it is used for custom search in text\r\n * ![search](https://user-images.githubusercontent.com/794318/34545433-cd0a9220-f10e-11e7-8d26-7e22f66e266d.gif)\r\n *\r\n * @example\r\n * ```typescript\r\n * var jodit = new Jodit('#editor', {\r\n *  useSearch: false\r\n * });\r\n * // or\r\n * var jodit = new Jodit('#editor', {\r\n *  disablePlugins: 'search'\r\n * });\r\n * ```\r\n */",
       "meta": {
         "range": [
-          675613,
-          694152
+          675806,
+          694345
         ],
         "filename": "jodit.js",
-        "lineno": 16769,
+        "lineno": 16780,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13745,18 +13804,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R004907",
+      "___id": "T000002R004908",
       "___s": true
     },
     {
       "comment": "/**\r\n * Show stat data - words and chars count\r\n */",
       "meta": {
         "range": [
-          699343,
-          700845
+          699536,
+          701038
         ],
         "filename": "jodit.js",
-        "lineno": 17255,
+        "lineno": 17266,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13773,18 +13832,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R005086",
+      "___id": "T000002R005087",
       "___s": true
     },
     {
       "comment": "/**\r\n * Show path to current element in status bar\r\n */",
       "meta": {
         "range": [
-          702532,
-          707359
+          702725,
+          707552
         ],
         "filename": "jodit.js",
-        "lineno": 17336,
+        "lineno": 17347,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13801,18 +13860,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R005126",
+      "___id": "T000002R005127",
       "___s": true
     },
     {
       "comment": "/**\r\n * Process drag and drop image from FileBrowser and movev image inside the editor\r\n */",
       "meta": {
         "range": [
-          708471,
-          713467
+          708664,
+          713660
         ],
         "filename": "jodit.js",
-        "lineno": 17472,
+        "lineno": 17483,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13829,18 +13888,18 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R005176",
+      "___id": "T000002R005177",
       "___s": true
     },
     {
       "comment": "/**\r\n * Show dialog choose content to paste\r\n */",
       "meta": {
         "range": [
-          714551,
-          720156
+          714744,
+          720349
         ],
         "filename": "jodit.js",
-        "lineno": 17610,
+        "lineno": 17621,
         "columnno": 4,
         "path": "K:\\OpenServer\\domains\\xdan\\jodit\\build",
         "code": {
@@ -13857,7 +13916,7 @@
       "memberof": "<anonymous>",
       "scope": "inner",
       "params": [],
-      "___id": "T000002R005234",
+      "___id": "T000002R005235",
       "___s": true
     },
     {
@@ -13866,7 +13925,7 @@
       "files": [
         "K:\\OpenServer\\domains\\xdan\\jodit\\build\\jodit.js"
       ],
-      "___id": "T000002R006237",
+      "___id": "T000002R006238",
       "___s": true
     }
   ]

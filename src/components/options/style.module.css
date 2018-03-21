@@ -1,10 +1,15 @@
+.root h1,
+.root h2{
+    font-weight: 200;
+    margin-top:0;
+}
 .options {
     display: flex;
     flex:1;
 }
 
 .options > div {
-    width: 25%;
+    width: 33.33333333%;
     /*order: 1;*/
 }
 .options a {
@@ -61,4 +66,28 @@
 }
 .code > pre {
     margin: 0
+}
+.root {
+    position: relative;
+}
+.root .backLink{
+    display: block;
+}
+.root .backLink a{
+    color: #0098f7;
+}
+
+.search {
+    position: absolute;
+    top: 0;
+    right:0;
+}
+.search input {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 10px 10px;
+    outline: 0;
+}
+.search input:focus {
+    background-color: #ffffff;
 }
