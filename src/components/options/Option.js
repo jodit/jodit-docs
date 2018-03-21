@@ -75,7 +75,10 @@ export const Tag = (tag, index) => {
                 <SyntaxHighlighter showLineNumbers={false} language='javascript' style={codeStyle}>{code}</SyntaxHighlighter>
             </div>)
         }
-        default: return '';
+        default: return (<div key={index} >
+            <label>{tag.tag}</label>
+            <div>{tag.text}</div>
+        </div>);
     }
 };
 
