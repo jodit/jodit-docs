@@ -16020,7 +16020,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 347,
+											"line": 342,
 											"character": 19
 										}
 									],
@@ -16043,7 +16043,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 150,
+									"line": 145,
 									"character": 20
 								}
 							]
@@ -16061,7 +16061,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 149,
+							"line": 144,
 							"character": 26
 						}
 					]
@@ -16137,7 +16137,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 581,
+									"line": 576,
 									"character": 24
 								}
 							],
@@ -16159,7 +16159,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1181,
+									"line": 1176,
 									"character": 18
 								}
 							],
@@ -16181,7 +16181,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1103,
+									"line": 1098,
 									"character": 19
 								}
 							],
@@ -16203,7 +16203,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 556,
+									"line": 551,
 									"character": 32
 								}
 							],
@@ -16234,7 +16234,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1182,
+									"line": 1177,
 									"character": 25
 								}
 							],
@@ -16256,7 +16256,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 547,
+									"line": 542,
 									"character": 19
 								}
 							],
@@ -16277,7 +16277,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 552,
+									"line": 547,
 									"character": 19
 								}
 							],
@@ -16316,7 +16316,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 552,
+											"line": 547,
 											"character": 20
 										}
 									]
@@ -16334,7 +16334,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 536,
+									"line": 531,
 									"character": 18
 								}
 							],
@@ -16355,7 +16355,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 534,
+									"line": 529,
 									"character": 15
 								}
 							],
@@ -16376,7 +16376,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 535,
+									"line": 530,
 									"character": 17
 								}
 							],
@@ -16398,7 +16398,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 538,
+									"line": 533,
 									"character": 18
 								}
 							],
@@ -16420,7 +16420,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 987,
+									"line": 982,
 									"character": 19
 								}
 							],
@@ -16450,7 +16450,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 581,
+									"line": 576,
 									"character": 10
 								}
 							],
@@ -16475,7 +16475,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 574,
+									"line": 569,
 									"character": 18
 								}
 							],
@@ -16501,7 +16501,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 575,
+									"line": 570,
 									"character": 16
 								}
 							],
@@ -16527,7 +16527,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 572,
+									"line": 567,
 									"character": 10
 								}
 							],
@@ -16554,7 +16554,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 550,
+									"line": 545,
 									"character": 17
 								}
 							],
@@ -16575,7 +16575,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1061,
+									"line": 1056,
 									"character": 22
 								}
 							],
@@ -16631,7 +16631,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 546,
+									"line": 541,
 									"character": 18
 								}
 							],
@@ -16651,7 +16651,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 533,
+									"line": 528,
 									"character": 11
 								}
 							],
@@ -16672,7 +16672,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 577,
+									"line": 572,
 									"character": 17
 								}
 							],
@@ -16697,7 +16697,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 578,
+									"line": 573,
 									"character": 15
 								}
 							],
@@ -16722,7 +16722,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 580,
+									"line": 575,
 									"character": 16
 								}
 							],
@@ -16748,7 +16748,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 976,
+									"line": 971,
 									"character": 18
 								}
 							],
@@ -16770,7 +16770,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 548,
+									"line": 543,
 									"character": 23
 								}
 							],
@@ -16791,7 +16791,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 998,
+									"line": 993,
 									"character": 23
 								}
 							],
@@ -16820,7 +16820,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 544,
+									"line": 539,
 									"character": 11
 								}
 							],
@@ -16843,7 +16843,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 549,
+									"line": 544,
 									"character": 16
 								}
 							],
@@ -16863,7 +16863,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 554,
+									"line": 549,
 									"character": 12
 								}
 							],
@@ -16885,7 +16885,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 975,
+									"line": 970,
 									"character": 16
 								}
 							],
@@ -16923,7 +16923,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1092,
+									"line": 1087,
 									"character": 31
 								}
 							]
@@ -16966,7 +16966,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 558,
+									"line": 553,
 									"character": 15
 								}
 							]
@@ -17007,7 +17007,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1341,
+									"line": 1336,
 									"character": 9
 								}
 							]
@@ -17092,7 +17092,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1267,
+									"line": 1262,
 									"character": 10
 								}
 							]
@@ -17184,7 +17184,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1430,
+									"line": 1425,
 									"character": 24
 								}
 							]
@@ -17228,7 +17228,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1032,
+									"line": 1027,
 									"character": 30
 								}
 							]
@@ -17272,7 +17272,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1063,
+									"line": 1058,
 									"character": 28
 								}
 							]
@@ -17385,7 +17385,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1134,
+															"line": 1129,
 															"character": 41
 														}
 													]
@@ -17438,7 +17438,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1134,
+															"line": 1129,
 															"character": 105
 														}
 													]
@@ -17455,7 +17455,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1134,
+									"line": 1129,
 									"character": 16
 								}
 							]
@@ -17497,7 +17497,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 568,
+									"line": 563,
 									"character": 8
 								}
 							],
@@ -17534,7 +17534,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 994,
+									"line": 989,
 									"character": 12
 								}
 							]
@@ -17588,7 +17588,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1150,
+									"line": 1145,
 									"character": 21
 								}
 							]
@@ -17653,7 +17653,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1184,
+									"line": 1179,
 									"character": 27
 								}
 							]
@@ -17707,7 +17707,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1217,
+									"line": 1212,
 									"character": 20
 								}
 							]
@@ -17792,7 +17792,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1293,
+									"line": 1288,
 									"character": 8
 								}
 							]
@@ -17858,7 +17858,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1345,
+															"line": 1340,
 															"character": 30
 														}
 													]
@@ -17875,7 +17875,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1345,
+									"line": 1340,
 									"character": 20
 								}
 							]
@@ -17959,7 +17959,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1384,
+															"line": 1379,
 															"character": 21
 														}
 													]
@@ -17976,7 +17976,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1384,
+									"line": 1379,
 									"character": 8
 								}
 							]
@@ -18130,7 +18130,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1448,
+									"line": 1443,
 									"character": 19
 								}
 							]
@@ -18212,7 +18212,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1317,
+									"line": 1312,
 									"character": 10
 								}
 							]
@@ -18289,7 +18289,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1105,
+															"line": 1100,
 															"character": 39
 														}
 													]
@@ -18339,7 +18339,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 1105,
+															"line": 1100,
 															"character": 81
 														}
 													]
@@ -18357,7 +18357,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1105,
+									"line": 1100,
 									"character": 16
 								}
 							]
@@ -18387,7 +18387,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1096,
+									"line": 1091,
 									"character": 34
 								}
 							]
@@ -18471,7 +18471,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1011,
+									"line": 1006,
 									"character": 10
 								}
 							]
@@ -18500,7 +18500,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 562,
+									"line": 557,
 									"character": 30
 								}
 							]
@@ -18530,7 +18530,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 1438,
+									"line": 1433,
 									"character": 25
 								}
 							]
@@ -18614,7 +18614,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 532,
+							"line": 527,
 							"character": 24
 						}
 					],
@@ -18649,7 +18649,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 45,
+									"line": 40,
 									"character": 11
 								}
 							],
@@ -18667,7 +18667,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 46,
+									"line": 41,
 									"character": 9
 								}
 							],
@@ -18689,7 +18689,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 47,
+									"line": 42,
 									"character": 11
 								}
 							],
@@ -18710,7 +18710,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 44,
+									"line": 39,
 									"character": 8
 								}
 							],
@@ -18735,7 +18735,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 43,
+							"line": 38,
 							"character": 17
 						}
 					]
@@ -18750,28 +18750,8 @@
 						"shortText": "The module creates a web browser dialog box . In a Web browser , you can select an image , remove , drag it . Upload new",
 						"tags": [
 							{
-								"tag": "tutorial",
-								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-filebrowser-options.html|FileBrowser options}"
-							},
-							{
-								"tag": "tutorial",
-								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-integrate-filebrowser-in-joomla.html|Integrate filebrowser in Joomla CMS}"
-							},
-							{
-								"tag": "tutorial",
-								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-elfinder-integration.html|Integration with ElFinder}"
-							},
-							{
-								"tag": "tutorial",
-								"text": "{@link http://xdsoft.net/jodit/doc/tutorial-uploader-settings.html|Uploader options and Drag and Drop files}"
-							},
-							{
 								"tag": "module",
 								"text": "FileBrowser"
-							},
-							{
-								"tag": "see",
-								"text": "{@link Dialog|Dialog}"
 							},
 							{
 								"tag": "params",
@@ -18789,7 +18769,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 39,
+									"line": 34,
 									"character": 11
 								}
 							],
@@ -18807,7 +18787,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 37,
+									"line": 32,
 									"character": 8
 								}
 							],
@@ -18825,7 +18805,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 40,
+									"line": 35,
 									"character": 8
 								}
 							],
@@ -18843,7 +18823,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 38,
+									"line": 33,
 									"character": 9
 								}
 							],
@@ -18868,7 +18848,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 36,
+							"line": 31,
 							"character": 21
 						}
 					]
@@ -18907,7 +18887,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 51,
+							"line": 46,
 							"character": 23
 						}
 					]
@@ -18921,7 +18901,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 88,
+							"line": 83,
 							"character": 15
 						}
 					],
@@ -18943,7 +18923,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 89,
+											"line": 84,
 											"character": 8
 										}
 									],
@@ -18963,7 +18943,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 91,
+											"line": 86,
 											"character": 8
 										}
 									],
@@ -18992,7 +18972,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 90,
+											"line": 85,
 											"character": 8
 										}
 									],
@@ -19025,7 +19005,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 88,
+									"line": 83,
 									"character": 17
 								}
 							]
@@ -19041,7 +19021,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 69,
+							"line": 64,
 							"character": 27
 						}
 					],
@@ -19065,7 +19045,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 71,
+											"line": 66,
 											"character": 9
 										}
 									],
@@ -19098,7 +19078,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 74,
+											"line": 69,
 											"character": 9
 										}
 									],
@@ -19131,7 +19111,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 75,
+											"line": 70,
 											"character": 15
 										}
 									],
@@ -19158,7 +19138,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 73,
+											"line": 68,
 											"character": 8
 										}
 									],
@@ -19197,7 +19177,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 73,
+													"line": 68,
 													"character": 9
 												}
 											]
@@ -19215,7 +19195,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 79,
+											"line": 74,
 											"character": 12
 										}
 									],
@@ -19244,7 +19224,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 81,
+											"line": 76,
 											"character": 11
 										}
 									],
@@ -19303,7 +19283,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 77,
+											"line": 72,
 											"character": 10
 										}
 									],
@@ -19332,7 +19312,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 83,
+											"line": 78,
 											"character": 15
 										}
 									],
@@ -19400,7 +19380,7 @@
 																			"sources": [
 																				{
 																					"fileName": "modules/FileBrowser.ts",
-																					"line": 83,
+																					"line": 78,
 																					"character": 24
 																				}
 																			]
@@ -19443,7 +19423,7 @@
 																	"sources": [
 																		{
 																			"fileName": "modules/FileBrowser.ts",
-																			"line": 83,
+																			"line": 78,
 																			"character": 54
 																		}
 																	]
@@ -19467,7 +19447,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 85,
+											"line": 80,
 											"character": 11
 										}
 									],
@@ -19530,7 +19510,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 78,
+											"line": 73,
 											"character": 15
 										}
 									],
@@ -19563,7 +19543,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 70,
+											"line": 65,
 											"character": 7
 										}
 									],
@@ -19604,7 +19584,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 69,
+									"line": 64,
 									"character": 29
 								}
 							]
@@ -19620,7 +19600,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 55,
+							"line": 50,
 							"character": 22
 						}
 					],
@@ -19642,7 +19622,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 58,
+											"line": 53,
 											"character": 8
 										}
 									],
@@ -19664,7 +19644,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 61,
+															"line": 56,
 															"character": 12
 														}
 													],
@@ -19684,7 +19664,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 59,
+															"line": 54,
 															"character": 16
 														}
 													],
@@ -19705,7 +19685,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 63,
+															"line": 58,
 															"character": 12
 														}
 													],
@@ -19723,7 +19703,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 62,
+															"line": 57,
 															"character": 12
 														}
 													],
@@ -19743,7 +19723,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 65,
+															"line": 60,
 															"character": 19
 														}
 													],
@@ -19770,7 +19750,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 64,
+															"line": 59,
 															"character": 14
 														}
 													],
@@ -19788,7 +19768,7 @@
 													"sources": [
 														{
 															"fileName": "modules/FileBrowser.ts",
-															"line": 60,
+															"line": 55,
 															"character": 15
 														}
 													],
@@ -19817,7 +19797,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 58,
+													"line": 53,
 													"character": 9
 												}
 											]
@@ -19833,7 +19813,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 56,
+											"line": 51,
 											"character": 11
 										}
 									],
@@ -19851,7 +19831,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 57,
+											"line": 52,
 											"character": 8
 										}
 									],
@@ -19875,7 +19855,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 55,
+									"line": 50,
 									"character": 24
 								}
 							]
@@ -19893,7 +19873,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 144,
+							"line": 139,
 							"character": 35
 						}
 					],
@@ -19915,7 +19895,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 145,
+											"line": 140,
 											"character": 11
 										}
 									],
@@ -19933,7 +19913,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 146,
+											"line": 141,
 											"character": 9
 										}
 									],
@@ -19959,7 +19939,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 144,
+									"line": 139,
 									"character": 37
 								}
 							]
@@ -19975,7 +19955,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 94,
+							"line": 89,
 							"character": 23
 						}
 					],
@@ -20021,7 +20001,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 129,
+											"line": 124,
 											"character": 8
 										}
 									],
@@ -20040,7 +20020,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 117,
+											"line": 112,
 											"character": 11
 										}
 									],
@@ -20078,7 +20058,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 105,
+											"line": 100,
 											"character": 15
 										}
 									],
@@ -20096,7 +20076,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 130,
+											"line": 125,
 											"character": 10
 										}
 									],
@@ -20115,7 +20095,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 109,
+											"line": 104,
 											"character": 19
 										}
 									],
@@ -20133,7 +20113,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 133,
+											"line": 128,
 											"character": 8
 										}
 									],
@@ -20152,7 +20132,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 110,
+											"line": 105,
 											"character": 16
 										}
 									],
@@ -20170,7 +20150,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 101,
+											"line": 96,
 											"character": 13
 										}
 									],
@@ -20188,7 +20168,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 95,
+											"line": 90,
 											"character": 10
 										}
 									],
@@ -20240,7 +20220,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 95,
+													"line": 90,
 													"character": 11
 												}
 											]
@@ -20256,7 +20236,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 137,
+											"line": 132,
 											"character": 10
 										}
 									],
@@ -20275,7 +20255,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 131,
+											"line": 126,
 											"character": 21
 										}
 									],
@@ -20294,7 +20274,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 122,
+											"line": 117,
 											"character": 14
 										}
 									],
@@ -20336,7 +20316,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 122,
+													"line": 117,
 													"character": 15
 												}
 											]
@@ -20352,7 +20332,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 127,
+											"line": 122,
 											"character": 20
 										}
 									],
@@ -20429,7 +20409,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 127,
+													"line": 122,
 													"character": 21
 												}
 											]
@@ -20445,7 +20425,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 116,
+											"line": 111,
 											"character": 10
 										}
 									],
@@ -20463,7 +20443,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 107,
+											"line": 102,
 											"character": 18
 										}
 									],
@@ -20481,7 +20461,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 121,
+											"line": 116,
 											"character": 13
 										}
 									],
@@ -20523,7 +20503,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 121,
+													"line": 116,
 													"character": 14
 												}
 											]
@@ -20539,7 +20519,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 136,
+											"line": 131,
 											"character": 9
 										}
 									],
@@ -20558,7 +20538,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 134,
+											"line": 129,
 											"character": 8
 										}
 									],
@@ -20577,7 +20557,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 112,
+											"line": 107,
 											"character": 12
 										}
 									],
@@ -20595,7 +20575,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 111,
+											"line": 106,
 											"character": 14
 										}
 									],
@@ -20613,7 +20593,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 138,
+											"line": 133,
 											"character": 15
 										}
 									],
@@ -20632,7 +20612,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 102,
+											"line": 97,
 											"character": 11
 										}
 									],
@@ -20650,7 +20630,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 135,
+											"line": 130,
 											"character": 10
 										}
 									],
@@ -20669,7 +20649,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 132,
+											"line": 127,
 											"character": 10
 										}
 									],
@@ -20688,7 +20668,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 125,
+											"line": 120,
 											"character": 22
 										}
 									],
@@ -20706,7 +20686,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 123,
+											"line": 118,
 											"character": 16
 										}
 									],
@@ -20724,7 +20704,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 124,
+											"line": 119,
 											"character": 16
 										}
 									],
@@ -20742,7 +20722,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 113,
+											"line": 108,
 											"character": 20
 										}
 									],
@@ -20760,7 +20740,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 103,
+											"line": 98,
 											"character": 25
 										}
 									],
@@ -20778,7 +20758,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 104,
+											"line": 99,
 											"character": 29
 										}
 									],
@@ -20796,7 +20776,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 99,
+											"line": 94,
 											"character": 8
 										}
 									],
@@ -20884,7 +20864,7 @@
 											"sources": [
 												{
 													"fileName": "modules/FileBrowser.ts",
-													"line": 99,
+													"line": 94,
 													"character": 9
 												}
 											]
@@ -20900,7 +20880,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 97,
+											"line": 92,
 											"character": 10
 										}
 									],
@@ -20918,7 +20898,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 140,
+											"line": 135,
 											"character": 12
 										}
 									],
@@ -20946,7 +20926,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 119,
+											"line": 114,
 											"character": 8
 										}
 									],
@@ -20964,7 +20944,7 @@
 									"sources": [
 										{
 											"fileName": "modules/FileBrowser.ts",
-											"line": 115,
+											"line": 110,
 											"character": 9
 										}
 									],
@@ -21020,7 +21000,7 @@
 							"sources": [
 								{
 									"fileName": "modules/FileBrowser.ts",
-									"line": 94,
+									"line": 89,
 									"character": 25
 								}
 							]
@@ -21038,7 +21018,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 529,
+							"line": 524,
 							"character": 25
 						}
 					],
@@ -21059,7 +21039,7 @@
 					"sources": [
 						{
 							"fileName": "modules/FileBrowser.ts",
-							"line": 530,
+							"line": 525,
 							"character": 16
 						}
 					],
@@ -28351,7 +28331,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 818,
+																	"line": 820,
 																	"character": 119
 																}
 															]
@@ -28433,7 +28413,7 @@
 																		"sources": [
 																			{
 																				"fileName": "modules/Selection.ts",
-																				"line": 818,
+																				"line": 820,
 																				"character": 172
 																			}
 																		]
@@ -28443,7 +28423,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 818,
+																	"line": 820,
 																	"character": 156
 																}
 															]
@@ -28462,7 +28442,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 818,
+									"line": 820,
 									"character": 12
 								}
 							]
@@ -28587,7 +28567,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 631,
+									"line": 633,
 									"character": 19
 								}
 							]
@@ -28690,7 +28670,7 @@
 													"sources": [
 														{
 															"fileName": "modules/Selection.ts",
-															"line": 550,
+															"line": 551,
 															"character": 30
 														}
 													]
@@ -28707,7 +28687,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 550,
+									"line": 551,
 									"character": 17
 								}
 							]
@@ -28771,7 +28751,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 797,
+									"line": 799,
 									"character": 11
 								}
 							]
@@ -29001,7 +28981,7 @@
 													"sources": [
 														{
 															"fileName": "modules/Selection.ts",
-															"line": 492,
+															"line": 493,
 															"character": 53
 														}
 													]
@@ -29019,7 +28999,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 492,
+									"line": 493,
 									"character": 15
 								}
 							]
@@ -29491,7 +29471,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 782,
+									"line": 784,
 									"character": 10
 								}
 							]
@@ -29543,7 +29523,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 764,
+									"line": 766,
 									"character": 15
 								}
 							]
@@ -29616,7 +29596,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 594,
+									"line": 595,
 									"character": 18
 								}
 							]
@@ -29689,7 +29669,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 686,
+									"line": 688,
 									"character": 19
 								}
 							]
@@ -29747,7 +29727,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 719,
+									"line": 721,
 									"character": 15
 								}
 							]
