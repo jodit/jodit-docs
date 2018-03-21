@@ -12,6 +12,10 @@
     width: 33.33333333%;
     /*order: 1;*/
 }
+.options > div > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .options a {
     display: block;
 }
