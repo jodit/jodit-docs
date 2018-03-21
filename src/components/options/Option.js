@@ -13,8 +13,32 @@ import Title from "../Title";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
 
+
 registerLanguage('javascript', js);
 registerLanguage('css', css);
+
+
+export const stringify = (obj, replacer, space) => {
+    return JSON.stringify(obj, (key, value) => {
+        let fnBody;
+        if (value instanceof Function || typeof value === 'function') {
+            fnBody = value.toString();
+
+            if (fnBody.length < 8 || fnBody.substring(0, 8) !== 'function') { //this is ES6 Arrow Function
+                return '_NuFrRa_' + fnBody;
+            }
+
+            return fnBody;
+        }
+
+        if (value instanceof RegExp) {
+            return '_PxEgEr_' + value;
+        }
+
+        return value;
+    }, space);
+};
+
 
 const DefaultValue = (info) => {
     if (info.defaultValue) {
@@ -23,7 +47,7 @@ const DefaultValue = (info) => {
         </div>)
     }
 
-    return Jodit.defaultOptions[info.name] !== undefined ?  JSON.stringify(Jodit.defaultOptions[info.name], null, 2) : '';
+    return Jodit.defaultOptions[info.name] !== undefined ?  stringify(Jodit.defaultOptions[info.name], null, 2) : '';
 };
 
 export const Source = (info) => {

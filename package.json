@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "jodit": "^3",
@@ -13,8 +13,8 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "react-syntax-highlighter": "^7.0.2",
-    "typedoc": "^0.11.1",
-    "renamer": "^0.6.1"
+    "renamer": "^0.6.1",
+    "typedoc": "^0.11.1"
   },
   "scripts": {
     "copy": "cp ./node_modules/jodit/README.md ./public/README.md",
