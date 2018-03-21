@@ -75,7 +75,7 @@ export const ShortText = (info) => {
 
 export const PrintType = (info) => {
     if (info.type) {
-        return info.type.toString(true);
+        return info.type.toString(info.plain);
     }
 
     return '';

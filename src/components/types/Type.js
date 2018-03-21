@@ -19,7 +19,7 @@ const PrintOption = (props) => {
             <tbody>
             <tr>
                 <td>Type:</td>
-                <td><TypeScript>{renderToStaticMarkup(<PrintType {...info}/>)}</TypeScript></td>
+                <td><TypeScript>{renderToStaticMarkup(<PrintType plain={true} {...info}/>)}</TypeScript></td>
             </tr>
             <tr>
                 <td>Source:</td>
