@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "jodit": "^3",
@@ -28,7 +28,7 @@
     "newversion": "npm run doc && npm run build && npm version patch --no-git-tag-version && cp ./package.json ./build/package.json && npm run github &&  npm publish build",
     "github": "git add --all  && git commit -m \"New version %npm_package_version%. Read more https://github.com/xdan/jodit/releases/tag/%npm_package_version% \" && git tag %npm_package_version% && git push --tags origin HEAD:master",
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "react-app-rewired build && npm run build-rename",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
