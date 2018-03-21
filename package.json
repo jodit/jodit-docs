@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "jodit": "^3",
@@ -32,7 +32,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "/jodit/node_modules/jodit-docs/build/",
+  "homepage": "/jodit/node_modules/jodit-docs/",
   "browserslist": {
     "development": [
       "last 2 chrome versions",
