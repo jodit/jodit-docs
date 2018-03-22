@@ -7,7 +7,7 @@ export default class Model {
     }
 	fill(data) {
         Object.keys(data).forEach((property) => {
-            let value =  data[property];
+            const value =  data[property];
 
             if (is_scalar(value)) {
                 this[property] = value.toString().replace(/^[\s]+/, '');

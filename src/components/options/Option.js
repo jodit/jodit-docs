@@ -116,11 +116,11 @@ const PrintOption = (props) => {
             <tbody>
                 <tr>
                     <td>Type:</td>
-                    <td><span><PrintType {...info}/></span></td>
+                    <td><span><PrintType {...info} name={info.name}/></span></td>
                 </tr>
                 <tr>
                     <td>Default:</td>
-                    <td><pre><DefaultValue {...info}/></pre></td>
+                    <td><pre><DefaultValue {...info} name={info.name}/></pre></td>
                 </tr>
                 <tr>
                     <td>Source:</td>
@@ -129,9 +129,9 @@ const PrintOption = (props) => {
             </tbody>
         </table>
 
-        <ShortText {...info}/>
+        <ShortText {...info} name={info.name}/>
 
-        <Tags {...info}/>
+        <Tags {...info} name={info.name}/>
     </div>;
 };
 

@@ -31,14 +31,14 @@ const PrintOption = (props) => {
             <tbody>
             <tr>
                 <td>Source:</td>
-                <td><span><Source {...info}/></span></td>
+                <td><span><Source {...info} name={info.name}/></span></td>
             </tr>
             </tbody>
         </table>
 
-        <ShortText {...info.signatures[0]}/>
+        <ShortText {...info.signatures[0]} name={info.name}/>
 
-        <Tags {...info.signatures[0]}/>
+        <Tags {...info.signatures[0]} name={info.signatures[0].name}/>
     </div>;
 };
 

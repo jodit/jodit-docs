@@ -102,19 +102,21 @@ export default class Node extends Model{
 	 * @type string
 	 */
 	kindString = '';
-	/**
-	 * @type string
-	 */
-	_name = '';
+
     /**
 	 *
      * @return {string}
      */
 	get name() {
+		if (typeof this._name !== 'string') {
+			return void(0);
+		}
+
 		let name = this._name
 			.replace(/^"/, '')
 			.replace(/^(modules|plugins)\//, '')
 			.replace(/"$/, '');
+
 		return name;
 	}
 
@@ -125,6 +127,7 @@ export default class Node extends Model{
     set name(value) {
         this._name = value;
     }
+
 	/**
      * @type int
      */
