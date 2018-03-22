@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "jodit": "^3",
