@@ -48,17 +48,16 @@ export class Data {
     static loading = false;
     static callbacks = [];
     static load(callback) {
-
         callback && Data.callbacks.push(callback);
 
         Data.data || Data.loading || Promise.all([
-                fetch(process.env.PUBLIC_URL + '/data.json'),
-                fetch(process.env.PUBLIC_URL + '/data-event.json'),
-                fetch(process.env.PUBLIC_URL + '/fires-event-data.json'),
-                fetch(process.env.PUBLIC_URL + '/README.md'),
+                fetch(process.env.PUBLIC_URL + '/data.json?v=' + process.env.REACT_APP_VERSION),
+                fetch(process.env.PUBLIC_URL + '/data-event.json?v=' + process.env.REACT_APP_VERSION),
+                fetch(process.env.PUBLIC_URL + '/fires-event-data.json?v=' +  process.env.REACT_APP_VERSION),
+                fetch(process.env.PUBLIC_URL + '/README.md?v=' +  process.env.REACT_APP_VERSION),
             ])
             .then((data) => {
-                return Promise.all(data.map(res => res.url.match(/\.json$/) ? res.json() : res.text()));
+                return Promise.all(data.map(res => res.url.match(/\.json/) ? res.json() : res.text()));
             })
             .then((data)=> {
                 Data.data = new Node(data[0], null);
