@@ -105,8 +105,26 @@ export default class Node extends Model{
 	/**
 	 * @type string
 	 */
-	name = '';
+	_name = '';
+    /**
+	 *
+     * @return {string}
+     */
+	get name() {
+		let name = this._name
+			.replace(/^"/, '')
+			.replace(/^(modules|plugins)\//, '')
+			.replace(/"$/, '');
+		return name;
+	}
 
+    /**
+	 *
+     * @param {string} value
+     */
+    set name(value) {
+        this._name = value;
+    }
 	/**
      * @type int
      */

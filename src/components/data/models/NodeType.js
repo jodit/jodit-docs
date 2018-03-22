@@ -88,11 +88,15 @@ export default class NodeType extends Node{
      */
 	printTypes(types, plaintext = false) {
 		let union = [];
-        types.forEach((type) => {
+
+		types.forEach((type) => {
             union.push(type instanceof Model  ? type.toString(plaintext) : type);
-            union.push('|');
+            union.push(' | ');
 		});
-        union.length = union.length - 1;
+
+		if (union.length > 1) {
+        	union.length = union.length - 1;
+		}
 
 		return union;
 	}
@@ -116,9 +120,11 @@ export default class NodeType extends Node{
 				case 'union':
 					return this.printTypes(this.types, plaintext);
 				case 'array':
-					if (this.typeArguments[0] && this.typeArguments[0].types) {
+					if (this.typeArguments[0] && this.typeArguments[0].types.length) {
 						return [ucfirst(name), '<', this.printTypes(this.typeArguments[0].types, plaintext), '>'];
-					}
+					} else if (this.typeArguments[0]) {
+                        return [ucfirst(name), '<', this.printTypes(this.typeArguments, plaintext), '>'];
+                    }
 					if (this.elementType) {
 						return [ucfirst(name), '<',  this.elementType.toString(plaintext), '>'];
 					}

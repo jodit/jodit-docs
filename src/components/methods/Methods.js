@@ -10,7 +10,13 @@ import {BASE_URL} from "../../consts";
 
 export class Methods extends DataComponent {
     static isMethod(haystack) {
-        return haystack.kindString === 'Method' && (!haystack.flags || !haystack.flags.isPrivate)
+        return (
+                haystack.kindString === 'Method' ||
+                (haystack.kindString === 'Function' && haystack.flags.isExported)
+            ) &&
+            (
+                !haystack.flags || !haystack.flags.isPrivate
+            )
     }
     render() {
         let links = 'Loading...';

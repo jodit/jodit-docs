@@ -32393,7 +32393,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 613,
+									"line": 614,
 									"character": 25
 								}
 							]
@@ -32440,7 +32440,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 621,
+									"line": 622,
 									"character": 27
 								}
 							]
@@ -33086,7 +33086,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 282,
+									"line": 283,
 									"character": 27
 								}
 							]
@@ -33135,7 +33135,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 417,
+									"line": 418,
 									"character": 24
 								}
 							]
@@ -33182,7 +33182,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 332,
+									"line": 333,
 									"character": 25
 								}
 							]
@@ -33204,7 +33204,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Insert column before / after all the columns containing the selected cells"
+										"shortText": "Remove column by index"
 									},
 									"parameters": [
 										{
@@ -33446,7 +33446,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 663,
+									"line": 664,
 									"character": 32
 								}
 							]
@@ -33492,7 +33492,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 508,
+									"line": 509,
 									"character": 26
 								}
 							]
@@ -33541,7 +33541,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Table.ts",
-									"line": 564,
+									"line": 565,
 									"character": 24
 								}
 							]
