@@ -21285,7 +21285,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 60,
+							"line": 70,
 							"character": 17
 						}
 					],
@@ -21367,7 +21367,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Helpers.ts",
-									"line": 60,
+									"line": 70,
 									"character": 19
 								}
 							]
@@ -21463,7 +21463,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1120,
+							"line": 1130,
 							"character": 17
 						}
 					],
@@ -21525,7 +21525,14 @@
 						"isConst": true
 					},
 					"comment": {
-						"returns": "\n"
+						"shortText": "Find all elements by selector and return Array. If it did not find any element it return empty array",
+						"returns": "\n",
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```javascript\nJodit.modules.Helpres.$$('.someselector').forEach(function (elm) {\n     elm.addEventListener('click', function () {\n         alert(''Clicked');\n     });\n})\n```"
+							}
+						]
 					},
 					"signatures": [
 						{
@@ -21535,6 +21542,7 @@
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
+								"shortText": "Find all elements by selector and return Array. If it did not find any element it return empty array",
 								"returns": "\n"
 							},
 							"parameters": [
@@ -21577,21 +21585,18 @@
 								}
 							],
 							"type": {
-								"type": "reference",
-								"name": "Array",
-								"typeArguments": [
-									{
-										"type": "reference",
-										"name": "HTMLElement"
-									}
-								]
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"name": "HTMLElement"
+								}
 							}
 						}
 					],
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 26,
+							"line": 36,
 							"character": 15
 						}
 					]
@@ -21678,7 +21683,7 @@
 											"sources": [
 												{
 													"fileName": "modules/Helpers.ts",
-													"line": 306,
+													"line": 316,
 													"character": 51
 												}
 											]
@@ -21718,7 +21723,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 306,
+							"line": 316,
 							"character": 25
 						}
 					]
@@ -21761,7 +21766,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1009,
+							"line": 1019,
 							"character": 25
 						}
 					]
@@ -21810,7 +21815,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 776,
+							"line": 786,
 							"character": 20
 						}
 					]
@@ -21878,7 +21883,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 527,
+							"line": 537,
 							"character": 20
 						}
 					]
@@ -21928,7 +21933,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 597,
+							"line": 607,
 							"character": 22
 						}
 					]
@@ -21977,7 +21982,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 958,
+							"line": 968,
 							"character": 26
 						}
 					]
@@ -22049,7 +22054,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 368,
+							"line": 378,
 							"character": 18
 						}
 					]
@@ -22118,7 +22123,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 187,
+							"line": 197,
 							"character": 23
 						}
 					]
@@ -22192,7 +22197,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 482,
+							"line": 492,
 							"character": 40
 						}
 					]
@@ -22300,7 +22305,7 @@
 													"sources": [
 														{
 															"fileName": "modules/Helpers.ts",
-															"line": 736,
+															"line": 746,
 															"character": 54
 														}
 													]
@@ -22368,7 +22373,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 736,
+							"line": 746,
 							"character": 16
 						}
 					]
@@ -22431,7 +22436,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 288,
+							"line": 298,
 							"character": 20
 						}
 					]
@@ -22498,7 +22503,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1121,
+							"line": 1131,
 							"character": 21
 						}
 					]
@@ -22631,7 +22636,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 644,
+							"line": 654,
 							"character": 22
 						}
 					]
@@ -22685,7 +22690,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 925,
+							"line": 935,
 							"character": 29
 						}
 					]
@@ -22757,7 +22762,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 329,
+							"line": 339,
 							"character": 16
 						}
 					]
@@ -22836,7 +22841,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 63,
+							"line": 73,
 							"character": 17
 						}
 					]
@@ -22895,7 +22900,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 102,
+							"line": 112,
 							"character": 19
 						}
 					]
@@ -22937,7 +22942,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 299,
+							"line": 309,
 							"character": 15
 						}
 					]
@@ -22987,7 +22992,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 607,
+							"line": 617,
 							"character": 26
 						}
 					]
@@ -23041,7 +23046,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 272,
+							"line": 282,
 							"character": 28
 						}
 					]
@@ -23095,7 +23100,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1102,
+							"line": 1112,
 							"character": 30
 						}
 					]
@@ -23157,7 +23162,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 345,
+							"line": 355,
 							"character": 21
 						}
 					]
@@ -23215,7 +23220,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 621,
+							"line": 631,
 							"character": 29
 						}
 					]
@@ -23275,7 +23280,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 444,
+							"line": 454,
 							"character": 29
 						}
 					]
@@ -23353,7 +23358,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 92,
+							"line": 102,
 							"character": 20
 						}
 					]
@@ -23418,7 +23423,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1066,
+							"line": 1076,
 							"character": 20
 						}
 					]
@@ -23476,7 +23481,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 423,
+							"line": 433,
 							"character": 19
 						}
 					]
@@ -23528,7 +23533,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 431,
+							"line": 441,
 							"character": 27
 						}
 					]
@@ -23601,7 +23606,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1139,
+							"line": 1149,
 							"character": 22
 						}
 					]
@@ -23644,7 +23649,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 94,
+							"line": 104,
 							"character": 26
 						}
 					]
@@ -23702,7 +23707,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 401,
+							"line": 411,
 							"character": 18
 						}
 					]
@@ -23745,7 +23750,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 49,
+							"line": 59,
 							"character": 21
 						}
 					]
@@ -23814,7 +23819,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 232,
+							"line": 242,
 							"character": 27
 						}
 					]
@@ -23869,7 +23874,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1140,
+							"line": 1150,
 							"character": 29
 						}
 					]
@@ -23921,7 +23926,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 934,
+							"line": 944,
 							"character": 27
 						}
 					]
@@ -23990,7 +23995,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 265,
+							"line": 275,
 							"character": 26
 						}
 					]
@@ -24062,7 +24067,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 721,
+							"line": 731,
 							"character": 30
 						}
 					]
@@ -24167,7 +24172,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 561,
+							"line": 571,
 							"character": 19
 						}
 					]
@@ -24242,7 +24247,7 @@
 									"sources": [
 										{
 											"fileName": "modules/Helpers.ts",
-											"line": 460,
+											"line": 470,
 											"character": 48
 										}
 									]
@@ -24253,7 +24258,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 460,
+							"line": 470,
 							"character": 23
 						}
 					]
@@ -24296,7 +24301,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 412,
+							"line": 422,
 							"character": 26
 						}
 					]
@@ -24361,7 +24366,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1090,
+							"line": 1100,
 							"character": 27
 						}
 					]
@@ -24425,7 +24430,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 780,
+							"line": 790,
 							"character": 23
 						}
 					]
@@ -24485,7 +24490,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 784,
+							"line": 794,
 							"character": 20
 						}
 					]
@@ -24570,7 +24575,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 688,
+							"line": 698,
 							"character": 21
 						}
 					]
@@ -24624,7 +24629,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 167,
+							"line": 177,
 							"character": 17
 						}
 					]
@@ -24667,7 +24672,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 53,
+							"line": 63,
 							"character": 17
 						}
 					]
@@ -24710,7 +24715,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 414,
+							"line": 424,
 							"character": 25
 						}
 					]
@@ -24795,7 +24800,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 910,
+							"line": 920,
 							"character": 16
 						}
 					]
