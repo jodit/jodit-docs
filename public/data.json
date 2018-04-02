@@ -55207,7 +55207,7 @@
 							"name": "string"
 						}
 					},
-					"defaultValue": " [\r\n    'fontWeight',\r\n    'fontStyle',\r\n    'fontSize',\r\n    'color',\r\n    'backgroundColor',\r\n    'textDecorationLine',\r\n    'fontFamily'\r\n]"
+					"defaultValue": " [\r\n    'fontWeight',\r\n    'fontStyle',\r\n    'fontSize',\r\n    'color',\r\n    'margin',\r\n    'padding',\r\n    'borderWidth',\r\n    'borderStyle',\r\n    'borderColor',\r\n    'borderRadius',\r\n    'backgroundColor',\r\n    'textDecorationLine',\r\n    'fontFamily'\r\n]"
 				},
 				{
 					"id": 2595,
@@ -55330,7 +55330,7 @@
 											"sources": [
 												{
 													"fileName": "plugins/copyformat.ts",
-													"line": 31,
+													"line": 37,
 													"character": 78
 												}
 											]
@@ -55360,7 +55360,7 @@
 					"sources": [
 						{
 							"fileName": "plugins/copyformat.ts",
-							"line": 31,
+							"line": 37,
 							"character": 14
 						}
 					]
@@ -55454,7 +55454,7 @@
 											"sources": [
 												{
 													"fileName": "plugins/copyformat.ts",
-													"line": 45,
+													"line": 51,
 													"character": 66
 												}
 											]
@@ -55510,7 +55510,7 @@
 									"sources": [
 										{
 											"fileName": "plugins/copyformat.ts",
-											"line": 45,
+											"line": 51,
 											"character": 101
 										}
 									]
@@ -55521,7 +55521,7 @@
 					"sources": [
 						{
 							"fileName": "plugins/copyformat.ts",
-							"line": 45,
+							"line": 51,
 							"character": 15
 						}
 					]
@@ -60300,7 +60300,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 379,
+									"line": 384,
 									"character": 28
 								}
 							],
@@ -60322,7 +60322,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 365,
+									"line": 370,
 									"character": 30
 								}
 							],
@@ -60365,7 +60365,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 378,
+									"line": 383,
 									"character": 26
 								}
 							],
@@ -60509,7 +60509,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 425,
+									"line": 430,
 									"character": 13
 								}
 							],
@@ -60562,7 +60562,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 459,
+									"line": 464,
 									"character": 18
 								}
 							],
@@ -60640,7 +60640,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 417,
+									"line": 422,
 									"character": 30
 								}
 							]
@@ -60799,7 +60799,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 355,
+									"line": 360,
 									"character": 21
 								}
 							]
@@ -60842,7 +60842,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 322,
+									"line": 327,
 									"character": 28
 								}
 							]
@@ -61001,7 +61001,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 399,
+									"line": 404,
 									"character": 21
 								}
 							]
@@ -61031,7 +61031,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 367,
+									"line": 372,
 									"character": 26
 								}
 							]
@@ -61074,7 +61074,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 381,
+									"line": 386,
 									"character": 28
 								}
 							]
@@ -61126,7 +61126,7 @@
 													"sources": [
 														{
 															"fileName": "plugins/inline-popup.ts",
-															"line": 328,
+															"line": 333,
 															"character": 30
 														}
 													]
@@ -61167,7 +61167,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/inline-popup.ts",
-									"line": 328,
+									"line": 333,
 									"character": 21
 								}
 							]
