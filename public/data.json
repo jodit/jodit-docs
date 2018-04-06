@@ -6358,7 +6358,7 @@
 			]
 		},
 		{
-			"id": 3587,
+			"id": 3588,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6368,7 +6368,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit/src/index.ts",
 			"children": [
 				{
-					"id": 3588,
+					"id": 3589,
 					"name": "esFilter",
 					"kind": 64,
 					"kindString": "Function",
@@ -6377,14 +6377,14 @@
 					},
 					"signatures": [
 						{
-							"id": 3589,
+							"id": 3590,
 							"name": "esFilter",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 3590,
+									"id": 3591,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -6415,7 +6415,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3588
+						3589
 					]
 				}
 			],
@@ -6428,7 +6428,7 @@
 			]
 		},
 		{
-			"id": 3584,
+			"id": 3585,
 			"name": "\"langs/ar\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6445,7 +6445,7 @@
 			]
 		},
 		{
-			"id": 3580,
+			"id": 3581,
 			"name": "\"langs/de\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6462,7 +6462,7 @@
 			]
 		},
 		{
-			"id": 3581,
+			"id": 3582,
 			"name": "\"langs/en\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6479,7 +6479,7 @@
 			]
 		},
 		{
-			"id": 3582,
+			"id": 3583,
 			"name": "\"langs/fr\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6496,7 +6496,7 @@
 			]
 		},
 		{
-			"id": 3585,
+			"id": 3586,
 			"name": "\"langs/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -6513,7 +6513,7 @@
 			]
 		},
 		{
-			"id": 3583,
+			"id": 3584,
 			"name": "\"langs/ru\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -23197,7 +23197,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Helpers.ts",
-									"line": 1177,
+									"line": 1182,
 									"character": 23
 								}
 							]
@@ -23213,7 +23213,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Helpers.ts",
-									"line": 1177,
+									"line": 1182,
 									"character": 10
 								}
 							],
@@ -23247,7 +23247,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Helpers.ts",
-									"line": 1186,
+									"line": 1191,
 									"character": 12
 								}
 							]
@@ -23279,7 +23279,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1176,
+							"line": 1181,
 							"character": 23
 						}
 					]
@@ -23331,7 +23331,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Helpers.ts",
-									"line": 1195,
+									"line": 1200,
 									"character": 26
 								}
 							]
@@ -23349,7 +23349,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1195,
+							"line": 1200,
 							"character": 24
 						}
 					]
@@ -23541,7 +23541,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1142,
+							"line": 1147,
 							"character": 17
 						}
 					],
@@ -23844,7 +23844,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1028,
+							"line": 1033,
 							"character": 25
 						}
 					]
@@ -23858,6 +23858,10 @@
 						"isExported": true,
 						"isConst": true
 					},
+					"comment": {
+						"shortText": "Always return Array",
+						"returns": "\n"
+					},
 					"signatures": [
 						{
 							"id": 2370,
@@ -23865,6 +23869,10 @@
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
+							"comment": {
+								"shortText": "Always return Array",
+								"returns": "\n"
+							},
 							"parameters": [
 								{
 									"id": 2371,
@@ -23872,6 +23880,7 @@
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {},
+									"comment": {},
 									"type": {
 										"type": "intrinsic",
 										"name": "any"
@@ -23893,7 +23902,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 795,
+							"line": 800,
 							"character": 20
 						}
 					]
@@ -24060,7 +24069,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 977,
+							"line": 982,
 							"character": 26
 						}
 					]
@@ -24581,7 +24590,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1143,
+							"line": 1148,
 							"character": 21
 						}
 					]
@@ -24768,7 +24777,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 944,
+							"line": 949,
 							"character": 29
 						}
 					]
@@ -25178,7 +25187,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1124,
+							"line": 1129,
 							"character": 30
 						}
 					]
@@ -25501,7 +25510,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1088,
+							"line": 1093,
 							"character": 20
 						}
 					]
@@ -25684,7 +25693,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1161,
+							"line": 1166,
 							"character": 22
 						}
 					]
@@ -25952,7 +25961,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1162,
+							"line": 1167,
 							"character": 29
 						}
 					]
@@ -26004,7 +26013,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 953,
+							"line": 958,
 							"character": 27
 						}
 					]
@@ -26444,7 +26453,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 1112,
+							"line": 1117,
 							"character": 27
 						}
 					]
@@ -26508,7 +26517,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 799,
+							"line": 804,
 							"character": 23
 						}
 					]
@@ -26568,7 +26577,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 803,
+							"line": 808,
 							"character": 20
 						}
 					]
@@ -26878,7 +26887,7 @@
 					"sources": [
 						{
 							"fileName": "modules/Helpers.ts",
-							"line": 929,
+							"line": 934,
 							"character": 16
 						}
 					]
@@ -31196,7 +31205,7 @@
 						{
 							"type": "reference",
 							"name": "pasteStorage",
-							"id": 3535
+							"id": 3536
 						}
 					]
 				}
@@ -31591,7 +31600,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 820,
+																	"line": 807,
 																	"character": 119
 																}
 															]
@@ -31673,7 +31682,7 @@
 																		"sources": [
 																			{
 																				"fileName": "modules/Selection.ts",
-																				"line": 820,
+																				"line": 807,
 																				"character": 172
 																			}
 																		]
@@ -31683,7 +31692,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 820,
+																	"line": 807,
 																	"character": 156
 																}
 															]
@@ -31702,7 +31711,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 820,
+									"line": 807,
 									"character": 12
 								}
 							]
@@ -31827,7 +31836,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 633,
+									"line": 620,
 									"character": 19
 								}
 							]
@@ -31930,7 +31939,7 @@
 													"sources": [
 														{
 															"fileName": "modules/Selection.ts",
-															"line": 551,
+															"line": 538,
 															"character": 30
 														}
 													]
@@ -31947,7 +31956,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 551,
+									"line": 538,
 									"character": 17
 								}
 							]
@@ -32011,7 +32020,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 799,
+									"line": 786,
 									"character": 11
 								}
 							]
@@ -32222,7 +32231,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 430,
+									"line": 417,
 									"character": 14
 								}
 							]
@@ -32316,7 +32325,7 @@
 													"sources": [
 														{
 															"fileName": "modules/Selection.ts",
-															"line": 493,
+															"line": 480,
 															"character": 55
 														}
 													]
@@ -32334,7 +32343,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 493,
+									"line": 480,
 									"character": 15
 								}
 							]
@@ -32936,7 +32945,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 784,
+									"line": 771,
 									"character": 10
 								}
 							]
@@ -32988,7 +32997,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 766,
+									"line": 753,
 									"character": 15
 								}
 							]
@@ -33061,7 +33070,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 595,
+									"line": 582,
 									"character": 18
 								}
 							]
@@ -33134,7 +33143,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 688,
+									"line": 675,
 									"character": 19
 								}
 							]
@@ -33192,7 +33201,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 721,
+									"line": 708,
 									"character": 15
 								}
 							]
@@ -50825,7 +50834,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Uploader.ts",
-									"line": 599,
+									"line": 598,
 									"character": 21
 								}
 							]
@@ -53247,7 +53256,7 @@
 					},
 					"children": [
 						{
-							"id": 3514,
+							"id": 3515,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -53256,14 +53265,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3515,
+									"id": 3516,
 									"name": "new DragAndDrop",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3516,
+											"id": 3517,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53311,7 +53320,7 @@
 							}
 						},
 						{
-							"id": 3531,
+							"id": 3532,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -53338,7 +53347,7 @@
 							}
 						},
 						{
-							"id": 3519,
+							"id": 3520,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -53374,6 +53383,37 @@
 							}
 						},
 						{
+							"id": 3498,
+							"name": "bufferRange",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "plugins/DragAndDrop.ts",
+									"line": 48,
+									"character": 23
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"name": "Range"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							},
+							"defaultValue": " null"
+						},
+						{
 							"id": 3494,
 							"name": "draggable",
 							"kind": 1024,
@@ -53405,7 +53445,7 @@
 							"defaultValue": " null"
 						},
 						{
-							"id": 3517,
+							"id": 3518,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -53482,7 +53522,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3518,
+							"id": 3519,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -53530,7 +53570,7 @@
 							"defaultValue": " throttle((event: DragEvent) => {\r\n        if (this.draggable) {\r\n            if (!this.draggable.parentNode) {\r\n                this.jodit.ownerDocument.body.appendChild(this.draggable);\r\n            }\r\n\r\n            this.jodit.events.fire('hidePopup');\r\n\r\n            css(this.draggable, {\r\n                left: event.clientX + 20,\r\n                top: event.clientY + 20,\r\n            });\r\n        }\r\n    }, 10)"
 						},
 						{
-							"id": 3510,
+							"id": 3511,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53539,7 +53579,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3511,
+									"id": 3512,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -53558,7 +53598,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 137,
+									"line": 154,
 									"character": 13
 								}
 							],
@@ -53569,7 +53609,7 @@
 							}
 						},
 						{
-							"id": 3512,
+							"id": 3513,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53578,7 +53618,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3513,
+									"id": 3514,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -53597,7 +53637,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 145,
+									"line": 162,
 									"character": 18
 								}
 							],
@@ -53608,7 +53648,7 @@
 							}
 						},
 						{
-							"id": 3525,
+							"id": 3526,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53617,7 +53657,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3526,
+									"id": 3527,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -53647,7 +53687,7 @@
 							}
 						},
 						{
-							"id": 3501,
+							"id": 3502,
 							"name": "getDataTransfer",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53657,14 +53697,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3502,
+									"id": 3503,
 									"name": "getDataTransfer",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3503,
+											"id": 3504,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53684,13 +53724,13 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 81,
+									"line": 92,
 									"character": 27
 								}
 							]
 						},
 						{
-							"id": 3527,
+							"id": 3528,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53699,14 +53739,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3528,
+									"id": 3529,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3529,
+											"id": 3530,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53717,7 +53757,7 @@
 											}
 										},
 										{
-											"id": 3530,
+											"id": 3531,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53765,7 +53805,7 @@
 							}
 						},
 						{
-							"id": 3504,
+							"id": 3505,
 							"name": "getText",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53775,14 +53815,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3505,
+									"id": 3506,
 									"name": "getText",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3506,
+											"id": 3507,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53811,13 +53851,13 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 85,
+									"line": 96,
 									"character": 19
 								}
 							]
 						},
 						{
-							"id": 3532,
+							"id": 3533,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53826,7 +53866,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3533,
+									"id": 3534,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -53856,7 +53896,7 @@
 							}
 						},
 						{
-							"id": 3520,
+							"id": 3521,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53865,7 +53905,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3521,
+									"id": 3522,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -53895,7 +53935,7 @@
 							}
 						},
 						{
-							"id": 3522,
+							"id": 3523,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53904,14 +53944,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3523,
+									"id": 3524,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3524,
+											"id": 3525,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -53977,7 +54017,7 @@
 							]
 						},
 						{
-							"id": 3498,
+							"id": 3499,
 							"name": "onDragStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -53987,14 +54027,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3499,
+									"id": 3500,
 									"name": "onDragStart",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3500,
+											"id": 3501,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54014,13 +54054,13 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 48,
+									"line": 50,
 									"character": 23
 								}
 							]
 						},
 						{
-							"id": 3507,
+							"id": 3508,
 							"name": "onDrop",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54030,14 +54070,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3508,
+									"id": 3509,
 									"name": "onDrop",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3509,
+											"id": 3510,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54066,7 +54106,7 @@
 							"sources": [
 								{
 									"fileName": "plugins/DragAndDrop.ts",
-									"line": 90,
+									"line": 101,
 									"character": 18
 								}
 							]
@@ -54152,20 +54192,21 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3514
+								3515
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3531,
-								3519,
+								3532,
+								3520,
+								3498,
 								3494,
-								3517,
+								3518,
 								3490,
 								3489,
-								3518,
+								3519,
 								3497
 							]
 						},
@@ -54173,18 +54214,18 @@
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3510,
-								3512,
-								3525,
-								3501,
-								3527,
-								3504,
-								3532,
-								3520,
-								3522,
+								3511,
+								3513,
+								3526,
+								3502,
+								3528,
+								3505,
+								3533,
+								3521,
+								3523,
 								3495,
-								3498,
-								3507
+								3499,
+								3508
 							]
 						},
 						{
@@ -59957,7 +59998,7 @@
 			]
 		},
 		{
-			"id": 3579,
+			"id": 3580,
 			"name": "\"plugins/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -62142,7 +62183,7 @@
 			]
 		},
 		{
-			"id": 3534,
+			"id": 3535,
 			"name": "\"plugins/paste-storage\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -62152,7 +62193,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit/src/plugins/paste-storage.ts",
 			"children": [
 				{
-					"id": 3535,
+					"id": 3536,
 					"name": "pasteStorage",
 					"kind": 128,
 					"kindString": "Class",
@@ -62164,7 +62205,7 @@
 					},
 					"children": [
 						{
-							"id": 3556,
+							"id": 3557,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -62173,14 +62214,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3557,
+									"id": 3558,
 									"name": "new pasteStorage",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3558,
+											"id": 3559,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62195,7 +62236,7 @@
 									"type": {
 										"type": "reference",
 										"name": "pasteStorage",
-										"id": 3535
+										"id": 3536
 									},
 									"overwrites": {
 										"type": "reference",
@@ -62228,7 +62269,7 @@
 							}
 						},
 						{
-							"id": 3576,
+							"id": 3577,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62255,7 +62296,7 @@
 							}
 						},
 						{
-							"id": 3564,
+							"id": 3565,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62291,7 +62332,7 @@
 							}
 						},
 						{
-							"id": 3548,
+							"id": 3549,
 							"name": "container",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62312,7 +62353,7 @@
 							}
 						},
 						{
-							"id": 3536,
+							"id": 3537,
 							"name": "currentIndex",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62334,7 +62375,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 3551,
+							"id": 3552,
 							"name": "dialog",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62356,7 +62397,7 @@
 							}
 						},
 						{
-							"id": 3562,
+							"id": 3563,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62389,7 +62430,7 @@
 							}
 						},
 						{
-							"id": 3563,
+							"id": 3564,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62415,7 +62456,7 @@
 							}
 						},
 						{
-							"id": 3547,
+							"id": 3548,
 							"name": "list",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62440,7 +62481,7 @@
 							"defaultValue": " []"
 						},
 						{
-							"id": 3549,
+							"id": 3550,
 							"name": "listBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62461,7 +62502,7 @@
 							}
 						},
 						{
-							"id": 3550,
+							"id": 3551,
 							"name": "previewBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -62482,7 +62523,7 @@
 							}
 						},
 						{
-							"id": 3554,
+							"id": 3555,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62491,7 +62532,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3555,
+									"id": 3556,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62521,7 +62562,7 @@
 							}
 						},
 						{
-							"id": 3559,
+							"id": 3560,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62530,14 +62571,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3560,
+									"id": 3561,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3561,
+											"id": 3562,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62576,7 +62617,7 @@
 							}
 						},
 						{
-							"id": 3552,
+							"id": 3553,
 							"name": "createDialog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62586,7 +62627,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3553,
+									"id": 3554,
 									"name": "createDialog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62606,7 +62647,7 @@
 							]
 						},
 						{
-							"id": 3570,
+							"id": 3571,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62615,7 +62656,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3571,
+									"id": 3572,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62645,7 +62686,7 @@
 							}
 						},
 						{
-							"id": 3572,
+							"id": 3573,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62654,14 +62695,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3573,
+									"id": 3574,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3574,
+											"id": 3575,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62672,7 +62713,7 @@
 											}
 										},
 										{
-											"id": 3575,
+											"id": 3576,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62720,7 +62761,7 @@
 							}
 						},
 						{
-							"id": 3577,
+							"id": 3578,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62729,7 +62770,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3578,
+									"id": 3579,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62759,7 +62800,7 @@
 							}
 						},
 						{
-							"id": 3565,
+							"id": 3566,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62768,7 +62809,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3566,
+									"id": 3567,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62798,7 +62839,7 @@
 							}
 						},
 						{
-							"id": 3567,
+							"id": 3568,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62807,14 +62848,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3568,
+									"id": 3569,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3569,
+											"id": 3570,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62850,7 +62891,7 @@
 							}
 						},
 						{
-							"id": 3539,
+							"id": 3540,
 							"name": "onKeyDown",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62860,14 +62901,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3540,
+									"id": 3541,
 									"name": "onKeyDown",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3541,
+											"id": 3542,
 											"name": "e",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62893,7 +62934,7 @@
 							]
 						},
 						{
-							"id": 3537,
+							"id": 3538,
 							"name": "paste",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62903,7 +62944,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3538,
+									"id": 3539,
 									"name": "paste",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62923,7 +62964,7 @@
 							]
 						},
 						{
-							"id": 3542,
+							"id": 3543,
 							"name": "selectIndex",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62933,14 +62974,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3543,
+									"id": 3544,
 									"name": "selectIndex",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3544,
+											"id": 3545,
 											"name": "index",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62966,7 +63007,7 @@
 							]
 						},
 						{
-							"id": 3545,
+							"id": 3546,
 							"name": "showDialog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62976,7 +63017,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3546,
+									"id": 3547,
 									"name": "showDialog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -63001,41 +63042,41 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3556
+								3557
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3576,
+								3577,
+								3565,
+								3549,
+								3537,
+								3552,
+								3563,
 								3564,
 								3548,
-								3536,
-								3551,
-								3562,
-								3563,
-								3547,
-								3549,
-								3550
+								3550,
+								3551
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3554,
-								3559,
-								3552,
-								3570,
-								3572,
-								3577,
-								3565,
-								3567,
-								3539,
-								3537,
-								3542,
-								3545
+								3555,
+								3560,
+								3553,
+								3571,
+								3573,
+								3578,
+								3566,
+								3568,
+								3540,
+								3538,
+								3543,
+								3546
 							]
 						}
 					],
@@ -63060,7 +63101,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3535
+						3536
 					]
 				}
 			],
@@ -71904,7 +71945,7 @@
 			]
 		},
 		{
-			"id": 3586,
+			"id": 3587,
 			"name": "\"styles/icons/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -71929,13 +71970,13 @@
 				2466,
 				2054,
 				1,
-				3587,
-				3584,
-				3580,
+				3588,
+				3585,
 				3581,
 				3582,
-				3585,
 				3583,
+				3586,
+				3584,
 				1252,
 				137,
 				1212,
@@ -71976,14 +72017,14 @@
 				2670,
 				2675,
 				2663,
-				3579,
+				3580,
 				2809,
 				2878,
 				2882,
 				2895,
 				2903,
 				2907,
-				3534,
+				3535,
 				2916,
 				2926,
 				2948,
@@ -71997,7 +72038,7 @@
 				3268,
 				3436,
 				2546,
-				3586
+				3587
 			]
 		}
 	]
