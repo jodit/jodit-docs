@@ -7308,7 +7308,7 @@
 			]
 		},
 		{
-			"id": 3644,
+			"id": 3650,
 			"name": "\"src/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7318,7 +7318,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/index.ts",
 			"children": [
 				{
-					"id": 3645,
+					"id": 3651,
 					"name": "esFilter",
 					"kind": 64,
 					"kindString": "Function",
@@ -7327,14 +7327,14 @@
 					},
 					"signatures": [
 						{
-							"id": 3646,
+							"id": 3652,
 							"name": "esFilter",
 							"kind": 4096,
 							"kindString": "Call signature",
 							"flags": {},
 							"parameters": [
 								{
-									"id": 3647,
+									"id": 3653,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -7365,7 +7365,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3645
+						3651
 					]
 				}
 			],
@@ -7378,7 +7378,7 @@
 			]
 		},
 		{
-			"id": 3641,
+			"id": 3647,
 			"name": "\"src/langs/ar\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7395,7 +7395,7 @@
 			]
 		},
 		{
-			"id": 3637,
+			"id": 3643,
 			"name": "\"src/langs/de\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7412,7 +7412,7 @@
 			]
 		},
 		{
-			"id": 3638,
+			"id": 3644,
 			"name": "\"src/langs/en\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7429,7 +7429,7 @@
 			]
 		},
 		{
-			"id": 3639,
+			"id": 3645,
 			"name": "\"src/langs/fr\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7446,7 +7446,7 @@
 			]
 		},
 		{
-			"id": 3642,
+			"id": 3648,
 			"name": "\"src/langs/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -7463,7 +7463,7 @@
 			]
 		},
 		{
-			"id": 3640,
+			"id": 3646,
 			"name": "\"src/langs/ru\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -9171,32 +9171,32 @@
 						{
 							"type": "reference",
 							"name": "redoundo",
-							"id": 2983
+							"id": 2989
 						},
 						{
 							"type": "reference",
 							"name": "source",
-							"id": 3027
+							"id": 3033
 						},
 						{
 							"type": "reference",
 							"name": "hotkeys",
-							"id": 3130
+							"id": 3136
 						},
 						{
 							"type": "reference",
 							"name": "TableProcessor",
-							"id": 3264
+							"id": 3270
 						},
 						{
 							"type": "reference",
 							"name": "search",
-							"id": 3329
+							"id": 3335
 						},
 						{
 							"type": "reference",
 							"name": "sticky",
-							"id": 3419
+							"id": 3425
 						}
 					]
 				},
@@ -10670,7 +10670,7 @@
 			]
 		},
 		{
-			"id": 3249,
+			"id": 3255,
 			"name": "\"src/modules/Cookie\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -10680,7 +10680,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/modules/Cookie.ts",
 			"children": [
 				{
-					"id": 3250,
+					"id": 3256,
 					"name": "Cookie",
 					"kind": 128,
 					"kindString": "Class",
@@ -10689,7 +10689,7 @@
 					},
 					"children": [
 						{
-							"id": 3256,
+							"id": 3262,
 							"name": "get",
 							"kind": 2048,
 							"kindString": "Method",
@@ -10698,7 +10698,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3257,
+									"id": 3263,
 									"name": "get",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -10718,7 +10718,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3258,
+											"id": 3264,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10764,7 +10764,7 @@
 							}
 						},
 						{
-							"id": 3259,
+							"id": 3265,
 							"name": "remove",
 							"kind": 2048,
 							"kindString": "Method",
@@ -10773,7 +10773,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3260,
+									"id": 3266,
 									"name": "remove",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -10793,7 +10793,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3261,
+											"id": 3267,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10820,7 +10820,7 @@
 							]
 						},
 						{
-							"id": 3251,
+							"id": 3257,
 							"name": "set",
 							"kind": 2048,
 							"kindString": "Method",
@@ -10829,7 +10829,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3252,
+									"id": 3258,
 									"name": "set",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -10849,7 +10849,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3253,
+											"id": 3259,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10870,7 +10870,7 @@
 											}
 										},
 										{
-											"id": 3254,
+											"id": 3260,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10891,7 +10891,7 @@
 											}
 										},
 										{
-											"id": 3255,
+											"id": 3261,
 											"name": "days",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -10938,9 +10938,9 @@
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3256,
-								3259,
-								3251
+								3262,
+								3265,
+								3257
 							]
 						}
 					],
@@ -10965,7 +10965,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3250
+						3256
 					]
 				}
 			],
@@ -32246,22 +32246,22 @@
 						{
 							"type": "reference",
 							"name": "stat",
-							"id": 3459
+							"id": 3465
 						},
 						{
 							"type": "reference",
 							"name": "xpath",
-							"id": 3493
+							"id": 3499
 						},
 						{
 							"type": "reference",
 							"name": "DragAndDrop",
-							"id": 3544
+							"id": 3550
 						},
 						{
 							"type": "reference",
 							"name": "pasteStorage",
-							"id": 3592
+							"id": 3598
 						}
 					]
 				}
@@ -37231,7 +37231,7 @@
 						{
 							"type": "reference",
 							"name": "Cookie",
-							"id": 3250
+							"id": 3256
 						},
 						{
 							"type": "reference",
@@ -54249,7 +54249,7 @@
 			]
 		},
 		{
-			"id": 3262,
+			"id": 3268,
 			"name": "\"src/modules/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -54266,7 +54266,7 @@
 			]
 		},
 		{
-			"id": 3543,
+			"id": 3549,
 			"name": "\"src/plugins/DragAndDrop\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -54276,7 +54276,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/DragAndDrop.ts",
 			"children": [
 				{
-					"id": 3544,
+					"id": 3550,
 					"name": "DragAndDrop",
 					"kind": 128,
 					"kindString": "Class",
@@ -54288,7 +54288,7 @@
 					},
 					"children": [
 						{
-							"id": 3571,
+							"id": 3577,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -54297,14 +54297,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3572,
+									"id": 3578,
 									"name": "new DragAndDrop",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3573,
+											"id": 3579,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54319,7 +54319,7 @@
 									"type": {
 										"type": "reference",
 										"name": "DragAndDrop",
-										"id": 3544
+										"id": 3550
 									},
 									"overwrites": {
 										"type": "reference",
@@ -54352,7 +54352,7 @@
 							}
 						},
 						{
-							"id": 3588,
+							"id": 3594,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54379,7 +54379,7 @@
 							}
 						},
 						{
-							"id": 3576,
+							"id": 3582,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54415,7 +54415,7 @@
 							}
 						},
 						{
-							"id": 3554,
+							"id": 3560,
 							"name": "bufferRange",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54446,7 +54446,7 @@
 							"defaultValue": " null"
 						},
 						{
-							"id": 3550,
+							"id": 3556,
 							"name": "draggable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54477,7 +54477,7 @@
 							"defaultValue": " null"
 						},
 						{
-							"id": 3574,
+							"id": 3580,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54510,7 +54510,7 @@
 							}
 						},
 						{
-							"id": 3546,
+							"id": 3552,
 							"name": "isCopyMode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54532,7 +54532,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3545,
+							"id": 3551,
 							"name": "isFragmentFromEditor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54554,7 +54554,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3575,
+							"id": 3581,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54580,7 +54580,7 @@
 							}
 						},
 						{
-							"id": 3553,
+							"id": 3559,
 							"name": "onDrag",
 							"kind": 1024,
 							"kindString": "Property",
@@ -54602,7 +54602,7 @@
 							"defaultValue": " throttle((event: DragEvent) => {\r\n        if (this.draggable) {\r\n            if (!this.draggable.parentNode) {\r\n                this.jodit.ownerDocument.body.appendChild(this.draggable);\r\n            }\r\n\r\n            this.jodit.events.fire('hidePopup');\r\n\r\n            css(this.draggable, {\r\n                left: event.clientX + 20,\r\n                top: event.clientY + 20,\r\n            });\r\n        }\r\n    }, 10)"
 						},
 						{
-							"id": 3567,
+							"id": 3573,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54611,7 +54611,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3568,
+									"id": 3574,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -54641,7 +54641,7 @@
 							}
 						},
 						{
-							"id": 3569,
+							"id": 3575,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54650,7 +54650,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3570,
+									"id": 3576,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -54680,7 +54680,7 @@
 							}
 						},
 						{
-							"id": 3582,
+							"id": 3588,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54689,7 +54689,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3583,
+									"id": 3589,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -54719,7 +54719,7 @@
 							}
 						},
 						{
-							"id": 3558,
+							"id": 3564,
 							"name": "getDataTransfer",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54729,14 +54729,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3559,
+									"id": 3565,
 									"name": "getDataTransfer",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3560,
+											"id": 3566,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54762,7 +54762,7 @@
 							]
 						},
 						{
-							"id": 3584,
+							"id": 3590,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54771,14 +54771,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3585,
+									"id": 3591,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3586,
+											"id": 3592,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54789,7 +54789,7 @@
 											}
 										},
 										{
-											"id": 3587,
+											"id": 3593,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54837,7 +54837,7 @@
 							}
 						},
 						{
-							"id": 3561,
+							"id": 3567,
 							"name": "getText",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54847,14 +54847,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3562,
+									"id": 3568,
 									"name": "getText",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3563,
+											"id": 3569,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -54889,7 +54889,7 @@
 							]
 						},
 						{
-							"id": 3589,
+							"id": 3595,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54898,7 +54898,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3590,
+									"id": 3596,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -54928,7 +54928,7 @@
 							}
 						},
 						{
-							"id": 3577,
+							"id": 3583,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54937,7 +54937,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3578,
+									"id": 3584,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -54967,7 +54967,7 @@
 							}
 						},
 						{
-							"id": 3579,
+							"id": 3585,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -54976,14 +54976,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3580,
+									"id": 3586,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3581,
+											"id": 3587,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -55019,7 +55019,7 @@
 							}
 						},
 						{
-							"id": 3551,
+							"id": 3557,
 							"name": "onDragEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -55029,7 +55029,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3552,
+									"id": 3558,
 									"name": "onDragEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -55049,7 +55049,7 @@
 							]
 						},
 						{
-							"id": 3555,
+							"id": 3561,
 							"name": "onDragStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -55059,14 +55059,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3556,
+									"id": 3562,
 									"name": "onDragStart",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3557,
+											"id": 3563,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -55092,7 +55092,7 @@
 							]
 						},
 						{
-							"id": 3564,
+							"id": 3570,
 							"name": "onDrop",
 							"kind": 2048,
 							"kindString": "Method",
@@ -55102,14 +55102,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3565,
+									"id": 3571,
 									"name": "onDrop",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3566,
+											"id": 3572,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -55144,7 +55144,7 @@
 							]
 						},
 						{
-							"id": 3547,
+							"id": 3553,
 							"name": "startDragPoint",
 							"kind": 2097152,
 							"kindString": "Object literal",
@@ -55154,7 +55154,7 @@
 							},
 							"children": [
 								{
-									"id": 3548,
+									"id": 3554,
 									"name": "x",
 									"kind": 32,
 									"kindString": "Variable",
@@ -55175,7 +55175,7 @@
 									"defaultValue": "0"
 								},
 								{
-									"id": 3549,
+									"id": 3555,
 									"name": "y",
 									"kind": 32,
 									"kindString": "Variable",
@@ -55201,8 +55201,8 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
-										3548,
-										3549
+										3554,
+										3555
 									]
 								}
 							],
@@ -55224,47 +55224,47 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3571
+								3577
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3588,
-								3576,
-								3554,
-								3550,
-								3574,
-								3546,
-								3545,
-								3575,
-								3553
+								3594,
+								3582,
+								3560,
+								3556,
+								3580,
+								3552,
+								3551,
+								3581,
+								3559
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
+								3573,
+								3575,
+								3588,
+								3564,
+								3590,
 								3567,
-								3569,
-								3582,
-								3558,
-								3584,
+								3595,
+								3583,
+								3585,
+								3557,
 								3561,
-								3589,
-								3577,
-								3579,
-								3551,
-								3555,
-								3564
+								3570
 							]
 						},
 						{
 							"title": "Object literals",
 							"kind": 2097152,
 							"children": [
-								3547
+								3553
 							]
 						}
 					],
@@ -55289,7 +55289,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3544
+						3550
 					]
 				}
 			],
@@ -57465,7 +57465,7 @@
 			]
 		},
 		{
-			"id": 3129,
+			"id": 3135,
 			"name": "\"src/plugins/hotkeys\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -57475,21 +57475,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/hotkeys.ts",
 			"children": [
 				{
-					"id": 3243,
+					"id": 3249,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3244,
+							"id": 3250,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3245,
+									"id": 3251,
 									"name": "commandToHotkeys",
 									"kind": 1024,
 									"kindString": "Property",
@@ -57504,20 +57504,20 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 3246,
+											"id": 3252,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"indexSignature": {
-												"id": 3247,
+												"id": 3253,
 												"name": "__index",
 												"kind": 8192,
 												"kindString": "Index signature",
 												"flags": {},
 												"parameters": [
 													{
-														"id": 3248,
+														"id": 3254,
 														"name": "key",
 														"kind": 32768,
 														"kindString": "Parameter",
@@ -57561,7 +57561,7 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3245
+										3251
 									]
 								}
 							],
@@ -57579,7 +57579,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3244
+								3250
 							]
 						}
 					],
@@ -57592,7 +57592,7 @@
 					]
 				},
 				{
-					"id": 3130,
+					"id": 3136,
 					"name": "hotkeys",
 					"kind": 128,
 					"kindString": "Class",
@@ -57604,7 +57604,7 @@
 					},
 					"children": [
 						{
-							"id": 3223,
+							"id": 3229,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -57613,14 +57613,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3224,
+									"id": 3230,
 									"name": "new hotkeys",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3225,
+											"id": 3231,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -57635,7 +57635,7 @@
 									"type": {
 										"type": "reference",
 										"name": "hotkeys",
-										"id": 3130
+										"id": 3136
 									},
 									"overwrites": {
 										"type": "reference",
@@ -57658,7 +57658,7 @@
 							}
 						},
 						{
-							"id": 3240,
+							"id": 3246,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -57685,7 +57685,7 @@
 							}
 						},
 						{
-							"id": 3228,
+							"id": 3234,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -57721,7 +57721,7 @@
 							}
 						},
 						{
-							"id": 3226,
+							"id": 3232,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -57754,7 +57754,7 @@
 							}
 						},
 						{
-							"id": 3227,
+							"id": 3233,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -57780,7 +57780,7 @@
 							}
 						},
 						{
-							"id": 3216,
+							"id": 3222,
 							"name": "possible",
 							"kind": 1024,
 							"kindString": "Property",
@@ -57798,20 +57798,20 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3217,
+									"id": 3223,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
 									"flags": {},
 									"indexSignature": {
-										"id": 3218,
+										"id": 3224,
 										"name": "__index",
 										"kind": 8192,
 										"kindString": "Index signature",
 										"flags": {},
 										"parameters": [
 											{
-												"id": 3219,
+												"id": 3225,
 												"name": "key",
 												"kind": 32768,
 												"kindString": "Parameter",
@@ -57838,7 +57838,7 @@
 							}
 						},
 						{
-							"id": 3234,
+							"id": 3240,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -57847,7 +57847,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3235,
+									"id": 3241,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -57877,7 +57877,7 @@
 							}
 						},
 						{
-							"id": 3236,
+							"id": 3242,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -57886,14 +57886,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3237,
+									"id": 3243,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3238,
+											"id": 3244,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -57904,7 +57904,7 @@
 											}
 										},
 										{
-											"id": 3239,
+											"id": 3245,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -57952,7 +57952,7 @@
 							}
 						},
 						{
-							"id": 3241,
+							"id": 3247,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -57961,7 +57961,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3242,
+									"id": 3248,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -57991,7 +57991,7 @@
 							}
 						},
 						{
-							"id": 3229,
+							"id": 3235,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -58000,7 +58000,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3230,
+									"id": 3236,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -58030,7 +58030,7 @@
 							}
 						},
 						{
-							"id": 3231,
+							"id": 3237,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -58039,14 +58039,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3232,
+									"id": 3238,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3233,
+											"id": 3239,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -58082,7 +58082,7 @@
 							}
 						},
 						{
-							"id": 3220,
+							"id": 3226,
 							"name": "onKeyPress",
 							"kind": 2048,
 							"kindString": "Method",
@@ -58092,14 +58092,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3221,
+									"id": 3227,
 									"name": "onKeyPress",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3222,
+											"id": 3228,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -58134,7 +58134,7 @@
 							]
 						},
 						{
-							"id": 3196,
+							"id": 3202,
 							"name": "shiftNums",
 							"kind": 2097152,
 							"kindString": "Object literal",
@@ -58143,7 +58143,7 @@
 							},
 							"children": [
 								{
-									"id": 3211,
+									"id": 3217,
 									"name": "'",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58164,7 +58164,7 @@
 									"defaultValue": "\"\"\""
 								},
 								{
-									"id": 3212,
+									"id": 3218,
 									"name": ",",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58185,7 +58185,7 @@
 									"defaultValue": "\"<\""
 								},
 								{
-									"id": 3208,
+									"id": 3214,
 									"name": "-",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58206,7 +58206,7 @@
 									"defaultValue": "\"_\""
 								},
 								{
-									"id": 3213,
+									"id": 3219,
 									"name": ".",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58227,7 +58227,7 @@
 									"defaultValue": "\">\""
 								},
 								{
-									"id": 3214,
+									"id": 3220,
 									"name": "/",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58248,7 +58248,7 @@
 									"defaultValue": "\"?\""
 								},
 								{
-									"id": 3207,
+									"id": 3213,
 									"name": "0",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58269,7 +58269,7 @@
 									"defaultValue": "\")\""
 								},
 								{
-									"id": 3198,
+									"id": 3204,
 									"name": "1",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58290,7 +58290,7 @@
 									"defaultValue": "\"!\""
 								},
 								{
-									"id": 3199,
+									"id": 3205,
 									"name": "2",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58311,7 +58311,7 @@
 									"defaultValue": "\"@\""
 								},
 								{
-									"id": 3200,
+									"id": 3206,
 									"name": "3",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58332,7 +58332,7 @@
 									"defaultValue": "\"#\""
 								},
 								{
-									"id": 3201,
+									"id": 3207,
 									"name": "4",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58353,7 +58353,7 @@
 									"defaultValue": "\"$\""
 								},
 								{
-									"id": 3202,
+									"id": 3208,
 									"name": "5",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58374,7 +58374,7 @@
 									"defaultValue": "\"%\""
 								},
 								{
-									"id": 3203,
+									"id": 3209,
 									"name": "6",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58395,7 +58395,7 @@
 									"defaultValue": "\"^\""
 								},
 								{
-									"id": 3204,
+									"id": 3210,
 									"name": "7",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58416,7 +58416,7 @@
 									"defaultValue": "\"&\""
 								},
 								{
-									"id": 3205,
+									"id": 3211,
 									"name": "8",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58437,7 +58437,7 @@
 									"defaultValue": "\"*\""
 								},
 								{
-									"id": 3206,
+									"id": 3212,
 									"name": "9",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58458,7 +58458,7 @@
 									"defaultValue": "\"(\""
 								},
 								{
-									"id": 3210,
+									"id": 3216,
 									"name": ";",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58479,7 +58479,7 @@
 									"defaultValue": "\": \""
 								},
 								{
-									"id": 3209,
+									"id": 3215,
 									"name": "=",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58500,7 +58500,7 @@
 									"defaultValue": "\"+\""
 								},
 								{
-									"id": 3215,
+									"id": 3221,
 									"name": "\\",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58521,7 +58521,7 @@
 									"defaultValue": "\"|\""
 								},
 								{
-									"id": 3197,
+									"id": 3203,
 									"name": "`",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58547,25 +58547,25 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
-										3211,
-										3212,
-										3208,
-										3213,
+										3217,
+										3218,
 										3214,
-										3207,
-										3198,
-										3199,
-										3200,
-										3201,
-										3202,
-										3203,
+										3219,
+										3220,
+										3213,
 										3204,
 										3205,
 										3206,
-										3210,
+										3207,
+										3208,
 										3209,
+										3210,
+										3211,
+										3212,
+										3216,
 										3215,
-										3197
+										3221,
+										3203
 									]
 								}
 							],
@@ -58582,7 +58582,7 @@
 							}
 						},
 						{
-							"id": 3131,
+							"id": 3137,
 							"name": "specialKeys",
 							"kind": 2097152,
 							"kindString": "Object literal",
@@ -58591,7 +58591,7 @@
 							},
 							"children": [
 								{
-									"id": 3134,
+									"id": 3140,
 									"name": "10",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58612,7 +58612,7 @@
 									"defaultValue": "\"return\""
 								},
 								{
-									"id": 3159,
+									"id": 3165,
 									"name": "100",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58633,7 +58633,7 @@
 									"defaultValue": "\"4\""
 								},
 								{
-									"id": 3160,
+									"id": 3166,
 									"name": "101",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58654,7 +58654,7 @@
 									"defaultValue": "\"5\""
 								},
 								{
-									"id": 3161,
+									"id": 3167,
 									"name": "102",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58675,7 +58675,7 @@
 									"defaultValue": "\"6\""
 								},
 								{
-									"id": 3162,
+									"id": 3168,
 									"name": "103",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58696,7 +58696,7 @@
 									"defaultValue": "\"7\""
 								},
 								{
-									"id": 3163,
+									"id": 3169,
 									"name": "104",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58717,7 +58717,7 @@
 									"defaultValue": "\"8\""
 								},
 								{
-									"id": 3164,
+									"id": 3170,
 									"name": "105",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58738,7 +58738,7 @@
 									"defaultValue": "\"9\""
 								},
 								{
-									"id": 3165,
+									"id": 3171,
 									"name": "106",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58759,7 +58759,7 @@
 									"defaultValue": "\"*\""
 								},
 								{
-									"id": 3166,
+									"id": 3172,
 									"name": "107",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58780,7 +58780,7 @@
 									"defaultValue": "\"+\""
 								},
 								{
-									"id": 3167,
+									"id": 3173,
 									"name": "109",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58801,7 +58801,7 @@
 									"defaultValue": "\"-\""
 								},
 								{
-									"id": 3168,
+									"id": 3174,
 									"name": "110",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58822,7 +58822,7 @@
 									"defaultValue": "\".\""
 								},
 								{
-									"id": 3169,
+									"id": 3175,
 									"name": "111",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58843,7 +58843,7 @@
 									"defaultValue": "\"/\""
 								},
 								{
-									"id": 3170,
+									"id": 3176,
 									"name": "112",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58864,7 +58864,7 @@
 									"defaultValue": "\"f1\""
 								},
 								{
-									"id": 3171,
+									"id": 3177,
 									"name": "113",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58885,7 +58885,7 @@
 									"defaultValue": "\"f2\""
 								},
 								{
-									"id": 3172,
+									"id": 3178,
 									"name": "114",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58906,7 +58906,7 @@
 									"defaultValue": "\"f3\""
 								},
 								{
-									"id": 3173,
+									"id": 3179,
 									"name": "115",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58927,7 +58927,7 @@
 									"defaultValue": "\"f4\""
 								},
 								{
-									"id": 3174,
+									"id": 3180,
 									"name": "116",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58948,7 +58948,7 @@
 									"defaultValue": "\"f5\""
 								},
 								{
-									"id": 3175,
+									"id": 3181,
 									"name": "117",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58969,7 +58969,7 @@
 									"defaultValue": "\"f6\""
 								},
 								{
-									"id": 3176,
+									"id": 3182,
 									"name": "118",
 									"kind": 32,
 									"kindString": "Variable",
@@ -58990,7 +58990,7 @@
 									"defaultValue": "\"f7\""
 								},
 								{
-									"id": 3177,
+									"id": 3183,
 									"name": "119",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59011,7 +59011,7 @@
 									"defaultValue": "\"f8\""
 								},
 								{
-									"id": 3178,
+									"id": 3184,
 									"name": "120",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59032,7 +59032,7 @@
 									"defaultValue": "\"f9\""
 								},
 								{
-									"id": 3179,
+									"id": 3185,
 									"name": "121",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59053,7 +59053,7 @@
 									"defaultValue": "\"f10\""
 								},
 								{
-									"id": 3180,
+									"id": 3186,
 									"name": "122",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59074,7 +59074,7 @@
 									"defaultValue": "\"f11\""
 								},
 								{
-									"id": 3181,
+									"id": 3187,
 									"name": "123",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59095,7 +59095,7 @@
 									"defaultValue": "\"f12\""
 								},
 								{
-									"id": 3135,
+									"id": 3141,
 									"name": "13",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59116,7 +59116,7 @@
 									"defaultValue": "\"return\""
 								},
 								{
-									"id": 3182,
+									"id": 3188,
 									"name": "144",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59137,7 +59137,7 @@
 									"defaultValue": "\"numlock\""
 								},
 								{
-									"id": 3183,
+									"id": 3189,
 									"name": "145",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59158,7 +59158,7 @@
 									"defaultValue": "\"scroll\""
 								},
 								{
-									"id": 3136,
+									"id": 3142,
 									"name": "16",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59179,7 +59179,7 @@
 									"defaultValue": "\"shift\""
 								},
 								{
-									"id": 3137,
+									"id": 3143,
 									"name": "17",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59200,7 +59200,7 @@
 									"defaultValue": "\"ctrl\""
 								},
 								{
-									"id": 3184,
+									"id": 3190,
 									"name": "173",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59221,7 +59221,7 @@
 									"defaultValue": "\"-\""
 								},
 								{
-									"id": 3138,
+									"id": 3144,
 									"name": "18",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59242,7 +59242,7 @@
 									"defaultValue": "\"alt\""
 								},
 								{
-									"id": 3185,
+									"id": 3191,
 									"name": "186",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59263,7 +59263,7 @@
 									"defaultValue": "\";\""
 								},
 								{
-									"id": 3186,
+									"id": 3192,
 									"name": "187",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59284,7 +59284,7 @@
 									"defaultValue": "\"=\""
 								},
 								{
-									"id": 3187,
+									"id": 3193,
 									"name": "188",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59305,7 +59305,7 @@
 									"defaultValue": "\",\""
 								},
 								{
-									"id": 3188,
+									"id": 3194,
 									"name": "189",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59326,7 +59326,7 @@
 									"defaultValue": "\"-\""
 								},
 								{
-									"id": 3139,
+									"id": 3145,
 									"name": "19",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59347,7 +59347,7 @@
 									"defaultValue": "\"pause\""
 								},
 								{
-									"id": 3189,
+									"id": 3195,
 									"name": "190",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59368,7 +59368,7 @@
 									"defaultValue": "\".\""
 								},
 								{
-									"id": 3190,
+									"id": 3196,
 									"name": "191",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59389,7 +59389,7 @@
 									"defaultValue": "\"/\""
 								},
 								{
-									"id": 3191,
+									"id": 3197,
 									"name": "192",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59410,7 +59410,7 @@
 									"defaultValue": "\"`\""
 								},
 								{
-									"id": 3140,
+									"id": 3146,
 									"name": "20",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59431,7 +59431,7 @@
 									"defaultValue": "\"capslock\""
 								},
 								{
-									"id": 3192,
+									"id": 3198,
 									"name": "219",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59452,7 +59452,7 @@
 									"defaultValue": "\"[\""
 								},
 								{
-									"id": 3193,
+									"id": 3199,
 									"name": "220",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59473,7 +59473,7 @@
 									"defaultValue": "\"\\\""
 								},
 								{
-									"id": 3194,
+									"id": 3200,
 									"name": "221",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59494,7 +59494,7 @@
 									"defaultValue": "\"]\""
 								},
 								{
-									"id": 3195,
+									"id": 3201,
 									"name": "222",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59515,7 +59515,7 @@
 									"defaultValue": "\"'\""
 								},
 								{
-									"id": 3141,
+									"id": 3147,
 									"name": "27",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59536,7 +59536,7 @@
 									"defaultValue": "\"esc\""
 								},
 								{
-									"id": 3142,
+									"id": 3148,
 									"name": "32",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59557,7 +59557,7 @@
 									"defaultValue": "\"space\""
 								},
 								{
-									"id": 3143,
+									"id": 3149,
 									"name": "33",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59578,7 +59578,7 @@
 									"defaultValue": "\"pageup\""
 								},
 								{
-									"id": 3144,
+									"id": 3150,
 									"name": "34",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59599,7 +59599,7 @@
 									"defaultValue": "\"pagedown\""
 								},
 								{
-									"id": 3145,
+									"id": 3151,
 									"name": "35",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59620,7 +59620,7 @@
 									"defaultValue": "\"end\""
 								},
 								{
-									"id": 3146,
+									"id": 3152,
 									"name": "36",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59641,7 +59641,7 @@
 									"defaultValue": "\"home\""
 								},
 								{
-									"id": 3147,
+									"id": 3153,
 									"name": "37",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59662,7 +59662,7 @@
 									"defaultValue": "\"left\""
 								},
 								{
-									"id": 3148,
+									"id": 3154,
 									"name": "38",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59683,7 +59683,7 @@
 									"defaultValue": "\"up\""
 								},
 								{
-									"id": 3149,
+									"id": 3155,
 									"name": "39",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59704,7 +59704,7 @@
 									"defaultValue": "\"right\""
 								},
 								{
-									"id": 3150,
+									"id": 3156,
 									"name": "40",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59725,7 +59725,7 @@
 									"defaultValue": "\"down\""
 								},
 								{
-									"id": 3151,
+									"id": 3157,
 									"name": "45",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59746,7 +59746,7 @@
 									"defaultValue": "\"insert\""
 								},
 								{
-									"id": 3152,
+									"id": 3158,
 									"name": "46",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59767,7 +59767,7 @@
 									"defaultValue": "\"del\""
 								},
 								{
-									"id": 3153,
+									"id": 3159,
 									"name": "59",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59788,7 +59788,7 @@
 									"defaultValue": "\";\""
 								},
 								{
-									"id": 3154,
+									"id": 3160,
 									"name": "61",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59809,7 +59809,7 @@
 									"defaultValue": "\"=\""
 								},
 								{
-									"id": 3132,
+									"id": 3138,
 									"name": "8",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59830,7 +59830,7 @@
 									"defaultValue": "\"backspace\""
 								},
 								{
-									"id": 3133,
+									"id": 3139,
 									"name": "9",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59851,7 +59851,7 @@
 									"defaultValue": "\"tab\""
 								},
 								{
-									"id": 3155,
+									"id": 3161,
 									"name": "96",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59872,7 +59872,7 @@
 									"defaultValue": "\"0\""
 								},
 								{
-									"id": 3156,
+									"id": 3162,
 									"name": "97",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59893,7 +59893,7 @@
 									"defaultValue": "\"1\""
 								},
 								{
-									"id": 3157,
+									"id": 3163,
 									"name": "98",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59914,7 +59914,7 @@
 									"defaultValue": "\"2\""
 								},
 								{
-									"id": 3158,
+									"id": 3164,
 									"name": "99",
 									"kind": 32,
 									"kindString": "Variable",
@@ -59940,13 +59940,7 @@
 									"title": "Variables",
 									"kind": 32,
 									"children": [
-										3134,
-										3159,
-										3160,
-										3161,
-										3162,
-										3163,
-										3164,
+										3140,
 										3165,
 										3166,
 										3167,
@@ -59964,32 +59958,32 @@
 										3179,
 										3180,
 										3181,
-										3135,
 										3182,
 										3183,
-										3136,
-										3137,
 										3184,
-										3138,
 										3185,
 										3186,
 										3187,
+										3141,
 										3188,
-										3139,
 										3189,
+										3142,
+										3143,
 										3190,
+										3144,
 										3191,
-										3140,
 										3192,
 										3193,
 										3194,
-										3195,
-										3141,
-										3142,
-										3143,
-										3144,
 										3145,
+										3195,
+										3196,
+										3197,
 										3146,
+										3198,
+										3199,
+										3200,
+										3201,
 										3147,
 										3148,
 										3149,
@@ -59998,12 +59992,18 @@
 										3152,
 										3153,
 										3154,
-										3132,
-										3133,
 										3155,
 										3156,
 										3157,
-										3158
+										3158,
+										3159,
+										3160,
+										3138,
+										3139,
+										3161,
+										3162,
+										3163,
+										3164
 									]
 								}
 							],
@@ -60025,38 +60025,38 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3223
+								3229
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3240,
-								3228,
-								3226,
-								3227,
-								3216
+								3246,
+								3234,
+								3232,
+								3233,
+								3222
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3234,
-								3236,
-								3241,
-								3229,
-								3231,
-								3220
+								3240,
+								3242,
+								3247,
+								3235,
+								3237,
+								3226
 							]
 						},
 						{
 							"title": "Object literals",
 							"kind": 2097152,
 							"children": [
-								3196,
-								3131
+								3202,
+								3137
 							]
 						}
 					],
@@ -60081,14 +60081,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3243
+						3249
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3130
+						3136
 					]
 				}
 			],
@@ -61095,7 +61095,7 @@
 			]
 		},
 		{
-			"id": 3636,
+			"id": 3642,
 			"name": "\"src/plugins/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -61122,21 +61122,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/inline-popup.ts",
 			"children": [
 				{
-					"id": 2926,
+					"id": 2932,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 2927,
+							"id": 2933,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 2928,
+									"id": 2934,
 									"name": "popup",
 									"kind": 1024,
 									"kindString": "Property",
@@ -61151,20 +61151,20 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 2929,
+											"id": 2935,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"indexSignature": {
-												"id": 2930,
+												"id": 2936,
 												"name": "__index",
 												"kind": 8192,
 												"kindString": "Index signature",
 												"flags": {},
 												"parameters": [
 													{
-														"id": 2931,
+														"id": 2937,
 														"name": "key",
 														"kind": 32768,
 														"kindString": "Parameter",
@@ -61207,7 +61207,7 @@
 									}
 								},
 								{
-									"id": 2932,
+									"id": 2938,
 									"name": "toolbarInline",
 									"kind": 1024,
 									"kindString": "Property",
@@ -61225,7 +61225,7 @@
 									}
 								},
 								{
-									"id": 2933,
+									"id": 2939,
 									"name": "toolbarInlineDisableFor",
 									"kind": 1024,
 									"kindString": "Property",
@@ -61260,9 +61260,9 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										2928,
-										2932,
-										2933
+										2934,
+										2938,
+										2939
 									]
 								}
 							],
@@ -61280,7 +61280,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								2927
+								2933
 							]
 						}
 					],
@@ -61355,7 +61355,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 283,
+									"line": 287,
 									"character": 38
 								}
 							],
@@ -61366,7 +61366,55 @@
 							}
 						},
 						{
-							"id": 2923,
+							"id": 2881,
+							"name": "__getRect",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/plugins/inline-popup.ts",
+									"line": 372,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 2882,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {},
+									"signatures": [
+										{
+											"id": 2883,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "Bound",
+												"id": 4
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/plugins/inline-popup.ts",
+											"line": 372,
+											"character": 22
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 2929,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61393,7 +61441,7 @@
 							}
 						},
 						{
-							"id": 2911,
+							"id": 2917,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61429,6 +61477,28 @@
 							}
 						},
 						{
+							"id": 2873,
+							"name": "_hiddenClass",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/plugins/inline-popup.ts",
+									"line": 320,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"defaultValue": "\"jodit_toolbar_popup-inline-target-hidden\""
+						},
+						{
 							"id": 2866,
 							"name": "container",
 							"kind": 1024,
@@ -61440,7 +61510,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 283,
+									"line": 287,
 									"character": 21
 								}
 							],
@@ -61450,7 +61520,7 @@
 							}
 						},
 						{
-							"id": 2909,
+							"id": 2915,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61483,7 +61553,7 @@
 							}
 						},
 						{
-							"id": 2893,
+							"id": 2899,
 							"name": "isSelectionPopup",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61503,7 +61573,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 422,
+									"line": 448,
 									"character": 28
 								}
 							],
@@ -61514,7 +61584,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 2890,
+							"id": 2896,
 							"name": "isSelectionStarted",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61525,7 +61595,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 398,
+									"line": 424,
 									"character": 30
 								}
 							],
@@ -61546,7 +61616,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 294,
+									"line": 298,
 									"character": 11
 								}
 							],
@@ -61557,7 +61627,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 2892,
+							"id": 2898,
 							"name": "isTargetAction",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61568,7 +61638,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 416,
+									"line": 442,
 									"character": 26
 								}
 							],
@@ -61579,7 +61649,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 2910,
+							"id": 2916,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61605,7 +61675,7 @@
 							}
 						},
 						{
-							"id": 2891,
+							"id": 2897,
 							"name": "onSelectionEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -61616,7 +61686,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 400,
+									"line": 426,
 									"character": 26
 								}
 							],
@@ -61638,7 +61708,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 281,
+									"line": 285,
 									"character": 17
 								}
 							],
@@ -61660,7 +61730,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 282,
+									"line": 286,
 									"character": 18
 								}
 							],
@@ -61681,7 +61751,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 280,
+									"line": 284,
 									"character": 19
 								}
 							],
@@ -61692,7 +61762,7 @@
 							}
 						},
 						{
-							"id": 2903,
+							"id": 2909,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61701,14 +61771,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2904,
+									"id": 2910,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2905,
+											"id": 2911,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -61734,7 +61804,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 478,
+									"line": 504,
 									"character": 13
 								}
 							],
@@ -61745,7 +61815,7 @@
 							}
 						},
 						{
-							"id": 2906,
+							"id": 2912,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61754,14 +61824,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2907,
+									"id": 2913,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2908,
+											"id": 2914,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -61787,7 +61857,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 512,
+									"line": 539,
 									"character": 18
 								}
 							],
@@ -61798,7 +61868,7 @@
 							}
 						},
 						{
-							"id": 2873,
+							"id": 2874,
 							"name": "calcPosition",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61808,14 +61878,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2874,
+									"id": 2875,
 									"name": "calcPosition",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2875,
+											"id": 2876,
 											"name": "rect",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -61827,7 +61897,7 @@
 											}
 										},
 										{
-											"id": 2876,
+											"id": 2877,
 											"name": "windowSize",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -61848,7 +61918,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 316,
+									"line": 321,
 									"character": 24
 								}
 							]
@@ -61879,13 +61949,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 296,
+									"line": 300,
 									"character": 25
 								}
 							]
 						},
 						{
-							"id": 2901,
+							"id": 2907,
 							"name": "checkIsTargetEvent",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61895,7 +61965,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2902,
+									"id": 2908,
 									"name": "checkIsTargetEvent",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -61909,13 +61979,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 470,
+									"line": 496,
 									"character": 30
 								}
 							]
 						},
 						{
-							"id": 2917,
+							"id": 2923,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61924,7 +61994,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2918,
+									"id": 2924,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -61954,7 +62024,7 @@
 							}
 						},
 						{
-							"id": 2919,
+							"id": 2925,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -61963,14 +62033,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2920,
+									"id": 2926,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2921,
+											"id": 2927,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -61981,7 +62051,7 @@
 											}
 										},
 										{
-											"id": 2922,
+											"id": 2928,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62029,7 +62099,7 @@
 							}
 						},
 						{
-							"id": 2897,
+							"id": 2903,
 							"name": "hideIfCollapsed",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62039,7 +62109,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2898,
+									"id": 2904,
 									"name": "hideIfCollapsed",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62053,13 +62123,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 442,
+									"line": 468,
 									"character": 27
 								}
 							]
 						},
 						{
-							"id": 2887,
+							"id": 2893,
 							"name": "hidePopup",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62069,14 +62139,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2888,
+									"id": 2894,
 									"name": "hidePopup",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2889,
+											"id": 2895,
 											"name": "root",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62108,13 +62178,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 384,
+									"line": 410,
 									"character": 21
 								}
 							]
 						},
 						{
-							"id": 2877,
+							"id": 2878,
 							"name": "isExcludedTarget",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62124,14 +62194,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2878,
+									"id": 2879,
 									"name": "isExcludedTarget",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2879,
+											"id": 2880,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62151,13 +62221,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 348,
+									"line": 365,
 									"character": 28
 								}
 							]
 						},
 						{
-							"id": 2924,
+							"id": 2930,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62166,7 +62236,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2925,
+									"id": 2931,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62196,7 +62266,7 @@
 							}
 						},
 						{
-							"id": 2912,
+							"id": 2918,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62205,7 +62275,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2913,
+									"id": 2919,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62235,7 +62305,7 @@
 							}
 						},
 						{
-							"id": 2914,
+							"id": 2920,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62244,14 +62314,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2915,
+									"id": 2921,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2916,
+											"id": 2922,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62287,7 +62357,7 @@
 							}
 						},
 						{
-							"id": 2899,
+							"id": 2905,
 							"name": "onChangeSelection",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62296,7 +62366,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2900,
+									"id": 2906,
 									"name": "onChangeSelection",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -62310,13 +62380,13 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 451,
+									"line": 477,
 									"character": 21
 								}
 							]
 						},
 						{
-							"id": 2894,
+							"id": 2900,
 							"name": "onSelectionStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62326,14 +62396,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2895,
+									"id": 2901,
 									"name": "onSelectionStart",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2896,
+											"id": 2902,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62353,13 +62423,43 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 424,
+									"line": 450,
 									"character": 28
 								}
 							]
 						},
 						{
-							"id": 2880,
+							"id": 2884,
+							"name": "reCalcPosition",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPrivate": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 2885,
+									"name": "reCalcPosition",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/plugins/inline-popup.ts",
+									"line": 373,
+									"character": 26
+								}
+							]
+						},
+						{
+							"id": 2886,
 							"name": "showPopup",
 							"kind": 2048,
 							"kindString": "Method",
@@ -62369,14 +62469,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2881,
+									"id": 2887,
 									"name": "showPopup",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2882,
+											"id": 2888,
 											"name": "rect",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62384,14 +62484,14 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 2883,
+													"id": 2889,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 2884,
+															"id": 2890,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -62406,7 +62506,7 @@
 													"sources": [
 														{
 															"fileName": "src/plugins/inline-popup.ts",
-															"line": 354,
+															"line": 379,
 															"character": 30
 														}
 													]
@@ -62414,7 +62514,7 @@
 											}
 										},
 										{
-											"id": 2885,
+											"id": 2891,
 											"name": "type",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62425,7 +62525,7 @@
 											}
 										},
 										{
-											"id": 2886,
+											"id": 2892,
 											"name": "elm",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -62447,7 +62547,7 @@
 							"sources": [
 								{
 									"fileName": "src/plugins/inline-popup.ts",
-									"line": 354,
+									"line": 379,
 									"character": 21
 								}
 							]
@@ -62465,16 +62565,18 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								2923,
-								2911,
+								2881,
+								2929,
+								2917,
+								2873,
 								2866,
-								2909,
-								2893,
-								2890,
+								2915,
+								2899,
+								2896,
 								2870,
-								2892,
-								2910,
-								2891,
+								2898,
+								2916,
+								2897,
 								2864,
 								2865,
 								2863
@@ -62484,29 +62586,30 @@
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								2903,
-								2906,
-								2873,
-								2871,
-								2901,
-								2917,
-								2919,
-								2897,
-								2887,
-								2877,
-								2924,
+								2909,
 								2912,
-								2914,
-								2899,
-								2894,
-								2880
+								2874,
+								2871,
+								2907,
+								2923,
+								2925,
+								2903,
+								2893,
+								2878,
+								2930,
+								2918,
+								2920,
+								2905,
+								2900,
+								2884,
+								2886
 							]
 						}
 					],
 					"sources": [
 						{
 							"fileName": "src/plugins/inline-popup.ts",
-							"line": 279,
+							"line": 283,
 							"character": 24
 						}
 					],
@@ -62524,7 +62627,7 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						2926
+						2932
 					]
 				},
 				{
@@ -62544,7 +62647,7 @@
 			]
 		},
 		{
-			"id": 2934,
+			"id": 2940,
 			"name": "\"src/plugins/justify\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -62554,7 +62657,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/justify.ts",
 			"children": [
 				{
-					"id": 2935,
+					"id": 2941,
 					"name": "justify",
 					"kind": 64,
 					"kindString": "Function",
@@ -62563,7 +62666,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2936,
+							"id": 2942,
 							"name": "justify",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62573,7 +62676,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2937,
+									"id": 2943,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62608,7 +62711,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2935
+						2941
 					]
 				}
 			],
@@ -62621,7 +62724,7 @@
 			]
 		},
 		{
-			"id": 2938,
+			"id": 2944,
 			"name": "\"src/plugins/link\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -62631,7 +62734,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/link.ts",
 			"children": [
 				{
-					"id": 2939,
+					"id": 2945,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
@@ -62666,14 +62769,14 @@
 					},
 					"children": [
 						{
-							"id": 2940,
+							"id": 2946,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 2941,
+									"id": 2947,
 									"name": "link",
 									"kind": 1024,
 									"kindString": "Property",
@@ -62688,14 +62791,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 2942,
+											"id": 2948,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"children": [
 												{
-													"id": 2943,
+													"id": 2949,
 													"name": "followOnDblClick",
 													"kind": 32,
 													"kindString": "Variable",
@@ -62713,7 +62816,7 @@
 													}
 												},
 												{
-													"id": 2946,
+													"id": 2952,
 													"name": "openLinkDialogAfterPost",
 													"kind": 32,
 													"kindString": "Variable",
@@ -62731,7 +62834,7 @@
 													}
 												},
 												{
-													"id": 2945,
+													"id": 2951,
 													"name": "processPastedLink",
 													"kind": 32,
 													"kindString": "Variable",
@@ -62749,7 +62852,7 @@
 													}
 												},
 												{
-													"id": 2944,
+													"id": 2950,
 													"name": "processVideoLink",
 													"kind": 32,
 													"kindString": "Variable",
@@ -62767,7 +62870,7 @@
 													}
 												},
 												{
-													"id": 2947,
+													"id": 2953,
 													"name": "removeLinkAfterFormat",
 													"kind": 32,
 													"kindString": "Variable",
@@ -62790,11 +62893,11 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														2943,
-														2946,
-														2945,
-														2944,
-														2947
+														2949,
+														2952,
+														2951,
+														2950,
+														2953
 													]
 												}
 											],
@@ -62814,7 +62917,7 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										2941
+										2947
 									]
 								}
 							],
@@ -62832,7 +62935,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								2940
+								2946
 							]
 						}
 					],
@@ -62845,7 +62948,7 @@
 					]
 				},
 				{
-					"id": 2948,
+					"id": 2954,
 					"name": "link",
 					"kind": 64,
 					"kindString": "Function",
@@ -62854,7 +62957,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2949,
+							"id": 2955,
 							"name": "link",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62870,7 +62973,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2950,
+									"id": 2956,
 									"name": "jodit",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62902,14 +63005,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						2939
+						2945
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2948
+						2954
 					]
 				}
 			],
@@ -62922,7 +63025,7 @@
 			]
 		},
 		{
-			"id": 2951,
+			"id": 2957,
 			"name": "\"src/plugins/mobile\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -62932,21 +63035,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/mobile.ts",
 			"children": [
 				{
-					"id": 2952,
+					"id": 2958,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 2953,
+							"id": 2959,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 2954,
+									"id": 2960,
 									"name": "mobileTapTimeout",
 									"kind": 1024,
 									"kindString": "Property",
@@ -62967,7 +63070,7 @@
 									}
 								},
 								{
-									"id": 2955,
+									"id": 2961,
 									"name": "toolbarAdaptive",
 									"kind": 1024,
 									"kindString": "Property",
@@ -62990,8 +63093,8 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										2954,
-										2955
+										2960,
+										2961
 									]
 								}
 							],
@@ -63009,7 +63112,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								2953
+								2959
 							]
 						}
 					],
@@ -63022,7 +63125,7 @@
 					]
 				},
 				{
-					"id": 2956,
+					"id": 2962,
 					"name": "mobile",
 					"kind": 64,
 					"kindString": "Function",
@@ -63031,7 +63134,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2957,
+							"id": 2963,
 							"name": "mobile",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63041,7 +63144,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2958,
+									"id": 2964,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63073,14 +63176,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						2952
+						2958
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2956
+						2962
 					]
 				}
 			],
@@ -63093,7 +63196,7 @@
 			]
 		},
 		{
-			"id": 2959,
+			"id": 2965,
 			"name": "\"src/plugins/orderedlist\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -63103,7 +63206,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/orderedlist.ts",
 			"children": [
 				{
-					"id": 2960,
+					"id": 2966,
 					"name": "orderedlist",
 					"kind": 64,
 					"kindString": "Function",
@@ -63112,7 +63215,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2961,
+							"id": 2967,
 							"name": "orderedlist",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63122,7 +63225,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2962,
+									"id": 2968,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63154,7 +63257,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2960
+						2966
 					]
 				}
 			],
@@ -63167,7 +63270,7 @@
 			]
 		},
 		{
-			"id": 2963,
+			"id": 2969,
 			"name": "\"src/plugins/paste\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -63177,7 +63280,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/paste.ts",
 			"children": [
 				{
-					"id": 2964,
+					"id": 2970,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
@@ -63192,14 +63295,14 @@
 					},
 					"children": [
 						{
-							"id": 2965,
+							"id": 2971,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 2967,
+									"id": 2973,
 									"name": "askBeforePasteFromWord",
 									"kind": 1024,
 									"kindString": "Property",
@@ -63217,7 +63320,7 @@
 									}
 								},
 								{
-									"id": 2966,
+									"id": 2972,
 									"name": "askBeforePasteHTML",
 									"kind": 1024,
 									"kindString": "Property",
@@ -63235,7 +63338,7 @@
 									}
 								},
 								{
-									"id": 2968,
+									"id": 2974,
 									"name": "defaultActionOnPaste",
 									"kind": 1024,
 									"kindString": "Property",
@@ -63258,9 +63361,9 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										2967,
-										2966,
-										2968
+										2973,
+										2972,
+										2974
 									]
 								}
 							],
@@ -63278,7 +63381,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								2965
+								2971
 							]
 						}
 					],
@@ -63291,7 +63394,7 @@
 					]
 				},
 				{
-					"id": 2969,
+					"id": 2975,
 					"name": "paste",
 					"kind": 64,
 					"kindString": "Function",
@@ -63300,7 +63403,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2970,
+							"id": 2976,
 							"name": "paste",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63316,7 +63419,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2971,
+									"id": 2977,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63348,14 +63451,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						2964
+						2970
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2969
+						2975
 					]
 				}
 			],
@@ -63368,7 +63471,7 @@
 			]
 		},
 		{
-			"id": 3591,
+			"id": 3597,
 			"name": "\"src/plugins/paste-storage\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -63378,7 +63481,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/paste-storage.ts",
 			"children": [
 				{
-					"id": 3592,
+					"id": 3598,
 					"name": "pasteStorage",
 					"kind": 128,
 					"kindString": "Class",
@@ -63390,7 +63493,7 @@
 					},
 					"children": [
 						{
-							"id": 3613,
+							"id": 3619,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -63399,14 +63502,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3614,
+									"id": 3620,
 									"name": "new pasteStorage",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3615,
+											"id": 3621,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -63421,7 +63524,7 @@
 									"type": {
 										"type": "reference",
 										"name": "pasteStorage",
-										"id": 3592
+										"id": 3598
 									},
 									"overwrites": {
 										"type": "reference",
@@ -63454,7 +63557,7 @@
 							}
 						},
 						{
-							"id": 3633,
+							"id": 3639,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63481,7 +63584,7 @@
 							}
 						},
 						{
-							"id": 3621,
+							"id": 3627,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63517,7 +63620,7 @@
 							}
 						},
 						{
-							"id": 3605,
+							"id": 3611,
 							"name": "container",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63538,7 +63641,7 @@
 							}
 						},
 						{
-							"id": 3593,
+							"id": 3599,
 							"name": "currentIndex",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63560,7 +63663,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 3608,
+							"id": 3614,
 							"name": "dialog",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63582,7 +63685,7 @@
 							}
 						},
 						{
-							"id": 3619,
+							"id": 3625,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63615,7 +63718,7 @@
 							}
 						},
 						{
-							"id": 3620,
+							"id": 3626,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63641,7 +63744,7 @@
 							}
 						},
 						{
-							"id": 3604,
+							"id": 3610,
 							"name": "list",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63666,7 +63769,7 @@
 							"defaultValue": " []"
 						},
 						{
-							"id": 3606,
+							"id": 3612,
 							"name": "listBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63687,7 +63790,7 @@
 							}
 						},
 						{
-							"id": 3607,
+							"id": 3613,
 							"name": "previewBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -63708,7 +63811,7 @@
 							}
 						},
 						{
-							"id": 3611,
+							"id": 3617,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63717,7 +63820,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3612,
+									"id": 3618,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -63747,7 +63850,7 @@
 							}
 						},
 						{
-							"id": 3616,
+							"id": 3622,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63756,14 +63859,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3617,
+									"id": 3623,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3618,
+											"id": 3624,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -63802,7 +63905,7 @@
 							}
 						},
 						{
-							"id": 3609,
+							"id": 3615,
 							"name": "createDialog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63812,7 +63915,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3610,
+									"id": 3616,
 									"name": "createDialog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -63832,7 +63935,7 @@
 							]
 						},
 						{
-							"id": 3627,
+							"id": 3633,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63841,7 +63944,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3628,
+									"id": 3634,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -63871,7 +63974,7 @@
 							}
 						},
 						{
-							"id": 3629,
+							"id": 3635,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63880,14 +63983,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3630,
+									"id": 3636,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3631,
+											"id": 3637,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -63898,7 +64001,7 @@
 											}
 										},
 										{
-											"id": 3632,
+											"id": 3638,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -63946,7 +64049,7 @@
 							}
 						},
 						{
-							"id": 3634,
+							"id": 3640,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63955,7 +64058,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3635,
+									"id": 3641,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -63985,7 +64088,7 @@
 							}
 						},
 						{
-							"id": 3622,
+							"id": 3628,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -63994,7 +64097,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3623,
+									"id": 3629,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64024,7 +64127,7 @@
 							}
 						},
 						{
-							"id": 3624,
+							"id": 3630,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64033,14 +64136,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3625,
+									"id": 3631,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3626,
+											"id": 3632,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64076,7 +64179,7 @@
 							}
 						},
 						{
-							"id": 3596,
+							"id": 3602,
 							"name": "onKeyDown",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64086,14 +64189,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3597,
+									"id": 3603,
 									"name": "onKeyDown",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3598,
+											"id": 3604,
 											"name": "e",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64119,7 +64222,7 @@
 							]
 						},
 						{
-							"id": 3594,
+							"id": 3600,
 							"name": "paste",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64129,7 +64232,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3595,
+									"id": 3601,
 									"name": "paste",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64149,7 +64252,7 @@
 							]
 						},
 						{
-							"id": 3599,
+							"id": 3605,
 							"name": "selectIndex",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64159,14 +64262,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3600,
+									"id": 3606,
 									"name": "selectIndex",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3601,
+											"id": 3607,
 											"name": "index",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64192,7 +64295,7 @@
 							]
 						},
 						{
-							"id": 3602,
+							"id": 3608,
 							"name": "showDialog",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64202,7 +64305,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3603,
+									"id": 3609,
 									"name": "showDialog",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64227,41 +64330,41 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3613
+								3619
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3633,
-								3621,
-								3605,
-								3593,
-								3608,
-								3619,
-								3620,
-								3604,
-								3606,
-								3607
+								3639,
+								3627,
+								3611,
+								3599,
+								3614,
+								3625,
+								3626,
+								3610,
+								3612,
+								3613
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3611,
-								3616,
-								3609,
-								3627,
-								3629,
-								3634,
+								3617,
 								3622,
-								3624,
-								3596,
-								3594,
-								3599,
-								3602
+								3615,
+								3633,
+								3635,
+								3640,
+								3628,
+								3630,
+								3602,
+								3600,
+								3605,
+								3608
 							]
 						}
 					],
@@ -64286,7 +64389,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3592
+						3598
 					]
 				}
 			],
@@ -64299,7 +64402,7 @@
 			]
 		},
 		{
-			"id": 2972,
+			"id": 2978,
 			"name": "\"src/plugins/placeholder\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -64309,7 +64412,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/placeholder.ts",
 			"children": [
 				{
-					"id": 2973,
+					"id": 2979,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
@@ -64328,14 +64431,14 @@
 					},
 					"children": [
 						{
-							"id": 2974,
+							"id": 2980,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 2977,
+									"id": 2983,
 									"name": "placeholder",
 									"kind": 1024,
 									"kindString": "Property",
@@ -64353,7 +64456,7 @@
 									}
 								},
 								{
-									"id": 2975,
+									"id": 2981,
 									"name": "showPlaceholder",
 									"kind": 1024,
 									"kindString": "Property",
@@ -64371,7 +64474,7 @@
 									}
 								},
 								{
-									"id": 2976,
+									"id": 2982,
 									"name": "useInputsPlaceholder",
 									"kind": 1024,
 									"kindString": "Property",
@@ -64394,9 +64497,9 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										2977,
-										2975,
-										2976
+										2983,
+										2981,
+										2982
 									]
 								}
 							],
@@ -64414,7 +64517,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								2974
+								2980
 							]
 						}
 					],
@@ -64427,7 +64530,7 @@
 					]
 				},
 				{
-					"id": 2978,
+					"id": 2984,
 					"name": "placeholder",
 					"kind": 64,
 					"kindString": "Function",
@@ -64436,7 +64539,7 @@
 					},
 					"signatures": [
 						{
-							"id": 2979,
+							"id": 2985,
 							"name": "placeholder",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -64446,7 +64549,7 @@
 							},
 							"parameters": [
 								{
-									"id": 2980,
+									"id": 2986,
 									"name": "this",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -64457,7 +64560,7 @@
 									}
 								},
 								{
-									"id": 2981,
+									"id": 2987,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -64492,14 +64595,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						2973
+						2979
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						2978
+						2984
 					]
 				}
 			],
@@ -64512,7 +64615,7 @@
 			]
 		},
 		{
-			"id": 2982,
+			"id": 2988,
 			"name": "\"src/plugins/redoundo\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -64522,7 +64625,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/redoundo.ts",
 			"children": [
 				{
-					"id": 2983,
+					"id": 2989,
 					"name": "redoundo",
 					"kind": 128,
 					"kindString": "Class",
@@ -64534,7 +64637,7 @@
 					},
 					"children": [
 						{
-							"id": 2984,
+							"id": 2990,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -64543,14 +64646,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2985,
+									"id": 2991,
 									"name": "new redoundo",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2986,
+											"id": 2992,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64565,7 +64668,7 @@
 									"type": {
 										"type": "reference",
 										"name": "redoundo",
-										"id": 2983
+										"id": 2989
 									},
 									"overwrites": {
 										"type": "reference",
@@ -64588,7 +64691,7 @@
 							}
 						},
 						{
-							"id": 3001,
+							"id": 3007,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -64615,7 +64718,7 @@
 							}
 						},
 						{
-							"id": 2989,
+							"id": 2995,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -64651,7 +64754,7 @@
 							}
 						},
 						{
-							"id": 2987,
+							"id": 2993,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -64684,7 +64787,7 @@
 							}
 						},
 						{
-							"id": 2988,
+							"id": 2994,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -64710,7 +64813,7 @@
 							}
 						},
 						{
-							"id": 2995,
+							"id": 3001,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64719,7 +64822,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2996,
+									"id": 3002,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64749,7 +64852,7 @@
 							}
 						},
 						{
-							"id": 2997,
+							"id": 3003,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64758,14 +64861,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2998,
+									"id": 3004,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2999,
+											"id": 3005,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64776,7 +64879,7 @@
 											}
 										},
 										{
-											"id": 3000,
+											"id": 3006,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64824,7 +64927,7 @@
 							}
 						},
 						{
-							"id": 3002,
+							"id": 3008,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64833,7 +64936,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3003,
+									"id": 3009,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64863,7 +64966,7 @@
 							}
 						},
 						{
-							"id": 2990,
+							"id": 2996,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64872,7 +64975,7 @@
 							},
 							"signatures": [
 								{
-									"id": 2991,
+									"id": 2997,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -64902,7 +65005,7 @@
 							}
 						},
 						{
-							"id": 2992,
+							"id": 2998,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -64911,14 +65014,14 @@
 							},
 							"signatures": [
 								{
-									"id": 2993,
+									"id": 2999,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 2994,
+											"id": 3000,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -64959,28 +65062,28 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								2984
+								2990
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3001,
-								2989,
-								2987,
-								2988
+								3007,
+								2995,
+								2993,
+								2994
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								2995,
-								2997,
-								3002,
-								2990,
-								2992
+								3001,
+								3003,
+								3008,
+								2996,
+								2998
 							]
 						}
 					],
@@ -65005,7 +65108,7 @@
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						2983
+						2989
 					]
 				}
 			],
@@ -65018,7 +65121,7 @@
 			]
 		},
 		{
-			"id": 3004,
+			"id": 3010,
 			"name": "\"src/plugins/resizer\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -65028,7 +65131,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/resizer.ts",
 			"children": [
 				{
-					"id": 3005,
+					"id": 3011,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
@@ -65043,14 +65146,14 @@
 					},
 					"children": [
 						{
-							"id": 3006,
+							"id": 3012,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3010,
+									"id": 3016,
 									"name": "resizer",
 									"kind": 1024,
 									"kindString": "Property",
@@ -65065,14 +65168,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 3011,
+											"id": 3017,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"children": [
 												{
-													"id": 3014,
+													"id": 3020,
 													"name": "min_height",
 													"kind": 32,
 													"kindString": "Variable",
@@ -65090,7 +65193,7 @@
 													}
 												},
 												{
-													"id": 3013,
+													"id": 3019,
 													"name": "min_width",
 													"kind": 32,
 													"kindString": "Variable",
@@ -65108,7 +65211,7 @@
 													}
 												},
 												{
-													"id": 3012,
+													"id": 3018,
 													"name": "showSize",
 													"kind": 32,
 													"kindString": "Variable",
@@ -65131,9 +65234,9 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														3014,
-														3013,
-														3012
+														3020,
+														3019,
+														3018
 													]
 												}
 											],
@@ -65148,7 +65251,7 @@
 									}
 								},
 								{
-									"id": 3007,
+									"id": 3013,
 									"name": "useIframeResizer",
 									"kind": 1024,
 									"kindString": "Property",
@@ -65166,7 +65269,7 @@
 									}
 								},
 								{
-									"id": 3009,
+									"id": 3015,
 									"name": "useImageResizer",
 									"kind": 1024,
 									"kindString": "Property",
@@ -65184,7 +65287,7 @@
 									}
 								},
 								{
-									"id": 3008,
+									"id": 3014,
 									"name": "useTableResizer",
 									"kind": 1024,
 									"kindString": "Property",
@@ -65207,10 +65310,10 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3010,
-										3007,
-										3009,
-										3008
+										3016,
+										3013,
+										3015,
+										3014
 									]
 								}
 							],
@@ -65228,7 +65331,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3006
+								3012
 							]
 						}
 					],
@@ -65241,7 +65344,7 @@
 					]
 				},
 				{
-					"id": 3015,
+					"id": 3021,
 					"name": "resizer",
 					"kind": 64,
 					"kindString": "Function",
@@ -65250,7 +65353,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3016,
+							"id": 3022,
 							"name": "resizer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -65260,7 +65363,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3017,
+									"id": 3023,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -65295,14 +65398,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3005
+						3011
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3015
+						3021
 					]
 				}
 			],
@@ -65315,7 +65418,7 @@
 			]
 		},
 		{
-			"id": 3328,
+			"id": 3334,
 			"name": "\"src/plugins/search\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -65325,21 +65428,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/search.ts",
 			"children": [
 				{
-					"id": 3415,
+					"id": 3421,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3416,
+							"id": 3422,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3417,
+									"id": 3423,
 									"name": "useSearch",
 									"kind": 1024,
 									"kindString": "Property",
@@ -65365,7 +65468,7 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3417
+										3423
 									]
 								}
 							],
@@ -65383,7 +65486,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3416
+								3422
 							]
 						}
 					],
@@ -65396,7 +65499,7 @@
 					]
 				},
 				{
-					"id": 3329,
+					"id": 3335,
 					"name": "search",
 					"kind": 128,
 					"kindString": "Class",
@@ -65414,7 +65517,7 @@
 					},
 					"children": [
 						{
-							"id": 3395,
+							"id": 3401,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -65423,14 +65526,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3396,
+									"id": 3402,
 									"name": "new search",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3397,
+											"id": 3403,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -65445,7 +65548,7 @@
 									"type": {
 										"type": "reference",
 										"name": "search",
-										"id": 3329
+										"id": 3335
 									},
 									"overwrites": {
 										"type": "reference",
@@ -65468,7 +65571,7 @@
 							}
 						},
 						{
-							"id": 3412,
+							"id": 3418,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65495,7 +65598,7 @@
 							}
 						},
 						{
-							"id": 3400,
+							"id": 3406,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65531,7 +65634,7 @@
 							}
 						},
 						{
-							"id": 3334,
+							"id": 3340,
 							"name": "closeButton",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65551,7 +65654,7 @@
 							}
 						},
 						{
-							"id": 3338,
+							"id": 3344,
 							"name": "counterBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65571,7 +65674,7 @@
 							}
 						},
 						{
-							"id": 3392,
+							"id": 3398,
 							"name": "current",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65602,7 +65705,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3398,
+							"id": 3404,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65635,7 +65738,7 @@
 							}
 						},
 						{
-							"id": 3387,
+							"id": 3393,
 							"name": "isOpened",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65657,7 +65760,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3399,
+							"id": 3405,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65683,7 +65786,7 @@
 							}
 						},
 						{
-							"id": 3335,
+							"id": 3341,
 							"name": "nextButton",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65703,7 +65806,7 @@
 							}
 						},
 						{
-							"id": 3336,
+							"id": 3342,
 							"name": "prevButton",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65723,7 +65826,7 @@
 							}
 						},
 						{
-							"id": 3332,
+							"id": 3338,
 							"name": "queryInput",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65743,7 +65846,7 @@
 							}
 						},
 						{
-							"id": 3337,
+							"id": 3343,
 							"name": "replaceButton",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65763,7 +65866,7 @@
 							}
 						},
 						{
-							"id": 3333,
+							"id": 3339,
 							"name": "replaceInput",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65783,7 +65886,7 @@
 							}
 						},
 						{
-							"id": 3331,
+							"id": 3337,
 							"name": "searchBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65803,7 +65906,7 @@
 							}
 						},
 						{
-							"id": 3391,
+							"id": 3397,
 							"name": "selInfo",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65838,7 +65941,7 @@
 							"defaultValue": " null"
 						},
 						{
-							"id": 3330,
+							"id": 3336,
 							"name": "template",
 							"kind": 1024,
 							"kindString": "Property",
@@ -65860,7 +65963,7 @@
 							"defaultValue": " '<div class=\"jodit_search\">' +\r\n        '<div class=\"jodit_search_box\">' +\r\n            '<div class=\"jodit_search_inputs\">' +\r\n                '<input tabindex=\"0\" class=\"jodit_search-query\" placeholder=\"' + this.jodit.i18n('Search for')  + '\" type=\"text\"/>' +\r\n                '<input tabindex=\"0\" class=\"jodit_search-replace\" placeholder=\"' + this.jodit.i18n('Replace with')  + '\" type=\"text\"/>' +\r\n            '</div>' +\r\n            '<div class=\"jodit_search_counts\">' +\r\n                '<span>0/0</span>' +\r\n            '</div>' +\r\n            '<div class=\"jodit_search_buttons\">' +\r\n                '<button tabindex=\"0\" type=\"button\" class=\"jodit_search_buttons-next\">' + ToolbarIcon.getIcon('angle-down') + '</button>' +\r\n                '<button tabindex=\"0\" type=\"button\" class=\"jodit_search_buttons-prev\">' + ToolbarIcon.getIcon('angle-up') + '</button>' +\r\n                '<button tabindex=\"0\" type=\"button\" class=\"jodit_search_buttons-cancel\">' + ToolbarIcon.getIcon('cancel') + '</button>' +\r\n                '<button tabindex=\"0\" type=\"button\" class=\"jodit_search_buttons-replace\">' + this.jodit.i18n('Replace')  + '</button>' +\r\n            '</div>' +\r\n        '</div>' +\r\n    '</div>'"
 						},
 						{
-							"id": 3360,
+							"id": 3366,
 							"name": "boundAlreadyWas",
 							"kind": 2048,
 							"kindString": "Method",
@@ -65870,14 +65973,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3361,
+									"id": 3367,
 									"name": "boundAlreadyWas",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3362,
+											"id": 3368,
 											"name": "current",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -65889,7 +65992,7 @@
 											}
 										},
 										{
-											"id": 3363,
+											"id": 3369,
 											"name": "bounds",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -65919,7 +66022,7 @@
 							]
 						},
 						{
-							"id": 3364,
+							"id": 3370,
 							"name": "calcCounts",
 							"kind": 2048,
 							"kindString": "Method",
@@ -65929,14 +66032,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3365,
+									"id": 3371,
 									"name": "calcCounts",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3366,
+											"id": 3372,
 											"name": "query",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -65947,7 +66050,7 @@
 											}
 										},
 										{
-											"id": 3367,
+											"id": 3373,
 											"name": "current",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -65993,7 +66096,7 @@
 							]
 						},
 						{
-							"id": 3393,
+							"id": 3399,
 							"name": "close",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66002,7 +66105,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3394,
+									"id": 3400,
 									"name": "close",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -66022,7 +66125,7 @@
 							]
 						},
 						{
-							"id": 3406,
+							"id": 3412,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66031,7 +66134,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3407,
+									"id": 3413,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -66061,7 +66164,7 @@
 							}
 						},
 						{
-							"id": 3339,
+							"id": 3345,
 							"name": "eachMap",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66071,14 +66174,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3340,
+									"id": 3346,
 									"name": "eachMap",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3341,
+											"id": 3347,
 											"name": "node",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66089,7 +66192,7 @@
 											}
 										},
 										{
-											"id": 3342,
+											"id": 3348,
 											"name": "callback",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66097,21 +66200,21 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 3343,
+													"id": 3349,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
 													"flags": {},
 													"signatures": [
 														{
-															"id": 3344,
+															"id": 3350,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
 															"flags": {},
 															"parameters": [
 																{
-																	"id": 3345,
+																	"id": 3351,
 																	"name": "elm",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -66139,7 +66242,7 @@
 											}
 										},
 										{
-											"id": 3346,
+											"id": 3352,
 											"name": "next",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66165,7 +66268,7 @@
 							]
 						},
 						{
-							"id": 3380,
+							"id": 3386,
 							"name": "find",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66175,14 +66278,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3381,
+									"id": 3387,
 									"name": "find",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3382,
+											"id": 3388,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66202,7 +66305,7 @@
 											}
 										},
 										{
-											"id": 3383,
+											"id": 3389,
 											"name": "query",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66213,7 +66316,7 @@
 											}
 										},
 										{
-											"id": 3384,
+											"id": 3390,
 											"name": "next",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66224,7 +66327,7 @@
 											}
 										},
 										{
-											"id": 3385,
+											"id": 3391,
 											"name": "deep",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66235,7 +66338,7 @@
 											}
 										},
 										{
-											"id": 3386,
+											"id": 3392,
 											"name": "range",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66271,7 +66374,7 @@
 							]
 						},
 						{
-							"id": 3371,
+							"id": 3377,
 							"name": "findAndReplace",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66281,14 +66384,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3372,
+									"id": 3378,
 									"name": "findAndReplace",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3373,
+											"id": 3379,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66308,7 +66411,7 @@
 											}
 										},
 										{
-											"id": 3374,
+											"id": 3380,
 											"name": "query",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66334,7 +66437,7 @@
 							]
 						},
 						{
-							"id": 3375,
+							"id": 3381,
 							"name": "findAndSelect",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66344,14 +66447,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3376,
+									"id": 3382,
 									"name": "findAndSelect",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3377,
+											"id": 3383,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66371,7 +66474,7 @@
 											}
 										},
 										{
-											"id": 3378,
+											"id": 3384,
 											"name": "query",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66382,7 +66485,7 @@
 											}
 										},
 										{
-											"id": 3379,
+											"id": 3385,
 											"name": "next",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66408,7 +66511,7 @@
 							]
 						},
 						{
-							"id": 3408,
+							"id": 3414,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66417,14 +66520,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3409,
+									"id": 3415,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3410,
+											"id": 3416,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66435,7 +66538,7 @@
 											}
 										},
 										{
-											"id": 3411,
+											"id": 3417,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66483,7 +66586,7 @@
 							}
 						},
 						{
-							"id": 3413,
+							"id": 3419,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66492,7 +66595,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3414,
+									"id": 3420,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -66522,7 +66625,7 @@
 							}
 						},
 						{
-							"id": 3401,
+							"id": 3407,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66531,7 +66634,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3402,
+									"id": 3408,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -66561,7 +66664,7 @@
 							}
 						},
 						{
-							"id": 3403,
+							"id": 3409,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66570,14 +66673,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3404,
+									"id": 3410,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3405,
+											"id": 3411,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66613,7 +66716,7 @@
 							}
 						},
 						{
-							"id": 3388,
+							"id": 3394,
 							"name": "open",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66622,14 +66725,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3389,
+									"id": 3395,
 									"name": "open",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3390,
+											"id": 3396,
 											"name": "searchAndReplace",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66656,7 +66759,7 @@
 							]
 						},
 						{
-							"id": 3368,
+							"id": 3374,
 							"name": "tryScrollToElement",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66666,14 +66769,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3369,
+									"id": 3375,
 									"name": "tryScrollToElement",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3370,
+											"id": 3376,
 											"name": "startContainer",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66699,7 +66802,7 @@
 							]
 						},
 						{
-							"id": 3358,
+							"id": 3364,
 							"name": "updateCounters",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66709,7 +66812,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3359,
+									"id": 3365,
 									"name": "updateCounters",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -66729,7 +66832,7 @@
 							]
 						},
 						{
-							"id": 3352,
+							"id": 3358,
 							"name": "findSomePartOfString",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66740,14 +66843,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3353,
+									"id": 3359,
 									"name": "findSomePartOfString",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3354,
+											"id": 3360,
 											"name": "needle",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66758,7 +66861,7 @@
 											}
 										},
 										{
-											"id": 3355,
+											"id": 3361,
 											"name": "haystack",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66769,7 +66872,7 @@
 											}
 										},
 										{
-											"id": 3356,
+											"id": 3362,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66781,7 +66884,7 @@
 											"defaultValue": "true"
 										},
 										{
-											"id": 3357,
+											"id": 3363,
 											"name": "getIndex",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66821,7 +66924,7 @@
 							]
 						},
 						{
-							"id": 3347,
+							"id": 3353,
 							"name": "getSomePartOfStringIndex",
 							"kind": 2048,
 							"kindString": "Method",
@@ -66832,14 +66935,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3348,
+									"id": 3354,
 									"name": "getSomePartOfStringIndex",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3349,
+											"id": 3355,
 											"name": "needle",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66850,7 +66953,7 @@
 											}
 										},
 										{
-											"id": 3350,
+											"id": 3356,
 											"name": "haystack",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66861,7 +66964,7 @@
 											}
 										},
 										{
-											"id": 3351,
+											"id": 3357,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -66902,52 +67005,52 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3395
+								3401
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3412,
-								3400,
-								3334,
-								3338,
-								3392,
+								3418,
+								3406,
+								3340,
+								3344,
 								3398,
-								3387,
-								3399,
-								3335,
-								3336,
-								3332,
+								3404,
+								3393,
+								3405,
+								3341,
+								3342,
+								3338,
+								3343,
+								3339,
 								3337,
-								3333,
-								3331,
-								3391,
-								3330
+								3397,
+								3336
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3360,
+								3366,
+								3370,
+								3399,
+								3412,
+								3345,
+								3386,
+								3377,
+								3381,
+								3414,
+								3419,
+								3407,
+								3409,
+								3394,
+								3374,
 								3364,
-								3393,
-								3406,
-								3339,
-								3380,
-								3371,
-								3375,
-								3408,
-								3413,
-								3401,
-								3403,
-								3388,
-								3368,
 								3358,
-								3352,
-								3347
+								3353
 							]
 						}
 					],
@@ -66972,14 +67075,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3415
+						3421
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3329
+						3335
 					]
 				}
 			],
@@ -66992,7 +67095,7 @@
 			]
 		},
 		{
-			"id": 3018,
+			"id": 3024,
 			"name": "\"src/plugins/size\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -67002,21 +67105,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/size.ts",
 			"children": [
 				{
-					"id": 3019,
+					"id": 3025,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3020,
+							"id": 3026,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3021,
+									"id": 3027,
 									"name": "allowResizeX",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67034,7 +67137,7 @@
 									}
 								},
 								{
-									"id": 3022,
+									"id": 3028,
 									"name": "allowResizeY",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67057,8 +67160,8 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3021,
-										3022
+										3027,
+										3028
 									]
 								}
 							],
@@ -67076,7 +67179,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3020
+								3026
 							]
 						}
 					],
@@ -67089,7 +67192,7 @@
 					]
 				},
 				{
-					"id": 3023,
+					"id": 3029,
 					"name": "size",
 					"kind": 64,
 					"kindString": "Function",
@@ -67098,7 +67201,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3024,
+							"id": 3030,
 							"name": "size",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -67108,7 +67211,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3025,
+									"id": 3031,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -67143,14 +67246,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3019
+						3025
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3023
+						3029
 					]
 				}
 			],
@@ -67163,7 +67266,7 @@
 			]
 		},
 		{
-			"id": 3026,
+			"id": 3032,
 			"name": "\"src/plugins/source\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -67173,21 +67276,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/source.ts",
 			"children": [
 				{
-					"id": 3106,
+					"id": 3112,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3107,
+							"id": 3113,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3116,
+									"id": 3122,
 									"name": "beautifyHTML",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67208,7 +67311,7 @@
 									}
 								},
 								{
-									"id": 3117,
+									"id": 3123,
 									"name": "beautifyHTMLCDNUrlsJS",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67232,7 +67335,7 @@
 									}
 								},
 								{
-									"id": 3118,
+									"id": 3124,
 									"name": "sourceEditorCDNUrlsJS",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67256,7 +67359,7 @@
 									}
 								},
 								{
-									"id": 3109,
+									"id": 3115,
 									"name": "sourceEditorNativeOptions",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67274,14 +67377,14 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 3110,
+											"id": 3116,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
 											"flags": {},
 											"children": [
 												{
-													"id": 3115,
+													"id": 3121,
 													"name": "highlightActiveLine",
 													"kind": 32,
 													"kindString": "Variable",
@@ -67299,7 +67402,7 @@
 													}
 												},
 												{
-													"id": 3113,
+													"id": 3119,
 													"name": "mode",
 													"kind": 32,
 													"kindString": "Variable",
@@ -67317,7 +67420,7 @@
 													}
 												},
 												{
-													"id": 3111,
+													"id": 3117,
 													"name": "showGutter",
 													"kind": 32,
 													"kindString": "Variable",
@@ -67335,7 +67438,7 @@
 													}
 												},
 												{
-													"id": 3112,
+													"id": 3118,
 													"name": "theme",
 													"kind": 32,
 													"kindString": "Variable",
@@ -67353,7 +67456,7 @@
 													}
 												},
 												{
-													"id": 3114,
+													"id": 3120,
 													"name": "wrap",
 													"kind": 32,
 													"kindString": "Variable",
@@ -67389,11 +67492,11 @@
 													"title": "Variables",
 													"kind": 32,
 													"children": [
-														3115,
-														3113,
-														3111,
-														3112,
-														3114
+														3121,
+														3119,
+														3117,
+														3118,
+														3120
 													]
 												}
 											],
@@ -67408,7 +67511,7 @@
 									}
 								},
 								{
-									"id": 3108,
+									"id": 3114,
 									"name": "useAceEditor",
 									"kind": 1024,
 									"kindString": "Property",
@@ -67434,11 +67537,11 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3116,
-										3117,
-										3118,
-										3109,
-										3108
+										3122,
+										3123,
+										3124,
+										3115,
+										3114
 									]
 								}
 							],
@@ -67456,7 +67559,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3107
+								3113
 							]
 						}
 					],
@@ -67469,7 +67572,7 @@
 					]
 				},
 				{
-					"id": 3027,
+					"id": 3033,
 					"name": "source",
 					"kind": 128,
 					"kindString": "Class",
@@ -67487,7 +67590,7 @@
 					},
 					"children": [
 						{
-							"id": 3052,
+							"id": 3058,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -67496,14 +67599,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3053,
+									"id": 3059,
 									"name": "new source",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3054,
+											"id": 3060,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -67518,7 +67621,7 @@
 									"type": {
 										"type": "reference",
 										"name": "source",
-										"id": 3027
+										"id": 3033
 									},
 									"overwrites": {
 										"type": "reference",
@@ -67541,7 +67644,7 @@
 							}
 						},
 						{
-							"id": 3103,
+							"id": 3109,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67568,7 +67671,7 @@
 							}
 						},
 						{
-							"id": 3043,
+							"id": 3049,
 							"name": "__lock",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67590,7 +67693,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3091,
+							"id": 3097,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67626,7 +67729,7 @@
 							}
 						},
 						{
-							"id": 3051,
+							"id": 3057,
 							"name": "aceEditor",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67646,7 +67749,7 @@
 							}
 						},
 						{
-							"id": 3046,
+							"id": 3052,
 							"name": "autosize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67668,7 +67771,7 @@
 							"defaultValue": " debounce(() => {\r\n        this.mirror.style.height = 'auto';\r\n        this.mirror.style.height = this.mirror.scrollHeight + 'px';\r\n    }, this.jodit.defaultTimeout)"
 						},
 						{
-							"id": 3028,
+							"id": 3034,
 							"name": "className",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67690,7 +67793,7 @@
 							"defaultValue": "\"jodit_ace_editor\""
 						},
 						{
-							"id": 3089,
+							"id": 3095,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67723,7 +67826,7 @@
 							}
 						},
 						{
-							"id": 3090,
+							"id": 3096,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67749,7 +67852,7 @@
 							}
 						},
 						{
-							"id": 3036,
+							"id": 3042,
 							"name": "mirror",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67769,7 +67872,7 @@
 							}
 						},
 						{
-							"id": 3035,
+							"id": 3041,
 							"name": "mirrorContainer",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67790,7 +67893,7 @@
 							}
 						},
 						{
-							"id": 3062,
+							"id": 3068,
 							"name": "selInfo",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67816,7 +67919,7 @@
 							"defaultValue": " []"
 						},
 						{
-							"id": 3057,
+							"id": 3063,
 							"name": "tempMarkerEnd",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67838,7 +67941,7 @@
 							"defaultValue": "\"{end-jodit-selection}\""
 						},
 						{
-							"id": 3058,
+							"id": 3064,
 							"name": "tempMarkerEndReg",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67860,7 +67963,7 @@
 							"defaultValue": " /{end-jodit-selection}/g"
 						},
 						{
-							"id": 3055,
+							"id": 3061,
 							"name": "tempMarkerStart",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67882,7 +67985,7 @@
 							"defaultValue": "\"{start-jodit-selection}\""
 						},
 						{
-							"id": 3056,
+							"id": 3062,
 							"name": "tempMarkerStartReg",
 							"kind": 1024,
 							"kindString": "Property",
@@ -67904,7 +68007,7 @@
 							"defaultValue": " /{start-jodit-selection}/g"
 						},
 						{
-							"id": 3059,
+							"id": 3065,
 							"name": "__clear",
 							"kind": 2048,
 							"kindString": "Method",
@@ -67914,14 +68017,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3060,
+									"id": 3066,
 									"name": "__clear",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3061,
+											"id": 3067,
 											"name": "str",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -67947,7 +68050,7 @@
 							]
 						},
 						{
-							"id": 3097,
+							"id": 3103,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -67956,7 +68059,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3098,
+									"id": 3104,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -67986,7 +68089,7 @@
 							}
 						},
 						{
-							"id": 3037,
+							"id": 3043,
 							"name": "fromWYSIWYG",
 							"kind": 2048,
 							"kindString": "Method",
@@ -67996,14 +68099,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3038,
+									"id": 3044,
 									"name": "fromWYSIWYG",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3039,
+											"id": 3045,
 											"name": "force",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68030,7 +68133,7 @@
 							]
 						},
 						{
-							"id": 3099,
+							"id": 3105,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68039,14 +68142,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3100,
+									"id": 3106,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3101,
+											"id": 3107,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68057,7 +68160,7 @@
 											}
 										},
 										{
-											"id": 3102,
+											"id": 3108,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68105,7 +68208,7 @@
 							}
 						},
 						{
-							"id": 3072,
+							"id": 3078,
 							"name": "getMirrorValue",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68115,7 +68218,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3073,
+									"id": 3079,
 									"name": "getMirrorValue",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68135,7 +68238,7 @@
 							]
 						},
 						{
-							"id": 3047,
+							"id": 3053,
 							"name": "getNormalPosition",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68145,14 +68248,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3048,
+									"id": 3054,
 									"name": "getNormalPosition",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3049,
+											"id": 3055,
 											"name": "pos",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68163,7 +68266,7 @@
 											}
 										},
 										{
-											"id": 3050,
+											"id": 3056,
 											"name": "str",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68189,7 +68292,7 @@
 							]
 						},
 						{
-							"id": 3070,
+							"id": 3076,
 							"name": "getSelectionEnd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68199,7 +68302,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3071,
+									"id": 3077,
 									"name": "getSelectionEnd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68219,7 +68322,7 @@
 							]
 						},
 						{
-							"id": 3068,
+							"id": 3074,
 							"name": "getSelectionStart",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68229,7 +68332,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3069,
+									"id": 3075,
 									"name": "getSelectionStart",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68249,7 +68352,7 @@
 							]
 						},
 						{
-							"id": 3040,
+							"id": 3046,
 							"name": "insertHTML",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68259,14 +68362,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3041,
+									"id": 3047,
 									"name": "insertHTML",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3042,
+											"id": 3048,
 											"name": "html",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68292,7 +68395,7 @@
 							]
 						},
 						{
-							"id": 3104,
+							"id": 3110,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68301,7 +68404,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3105,
+									"id": 3111,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68331,7 +68434,7 @@
 							}
 						},
 						{
-							"id": 3092,
+							"id": 3098,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68340,7 +68443,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3093,
+									"id": 3099,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68370,7 +68473,7 @@
 							}
 						},
 						{
-							"id": 3094,
+							"id": 3100,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68379,14 +68482,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3095,
+									"id": 3101,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3096,
+											"id": 3102,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68422,7 +68525,7 @@
 							}
 						},
 						{
-							"id": 3029,
+							"id": 3035,
 							"name": "loadNext",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68432,14 +68535,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3030,
+									"id": 3036,
 									"name": "loadNext",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3031,
+											"id": 3037,
 											"name": "i",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68450,7 +68553,7 @@
 											}
 										},
 										{
-											"id": 3032,
+											"id": 3038,
 											"name": "urls",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68464,7 +68567,7 @@
 											}
 										},
 										{
-											"id": 3033,
+											"id": 3039,
 											"name": "eventOnFinalize",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68485,7 +68588,7 @@
 											"defaultValue": "\"aceReady\""
 										},
 										{
-											"id": 3034,
+											"id": 3040,
 											"name": "className",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68512,7 +68615,7 @@
 							]
 						},
 						{
-							"id": 3065,
+							"id": 3071,
 							"name": "onSelectAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68522,14 +68625,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3066,
+									"id": 3072,
 									"name": "onSelectAll",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3067,
+											"id": 3073,
 											"name": "command",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68564,7 +68667,7 @@
 							]
 						},
 						{
-							"id": 3087,
+							"id": 3093,
 							"name": "replaceMirrorToACE",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68574,7 +68677,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3088,
+									"id": 3094,
 									"name": "replaceMirrorToACE",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68594,7 +68697,7 @@
 							]
 						},
 						{
-							"id": 3085,
+							"id": 3091,
 							"name": "restoreSelection",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68604,7 +68707,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3086,
+									"id": 3092,
 									"name": "restoreSelection",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68624,7 +68727,7 @@
 							]
 						},
 						{
-							"id": 3083,
+							"id": 3089,
 							"name": "saveSelection",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68634,7 +68737,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3084,
+									"id": 3090,
 									"name": "saveSelection",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68654,7 +68757,7 @@
 							]
 						},
 						{
-							"id": 3063,
+							"id": 3069,
 							"name": "selectAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68664,7 +68767,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3064,
+									"id": 3070,
 									"name": "selectAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68684,7 +68787,7 @@
 							]
 						},
 						{
-							"id": 3077,
+							"id": 3083,
 							"name": "setFocusToMirror",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68694,7 +68797,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3078,
+									"id": 3084,
 									"name": "setFocusToMirror",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68714,7 +68817,7 @@
 							]
 						},
 						{
-							"id": 3079,
+							"id": 3085,
 							"name": "setMirrorSelectionRange",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68724,14 +68827,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3080,
+									"id": 3086,
 									"name": "setMirrorSelectionRange",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3081,
+											"id": 3087,
 											"name": "start",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68742,7 +68845,7 @@
 											}
 										},
 										{
-											"id": 3082,
+											"id": 3088,
 											"name": "end",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68768,7 +68871,7 @@
 							]
 						},
 						{
-							"id": 3074,
+							"id": 3080,
 							"name": "setMirrorValue",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68778,14 +68881,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3075,
+									"id": 3081,
 									"name": "setMirrorValue",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3076,
+											"id": 3082,
 											"name": "value",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -68811,7 +68914,7 @@
 							]
 						},
 						{
-							"id": 3044,
+							"id": 3050,
 							"name": "toWYSIWYG",
 							"kind": 2048,
 							"kindString": "Method",
@@ -68821,7 +68924,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3045,
+									"id": 3051,
 									"name": "toWYSIWYG",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -68846,56 +68949,56 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3052
+								3058
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3103,
-								3043,
-								3091,
-								3051,
-								3046,
-								3028,
-								3089,
-								3090,
-								3036,
-								3035,
-								3062,
+								3109,
+								3049,
+								3097,
 								3057,
-								3058,
-								3055,
-								3056
+								3052,
+								3034,
+								3095,
+								3096,
+								3042,
+								3041,
+								3068,
+								3063,
+								3064,
+								3061,
+								3062
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3059,
-								3097,
-								3037,
-								3099,
-								3072,
-								3047,
-								3070,
-								3068,
-								3040,
-								3104,
-								3092,
-								3094,
-								3029,
 								3065,
-								3087,
-								3085,
-								3083,
-								3063,
-								3077,
-								3079,
+								3103,
+								3043,
+								3105,
+								3078,
+								3053,
+								3076,
 								3074,
-								3044
+								3046,
+								3110,
+								3098,
+								3100,
+								3035,
+								3071,
+								3093,
+								3091,
+								3089,
+								3069,
+								3083,
+								3085,
+								3080,
+								3050
 							]
 						}
 					],
@@ -68920,14 +69023,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3106
+						3112
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3027
+						3033
 					]
 				}
 			],
@@ -68940,7 +69043,7 @@
 			]
 		},
 		{
-			"id": 3458,
+			"id": 3464,
 			"name": "\"src/plugins/stat\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68950,21 +69053,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/stat.ts",
 			"children": [
 				{
-					"id": 3488,
+					"id": 3494,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3489,
+							"id": 3495,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3490,
+									"id": 3496,
 									"name": "showCharsCounter",
 									"kind": 1024,
 									"kindString": "Property",
@@ -68982,7 +69085,7 @@
 									}
 								},
 								{
-									"id": 3491,
+									"id": 3497,
 									"name": "showWordsCounter",
 									"kind": 1024,
 									"kindString": "Property",
@@ -69005,8 +69108,8 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3490,
-										3491
+										3496,
+										3497
 									]
 								}
 							],
@@ -69024,7 +69127,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3489
+								3495
 							]
 						}
 					],
@@ -69037,7 +69140,7 @@
 					]
 				},
 				{
-					"id": 3459,
+					"id": 3465,
 					"name": "stat",
 					"kind": 128,
 					"kindString": "Class",
@@ -69049,7 +69152,7 @@
 					},
 					"children": [
 						{
-							"id": 3465,
+							"id": 3471,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -69058,14 +69161,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3466,
+									"id": 3472,
 									"name": "new stat",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3467,
+											"id": 3473,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69080,7 +69183,7 @@
 									"type": {
 										"type": "reference",
 										"name": "stat",
-										"id": 3459
+										"id": 3465
 									},
 									"overwrites": {
 										"type": "reference",
@@ -69113,7 +69216,7 @@
 							}
 						},
 						{
-							"id": 3485,
+							"id": 3491,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69140,7 +69243,7 @@
 							}
 						},
 						{
-							"id": 3473,
+							"id": 3479,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69176,7 +69279,7 @@
 							}
 						},
 						{
-							"id": 3462,
+							"id": 3468,
 							"name": "calc",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69198,7 +69301,7 @@
 							"defaultValue": "  throttle(() => {\r\n        let text: string = this.jodit.getEditorText();\r\n        if (this.jodit.options.showCharsCounter) {\r\n            this.charCounter.innerText = this.jodit.i18n('Chars: %d', text.replace(SPACE_REG_EXP, '').length);\r\n        }\r\n        if (this.jodit.options.showWordsCounter) {\r\n            this.wordCounter.innerText = this.jodit.i18n('Words: %d',\r\n                text\r\n                    .replace(INVISIBLE_SPACE_REG_EXP, '')\r\n                    .split(SPACE_REG_EXP)\r\n                    .filter((e: string) => e.length).length\r\n            );\r\n        }\r\n    }, this.jodit.defaultTimeout)"
 						},
 						{
-							"id": 3460,
+							"id": 3466,
 							"name": "charCounter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69219,7 +69322,7 @@
 							}
 						},
 						{
-							"id": 3471,
+							"id": 3477,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69252,7 +69355,7 @@
 							}
 						},
 						{
-							"id": 3472,
+							"id": 3478,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69278,7 +69381,7 @@
 							}
 						},
 						{
-							"id": 3461,
+							"id": 3467,
 							"name": "wordCounter",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69299,7 +69402,7 @@
 							}
 						},
 						{
-							"id": 3463,
+							"id": 3469,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69308,7 +69411,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3464,
+									"id": 3470,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -69338,7 +69441,7 @@
 							}
 						},
 						{
-							"id": 3468,
+							"id": 3474,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69347,14 +69450,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3469,
+									"id": 3475,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3470,
+											"id": 3476,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69393,7 +69496,7 @@
 							}
 						},
 						{
-							"id": 3479,
+							"id": 3485,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69402,7 +69505,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3480,
+									"id": 3486,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -69432,7 +69535,7 @@
 							}
 						},
 						{
-							"id": 3481,
+							"id": 3487,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69441,14 +69544,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3482,
+									"id": 3488,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3483,
+											"id": 3489,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69459,7 +69562,7 @@
 											}
 										},
 										{
-											"id": 3484,
+											"id": 3490,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69507,7 +69610,7 @@
 							}
 						},
 						{
-							"id": 3486,
+							"id": 3492,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69516,7 +69619,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3487,
+									"id": 3493,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -69546,7 +69649,7 @@
 							}
 						},
 						{
-							"id": 3474,
+							"id": 3480,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69555,7 +69658,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3475,
+									"id": 3481,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -69585,7 +69688,7 @@
 							}
 						},
 						{
-							"id": 3476,
+							"id": 3482,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -69594,14 +69697,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3477,
+									"id": 3483,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3478,
+											"id": 3484,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69642,33 +69745,33 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3465
+								3471
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3485,
-								3473,
-								3462,
-								3460,
-								3471,
-								3472,
-								3461
+								3491,
+								3479,
+								3468,
+								3466,
+								3477,
+								3478,
+								3467
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3463,
-								3468,
-								3479,
-								3481,
-								3486,
+								3469,
 								3474,
-								3476
+								3485,
+								3487,
+								3492,
+								3480,
+								3482
 							]
 						}
 					],
@@ -69693,14 +69796,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3488
+						3494
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3459
+						3465
 					]
 				}
 			],
@@ -69713,7 +69816,7 @@
 			]
 		},
 		{
-			"id": 3418,
+			"id": 3424,
 			"name": "\"src/plugins/sticky\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -69723,21 +69826,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/sticky.ts",
 			"children": [
 				{
-					"id": 3453,
+					"id": 3459,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3454,
+							"id": 3460,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3456,
+									"id": 3462,
 									"name": "toolbarDisableStickyForMobile",
 									"kind": 1024,
 									"kindString": "Property",
@@ -69755,7 +69858,7 @@
 									}
 								},
 								{
-									"id": 3455,
+									"id": 3461,
 									"name": "toolbarSticky",
 									"kind": 1024,
 									"kindString": "Property",
@@ -69785,7 +69888,7 @@
 									}
 								},
 								{
-									"id": 3457,
+									"id": 3463,
 									"name": "toolbarStickyOffset",
 									"kind": 1024,
 									"kindString": "Property",
@@ -69817,9 +69920,9 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3456,
-										3455,
-										3457
+										3462,
+										3461,
+										3463
 									]
 								}
 							],
@@ -69837,7 +69940,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3454
+								3460
 							]
 						}
 					],
@@ -69850,7 +69953,7 @@
 					]
 				},
 				{
-					"id": 3419,
+					"id": 3425,
 					"name": "sticky",
 					"kind": 128,
 					"kindString": "Class",
@@ -69859,7 +69962,7 @@
 					},
 					"children": [
 						{
-							"id": 3433,
+							"id": 3439,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -69868,14 +69971,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3434,
+									"id": 3440,
 									"name": "new sticky",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3435,
+											"id": 3441,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -69890,7 +69993,7 @@
 									"type": {
 										"type": "reference",
 										"name": "sticky",
-										"id": 3419
+										"id": 3425
 									},
 									"overwrites": {
 										"type": "reference",
@@ -69913,7 +70016,7 @@
 							}
 						},
 						{
-							"id": 3450,
+							"id": 3456,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69940,7 +70043,7 @@
 							}
 						},
 						{
-							"id": 3438,
+							"id": 3444,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69976,7 +70079,7 @@
 							}
 						},
 						{
-							"id": 3421,
+							"id": 3427,
 							"name": "dummyBox",
 							"kind": 1024,
 							"kindString": "Property",
@@ -69997,7 +70100,7 @@
 							}
 						},
 						{
-							"id": 3436,
+							"id": 3442,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -70030,7 +70133,7 @@
 							}
 						},
 						{
-							"id": 3420,
+							"id": 3426,
 							"name": "isToolbarSticked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -70052,7 +70155,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3437,
+							"id": 3443,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -70078,7 +70181,7 @@
 							}
 						},
 						{
-							"id": 3425,
+							"id": 3431,
 							"name": "addSticky",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70088,14 +70191,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3426,
+									"id": 3432,
 									"name": "addSticky",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3427,
+											"id": 3433,
 											"name": "toolbar",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70121,7 +70224,7 @@
 							]
 						},
 						{
-							"id": 3422,
+							"id": 3428,
 							"name": "createDummy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70131,14 +70234,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3423,
+									"id": 3429,
 									"name": "createDummy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3424,
+											"id": 3430,
 											"name": "toolbar",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70164,7 +70267,7 @@
 							]
 						},
 						{
-							"id": 3444,
+							"id": 3450,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70173,7 +70276,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3445,
+									"id": 3451,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -70203,7 +70306,7 @@
 							}
 						},
 						{
-							"id": 3446,
+							"id": 3452,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70212,14 +70315,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3447,
+									"id": 3453,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3448,
+											"id": 3454,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70230,7 +70333,7 @@
 											}
 										},
 										{
-											"id": 3449,
+											"id": 3455,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70278,7 +70381,7 @@
 							}
 						},
 						{
-							"id": 3451,
+							"id": 3457,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70287,7 +70390,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3452,
+									"id": 3458,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -70317,7 +70420,7 @@
 							}
 						},
 						{
-							"id": 3439,
+							"id": 3445,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70326,7 +70429,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3440,
+									"id": 3446,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -70356,7 +70459,7 @@
 							}
 						},
 						{
-							"id": 3441,
+							"id": 3447,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70365,14 +70468,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3442,
+									"id": 3448,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3443,
+											"id": 3449,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70408,7 +70511,7 @@
 							}
 						},
 						{
-							"id": 3431,
+							"id": 3437,
 							"name": "isMobile",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70418,7 +70521,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3432,
+									"id": 3438,
 									"name": "isMobile",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -70438,7 +70541,7 @@
 							]
 						},
 						{
-							"id": 3428,
+							"id": 3434,
 							"name": "removeSticky",
 							"kind": 2048,
 							"kindString": "Method",
@@ -70448,14 +70551,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3429,
+									"id": 3435,
 									"name": "removeSticky",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3430,
+											"id": 3436,
 											"name": "toolbar",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70486,34 +70589,34 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3433
+								3439
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3450,
-								3438,
-								3421,
-								3436,
-								3420,
-								3437
+								3456,
+								3444,
+								3427,
+								3442,
+								3426,
+								3443
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3425,
-								3422,
-								3444,
-								3446,
-								3451,
-								3439,
-								3441,
 								3431,
-								3428
+								3428,
+								3450,
+								3452,
+								3457,
+								3445,
+								3447,
+								3437,
+								3434
 							]
 						}
 					],
@@ -70538,14 +70641,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3453
+						3459
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3419
+						3425
 					]
 				}
 			],
@@ -70558,7 +70661,7 @@
 			]
 		},
 		{
-			"id": 3119,
+			"id": 3125,
 			"name": "\"src/plugins/symbols\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -70568,21 +70671,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/symbols.ts",
 			"children": [
 				{
-					"id": 3125,
+					"id": 3131,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3126,
+							"id": 3132,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3127,
+									"id": 3133,
 									"name": "specialCharacters",
 									"kind": 1024,
 									"kindString": "Property",
@@ -70603,7 +70706,7 @@
 									}
 								},
 								{
-									"id": 3128,
+									"id": 3134,
 									"name": "usePopupForSpecialCharacters",
 									"kind": 1024,
 									"kindString": "Property",
@@ -70626,8 +70729,8 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3127,
-										3128
+										3133,
+										3134
 									]
 								}
 							],
@@ -70645,7 +70748,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3126
+								3132
 							]
 						}
 					],
@@ -70658,7 +70761,7 @@
 					]
 				},
 				{
-					"id": 3120,
+					"id": 3126,
 					"name": "symbols",
 					"kind": 128,
 					"kindString": "Class",
@@ -70670,7 +70773,7 @@
 					},
 					"children": [
 						{
-							"id": 3122,
+							"id": 3128,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -70679,14 +70782,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3123,
+									"id": 3129,
 									"name": "new symbols",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3124,
+											"id": 3130,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70701,7 +70804,7 @@
 									"type": {
 										"type": "reference",
 										"name": "symbols",
-										"id": 3120
+										"id": 3126
 									}
 								}
 							],
@@ -70714,7 +70817,7 @@
 							]
 						},
 						{
-							"id": 3121,
+							"id": 3127,
 							"name": "countInRow",
 							"kind": 1024,
 							"kindString": "Property",
@@ -70741,14 +70844,14 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3122
+								3128
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3121
+								3127
 							]
 						}
 					],
@@ -70766,14 +70869,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3125
+						3131
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3120
+						3126
 					]
 				}
 			],
@@ -70786,7 +70889,7 @@
 			]
 		},
 		{
-			"id": 3263,
+			"id": 3269,
 			"name": "\"src/plugins/table\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -70796,21 +70899,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/table.ts",
 			"children": [
 				{
-					"id": 3320,
+					"id": 3326,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3321,
+							"id": 3327,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3323,
+									"id": 3329,
 									"name": "useExtraClassesOptions",
 									"kind": 1024,
 									"kindString": "Property",
@@ -70828,7 +70931,7 @@
 									}
 								},
 								{
-									"id": 3322,
+									"id": 3328,
 									"name": "useTableProcessor",
 									"kind": 1024,
 									"kindString": "Property",
@@ -70854,8 +70957,8 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3323,
-										3322
+										3329,
+										3328
 									]
 								}
 							],
@@ -70873,7 +70976,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3321
+								3327
 							]
 						}
 					],
@@ -70886,7 +70989,7 @@
 					]
 				},
 				{
-					"id": 3264,
+					"id": 3270,
 					"name": "TableProcessor",
 					"kind": 128,
 					"kindString": "Class",
@@ -70898,7 +71001,7 @@
 					},
 					"children": [
 						{
-							"id": 3297,
+							"id": 3303,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -70908,7 +71011,7 @@
 							"comment": {},
 							"signatures": [
 								{
-									"id": 3298,
+									"id": 3304,
 									"name": "new TableProcessor",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -70916,7 +71019,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 3299,
+											"id": 3305,
 											"name": "editor",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -70934,7 +71037,7 @@
 									"type": {
 										"type": "reference",
 										"name": "TableProcessor",
-										"id": 3264
+										"id": 3270
 									},
 									"overwrites": {
 										"type": "reference",
@@ -70957,7 +71060,7 @@
 							}
 						},
 						{
-							"id": 3273,
+							"id": 3279,
 							"name": "__drag",
 							"kind": 1024,
 							"kindString": "Property",
@@ -70979,7 +71082,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3317,
+							"id": 3323,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71006,7 +71109,7 @@
 							}
 						},
 						{
-							"id": 3265,
+							"id": 3271,
 							"name": "__key",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71028,7 +71131,7 @@
 							"defaultValue": "\"table_processor_observer\""
 						},
 						{
-							"id": 3285,
+							"id": 3291,
 							"name": "__maxX",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71049,7 +71152,7 @@
 							}
 						},
 						{
-							"id": 3284,
+							"id": 3290,
 							"name": "__minX",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71070,7 +71173,7 @@
 							}
 						},
 						{
-							"id": 3271,
+							"id": 3277,
 							"name": "__resizerDelta",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71092,7 +71195,7 @@
 							"defaultValue": "0"
 						},
 						{
-							"id": 3272,
+							"id": 3278,
 							"name": "__resizerHandler",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71113,7 +71216,7 @@
 							}
 						},
 						{
-							"id": 3266,
+							"id": 3272,
 							"name": "__selectMode",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71135,7 +71238,7 @@
 							"defaultValue": "false"
 						},
 						{
-							"id": 3305,
+							"id": 3311,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71171,7 +71274,7 @@
 							}
 						},
 						{
-							"id": 3274,
+							"id": 3280,
 							"name": "__wholeTable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71201,7 +71304,7 @@
 							}
 						},
 						{
-							"id": 3275,
+							"id": 3281,
 							"name": "__workCell",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71222,7 +71325,7 @@
 							}
 						},
 						{
-							"id": 3276,
+							"id": 3282,
 							"name": "__workTable",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71243,7 +71346,7 @@
 							}
 						},
 						{
-							"id": 3303,
+							"id": 3309,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71276,7 +71379,7 @@
 							}
 						},
 						{
-							"id": 3304,
+							"id": 3310,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -71302,7 +71405,7 @@
 							}
 						},
 						{
-							"id": 3286,
+							"id": 3292,
 							"name": "__addResizer",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71312,7 +71415,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3287,
+									"id": 3293,
 									"name": "__addResizer",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71332,7 +71435,7 @@
 							]
 						},
 						{
-							"id": 3288,
+							"id": 3294,
 							"name": "__calcResizerPosition",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71342,7 +71445,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3289,
+									"id": 3295,
 									"name": "__calcResizerPosition",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71354,7 +71457,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3290,
+											"id": 3296,
 											"name": "table",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71366,7 +71469,7 @@
 											}
 										},
 										{
-											"id": 3291,
+											"id": 3297,
 											"name": "cell",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71378,7 +71481,7 @@
 											}
 										},
 										{
-											"id": 3292,
+											"id": 3298,
 											"name": "offsetX",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71390,7 +71493,7 @@
 											"defaultValue": "0"
 										},
 										{
-											"id": 3293,
+											"id": 3299,
 											"name": "delta",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71417,7 +71520,7 @@
 							]
 						},
 						{
-							"id": 3267,
+							"id": 3273,
 							"name": "__deSelectAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71427,7 +71530,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3268,
+									"id": 3274,
 									"name": "__deSelectAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71437,7 +71540,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 3269,
+											"id": 3275,
 											"name": "table",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71450,7 +71553,7 @@
 											}
 										},
 										{
-											"id": 3270,
+											"id": 3276,
 											"name": "current_cell",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71487,7 +71590,7 @@
 							]
 						},
 						{
-							"id": 3280,
+							"id": 3286,
 							"name": "__setWorkCell",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71497,7 +71600,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3281,
+									"id": 3287,
 									"name": "__setWorkCell",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71507,7 +71610,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 3282,
+											"id": 3288,
 											"name": "cell",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71519,7 +71622,7 @@
 											}
 										},
 										{
-											"id": 3283,
+											"id": 3289,
 											"name": "wholeTable",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71555,7 +71658,7 @@
 							]
 						},
 						{
-							"id": 3311,
+							"id": 3317,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71564,7 +71667,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3312,
+									"id": 3318,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71594,7 +71697,7 @@
 							}
 						},
 						{
-							"id": 3313,
+							"id": 3319,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71603,14 +71706,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3314,
+									"id": 3320,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3315,
+											"id": 3321,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71621,7 +71724,7 @@
 											}
 										},
 										{
-											"id": 3316,
+											"id": 3322,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71669,7 +71772,7 @@
 							}
 						},
 						{
-							"id": 3318,
+							"id": 3324,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71678,7 +71781,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3319,
+									"id": 3325,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71708,7 +71811,7 @@
 							}
 						},
 						{
-							"id": 3306,
+							"id": 3312,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71717,7 +71820,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3307,
+									"id": 3313,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71747,7 +71850,7 @@
 							}
 						},
 						{
-							"id": 3308,
+							"id": 3314,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71756,14 +71859,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3309,
+									"id": 3315,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3310,
+											"id": 3316,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71799,7 +71902,7 @@
 							}
 						},
 						{
-							"id": 3294,
+							"id": 3300,
 							"name": "observe",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71808,14 +71911,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3295,
+									"id": 3301,
 									"name": "observe",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3296,
+											"id": 3302,
 											"name": "table",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71841,7 +71944,7 @@
 							]
 						},
 						{
-							"id": 3300,
+							"id": 3306,
 							"name": "onExecCommand",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71852,7 +71955,7 @@
 							"comment": {},
 							"signatures": [
 								{
-									"id": 3301,
+									"id": 3307,
 									"name": "onExecCommand",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -71860,7 +71963,7 @@
 									"comment": {},
 									"parameters": [
 										{
-											"id": 3302,
+											"id": 3308,
 											"name": "command",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71898,7 +72001,7 @@
 							]
 						},
 						{
-							"id": 3277,
+							"id": 3283,
 							"name": "isCell",
 							"kind": 2048,
 							"kindString": "Method",
@@ -71908,14 +72011,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3278,
+									"id": 3284,
 									"name": "isCell",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3279,
+											"id": 3285,
 											"name": "tag",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -71955,45 +72058,45 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3297
+								3303
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3273,
-								3317,
-								3265,
-								3285,
-								3284,
+								3279,
+								3323,
 								3271,
+								3291,
+								3290,
+								3277,
+								3278,
 								3272,
-								3266,
-								3305,
-								3274,
-								3275,
-								3276,
-								3303,
-								3304
+								3311,
+								3280,
+								3281,
+								3282,
+								3309,
+								3310
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3286,
-								3288,
-								3267,
-								3280,
-								3311,
-								3313,
-								3318,
-								3306,
-								3308,
+								3292,
 								3294,
+								3273,
+								3286,
+								3317,
+								3319,
+								3324,
+								3312,
+								3314,
 								3300,
-								3277
+								3306,
+								3283
 							]
 						}
 					],
@@ -72018,14 +72121,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3320
+						3326
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3264
+						3270
 					]
 				}
 			],
@@ -72038,7 +72141,7 @@
 			]
 		},
 		{
-			"id": 3324,
+			"id": 3330,
 			"name": "\"src/plugins/tableKeyboardNavigation\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -72048,7 +72151,7 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/tableKeyboardNavigation.ts",
 			"children": [
 				{
-					"id": 3325,
+					"id": 3331,
 					"name": "tableKeyboardNavigation",
 					"kind": 64,
 					"kindString": "Function",
@@ -72057,7 +72160,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3326,
+							"id": 3332,
 							"name": "tableKeyboardNavigation",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -72067,7 +72170,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3327,
+									"id": 3333,
 									"name": "editor",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -72102,7 +72205,7 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3325
+						3331
 					]
 				}
 			],
@@ -72115,7 +72218,7 @@
 			]
 		},
 		{
-			"id": 3492,
+			"id": 3498,
 			"name": "\"src/plugins/xpath\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -72125,21 +72228,21 @@
 			"originalName": "K:/OpenServer/domains/xdan/jodit-docs/node_modules/jodit/src/plugins/xpath.ts",
 			"children": [
 				{
-					"id": 3540,
+					"id": 3546,
 					"name": "\"../Config\"",
 					"kind": 2,
 					"kindString": "Module",
 					"flags": {},
 					"children": [
 						{
-							"id": 3541,
+							"id": 3547,
 							"name": "Config",
 							"kind": 256,
 							"kindString": "Interface",
 							"flags": {},
 							"children": [
 								{
-									"id": 3542,
+									"id": 3548,
 									"name": "showXPathInStatusbar",
 									"kind": 1024,
 									"kindString": "Property",
@@ -72162,7 +72265,7 @@
 									"title": "Properties",
 									"kind": 1024,
 									"children": [
-										3542
+										3548
 									]
 								}
 							],
@@ -72180,7 +72283,7 @@
 							"title": "Interfaces",
 							"kind": 256,
 							"children": [
-								3541
+								3547
 							]
 						}
 					],
@@ -72193,7 +72296,7 @@
 					]
 				},
 				{
-					"id": 3493,
+					"id": 3499,
 					"name": "xpath",
 					"kind": 128,
 					"kindString": "Class",
@@ -72205,7 +72308,7 @@
 					},
 					"children": [
 						{
-							"id": 3517,
+							"id": 3523,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -72214,14 +72317,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3518,
+									"id": 3524,
 									"name": "new xpath",
 									"kind": 16384,
 									"kindString": "Constructor signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3519,
+											"id": 3525,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72236,7 +72339,7 @@
 									"type": {
 										"type": "reference",
 										"name": "xpath",
-										"id": 3493
+										"id": 3499
 									},
 									"overwrites": {
 										"type": "reference",
@@ -72269,7 +72372,7 @@
 							}
 						},
 						{
-							"id": 3537,
+							"id": 3543,
 							"name": "__isFullSize",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72296,7 +72399,7 @@
 							}
 						},
 						{
-							"id": 3525,
+							"id": 3531,
 							"name": "__whoLocked",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72332,7 +72435,7 @@
 							}
 						},
 						{
-							"id": 3514,
+							"id": 3520,
 							"name": "calcPath",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72354,7 +72457,7 @@
 							"defaultValue": " debounce(this.calcPathImd, this.jodit.defaultTimeout * 2)"
 						},
 						{
-							"id": 3494,
+							"id": 3500,
 							"name": "container",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72374,7 +72477,7 @@
 							}
 						},
 						{
-							"id": 3523,
+							"id": 3529,
 							"name": "id",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72407,7 +72510,7 @@
 							}
 						},
 						{
-							"id": 3524,
+							"id": 3530,
 							"name": "jodit",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72433,7 +72536,7 @@
 							}
 						},
 						{
-							"id": 3495,
+							"id": 3501,
 							"name": "menu",
 							"kind": 1024,
 							"kindString": "Property",
@@ -72454,7 +72557,7 @@
 							}
 						},
 						{
-							"id": 3515,
+							"id": 3521,
 							"name": "afterInit",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72463,7 +72566,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3516,
+									"id": 3522,
 									"name": "afterInit",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72493,7 +72596,7 @@
 							}
 						},
 						{
-							"id": 3510,
+							"id": 3516,
 							"name": "appendSelectAll",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72503,7 +72606,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3511,
+									"id": 3517,
 									"name": "appendSelectAll",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72523,7 +72626,7 @@
 							]
 						},
 						{
-							"id": 3520,
+							"id": 3526,
 							"name": "beforeDestruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72532,14 +72635,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3521,
+									"id": 3527,
 									"name": "beforeDestruct",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3522,
+											"id": 3528,
 											"name": "jodit",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72578,7 +72681,7 @@
 							}
 						},
 						{
-							"id": 3512,
+							"id": 3518,
 							"name": "calcPathImd",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72588,7 +72691,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3513,
+									"id": 3519,
 									"name": "calcPathImd",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72608,7 +72711,7 @@
 							]
 						},
 						{
-							"id": 3531,
+							"id": 3537,
 							"name": "destruct",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72617,7 +72720,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3532,
+									"id": 3538,
 									"name": "destruct",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72647,7 +72750,7 @@
 							}
 						},
 						{
-							"id": 3533,
+							"id": 3539,
 							"name": "getInstance",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72656,14 +72759,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3534,
+									"id": 3540,
 									"name": "getInstance",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3535,
+											"id": 3541,
 											"name": "moduleName",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72674,7 +72777,7 @@
 											}
 										},
 										{
-											"id": 3536,
+											"id": 3542,
 											"name": "options",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72722,7 +72825,7 @@
 							}
 						},
 						{
-							"id": 3538,
+							"id": 3544,
 							"name": "isFullSize",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72731,7 +72834,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3539,
+									"id": 3545,
 									"name": "isFullSize",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72761,7 +72864,7 @@
 							}
 						},
 						{
-							"id": 3526,
+							"id": 3532,
 							"name": "isLocked",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72770,7 +72873,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3527,
+									"id": 3533,
 									"name": "isLocked",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -72800,7 +72903,7 @@
 							}
 						},
 						{
-							"id": 3528,
+							"id": 3534,
 							"name": "isLockedNotBy",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72809,14 +72912,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3529,
+									"id": 3535,
 									"name": "isLockedNotBy",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3530,
+											"id": 3536,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72852,7 +72955,7 @@
 							}
 						},
 						{
-							"id": 3496,
+							"id": 3502,
 							"name": "onContext",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72862,14 +72965,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3497,
+									"id": 3503,
 									"name": "onContext",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3498,
+											"id": 3504,
 											"name": "bindElement",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72880,7 +72983,7 @@
 											}
 										},
 										{
-											"id": 3499,
+											"id": 3505,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72906,7 +73009,7 @@
 							]
 						},
 						{
-							"id": 3500,
+							"id": 3506,
 							"name": "onSelectPath",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72916,14 +73019,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3501,
+									"id": 3507,
 									"name": "onSelectPath",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3502,
+											"id": 3508,
 											"name": "bindElement",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72934,7 +73037,7 @@
 											}
 										},
 										{
-											"id": 3503,
+											"id": 3509,
 											"name": "event",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72960,7 +73063,7 @@
 							]
 						},
 						{
-							"id": 3504,
+							"id": 3510,
 							"name": "tpl",
 							"kind": 2048,
 							"kindString": "Method",
@@ -72970,14 +73073,14 @@
 							},
 							"signatures": [
 								{
-									"id": 3505,
+									"id": 3511,
 									"name": "tpl",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {},
 									"parameters": [
 										{
-											"id": 3506,
+											"id": 3512,
 											"name": "bindElement",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72988,7 +73091,7 @@
 											}
 										},
 										{
-											"id": 3507,
+											"id": 3513,
 											"name": "path",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -72999,7 +73102,7 @@
 											}
 										},
 										{
-											"id": 3508,
+											"id": 3514,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -73010,7 +73113,7 @@
 											}
 										},
 										{
-											"id": 3509,
+											"id": 3515,
 											"name": "title",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -73041,38 +73144,38 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								3517
+								3523
 							]
 						},
 						{
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3537,
-								3525,
-								3514,
-								3494,
-								3523,
-								3524,
-								3495
+								3543,
+								3531,
+								3520,
+								3500,
+								3529,
+								3530,
+								3501
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								3515,
-								3510,
-								3520,
-								3512,
-								3531,
-								3533,
-								3538,
+								3521,
+								3516,
 								3526,
-								3528,
-								3496,
-								3500,
-								3504
+								3518,
+								3537,
+								3539,
+								3544,
+								3532,
+								3534,
+								3502,
+								3506,
+								3510
 							]
 						}
 					],
@@ -73097,14 +73200,14 @@
 					"title": "Modules",
 					"kind": 2,
 					"children": [
-						3540
+						3546
 					]
 				},
 				{
 					"title": "Classes",
 					"kind": 128,
 					"children": [
-						3493
+						3499
 					]
 				}
 			],
@@ -73134,7 +73237,7 @@
 			]
 		},
 		{
-			"id": 3643,
+			"id": 3649,
 			"name": "\"src/styles/icons/index\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -73160,17 +73263,17 @@
 				2514,
 				2096,
 				46,
+				3650,
+				3647,
+				3643,
 				3644,
-				3641,
-				3637,
-				3638,
-				3639,
-				3642,
-				3640,
+				3645,
+				3648,
+				3646,
 				1297,
 				182,
 				1257,
-				3249,
+				3255,
 				1112,
 				239,
 				89,
@@ -73188,8 +73291,8 @@
 				505,
 				1351,
 				2470,
-				3262,
-				3543,
+				3268,
+				3549,
 				2595,
 				2604,
 				2611,
@@ -73202,33 +73305,33 @@
 				2689,
 				2693,
 				2697,
-				3129,
+				3135,
 				2705,
 				2722,
 				2727,
 				2715,
-				3636,
+				3642,
 				2861,
-				2934,
-				2938,
-				2951,
-				2959,
-				2963,
-				3591,
-				2972,
-				2982,
-				3004,
-				3328,
-				3018,
-				3026,
-				3458,
-				3418,
-				3119,
-				3263,
-				3324,
-				3492,
+				2940,
+				2944,
+				2957,
+				2965,
+				2969,
+				3597,
+				2978,
+				2988,
+				3010,
+				3334,
+				3024,
+				3032,
+				3464,
+				3424,
+				3125,
+				3269,
+				3330,
+				3498,
 				2594,
-				3643
+				3649
 			]
 		}
 	]
