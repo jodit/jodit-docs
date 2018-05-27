@@ -3312,6 +3312,62 @@
 							}
 						},
 						{
+							"id": 2168,
+							"name": "setEditorValue",
+							"kind": 8388608,
+							"kindString": "Event",
+							"flags": {
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 2169,
+									"name": "setEditorValue",
+									"kind": 8388608,
+									"kindString": "Event",
+									"flags": {},
+									"comment": {
+										"shortText": "Set editor html value and if set sync fill source element value\nWhen method was called without arguments - it is simple way to synchronize editor to element"
+									},
+									"parameters": [
+										{
+											"id": 2170,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "undefined"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "src/Jodit.ts",
+									"line": 617,
+									"character": 18
+								}
+							]
+						},
+						{
 							"id": 2150,
 							"name": "__defaultClassesKey",
 							"kind": 1024,
@@ -3323,7 +3379,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 318,
+									"line": 319,
 									"character": 31
 								}
 							],
@@ -3345,7 +3401,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 317,
+									"line": 318,
 									"character": 36
 								}
 							],
@@ -3393,7 +3449,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 302,
+									"line": 303,
 									"character": 13
 								}
 							],
@@ -3435,7 +3491,7 @@
 									"sources": [
 										{
 											"fileName": "src/Jodit.ts",
-											"line": 302,
+											"line": 303,
 											"character": 14
 										}
 									]
@@ -3454,7 +3510,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 807,
+									"line": 835,
 									"character": 29
 								}
 							],
@@ -3598,7 +3654,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 648,
+									"line": 676,
 									"character": 20
 								}
 							],
@@ -3655,7 +3711,7 @@
 									"sources": [
 										{
 											"fileName": "src/Jodit.ts",
-											"line": 648,
+											"line": 676,
 											"character": 21
 										}
 									]
@@ -3973,7 +4029,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 385,
+									"line": 386,
 									"character": 16
 								}
 							],
@@ -4020,7 +4076,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 837,
+									"line": 865,
 									"character": 8
 								}
 							],
@@ -4498,7 +4554,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1071,
+									"line": 1099,
 									"character": 22
 								}
 							]
@@ -4549,12 +4605,12 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 641,
+									"line": 669,
 									"character": 13
 								},
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 644,
+									"line": 672,
 									"character": 13
 								}
 							]
@@ -4595,7 +4651,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 325,
+									"line": 326,
 									"character": 32
 								}
 							]
@@ -4653,7 +4709,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 256,
+									"line": 257,
 									"character": 30
 								}
 							]
@@ -4683,7 +4739,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 304,
+									"line": 305,
 									"character": 26
 								}
 							]
@@ -4720,7 +4776,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 390,
+									"line": 391,
 									"character": 12
 								}
 							],
@@ -4826,7 +4882,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 744,
+									"line": 772,
 									"character": 15
 								}
 							]
@@ -4911,7 +4967,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 650,
+									"line": 678,
 									"character": 30
 								}
 							]
@@ -4940,7 +4996,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 571,
+									"line": 572,
 									"character": 17
 								}
 							]
@@ -4986,7 +5042,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 518,
+									"line": 519,
 									"character": 18
 								}
 							]
@@ -5018,7 +5074,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 498,
+									"line": 499,
 									"character": 19
 								}
 							]
@@ -5126,7 +5182,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 843,
+									"line": 871,
 									"character": 11
 								}
 							]
@@ -5159,7 +5215,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 507,
+									"line": 508,
 									"character": 24
 								}
 							]
@@ -5191,7 +5247,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1045,
+									"line": 1073,
 									"character": 15
 								}
 							]
@@ -5229,7 +5285,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 859,
+									"line": 887,
 									"character": 15
 								}
 							]
@@ -5272,7 +5328,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1019,
+									"line": 1047,
 									"character": 14
 								}
 							]
@@ -5357,7 +5413,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 968,
+									"line": 996,
 									"character": 8
 								}
 							]
@@ -5386,7 +5442,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 846,
+									"line": 874,
 									"character": 16
 								}
 							]
@@ -5511,7 +5567,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 833,
+									"line": 861,
 									"character": 17
 								}
 							],
@@ -5562,7 +5618,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 812,
+									"line": 840,
 									"character": 8
 								}
 							]
@@ -5638,64 +5694,8 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 706,
+									"line": 734,
 									"character": 19
-								}
-							]
-						},
-						{
-							"id": 2168,
-							"name": "setEditorValue",
-							"kind": 2048,
-							"kindString": "Method",
-							"flags": {
-								"isExported": true
-							},
-							"signatures": [
-								{
-									"id": 2169,
-									"name": "setEditorValue",
-									"kind": 4096,
-									"kindString": "Call signature",
-									"flags": {},
-									"comment": {
-										"shortText": "Set editor html value and if set sync fill source element value\nWhen method was called without arguments - it is simple way to synchronize editor to element"
-									},
-									"parameters": [
-										{
-											"id": 2170,
-											"name": "value",
-											"kind": 32768,
-											"kindString": "Parameter",
-											"flags": {
-												"isOptional": true
-											},
-											"type": {
-												"type": "union",
-												"types": [
-													{
-														"type": "intrinsic",
-														"name": "undefined"
-													},
-													{
-														"type": "intrinsic",
-														"name": "string"
-													}
-												]
-											}
-										}
-									],
-									"type": {
-										"type": "intrinsic",
-										"name": "void"
-									}
-								}
-							],
-							"sources": [
-								{
-									"fileName": "src/Jodit.ts",
-									"line": 616,
-									"character": 18
 								}
 							]
 						},
@@ -5750,7 +5750,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 588,
+									"line": 589,
 									"character": 19
 								}
 							]
@@ -5814,7 +5814,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 869,
+									"line": 897,
 									"character": 11
 								}
 							]
@@ -5862,7 +5862,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1030,
+									"line": 1058,
 									"character": 15
 								}
 							]
@@ -5919,7 +5919,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1049,
+									"line": 1077,
 									"character": 18
 								}
 							]
@@ -5957,7 +5957,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 928,
+									"line": 956,
 									"character": 14
 								}
 							]
@@ -5989,7 +5989,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 823,
+									"line": 851,
 									"character": 10
 								}
 							]
@@ -6039,7 +6039,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1075,
+									"line": 1103,
 									"character": 16
 								}
 							]
@@ -6083,7 +6083,7 @@
 							"sources": [
 								{
 									"fileName": "src/Jodit.ts",
-									"line": 1078,
+									"line": 1106,
 									"character": 17
 								}
 							]
@@ -6095,6 +6095,13 @@
 							"kind": 512,
 							"children": [
 								2136
+							]
+						},
+						{
+							"title": "Events",
+							"kind": 8388608,
+							"children": [
+								2168
 							]
 						},
 						{
@@ -6176,7 +6183,6 @@
 								2199,
 								2194,
 								2184,
-								2168,
 								2165,
 								2209,
 								2220,

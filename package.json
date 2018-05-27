@@ -1,9 +1,9 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.35",
+  "version": "0.1.36",
   "devDependencies": {
     "css-loader": "^0.28.11",
-    "jodit": "^3.2.2",
+    "jodit": "^3.2.3",
     "jsdoc": "^3.5.5",
     "jsdoc-json": "^2.0.2",
     "react": "^16.4.0",
