@@ -102316,7 +102316,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"name": "AceAjax.Editor"
+								"name": "Editor"
 							}
 						},
 						{
