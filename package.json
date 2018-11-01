@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "devDependencies": {
     "css-loader": "^0.28.11",
     "jodit": "^3.2.15",
@@ -14,13 +14,13 @@
     "react-scripts": "1.1.1",
     "react-syntax-highlighter": "^7.0.4",
     "renamer": "^1.1.0",
-    "typedoc": "^0.11.1"
+    "typedoc": "^0.13.0"
   },
   "scripts": {
     "copy": "cp ./node_modules/jodit/README.md ./public/README.md",
     "doc-fires": "node parse.js",
     "doc-jsdoc": "jsdoc -c jsdoc.json --template ./node_modules/jsdoc-json --destination ./public/data-event.json --recurse ../jodit/build/jodit.js",
-    "doc-ts": "typedoc --mode modules  --module umd --json ./public/data.json --includeDeclarations  --excludeExternals  --ignoreCompilerErrors --tsconfig ./node_modules/jodit/tsconfig.json ./node_modules/jodit/",
+    "doc-ts": "typedoc --mode modules  --module umd --json ./public/data.json --includeDeclarations  --excludeExternals  --ignoreCompilerErrors --tsconfig ./node_modules/jodit/tsconfig.json ./node_modules/jodit/src",
     "doc": "npm run doc-ts && npm run doc-jsdoc && npm run doc-fires && npm run copy",
     "build-rename": "renamer --path-element name --find \"/^main\\.[a-z0-9]+/i\" --replace \"main\" build/static/*/**",
     "newversion": "npm update && npm run doc && npm run newversion2",
