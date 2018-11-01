@@ -30,11 +30,18 @@ export class Methods extends DataComponent {
             });
 
             links = [];
-            const part = Math.ceil(options.length / Options.columnCount);
+
+            const memory = {};
 
             options = options.filter((method) => {
+                if (memory[method]) {
+                    return false;
+                }
+                memory[method] = true;
                 return method.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1;
             }).sort();
+
+            const part = Math.ceil(options.length / Options.columnCount);
 
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (

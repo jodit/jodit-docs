@@ -19,7 +19,7 @@ export class Options extends DataComponent {
                 if (haystack.name === 'Config' && Array.isArray(haystack.children)) {
                     haystack.children
                         .forEach((child) => {
-                            if (child.kindString === 'Property') {
+                            if (child.kindString === 'Property' && !options.includes(child)) {
                                 options.push(child);
                             }
                         });
@@ -27,11 +27,17 @@ export class Options extends DataComponent {
             });
 
             links = [];
-            const part = Math.ceil(options.length / Options.columnCount);
+            const memory = {};
 
             options = options.filter((child) => {
+                if (memory[child.name]) {
+                    return false;
+                }
+                memory[child.name] = true;
                 return child.name.toLowerCase().indexOf(this.state.query.toLowerCase()) !== -1;
             }).sort((a, b) => a.name > b.name ? 1: -1);
+
+            const part = Math.ceil(options.length / Options.columnCount);
 
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
