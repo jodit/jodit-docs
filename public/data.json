@@ -2640,7 +2640,8 @@
 													"types": [
 														{
 															"type": "reference",
-															"name": "CommandType"
+															"name": "CommandType",
+															"id": 5277
 														},
 														{
 															"type": "reference",
@@ -4797,7 +4798,8 @@
 												"types": [
 													{
 														"type": "reference",
-														"name": "CommandType"
+														"name": "CommandType",
+														"id": 5277
 													},
 													{
 														"type": "reference",
@@ -7305,7 +7307,7 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 57,
+							"line": 58,
 							"character": 18
 						}
 					],
@@ -7327,7 +7329,7 @@
 									"sources": [
 										{
 											"fileName": "index.ts",
-											"line": 57,
+											"line": 58,
 											"character": 25
 										}
 									],
@@ -7349,7 +7351,7 @@
 							"sources": [
 								{
 									"fileName": "index.ts",
-									"line": 57,
+									"line": 58,
 									"character": 19
 								}
 							]
@@ -7393,7 +7395,7 @@
 					"sources": [
 						{
 							"fileName": "index.ts",
-							"line": 31,
+							"line": 32,
 							"character": 14
 						}
 					]
@@ -52583,7 +52585,8 @@
 								"types": [
 									{
 										"type": "reference",
-										"name": "RGB"
+										"name": "RGB",
+										"id": 5255
 									},
 									{
 										"type": "intrinsic",
@@ -53705,7 +53708,8 @@
 							],
 							"type": {
 								"type": "reference",
-								"name": "Bound"
+								"name": "Bound",
+								"id": 5239
 							}
 						}
 					],
@@ -68240,7 +68244,8 @@
 								"types": [
 									{
 										"type": "reference",
-										"name": "Permissions"
+										"name": "Permissions",
+										"id": 5260
 									},
 									{
 										"type": "intrinsic",
@@ -74007,7 +74012,8 @@
 														"types": [
 															{
 																"type": "reference",
-																"name": "Permissions"
+																"name": "Permissions",
+																"id": 5260
 															},
 															{
 																"type": "intrinsic",
@@ -95650,7 +95656,8 @@
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"name": "Bound"
+												"name": "Bound",
+												"id": 5239
 											}
 										}
 									],
@@ -96151,7 +96158,8 @@
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"name": "Bound"
+												"name": "Bound",
+												"id": 5239
 											}
 										},
 										{
@@ -96162,7 +96170,8 @@
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"name": "Bound"
+												"name": "Bound",
+												"id": 5239
 											}
 										}
 									],
@@ -96198,7 +96207,8 @@
 									"flags": {},
 									"type": {
 										"type": "reference",
-										"name": "Bound"
+										"name": "Bound",
+										"id": 5239
 									}
 								}
 							],
@@ -96715,7 +96725,8 @@
 															"flags": {},
 															"type": {
 																"type": "reference",
-																"name": "Bound"
+																"name": "Bound",
+																"id": 5239
 															}
 														}
 													],
@@ -100592,7 +100603,8 @@
 											"flags": {},
 											"type": {
 												"type": "reference",
-												"name": "SelectionRange"
+												"name": "SelectionRange",
+												"id": 5249
 											}
 										},
 										{
@@ -100605,7 +100617,8 @@
 												"type": "array",
 												"elementType": {
 													"type": "reference",
-													"name": "SelectionRange"
+													"name": "SelectionRange",
+													"id": 5249
 												}
 											}
 										}
@@ -100663,7 +100676,8 @@
 												"types": [
 													{
 														"type": "reference",
-														"name": "SelectionRange"
+														"name": "SelectionRange",
+														"id": 5249
 													},
 													{
 														"type": "intrinsic",
@@ -100960,7 +100974,8 @@
 											},
 											{
 												"type": "reference",
-												"name": "SelectionRange"
+												"name": "SelectionRange",
+												"id": 5249
 											}
 										]
 									}
@@ -107702,6 +107717,945 @@
 					"character": 0
 				}
 			]
+		},
+		{
+			"id": 5236,
+			"name": "\"types\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/v-chupurnov/WebstormProjects/pet/jodit-docs/node_modules/jodit/src/types.ts",
+			"children": [
+				{
+					"id": 5237,
+					"name": "\"*.svg\"",
+					"kind": 2,
+					"kindString": "Module",
+					"flags": {},
+					"children": [
+						{
+							"id": 5238,
+							"name": "content",
+							"kind": 32,
+							"kindString": "Variable",
+							"flags": {
+								"isExported": true,
+								"isConst": true,
+								"hasExportAssignment": true
+							},
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 2,
+									"character": 17
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "any"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Variables",
+							"kind": 32,
+							"children": [
+								5238
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 1,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 5239,
+					"name": "Bound",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 6,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5240,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 5244,
+									"name": "height",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 6,
+											"character": 63
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5242,
+									"name": "left",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 6,
+											"character": 31
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5241,
+									"name": "top",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 6,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5243,
+									"name": "width",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 6,
+											"character": 47
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5244,
+										5242,
+										5241,
+										5243
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 6,
+									"character": 12
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 5277,
+					"name": "CommandType",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 35,
+							"character": 16
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5278,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 5279,
+									"name": "exec",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 36,
+											"character": 8
+										}
+									],
+									"type": {
+										"type": "reference",
+										"name": "Function"
+									}
+								},
+								{
+									"id": 5280,
+									"name": "hotkeys",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {
+										"isOptional": true
+									},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 37,
+											"character": 11
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											},
+											{
+												"type": "array",
+												"elementType": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5279,
+										5280
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 35,
+									"character": 18
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 5260,
+					"name": "Permissions",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 17,
+							"character": 16
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5261,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"indexSignature": {
+								"id": 5275,
+								"name": "__index",
+								"kind": 8192,
+								"kindString": "Index signature",
+								"flags": {},
+								"parameters": [
+									{
+										"id": 5276,
+										"name": "key",
+										"kind": 32768,
+										"kindString": "Parameter",
+										"flags": {},
+										"type": {
+											"type": "intrinsic",
+											"name": "string"
+										}
+									}
+								],
+								"type": {
+									"type": "intrinsic",
+									"name": "boolean"
+								}
+							},
+							"children": [
+								{
+									"id": 5263,
+									"name": "allowFileMove",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 19,
+											"character": 17
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5266,
+									"name": "allowFileRemove",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 22,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5267,
+									"name": "allowFileRename",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 23,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5264,
+									"name": "allowFileUpload",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 20,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5265,
+									"name": "allowFileUploadRemote",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 21,
+											"character": 25
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5262,
+									"name": "allowFiles",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 18,
+											"character": 14
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5269,
+									"name": "allowFolderCreate",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 25,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5270,
+									"name": "allowFolderMove",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 26,
+											"character": 19
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5271,
+									"name": "allowFolderRemove",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 27,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5272,
+									"name": "allowFolderRename",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 28,
+											"character": 21
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5268,
+									"name": "allowFolders",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 24,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5274,
+									"name": "allowImageCrop",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 30,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								},
+								{
+									"id": 5273,
+									"name": "allowImageResize",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 29,
+											"character": 20
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5263,
+										5266,
+										5267,
+										5264,
+										5265,
+										5262,
+										5269,
+										5270,
+										5271,
+										5272,
+										5268,
+										5274,
+										5273
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 17,
+									"character": 18
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 5245,
+					"name": "Point",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 7,
+							"character": 10
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5246,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 5247,
+									"name": "x",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 7,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5248,
+									"name": "y",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 7,
+											"character": 26
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5247,
+										5248
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 7,
+									"character": 12
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 5255,
+					"name": "RGB",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 15,
+							"character": 8
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5256,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 5259,
+									"name": "b",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 15,
+											"character": 35
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5258,
+									"name": "g",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 15,
+											"character": 24
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 5257,
+									"name": "r",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 15,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5259,
+										5258,
+										5257
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 15,
+									"character": 10
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 5249,
+					"name": "SelectionRange",
+					"kind": 4194304,
+					"kindString": "Type alias",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "types.ts",
+							"line": 8,
+							"character": 19
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 5250,
+							"name": "__type",
+							"kind": 65536,
+							"kindString": "Type literal",
+							"flags": {},
+							"children": [
+								{
+									"id": 5253,
+									"name": "endContainer",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 11,
+											"character": 16
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Node"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 5254,
+									"name": "endOffset",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 12,
+											"character": 13
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 5251,
+									"name": "startContainer",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 9,
+											"character": 18
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"name": "Node"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								},
+								{
+									"id": 5252,
+									"name": "startOffset",
+									"kind": 32,
+									"kindString": "Variable",
+									"flags": {},
+									"sources": [
+										{
+											"fileName": "types.ts",
+											"line": 10,
+											"character": 15
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "intrinsic",
+												"name": "number"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Variables",
+									"kind": 32,
+									"children": [
+										5253,
+										5254,
+										5251,
+										5252
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types.ts",
+									"line": 8,
+									"character": 21
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Modules",
+					"kind": 2,
+					"children": [
+						5237
+					]
+				},
+				{
+					"title": "Type aliases",
+					"kind": 4194304,
+					"children": [
+						5239,
+						5277,
+						5260,
+						5245,
+						5255,
+						5249
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "types.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
 		}
 	],
 	"groups": [
@@ -107809,7 +108763,8 @@
 				3567,
 				5234,
 				3716,
-				5235
+				5235,
+				5236
 			]
 		}
 	]
