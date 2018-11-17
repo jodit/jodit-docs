@@ -2844,11 +2844,11 @@
       "comment": "/**\n     * Remove all connetn form element\n     *\n     * @param {Node} node\n     */",
       "meta": {
         "range": [
-          74121,
-          74248
+          73499,
+          73626
         ],
         "filename": "jodit.js",
-        "lineno": 2053,
+        "lineno": 2042,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -2884,11 +2884,11 @@
       "comment": "/**\n     *\n     * @param node\n     */",
       "meta": {
         "range": [
-          74296,
-          74555
+          73674,
+          73933
         ],
         "filename": "jodit.js",
-        "lineno": 2062,
+        "lineno": 2051,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -2922,11 +2922,11 @@
       "comment": "/**\n     * It goes through all the internal elements of the node , causing a callback function\n     *\n     * @param  {HTMLElement} elm elements , the internal node is necessary to sort out\n     * @param  {Function} callback It called for each item found\n     * @example\n     * ```javascript\n     * Jodit.modules.Dom.each(parent.selection.current(), function (node) {\n     *  if (node.nodeType === Node.TEXT_NODE) {\n     *      node.nodeValue = node.nodeValue.replace(Jodit.INVISIBLE_SPACE_REG_EX, '') // remove all of the text element codes invisible character\n     *  }\n     * });\n     * ```\n     */",
       "meta": {
         "range": [
-          75166,
-          75567
+          74544,
+          74945
         ],
         "filename": "jodit.js",
-        "lineno": 2085,
+        "lineno": 2074,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -2980,7 +2980,7 @@
       "comment": "/**\n     * Create new element\n     *\n     * @method create\n     * @param  {string} nodeName Can be `div`, `span` or `text`\n     * @param  {string} content Content for new element\n     * @param  {Document} doc\n     * @return {HTMLElement|Text}\n     * @example\n     * ```javascript\n     * var textnode = parent.node.create('text', 'Hello world');\n     * var div = parent.node.create('div', '<img src=\"test.jpg\">');\n     * ```\n     * @deprecated\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 2097,
+        "lineno": 2086,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -3039,11 +3039,11 @@
       "comment": "/**\n     * Replace one tag to another transfer content\n     *\n     * @param  {Node} elm The element that needs to be replaced by new\n     * @param  {string} newTagName tag name for which will change `elm`\n     * @param  {boolean} withAttributes=false If true move tag's attributes\n     * @param  {boolean} notMoveContent=false false - Move content from elm to newTagName\n     * @param  {Document} [doc=document]\n     * @return {Node} Returns a new tag\n     * @example\n     * ```javascript\n     * Jodit.modules.Dom.replace(parent.editor.getElementsByTagName('span')[0], 'p'); // Replace the first <span> element to the < p >\n     * ```\n     */",
       "meta": {
         "range": [
-          77130,
-          77877
+          76508,
+          77255
         ],
         "filename": "jodit.js",
-        "lineno": 2140,
+        "lineno": 2129,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3142,11 +3142,11 @@
       "comment": "/**\n     *  Check if element is table cell\n     *\n     * @param {Node} elm\n     * @param {Window} win\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          78022,
-          78134
+          77400,
+          77512
         ],
         "filename": "jodit.js",
-        "lineno": 2166,
+        "lineno": 2155,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3200,11 +3200,11 @@
       "comment": "/**\n     * Check is element is Image element\n     *\n     * @param {Node} elm\n     * @param {Window} win\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          78281,
-          78411
+          77659,
+          77789
         ],
         "filename": "jodit.js",
-        "lineno": 2176,
+        "lineno": 2165,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3258,11 +3258,11 @@
       "comment": "/**\n     * Check the `node` is a block element\n     *\n     * @param node\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          78527,
-          78665
+          77905,
+          78043
         ],
         "filename": "jodit.js",
-        "lineno": 2185,
+        "lineno": 2174,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3302,11 +3302,11 @@
       "comment": "/**\n     * Check element is inline block\n     *\n     * @param node\n     */",
       "meta": {
         "range": [
-          78750,
-          78943
+          78128,
+          78321
         ],
         "filename": "jodit.js",
-        "lineno": 2193,
+        "lineno": 2182,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3337,11 +3337,11 @@
       "comment": "/**\n     * It's block and it can be split\n     *\n     */",
       "meta": {
         "range": [
-          79010,
-          79299
+          78388,
+          78677
         ],
         "filename": "jodit.js",
-        "lineno": 2200,
+        "lineno": 2189,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3368,11 +3368,11 @@
       "comment": "/**\n     * Find previous node\n     *\n     * @param {Node} node\n     * @param {function} condition\n     * @param {Node} root\n     * @param {boolean} [withChild=true]\n     *\n     * @return {boolean|Node|HTMLElement|HTMLTableCellElement} false if not found\n     */",
       "meta": {
         "range": [
-          79571,
-          79796
+          78949,
+          79174
         ],
         "filename": "jodit.js",
-        "lineno": 2216,
+        "lineno": 2205,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3453,11 +3453,11 @@
       "comment": "/**\n     * Find next node what `condition(next) === true`\n     *\n     * @param {Node} node\n     * @param {function} condition\n     * @param {Node} root\n     * @param {boolean} [withChild=true]\n     * @return {boolean|Node|HTMLElement|HTMLTableCellElement}\n     */",
       "meta": {
         "range": [
-          80070,
-          80289
+          79448,
+          79667
         ],
         "filename": "jodit.js",
-        "lineno": 2229,
+        "lineno": 2218,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3537,11 +3537,11 @@
       "comment": "/**\n     * Find next/prev node what `condition(next) === true`\n     *\n     * @param {Node} node\n     * @param {function} condition\n     * @param {Node} root\n     * @param {boolean} [recurse=false] check first argument\n     * @param {string} [sibling=nextSibling] nextSibling or previousSibling\n     * @param {string|boolean} [child=firstChild] firstChild or lastChild\n     * @return {Node|Boolean}\n     */",
       "meta": {
         "range": [
-          80705,
-          81611
+          80083,
+          80989
         ],
         "filename": "jodit.js",
-        "lineno": 2244,
+        "lineno": 2233,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3650,11 +3650,11 @@
       "comment": "/**\n     * Find next/prev node what `condition(next) === true`\n     *\n     * @param {Node} node\n     * @param {function} condition\n     * @param {Node} root\n     * @param {string} [sibling=nextSibling] nextSibling or previousSibling\n     * @param {string|boolean} [child=firstChild] firstChild or lastChild\n     * @return {Node|Boolean}\n     */",
       "meta": {
         "range": [
-          81966,
-          82825
+          81344,
+          82203
         ],
         "filename": "jodit.js",
-        "lineno": 2280,
+        "lineno": 2269,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3749,11 +3749,11 @@
       "comment": "/**\n     * Checks whether the Node text and blank (in this case it may contain invisible auxiliary characters , it is also empty )\n     *\n     * @param  {Node} node The element of wood to be checked\n     * @return {Boolean} true element is empty\n     */",
       "meta": {
         "range": [
-          83089,
-          83287
+          82467,
+          82665
         ],
         "filename": "jodit.js",
-        "lineno": 2309,
+        "lineno": 2298,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3800,11 +3800,11 @@
       "comment": "/**\n     * Check if element is not empty\n     *\n     * @param {Node} node\n     * @param {RegExp} condNoEmptyElement\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          83446,
-          84288
+          82824,
+          83666
         ],
         "filename": "jodit.js",
-        "lineno": 2319,
+        "lineno": 2308,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3862,11 +3862,11 @@
       "comment": "/**\n     * Returns true if it is a DOM node\n     */",
       "meta": {
         "range": [
-          84350,
-          84610
+          83728,
+          83988
         ],
         "filename": "jodit.js",
-        "lineno": 2340,
+        "lineno": 2329,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3893,11 +3893,11 @@
       "comment": "/**\n     * It goes through all the elements in ascending order, and checks to see if they meet the predetermined condition\n     *\n     * @param {callback} node\n     * @param {function} condition\n     * @param {Node} root Root element\n     * @return {boolean|Node|HTMLElement|HTMLTableCellElement|HTMLTableElement} Return false if condition not be true\n     */",
       "meta": {
         "range": [
-          84980,
-          85400
+          84358,
+          84778
         ],
         "filename": "jodit.js",
-        "lineno": 2354,
+        "lineno": 2343,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -3969,11 +3969,11 @@
       "comment": "/**\n     * Find parent by tag name\n     *\n     * @param {Node} node\n     * @param {String|Function} tags\n     * @param {HTMLElement} root\n     * @return {Boolean|Node}\n     */",
       "meta": {
         "range": [
-          85586,
-          86049
+          84964,
+          85427
         ],
         "filename": "jodit.js",
-        "lineno": 2378,
+        "lineno": 2367,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4042,11 +4042,11 @@
       "comment": "/**\n     * Insert newElement after element\n     *\n     * @param elm\n     * @param newElement\n     */",
       "meta": {
         "range": [
-          86160,
-          86497
+          85538,
+          85875
         ],
         "filename": "jodit.js",
-        "lineno": 2397,
+        "lineno": 2386,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4084,11 +4084,11 @@
       "comment": "/**\n     * Move all content to another element\n     *\n     * @param {Node} from\n     * @param {Node} to\n     * @param {boolean} inStart\n     */",
       "meta": {
         "range": [
-          86651,
-          87241
+          86029,
+          86619
         ],
         "filename": "jodit.js",
-        "lineno": 2416,
+        "lineno": 2405,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4147,11 +4147,11 @@
       "comment": "/**\n     * Call callback condition function for all elements of node\n     *\n     * @param node\n     * @param condition\n     * @param prev\n     */",
       "meta": {
         "range": [
-          87397,
-          87813
+          86775,
+          87191
         ],
         "filename": "jodit.js",
-        "lineno": 2438,
+        "lineno": 2427,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4195,11 +4195,11 @@
       "comment": "/**\n     *\n     * @param {Node} current\n     * @param {String | Node} tag\n     * @param {Jodit} editor\n     *\n     * @return {HTMLElement}\n     */",
       "meta": {
         "range": [
-          87970,
-          89146
+          87348,
+          88524
         ],
         "filename": "jodit.js",
-        "lineno": 2459,
+        "lineno": 2448,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4271,11 +4271,11 @@
       "comment": "/**\n     *\n     * @param {Node} current\n     * @param {String | Node} tag\n     * @param {Jodit} editor\n     *\n     * @return {HTMLElement}\n     */",
       "meta": {
         "range": [
-          89303,
-          89730
+          88681,
+          89108
         ],
         "filename": "jodit.js",
-        "lineno": 2503,
+        "lineno": 2492,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4342,11 +4342,11 @@
       "comment": "/**\n     * Find next/previous inline element\n     *\n     * @param node\n     * @param toLeft\n     * @param root\n     */",
       "meta": {
         "range": [
-          89859,
-          90820
+          89237,
+          90198
         ],
         "filename": "jodit.js",
-        "lineno": 2521,
+        "lineno": 2510,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4389,11 +4389,11 @@
       "comment": "/**\n     * Check root contains child\n     *\n     * @param root\n     * @param child\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          90946,
-          91184
+          90324,
+          90562
         ],
         "filename": "jodit.js",
-        "lineno": 2549,
+        "lineno": 2538,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4440,11 +4440,11 @@
       "comment": "/**\n     * Check root contains child or equal child\n     *\n     * @param {Node} root\n     * @param {Node} child\n     * @param {boolean} onlyContains\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          91376,
-          91600
+          90754,
+          90978
         ],
         "filename": "jodit.js",
-        "lineno": 2566,
+        "lineno": 2555,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4510,11 +4510,11 @@
       "comment": "/**\n         * Editor was destructed\n         *\n         * @type {boolean}\n         */",
       "meta": {
         "range": [
-          92500,
-          92525
+          91878,
+          91903
         ],
         "filename": "jodit.js",
-        "lineno": 2604,
+        "lineno": 2593,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4543,11 +4543,11 @@
       "comment": "/** Class Jodit. Main class*/",
       "meta": {
         "range": [
-          97145,
-          135177
+          96523,
+          134555
         ],
         "filename": "jodit.js",
-        "lineno": 2701,
+        "lineno": 2690,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4571,11 +4571,11 @@
       "comment": "/**\n     * Create instance of Jodit\n     * @constructor\n     *\n     * @param {HTMLInputElement | string} element Selector or HTMLElement\n     * @param {object} options Editor's options\n     */",
       "meta": {
         "range": [
-          97419,
-          103715
+          96797,
+          103093
         ],
         "filename": "jodit.js",
-        "lineno": 2710,
+        "lineno": 2699,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4660,11 +4660,11 @@
       "comment": "/**\n         * Container for set/get value\n         * @type {Storage}\n         */",
       "meta": {
         "range": [
-          97690,
-          97765
+          97068,
+          97143
         ],
         "filename": "jodit.js",
-        "lineno": 2718,
+        "lineno": 2707,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4694,11 +4694,11 @@
       "comment": "/**\n         * iframe Iframe for iframe mode\n         */",
       "meta": {
         "range": [
-          97840,
-          97859
+          97218,
+          97237
         ],
         "filename": "jodit.js",
-        "lineno": 2722,
+        "lineno": 2711,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4723,7 +4723,7 @@
       "comment": "/**\n         * Return current version\n         *\n         * @method getVersion\n         * @return {string}\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 2732,
+        "lineno": 2721,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -4749,11 +4749,11 @@
       "comment": "/**\n     * Create main DIV element and replace source textarea\n     *\n     * @private\n     */",
       "meta": {
         "range": [
-          106705,
-          109856
+          106083,
+          109234
         ],
         "filename": "jodit.js",
-        "lineno": 2914,
+        "lineno": 2903,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4781,11 +4781,11 @@
       "comment": "/**\n     * Jodit's Destructor. Remove editor, and return source input\n     */",
       "meta": {
         "range": [
-          109944,
-          113312
+          109322,
+          112690
         ],
         "filename": "jodit.js",
-        "lineno": 2974,
+        "lineno": 2963,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4818,7 +4818,7 @@
       "comment": "/**\n         * Triggered before {@link events:beforeDestruct|beforeDestruct} executed. If returned false method stopped\n         *\n         * @event beforeDestruct\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('beforeDestruct', function (data) {\n         *     return false;\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 2980,
+        "lineno": 2969,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -4838,11 +4838,11 @@
       "comment": "/**\n     * Return source element value\n     */",
       "meta": {
         "range": [
-          113369,
-          113517
+          112747,
+          112895
         ],
         "filename": "jodit.js",
-        "lineno": 3061,
+        "lineno": 3050,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4866,11 +4866,11 @@
       "comment": "/**\n     * Return real HTML value from WYSIWYG editor.\n     *\n     * @return {string}\n     */",
       "meta": {
         "range": [
-          113621,
-          113797
+          112999,
+          113175
         ],
         "filename": "jodit.js",
-        "lineno": 3069,
+        "lineno": 3058,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4903,11 +4903,11 @@
       "comment": "/**\n     * Return editor value\n     */",
       "meta": {
         "range": [
-          113846,
-          115610
+          113224,
+          114988
         ],
         "filename": "jodit.js",
-        "lineno": 3078,
+        "lineno": 3067,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -4938,7 +4938,7 @@
       "comment": "/**\n         * Triggered before {@link Jodit~getEditorValue|getEditorValue} executed. If returned not undefined getEditorValue will return this value\n         *\n         * @event beforeGetValueFromEditor\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('beforeGetValueFromEditor', function () {\n         *     return editor.editor.innerHTML.replace(/a/g, 'b');\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3080,
+        "lineno": 3069,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -4958,7 +4958,7 @@
       "comment": "/**\n         * Triggered after  {@link Jodit~getEditorValue|getEditorValue} got value from wysiwyg. It can change new_value.value\n         *\n         * @event afterGetValueFromEditor\n         * @param string new_value\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('afterGetValueFromEditor', function (new_value) {\n         *     new_value.value = new_value.value.replace('a', 'b');\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3106,
+        "lineno": 3095,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -4984,11 +4984,11 @@
       "comment": "/**\n     * Set source element value and if set sync fill editor value\n     * When method was called without arguments - it is simple way to synchronize element to editor\n     *\n     * @param {string} [value]\n     */",
       "meta": {
         "range": [
-          116109,
-          116785
+          115487,
+          116163
         ],
         "filename": "jodit.js",
-        "lineno": 3137,
+        "lineno": 3126,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5030,7 +5030,7 @@
       "comment": "/**\n     * Set editor html value and if set sync fill source element value\n     * When method was called without arguments - it is simple way to synchronize editor to element\n     * @event beforeSetValueToEditor\n     * @param {string} [value]\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3158,
+        "lineno": 3147,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5058,7 +5058,7 @@
       "comment": "/**\n         * Triggered before  {@link Jodit~getEditorValue|setEditorValue} set value to wysiwyg.\n         *\n         * @event beforeSetValueToEditor\n         * @param string old_value\n         * @returns string | undefined | false\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('beforeSetValueToEditor', function (old_value) {\n         *     return old_value.value.replace('a', 'b');\n         * });\n         * editor.events.on('beforeSetValueToEditor', function () {\n         *     return false; // disable setEditorValue method\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3165,
+        "lineno": 3154,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5089,11 +5089,11 @@
       "comment": "/**\n     * Register custom handler for command\n     *\n     * @example\n     * ```javascript\n     * var jodit = new Jodit('#editor);\n     *\n     * jodit.setEditorValue('test test test');\n     *\n     * jodit.registerCommand('replaceString', function (command, needle, replace) {\n     *      var value = this.getEditorValue();\n     *      this.setEditorValue(value.replace(needle, replace));\n     *      return false; // stop execute native command\n     * });\n     *\n     * jodit.execCommand('replaceString', 'test', 'stop');\n     *\n     * console.log(jodit.getEditorValue()); // stop test test\n     *\n     * // and you can add hotkeys for command\n     * jodit.registerCommand('replaceString', {\n     *    hotkeys: 'ctrl+r',\n     *    exec: function (command, needle, replace) {\n     *     var value = this.getEditorValue();\n     *     this.setEditorValue(value.replace(needle, replace));\n     *    }\n     * });\n     *\n     * ```\n     *\n     * @param {string} commandNameOriginal\n     * @param {CommandType | Function} command\n     */",
       "meta": {
         "range": [
-          120976,
-          121586
+          120354,
+          120964
         ],
         "filename": "jodit.js",
-        "lineno": 3273,
+        "lineno": 3262,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5147,11 +5147,11 @@
       "comment": "/**\n     * Register hotkey for command\n     *\n     * @param hotkeys\n     * @param commandName\n     */",
       "meta": {
         "range": [
-          121698,
-          122204
+          121076,
+          121582
         ],
         "filename": "jodit.js",
-        "lineno": 3292,
+        "lineno": 3281,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5191,7 +5191,7 @@
       "comment": "/**\n     * Execute command editor\n     *\n     * @method execCommand\n     * @param  {string} command command. It supports all the {@link https://developer.mozilla.org/ru/docs/Web/API/Document/execCommand#commands} and a number of its own\n     * for example applyCSSProperty. Comand fontSize receives the second parameter px, formatBlock and can take several options\n     * @param  {boolean|string|int} second\n     * @param  {boolean|string|int} third\n     * @fires beforeCommand\n     * @fires afterCommand\n     * @example\n     * ```javascript\n     * this.execCommand('fontSize', 12); // sets the size of 12 px\n     * this.execCommand('underline');\n     * this.execCommand('formatBlock', 'p'); // will be inserted paragraph\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3301,
+        "lineno": 3290,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5246,7 +5246,7 @@
       "comment": "/**\n         * Called before any command\n         * @event beforeCommand\n         * @param {string} command Command name in lowercase\n         * @param {string} second The second parameter for the command\n         * @param {string} third The third option is for the team\n         * @example\n         * ```javascript\n         * parent.events.on('beforeCommand', function (command) {\n         *  if (command === 'justifyCenter') {\n         *      var p = parent.getDocument().createElement('p')\n         *      parent.selection.insertNode(p)\n         *      parent.selection.setCursorIn(p);\n         *      p.style.textAlign = 'justyfy';\n         *      return false; // break execute native command\n         *  }\n         * })\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3326,
+        "lineno": 3315,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5295,7 +5295,7 @@
       "comment": "/**\n         * It called after any command\n         * @event afterCommand\n         * @param {string} command name command\n         * @param {*} second The second parameter for the command\n         * @param {*} third The third option is for the team\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3363,
+        "lineno": 3352,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5341,11 +5341,11 @@
       "comment": "/**\n     * Disable selecting\n     */",
       "meta": {
         "range": [
-          125141,
-          125430
+          124519,
+          124808
         ],
         "filename": "jodit.js",
-        "lineno": 3377,
+        "lineno": 3366,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5376,11 +5376,11 @@
       "comment": "/**\n     * Enable selecting\n     */",
       "meta": {
         "range": [
-          125476,
-          125776
+          124854,
+          125154
         ],
         "filename": "jodit.js",
-        "lineno": 3388,
+        "lineno": 3377,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5407,11 +5407,11 @@
       "comment": "/**\n     * Return current editor mode: Jodit.MODE_WYSIWYG, Jodit.MODE_SOURCE or Jodit.MODE_SPLIT\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          125915,
-          125986
+          125293,
+          125364
         ],
         "filename": "jodit.js",
-        "lineno": 3401,
+        "lineno": 3390,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5444,11 +5444,11 @@
       "comment": "/**\n     * Return current real work mode. When editor in MODE_SOURCE or MODE_WYSIWYG it will return them, but then editor in MODE_SPLIT it will return MODE_SOURCE if Textarea(CodeMirror) focused or MODE_WYSIWYG otherwise\n     *\n     * @example\n     * ```javascript\n     * var editor = new Jodit('#editor');\n     * console.log(editor.getRealMode());\n     * ```\n     */",
       "meta": {
         "range": [
-          126479,
-          126894
+          125857,
+          126272
         ],
         "filename": "jodit.js",
-        "lineno": 3416,
+        "lineno": 3405,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5478,11 +5478,11 @@
       "comment": "/**\n     * Set current mode\n     *\n     * @fired beforeSetMode\n     * @fired afterSetMode\n     */",
       "meta": {
         "range": [
-          127002,
-          128858
+          126380,
+          128236
         ],
         "filename": "jodit.js",
-        "lineno": 3432,
+        "lineno": 3421,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5530,7 +5530,7 @@
       "comment": "/**\n         * Triggered before {@link Jodit~setMode|setMode} executed. If returned false method stopped\n         * @event beforeSetMode\n         * @param {Object} data PlainObject {mode: {string}} In handler you can change data.mode\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('beforeSetMode', function (data) {\n         *     data.mode = Jodit.MODE_SOURCE; // not respond to the mode change. Always make the source code mode\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3438,
+        "lineno": 3427,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5561,7 +5561,7 @@
       "comment": "/**\n         * Triggered after {@link Jodit~setMode|setMode} executed\n         * @event afterSetMode\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('afterSetMode', function () {\n         *     editor.setEditorValue(''); // clear editor's value after change mode\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3461,
+        "lineno": 3450,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -5581,11 +5581,11 @@
       "comment": "/**\n     * Toggle editor mode WYSIWYG to TEXTAREA(CodeMirror) to SPLIT(WYSIWYG and TEXTAREA) to again WYSIWYG\n     *\n     * @example\n     * ```javascript\n     * var editor = new Jodit('#editor');\n     * editor.toggleMode();\n     * ```\n     */",
       "meta": {
         "range": [
-          129111,
-          129457
+          128489,
+          128835
         ],
         "filename": "jodit.js",
-        "lineno": 3485,
+        "lineno": 3474,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5615,11 +5615,11 @@
       "comment": "/**\n     * Internationalization method. Uses Jodit.lang object\n     *\n     * @param {string} key Some text\n     * @param {string[]} params Some text\n     * @return {string}\n     * @example\n     * ```javascript\n     * var editor = new Jodit(\"#redactor\", {\n     *      langusage: 'ru'\n     * });\n     * console.log(editor.i18n('Cancel')) //Отмена;\n     *\n     * Jodit.defaultOptions.language = 'ru';\n     * console.log(Jodit.prototype.i18n('Cancel')) //Отмена\n     *\n     * Jodit.lang.cs = {\n     *    Cancel: 'Zrušit'\n     * };\n     * Jodit.defaultOptions.language = 'cs';\n     * console.log(Jodit.prototype.i18n('Cancel')) //Zrušit\n     *\n     * Jodit.lang.cs = {\n     *    'Hello world': 'Hello \\s Good \\s'\n     * };\n     * Jodit.defaultOptions.language = 'cs';\n     * console.log(Jodit.prototype.i18n('Hello world', 'mr.Perkins', 'day')) //Hello mr.Perkins Good day\n     * ```\n     */",
       "meta": {
         "range": [
-          130354,
-          132019
+          129732,
+          131397
         ],
         "filename": "jodit.js",
-        "lineno": 3524,
+        "lineno": 3513,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5689,11 +5689,11 @@
       "comment": "/**\n     * Switch on/off the editor into the disabled state.\n     * When in disabled, the user is not able to change the editor content\n     * This function firing the `disabled` event.\n     *\n     * @param {boolean} isDisabled\n     */",
       "meta": {
         "range": [
-          132265,
-          132744
+          131643,
+          132122
         ],
         "filename": "jodit.js",
-        "lineno": 3568,
+        "lineno": 3557,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5734,11 +5734,11 @@
       "comment": "/**\n     * Return true if editor in disabled mode\n     */",
       "meta": {
         "range": [
-          132812,
-          132899
+          132190,
+          132277
         ],
         "filename": "jodit.js",
-        "lineno": 3582,
+        "lineno": 3571,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5762,11 +5762,11 @@
       "comment": "/**\n     * Switch on/off the editor into the read-only state.\n     * When in readonly, the user is not able to change the editor content, but can still use some editor functions (show source code, print content, or seach).\n     * This function firing the `readonly` event.\n     *\n     * @param {boolean} isReadOnly\n     */",
       "meta": {
         "range": [
-          133232,
-          133736
+          132610,
+          133114
         ],
         "filename": "jodit.js",
-        "lineno": 3592,
+        "lineno": 3581,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5806,11 +5806,11 @@
       "comment": "/**\n     * Return true if editor in read-only mode\n     */",
       "meta": {
         "range": [
-          133805,
-          133892
+          133183,
+          133270
         ],
         "filename": "jodit.js",
-        "lineno": 3609,
+        "lineno": 3598,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5834,11 +5834,11 @@
       "comment": "/**\n         * Return default timeout period in milliseconds for some debounce or throttle functions. By default return {observer.timeout} options\n         *\n         * @return {number}\n         */",
       "meta": {
         "range": [
-          134171,
-          134331
+          133549,
+          133709
         ],
         "filename": "jodit.js",
-        "lineno": 3618,
+        "lineno": 3607,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5868,11 +5868,11 @@
       "comment": "/**\n     * Return SVG icon\n     *\n     * @param {string} name icon\n     * @param {string} [defaultValue='<span></span>']\n     * @return {string}\n     */",
       "meta": {
         "range": [
-          135874,
-          136101
+          135252,
+          135479
         ],
         "filename": "jodit.js",
-        "lineno": 3677,
+        "lineno": 3666,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5932,11 +5932,11 @@
       "comment": "/**\n * Module to generate dialog windows\n *\n * @param {Object} parent Jodit main object\n * @param {Object} [opt] Extend Options\n */",
       "meta": {
         "range": [
-          138422,
-          156866
+          137800,
+          156244
         ],
         "filename": "jodit.js",
-        "lineno": 3759,
+        "lineno": 3748,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -5980,7 +5980,7 @@
       "comment": "/**\n         * Closes the dialog box , if you want to call the method {@link Dialog~destruct|destruct}\n         *\n         * @see destroy\n         * @method close\n         * @fires beforeClose\n         * @fires afterClose\n         * @example\n         * ```javascript\n         * //You can close dialog two ways\n         * var dialog = new Jodit.modules.Dialog();\n         * dialog.open('Hello world!', 'Title');\n         * var $close = Jodit.modules.helper.dom('<a href=\"javascript:void(0)\" style=\"float:left;\" class=\"jodit_button\"><i class=\"icon icon-check\"></i>&nbsp;' + Jodit.prototype.i18n('Ok') + '</a>');\n         * $close.addEventListener('click', function () {\n         *     dialog.close();\n         * });\n         * dialog.setFooter($close);\n         * // and second way, you can close dialog from content\n         * dialog.open('<a onclick=\"var event = doc.createEvent('HTMLEvents'); event.initEvent('close_dialog', true, true); this.dispatchEvent(event)\">Close</a>', 'Title');\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3782,
+        "lineno": 3771,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6007,7 +6007,7 @@
       "comment": "/**\n             * Called up to close the window\n             *\n             * @event beforeClose\n             * @this {Dialog} current dialog\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3811,
+        "lineno": 3800,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6025,7 +6025,7 @@
       "comment": "/**\n             * It called after the window is closed\n             *\n             * @event afterClose\n             * @this {Dialog} current dialog\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 3827,
+        "lineno": 3816,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6043,11 +6043,11 @@
       "comment": "/**\n     * Specifies the size of the window\n     *\n     * @param {number} [w] - The width of the window\n     * @param {number} [h] - The height of the window\n     */",
       "meta": {
         "range": [
-          144777,
-          144986
+          144155,
+          144364
         ],
         "filename": "jodit.js",
-        "lineno": 3900,
+        "lineno": 3889,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6096,11 +6096,11 @@
       "comment": "/**\n     * Specifies the position of the upper left corner of the window . If x and y are specified, the window is centered on the center of the screen\n     *\n     * @param {Number} [x] - Position px Horizontal\n     * @param {Number} [y] - Position px Vertical\n     */",
       "meta": {
         "range": [
-          145265,
-          145780
+          144643,
+          145158
         ],
         "filename": "jodit.js",
-        "lineno": 3914,
+        "lineno": 3903,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6160,11 +6160,11 @@
       "comment": "/**\n     * Specifies the dialog box title . It can take a string and an array of objects\n     *\n     * @param {string|string[]|Element|Element[]} content - A string or an HTML element , or an array of strings and elements\n     * @example\n     * ```javascript\n     * var dialog = new Jodi.modules.Dialog(parent);\n     * dialog.setTitle('Hello world');\n     * dialog.setTitle(['Hello world', '<button>OK</button>', $('<div>some</div>')]);\n     * dialog.open();\n     * ```\n     */",
       "meta": {
         "range": [
-          146858,
-          146970
+          146236,
+          146348
         ],
         "filename": "jodit.js",
-        "lineno": 3952,
+        "lineno": 3941,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6207,11 +6207,11 @@
       "comment": "/**\n     * It specifies the contents of the dialog box. It can take a string and an array of objects\n     *\n     * @param {string|string[]|Element|Element[]} content A string or an HTML element , or an array of strings and elements\n     * @example\n     * ```javascript\n     * var dialog = new Jodi.modules.Dialog(parent);\n     * dialog.setTitle('Hello world');\n     * dialog.setContent('<form onsubmit=\"alert(1);\"><input type=\"text\" /></form>');\n     * dialog.open();\n     * ```\n     */",
       "meta": {
         "range": [
-          147467,
-          147582
+          146845,
+          146960
         ],
         "filename": "jodit.js",
-        "lineno": 3967,
+        "lineno": 3956,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6254,11 +6254,11 @@
       "comment": "/**\n     * Sets the bottom of the dialog. It can take a string and an array of objects\n     *\n     * @param {string|string[]|Element|Element[]} content - A string or an HTML element , or an array of strings and elements\n     * @example\n     * ```javascript\n     * var dialog = new Jodi.modules.Dialog(parent);\n     * dialog.setTitle('Hello world');\n     * dialog.setContent('<form><input id=\"someText\" type=\"text\" /></form>');\n     * dialog.setFooter([\n     *  $('<a class=\"jodit_button\">OK</a>').click(function () {\n     *      alert($('someText').val())\n     *      dialog.close();\n     *  })\n     * ]);\n     * dialog.open();\n     * ```\n     */",
       "meta": {
         "range": [
-          148239,
-          148416
+          147617,
+          147794
         ],
         "filename": "jodit.js",
-        "lineno": 3988,
+        "lineno": 3977,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6301,11 +6301,11 @@
       "comment": "/**\n     * Return current Z-index\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          148492,
-          148605
+          147870,
+          147983
         ],
         "filename": "jodit.js",
-        "lineno": 3996,
+        "lineno": 3985,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6338,11 +6338,11 @@
       "comment": "/**\n     * Get dialog instance with maximum z-index displaying it on top of all the dialog boxes\n     *\n     * @return {Dialog}\n     */",
       "meta": {
         "range": [
-          148751,
-          149231
+          148129,
+          148609
         ],
         "filename": "jodit.js",
-        "lineno": 4004,
+        "lineno": 3993,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6382,11 +6382,11 @@
       "comment": "/**\n     * Sets the maximum z-index dialog box, displaying it on top of all the dialog boxes\n     */",
       "meta": {
         "range": [
-          149342,
-          149736
+          148720,
+          149114
         ],
         "filename": "jodit.js",
-        "lineno": 4019,
+        "lineno": 4008,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6416,11 +6416,11 @@
       "comment": "/**\n     * Expands the dialog on full browser window\n     *\n     * @param {boolean} condition true - fullsize\n     * @return {boolean} true - fullsize\n     */",
       "meta": {
         "range": [
-          149905,
-          150457
+          149283,
+          149835
         ],
         "filename": "jodit.js",
-        "lineno": 4034,
+        "lineno": 4023,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6472,11 +6472,11 @@
       "comment": "/**\n     * It opens a dialog box to center it, and causes the two event.\n     *\n     * @param {string|string[]|Element|Element[]} [content]  specifies the contents of the dialog box. Can be false или undefined. see {@link Dialog~setContent|setContent}\n     * @param {string|string[]|Element|Element[]} [title]  specifies the title of the dialog box, @see setTitle\n     * @param {boolean} [destroyAfter] true - After closing the window , the destructor will be called. see {@link Dialog~destruct|destruct}\n     * @param {boolean} [modal] - true window will be opened in modal mode\n     * @fires {@link event:beforeOpen} id returns 'false' then the window will not open\n     * @fires {@link event:afterOpen}\n     */",
       "meta": {
         "range": [
-          151181,
-          152285
+          150559,
+          151663
         ],
         "filename": "jodit.js",
-        "lineno": 4056,
+        "lineno": 4045,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6560,7 +6560,7 @@
       "comment": "/**\n         * Called before the opening of the dialog box\n         *\n         * @event beforeOpen\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4057,
+        "lineno": 4046,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6577,7 +6577,7 @@
       "comment": "/**\n         * Called after the opening of the dialog box\n         *\n         * @event afterOpen\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4083,
+        "lineno": 4072,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6594,11 +6594,11 @@
       "comment": "/**\n     * Open if the current window\n     *\n     * @return {boolean} - true window open\n     */",
       "meta": {
         "range": [
-          152392,
-          152523
+          151770,
+          151901
         ],
         "filename": "jodit.js",
-        "lineno": 4097,
+        "lineno": 4086,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6632,7 +6632,7 @@
       "comment": "/**\n                 * Fired when dialog box is finished to resizing\n                 * @event endResize\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4106,
+        "lineno": 4095,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6649,11 +6649,11 @@
       "comment": "/**\n     *\n     * @param {MouseEvent} e\n     */",
       "meta": {
         "range": [
-          153071,
-          153824
+          152449,
+          153202
         ],
         "filename": "jodit.js",
-        "lineno": 4118,
+        "lineno": 4107,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6696,7 +6696,7 @@
       "comment": "/**\n             * Fired when dialog box is started moving\n             * @event startMove\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4132,
+        "lineno": 4121,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6713,7 +6713,7 @@
       "comment": "/**\n                 * Fired when dialog box is moved\n                 * @event move\n                 * @param {int} dx Delta X\n                 * @param {int} dy Delta Y\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4143,
+        "lineno": 4132,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6750,7 +6750,7 @@
       "comment": "/**\n                 * Fired when dialog box is resized\n                 * @event resizeDialog\n                 * @param {int} dx Delta X\n                 * @param {int} dy Delta Y\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4157,
+        "lineno": 4146,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6787,11 +6787,11 @@
       "comment": "/**\n     *\n     * @param {MouseEvent} e\n     */",
       "meta": {
         "range": [
-          155225,
-          155567
+          154603,
+          154945
         ],
         "filename": "jodit.js",
-        "lineno": 4173,
+        "lineno": 4162,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6829,11 +6829,11 @@
       "comment": "/**\n     * It destroys all objects created for the windows and also includes all the handlers for the window object\n     */",
       "meta": {
         "range": [
-          155902,
-          156312
+          155280,
+          155690
         ],
         "filename": "jodit.js",
-        "lineno": 4193,
+        "lineno": 4182,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -6860,7 +6860,7 @@
       "comment": "/**\n             * Fired when dialog box is started resizing\n             * @event startResize\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4214,
+        "lineno": 4203,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6877,7 +6877,7 @@
       "comment": "/**\n * Show `alert` dialog. Work without Jodit object\n *\n * @method Alert\n * @param {string} msg Message\n * @param {string|function} [title] Title or callback\n * @param {function} [callback] callback\n * @param {string} [className]\n * @example\n * ```javascript\n * Jodit.Alert(\"File was uploaded\");\n * Jodit.Alert(\"File was uploaded\", \"Message\");\n * Jodit.Alert(\"File was uploaded\", function() {\n *    $('form').hide();\n * });\n * Jodit.Alert(\"File wasn't uploaded\", \"Error\", function() {\n *    $('form').hide();\n * });\n * ```\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4224,
+        "lineno": 4213,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -6938,7 +6938,7 @@
       "comment": "/**\n * Show `promt` dialog. Work without Jodit object\n *\n * @method Promt\n * @param {string} msg Message\n * @param {string|function} [title] Title or callback\n * @param {function} [callback] callback. The first argument is the value entered\n * @param {string} [placeholder] Placeholder for input\n * @example\n * ```javascript\n * Jodit.Promt(\"Enter your name\", \"Promt Dialog\", function (name) {\n *     if (name.length < 3) {\n *         Jodit.Alert(\"The name must be at least 3 letters\");\n *         return false;\n *     }\n *     // do something\n * });\n * ```\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4265,
+        "lineno": 4254,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7000,7 +7000,7 @@
       "comment": "/**\n * Show `confirm` dialog. Work without Jodit object\n *\n * @method Confirm\n * @param {string} msg Message\n * @param {string|function} [title] Title or callback\n * @param {function} [callback] callback. The first argument is the value entered\n * @example\n * ```javascript\n * Jodit.Confirm(\"Are you shure?\", \"Confirm Dialog\", function (yes) {\n *     if (yes) {\n *         // do something\n *     }\n * });\n * ```\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4316,
+        "lineno": 4305,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7052,7 +7052,7 @@
       "comment": "/**\n * Module for processing download documents and images by Drag and Drop\n *\n * @tutorial {@link http://xdsoft.net/jodit/doc/tutorial-uploader-settings.html|Uploader options and Drag and Drop files}\n * @module Uploader\n * @params {Object} parent Jodit main object\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4690,
+        "lineno": 4679,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7079,11 +7079,11 @@
       "comment": "/**\n * @property {boolean} enableDragAndDropFileToEditor=true Enable drag and drop file toWYSIWYG editor\n */",
       "meta": {
         "range": [
-          175434,
-          175496
+          174812,
+          174874
         ],
         "filename": "jodit.js",
-        "lineno": 4700,
+        "lineno": 4689,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7119,7 +7119,7 @@
       "comment": "/**\n     * It sets the path for uploading files\n     * @method setPath\n     * @param {string} path\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4918,
+        "lineno": 4907,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7147,7 +7147,7 @@
       "comment": "/**\n     * It sets the source for connector\n     *\n     * @method setSource\n     * @param {string} source\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4926,
+        "lineno": 4915,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7175,11 +7175,11 @@
       "comment": "/**\n     * Convert dataURI to Blob\n     *\n     * @param {string} dataURI\n     * @return {Blob}\n     */",
       "meta": {
         "range": [
-          185597,
-          186355
+          184975,
+          185733
         ],
         "filename": "jodit.js",
-        "lineno": 4941,
+        "lineno": 4930,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7232,7 +7232,7 @@
       "comment": "/**\n     * Set the handlers Drag and Drop toWYSIWYG `$form`\n     *\n     * @method bind\n     * @param {HTMLElement} form Form or any Node on which you can drag and drop the file. In addition will be processed <code>&lt;input type=\"file\" &gt;</code>\n     * @param {function} [handlerSuccess] The function toWYSIWYG be called when a successful uploading files toWYSIWYG the server\n     * @param {function} [handlerError] The function that will be called during a failed download files toWYSIWYG a server\n     * @example\n     * ```javascript\n     * var $form = jQuery('<form><input type=\"text\" typpe=\"file\"></form>');\n     * jQuery('body').append($form);\n     * Jodit.editors.someidfoeditor.uploader.bind($form[0], function (files) {\n     *     var i;\n     *     for (i = 0; i < data.files.length; i += 1) {\n     *         parent.selection.insertImage(data.files[i])\n     *     }\n     * });\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 4955,
+        "lineno": 4944,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7284,11 +7284,11 @@
       "comment": "/**\n     * Upload images toWYSIWYG a server by its URL, making it through the connector server.\n     *\n     * @param {string} url\n     * @param {HandlerSuccess} [handlerSuccess]\n     * @param {HandlerError} [handlerError]\n     */",
       "meta": {
         "range": [
-          192476,
-          193478
+          191854,
+          192856
         ],
         "filename": "jodit.js",
-        "lineno": 5078,
+        "lineno": 5067,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7349,11 +7349,11 @@
       "comment": "/**\n     * Build color picker\n     *\n     * @param {Jodit} editor\n     * @param {function} callback Callback 'function (color) {}'\n     * @param {string} [coldColor] Color value ex. #fff or rgb(123, 123, 123) or rgba(123, 123, 123, 1)\n     * @example\n     * ```javascript\n     * $tabs = TabsWidget(editor, {\n     *    'Text' : ColorPickerWidget(editor, function (color) {\n     *         box.style.color = color;\n     *     }, box.style.color),\n     *     'Background' : ColorPickerWidget(editor, function (color) {\n     *         box.style.backgroundColor = color;\n     *     }, box.style.backgroundColor),\n     * });\n     * ```\n     */",
       "meta": {
         "range": [
-          194696,
-          197700
+          194074,
+          197078
         ],
         "filename": "jodit.js",
-        "lineno": 5142,
+        "lineno": 5131,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7421,11 +7421,11 @@
       "comment": "/**\n     * Build tabs system\n     *\n     * @param {Jodit} editor\n     * @param {object} tabs PlainObject where 'key' will be tab's Title and `value` is tab's content\n     * @param {object} state You can use for this param any HTML element for remembering active tab\n     * @param {string} state.activeTab\n     *\n     * @example\n     * ```javascript\n     * let tabs = widget.create('Tabs', {\n     *    'Images': '<div>Images</div>',\n     *    'Title 2': editor.helper.dom('<div>Some content</div>'),\n     *    'Color Picker': ColorPickerWidget(editor, function (color) {\n     *         box.style.color = color;\n     *     }, box.style.color),\n     * });\n     * ```\n     */",
       "meta": {
         "range": [
-          198382,
-          201026
+          197760,
+          200404
         ],
         "filename": "jodit.js",
-        "lineno": 5215,
+        "lineno": 5204,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7501,11 +7501,11 @@
       "comment": "/**\n     *\n     * @param {Jodit} editor\n     * @param {Widget.ImageSelectorCallbacks} callbacks\n     * @param {HTMLElement} elm\n     * @param {Function} close Close popup\n     * @param {boolean} isImage\n     * @return {HTMLDivElement}\n     * @constructor\n     */",
       "meta": {
         "range": [
-          201299,
-          205503
+          200677,
+          204881
         ],
         "filename": "jodit.js",
-        "lineno": 5283,
+        "lineno": 5272,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7599,11 +7599,11 @@
       "comment": "/**\n         * Get current event name\n         *\n         * @example\n         * ```javascript\n         * parent.events.on('openDialog closeDialog', function () {\n         *     if (parent.events.current === 'closeDialog') {\n         *         alert('Dialog was closed');\n         *     } else {\n         *         alert('Dialog was opened');\n         *     }\n         * });\n         * ```\n         */",
       "meta": {
         "range": [
-          208114,
-          208131
+          207492,
+          207509
         ],
         "filename": "jodit.js",
-        "lineno": 5434,
+        "lineno": 5423,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7630,11 +7630,11 @@
       "comment": "/**\n     * Sets the handler for the specified event ( Event List ) for a given element .\n     *\n     * @param {object|string} subjectOrEvents - The object for which toWYSIWYG set an event handler\n     * @param {string|Function} eventsOrCallback - List of events , separated by a space or comma\n     * @param {function} [handlerOrSelector] - The event handler\n     * @param {selector} [selector] - Selector for capturing\n     * @param {Boolean} [onTop=false] - Set handler in first\n     *\n     * @example\n     * ```javascript\n     * // set global handler\n     * parent.on('beforeCommand', function (command) {\n     *     alert('command');\n     * });\n     * ```\n     * * @example\n     * ```javascript\n     * // set global handler\n     * parent.on(document.body, 'click', function (e) {\n     *     alert(this.href);\n     * }, 'a');\n     * ```\n     */",
       "meta": {
         "range": [
-          211146,
-          214324
+          210524,
+          213702
         ],
         "filename": "jodit.js",
-        "lineno": 5513,
+        "lineno": 5502,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7732,11 +7732,11 @@
       "comment": "/**\n     * Disable all handlers specified event ( Event List ) for a given element. Either a specific event handler.\n     *\n     * @param {object} subjectOrEvents - The object which is disabled handlers\n     * @param {string|Function} [eventsOrCallback] - List of events, separated by a space or comma , which is necessary toWYSIWYG disable the handlers for a given object\n     * @param {function} [handler] - Specific event handler toWYSIWYG be removed\n     *\n     * @example\n     * ```javascript\n     * var a = {name: \"Anton\"};\n     * parent.events.on(a, 'open', function () {\n     *     alert(this.name);\n     * });\n     *\n     * parent.events.fire(a, 'open');\n     * parent.events.off(a, 'open');\n     * var b = {name: \"Ivan\"}, hndlr = function () {\n     *  alert(this.name);\n     * };\n     * parent.events.on(b, 'open close', hndlr);\n     * parent.events.fire(a, 'open');\n     * parent.events.off(a, 'open', hndlr);\n     * parent.events.fire(a, 'close');\n     * parent.events.on('someGlobalEvents', function () {\n     *   console.log(this); // parent\n     * });\n     * parent.events.fire('someGlobalEvents');\n     * parent.events.off('someGlobalEvents');\n     * ```\n     */",
       "meta": {
         "range": [
-          215513,
-          218115
+          214891,
+          217493
         ],
         "filename": "jodit.js",
-        "lineno": 5619,
+        "lineno": 5608,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7810,11 +7810,11 @@
       "comment": "/**\n     * Sets the handler for the specified event (Event List) for a given element .\n     *\n     * @param {object|string} subjectOrEvents - The object which is caused by certain events\n     * @param {string|Array} eventsList - List of events , separated by a space or comma\n     * @param {Array} [args] - Options for the event handler\n     * @return {boolean} `false` if one of the handlers return `false`\n     * @example\n     * ```javascript\n     * var dialog = new Jodit.modules.Dialog();\n     * parent.events.on('afterClose', function () {\n     *     dialog.destruct(); // will be removed from DOM\n     * });\n     * dialog.open('Hello world!!!');\n     * ```\n     *  or you can trigger native browser listener\n     *  ```javascript\n     *  var events = new Jodit.modules.EventsNative();\n     *  events.on(document.body, 'click',function (event) {\n     *      alert('click on ' + event.target.id );\n     *  });\n     *  events.fire(document.body.querySelector('div'), 'click');\n     *  ```\n     *\n     */",
       "meta": {
         "range": [
-          220933,
-          223700
+          220311,
+          223078
         ],
         "filename": "jodit.js",
-        "lineno": 5744,
+        "lineno": 5733,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -7900,7 +7900,7 @@
       "comment": "/**\n                 * Fired after calling `button.exec` function\n                 * @event afterExec\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 5887,
+        "lineno": 5876,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7918,7 +7918,7 @@
       "comment": "/**\n                 * Fired after popup was opened for some control button\n                 * @event after{CONTROLNAME}OpenPopup\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 5899,
+        "lineno": 5888,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7936,7 +7936,7 @@
       "comment": "/**\n                 * Close all opened popups\n                 *\n                 * @event closeAllPopups\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 5903,
+        "lineno": 5892,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7954,7 +7954,7 @@
       "comment": "/**\n             * You can emulate click on some button\n             *\n             * @event click-%buttonName%-btn\n             * @example\n             * ```javascript\n             * var editor = new Jodit('#editor');\n             * editor.events.fire('click-image-btn'); // will open Image popup\n             * ```\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 5950,
+        "lineno": 5939,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -7975,11 +7975,11 @@
       "comment": "/**\n     * @param {HTMLElement} content\n     * @param {boolean} [rightAlign=false] Open popup on right side\n     * @param {boolean} [noStandartActions=false] No call standarts action\n     */",
       "meta": {
         "range": [
-          241400,
-          242325
+          240778,
+          241703
         ],
         "filename": "jodit.js",
-        "lineno": 6211,
+        "lineno": 6200,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8042,11 +8042,11 @@
       "comment": "/**\n         * Set focus in editor\n         */",
       "meta": {
         "range": [
-          247011,
-          247998
+          246389,
+          247376
         ],
         "filename": "jodit.js",
-        "lineno": 6347,
+        "lineno": 6336,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8076,11 +8076,11 @@
       "comment": "/**\n         * Apply some css rules for all selections. It method wraps selections in nodeName tag.\n         *\n         * @param {object} cssRules\n         * @param {string} nodeName\n         * @param {object} options\n         */",
       "meta": {
         "range": [
-          250181,
-          258915
+          249559,
+          258293
         ],
         "filename": "jodit.js",
-        "lineno": 6412,
+        "lineno": 6401,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8151,11 +8151,11 @@
       "comment": "/**\n     * Remove all selected content\n     */",
       "meta": {
         "range": [
-          259000,
-          259336
+          258378,
+          258714
         ],
         "filename": "jodit.js",
-        "lineno": 6564,
+        "lineno": 6553,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8184,7 +8184,7 @@
       "comment": "/**\n     * Insert the cursor toWYSIWYG any point x, y\n     *\n     * @method insertAtPoint\n     * @param {int} x Coordinate by horizontal\n     * @param {int} y Coordinate by vertical\n     * @return boolean Something went wrong\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6573,
+        "lineno": 6562,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -8227,11 +8227,11 @@
       "comment": "/**\n     * Remove all markers\n     */",
       "meta": {
         "range": [
-          261005,
-          261285
+          260383,
+          260663
         ],
         "filename": "jodit.js",
-        "lineno": 6620,
+        "lineno": 6609,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8258,11 +8258,11 @@
       "comment": "/**\n     * Restores user selections using marker invisible elements in the DOM.\n     *\n     * @param {markerInfo[]|null} selectionInfo\n     */",
       "meta": {
         "range": [
-          261438,
-          263132
+          260816,
+          262510
         ],
         "filename": "jodit.js",
-        "lineno": 6632,
+        "lineno": 6621,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8305,11 +8305,11 @@
       "comment": "/**\n     * Saves selections using marker invisible elements in the DOM.\n     *\n     * @return markerInfo[]\n     */",
       "meta": {
         "range": [
-          263257,
-          265157
+          262635,
+          264535
         ],
         "filename": "jodit.js",
-        "lineno": 6675,
+        "lineno": 6664,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8351,11 +8351,11 @@
       "comment": "/**\n     * Checks whether the current selection is something or just set the cursor is\n     *\n     * @return boolean true Selection does't have content\n     */",
       "meta": {
         "range": [
-          265327,
-          265611
+          264705,
+          264989
         ],
         "filename": "jodit.js",
-        "lineno": 6734,
+        "lineno": 6723,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8388,11 +8388,11 @@
       "comment": "/**\n     * Checks whether the editor currently in focus\n     *\n     * @return boolean\n     */",
       "meta": {
         "range": [
-          265715,
-          265921
+          265093,
+          265299
         ],
         "filename": "jodit.js",
-        "lineno": 6748,
+        "lineno": 6737,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8421,11 +8421,11 @@
       "comment": "/**\n     * Returns the current element under the cursor inside editor\n     *\n     * @return false|Node The element under the cursor or false if undefined or not in editor\n     */",
       "meta": {
         "range": [
-          266110,
-          268694
+          265488,
+          268072
         ],
         "filename": "jodit.js",
-        "lineno": 6756,
+        "lineno": 6745,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8468,11 +8468,11 @@
       "comment": "/**\n     * Insert element in editor\n     *\n     * @param {Node} node\n     * @param {Boolean} [insertCursorAfter=true] After insert, cursor will move after element\n     * @param {Boolean} [fireChange=true] After insert, editor fire change event. You can prevent this behavior\n     */",
       "meta": {
         "range": [
-          268987,
-          270470
+          268365,
+          269848
         ],
         "filename": "jodit.js",
-        "lineno": 6811,
+        "lineno": 6800,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8538,11 +8538,11 @@
       "comment": "/**\n     * Inserts in the current cursor position some HTML snippet\n     *\n     * @param  {string} html HTML The text toWYSIWYG be inserted into the document\n     * @example\n     * ```javascript\n     * parent.selection.insertHTML('<img src=\"image.png\"/>');\n     * ```\n     */",
       "meta": {
         "range": [
-          270756,
-          272502
+          270134,
+          271880
         ],
         "filename": "jodit.js",
-        "lineno": 6859,
+        "lineno": 6848,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8589,11 +8589,11 @@
       "comment": "/**\n     * Insert image in editor\n     *\n     * @param  {string|HTMLImageElement} url URL for image, or HTMLImageElement\n     * @param  {string} [styles] If specified, it will be applied <code>$(image).css(styles)</code>\n     *\n     * @fired afterInsertImage\n     */",
       "meta": {
         "range": [
-          272779,
-          274559
+          272157,
+          273937
         ],
         "filename": "jodit.js",
-        "lineno": 6908,
+        "lineno": 6897,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8658,7 +8658,7 @@
       "comment": "/**\n         * Triggered after image was inserted {@link Selection~insertImage|insertImage}. This method can executed from {@link FileBrowser|FileBrowser} or {@link Uploader|Uploader}\n         * @event afterInsertImage\n         * @param {HTMLImageElement} image\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('afterInsertImage', function (image) {\n         *     image.className = 'bloghead4';\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 6936,
+        "lineno": 6925,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -8689,11 +8689,11 @@
       "comment": "/**\n     * Set cursor after the node\n     *\n     * @param {Node} node\n     * @return {Node} fake invisible textnode. After insert it can be removed\n     */",
       "meta": {
         "range": [
-          274725,
-          275743
+          274103,
+          275121
         ],
         "filename": "jodit.js",
-        "lineno": 6956,
+        "lineno": 6945,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8745,11 +8745,11 @@
       "comment": "/**\n     * Checks if the cursor is at the end(start) block\n     *\n     * @param  {boolean} start=false true - check whether the cursor is at the start block\n     * @param {HTMLElement} parentBlock - Find in this\n     *\n     * @return {boolean | null} true - the cursor is at the end(start) block, null - cursor somewhere outside\n     */",
       "meta": {
         "range": [
-          276090,
-          277834
+          275468,
+          277212
         ],
         "filename": "jodit.js",
-        "lineno": 6987,
+        "lineno": 6976,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8818,11 +8818,11 @@
       "comment": "/**\n     * Set cursor before the node\n     *\n     * @param {Node} node\n     * @return {Text} fake invisible textnode. After insert it can be removed\n     */",
       "meta": {
         "range": [
-          278001,
-          279056
+          277379,
+          278434
         ],
         "filename": "jodit.js",
-        "lineno": 7032,
+        "lineno": 7021,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8874,11 +8874,11 @@
       "comment": "/**\n     * Set cursor in the node\n     *\n     * @param {Node} node\n     * @param {boolean} [inStart=false] set cursor in start of element\n     */",
       "meta": {
         "range": [
-          279212,
-          280528
+          278590,
+          279906
         ],
         "filename": "jodit.js",
-        "lineno": 7062,
+        "lineno": 7051,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8935,11 +8935,11 @@
       "comment": "/**\n     * Set range selection\n     *\n     * @param range\n     * @fires changeSelection\n     */",
       "meta": {
         "range": [
-          280634,
-          280967
+          280012,
+          280345
         ],
         "filename": "jodit.js",
-        "lineno": 7101,
+        "lineno": 7090,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -8976,7 +8976,7 @@
       "comment": "/**\n         * Fired after change selection\n         *\n         * @event changeSelection\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 7105,
+        "lineno": 7094,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -8994,11 +8994,11 @@
       "comment": "/**\n     * Select node\n     *\n     * @param {Node} node\n     * @param {boolean} [inward=false] select all inside\n     */",
       "meta": {
         "range": [
-          281098,
-          281772
+          280476,
+          281150
         ],
         "filename": "jodit.js",
-        "lineno": 7118,
+        "lineno": 7107,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9052,7 +9052,7 @@
       "comment": "/**\n * Module for working with tables . Delete, insert , merger, division of cells , rows and columns. When creating elements such as <table> for each of them\n * creates a new instance Jodit.modules.TableProcessor and it can be accessed via $('table').data('table-processor')\n *\n * @module Table\n * @param {Object} parent Jodit main object\n * @param {HTMLTableElement} table Table for which to create a module\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 7389,
+        "lineno": 7378,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -9090,11 +9090,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableElement} table\n     * @return {HTMLTableCellElement[]}\n     */",
       "meta": {
         "range": [
-          292186,
-          292382
+          291564,
+          291760
         ],
         "filename": "jodit.js",
-        "lineno": 7414,
+        "lineno": 7403,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9138,11 +9138,11 @@
       "comment": "/**\n     * @param {HTMLTableElement} table\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          292467,
-          292546
+          291845,
+          291924
         ],
         "filename": "jodit.js",
-        "lineno": 7421,
+        "lineno": 7410,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9186,11 +9186,11 @@
       "comment": "/**\n     * @param {HTMLTableElement} table\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          292631,
-          292855
+          292009,
+          292233
         ],
         "filename": "jodit.js",
-        "lineno": 7428,
+        "lineno": 7417,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9238,11 +9238,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableElement} table\n     * @param {function(HTMLTableCellElement, int, int, int, int):boolean} [callback] if return false cycle break\n     * @return {Array}\n     */",
       "meta": {
         "range": [
-          293060,
-          294393
+          292438,
+          293771
         ],
         "filename": "jodit.js",
-        "lineno": 7440,
+        "lineno": 7429,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9306,11 +9306,11 @@
       "comment": "/**\n     * Get cell coordinate in formal table (without colspan and rowspan)\n     */",
       "meta": {
         "range": [
-          294488,
-          295103
+          293866,
+          294481
         ],
         "filename": "jodit.js",
-        "lineno": 7476,
+        "lineno": 7465,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9346,11 +9346,11 @@
       "comment": "/**\n     * Inserts a new line after row what contains the selected cell\n     *\n     * @param {HTMLTableElement} table\n     * @param {Boolean|HTMLTableRowElement} [line=false] Insert a new line after/before this line contains the selected cell\n     * @param {Boolean} [after=true] Insert a new line after line contains the selected cell\n     */",
       "meta": {
         "range": [
-          295457,
-          296226
+          294835,
+          295604
         ],
         "filename": "jodit.js",
-        "lineno": 7501,
+        "lineno": 7490,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9419,11 +9419,11 @@
       "comment": "/**\n     * Remove row\n     *\n     * @param {HTMLTableElement} table\n     * @param {int} rowIndex\n     */",
       "meta": {
         "range": [
-          296341,
-          298082
+          295719,
+          297460
         ],
         "filename": "jodit.js",
-        "lineno": 7525,
+        "lineno": 7514,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9474,11 +9474,11 @@
       "comment": "/**\n     * Insert column before / after all the columns containing the selected cells\n     *\n     */",
       "meta": {
         "range": [
-          298193,
-          299518
+          297571,
+          298896
         ],
         "filename": "jodit.js",
-        "lineno": 7571,
+        "lineno": 7560,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9515,11 +9515,11 @@
       "comment": "/**\n     * Remove column by index\n     *\n     * @param {HTMLTableElement} table\n     * @param {int} [j]\n     */",
       "meta": {
         "range": [
-          299640,
-          300513
+          299018,
+          299891
         ],
         "filename": "jodit.js",
-        "lineno": 7610,
+        "lineno": 7599,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9570,11 +9570,11 @@
       "comment": "/**\n     * Define bound for selected cells\n     *\n     * @param {HTMLTableElement} table\n     * @param {Array.<HTMLTableCellElement>} selectedCells\n     * @return {number[][]}\n     */",
       "meta": {
         "range": [
-          300707,
-          302549
+          300085,
+          301927
         ],
         "filename": "jodit.js",
-        "lineno": 7643,
+        "lineno": 7632,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9639,11 +9639,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableElement} table\n     */",
       "meta": {
         "range": [
-          302617,
-          305222
+          301995,
+          304600
         ],
         "filename": "jodit.js",
-        "lineno": 7690,
+        "lineno": 7679,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9686,11 +9686,11 @@
       "comment": "/**\n     * It combines all of the selected cells into one. The contents of the cells will also be combined\n     *\n     * @param {HTMLTableElement} table\n     *\n     */",
       "meta": {
         "range": [
-          305400,
-          308087
+          304778,
+          307465
         ],
         "filename": "jodit.js",
-        "lineno": 7764,
+        "lineno": 7753,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9739,11 +9739,11 @@
       "comment": "/**\n     * Divides all selected by `jodit_focused_cell` class table cell in 2 parts vertical. Those division into 2 columns\n     */",
       "meta": {
         "range": [
-          308229,
-          310020
+          307607,
+          309398
         ],
         "filename": "jodit.js",
-        "lineno": 7828,
+        "lineno": 7817,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9779,11 +9779,11 @@
       "comment": "/**\n     * It splits all the selected cells into 2 parts horizontally. Those. are added new row\n     *\n     * @param {HTMLTableElement} table\n     */",
       "meta": {
         "range": [
-          310180,
-          311588
+          309558,
+          310966
         ],
         "filename": "jodit.js",
-        "lineno": 7876,
+        "lineno": 7865,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9827,11 +9827,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableCellElement} cell\n     * @param {string} key\n     * @param {string} value\n     * @param {HTMLTableCellElement[]} __marked\n     * @private\n     */",
       "meta": {
         "range": [
-          311779,
-          312029
+          311157,
+          311407
         ],
         "filename": "jodit.js",
-        "lineno": 7915,
+        "lineno": 7904,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9898,11 +9898,11 @@
       "comment": "/**\n     * Set column width used delta value\n     *\n     * @param {HTMLTableElement} table\n     * @param {int} j column\n     * @param {int} delta\n     * @param {boolean} noUnmark\n     * @param {HTMLTableCellElement[]} __marked\n     */",
       "meta": {
         "range": [
-          313672,
-          314143
+          313050,
+          313521
         ],
         "filename": "jodit.js",
-        "lineno": 7965,
+        "lineno": 7954,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -9981,7 +9981,7 @@
       "comment": "/**\n * Module to generate context menu\n *\n * @module ContextMenu\n * @param {Object} parent Jodit main object\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8009,
+        "lineno": 7998,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10010,7 +10010,7 @@
       "comment": "/**\n         * Hide context menu\n         *\n         * @method hide\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8019,
+        "lineno": 8008,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10028,7 +10028,7 @@
       "comment": "/**\n     * Generate and show context menu\n     *\n     * @method show\n     * @param {number} x Global coordinate by X\n     * @param {number} y Global coordinate by Y\n     * @param {Action[]} actions Array with plainobjects {icon: 'bin', title: 'Delete', exec: function () { do smth}}\n     * @example\n     * ```javascript\n     * parent.show(e.clientX, e.clientY, [{icon: 'bin', title: 'Delete', exec: function () { alert(1) }]);\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8036,
+        "lineno": 8025,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10078,7 +10078,7 @@
       "comment": "/**\n * The module monitors the status of the editor and creates / deletes the required number of Undo / Redo shots . To track changes in use {@link https://developer.mozilla.org/ru/docs/Web/API/MutationObserver|MutationObserver}\n *\n * @module Observer\n * @see {@link Snapshot|Snapshot}\n * @params {Jodit} parent Jodit main object\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 8174,
+        "lineno": 8163,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10107,11 +10107,11 @@
       "comment": "/**\n     * Return state of the WYSIWYG editor to step back\n     */",
       "meta": {
         "range": [
-          322695,
-          322869
+          322073,
+          322247
         ],
         "filename": "jodit.js",
-        "lineno": 8217,
+        "lineno": 8206,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10138,11 +10138,11 @@
       "comment": "/**\n     * Return the state of the WYSIWYG editor to step forward\n     */",
       "meta": {
         "range": [
-          322953,
-          323127
+          322331,
+          322505
         ],
         "filename": "jodit.js",
-        "lineno": 8226,
+        "lineno": 8215,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10169,11 +10169,11 @@
       "comment": "/**\n * Module for creating snapshot of editor which includes html content and the current selection\n */",
       "meta": {
         "range": [
-          324601,
-          329922
+          323979,
+          329300
         ],
         "filename": "jodit.js",
-        "lineno": 8275,
+        "lineno": 8264,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10197,11 +10197,11 @@
       "comment": "/**\n     * Calc count element before some node in parentNode. All text nodes are joined\n     *\n     * @param {Node | null} elm\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          325012,
-          325622
+          324390,
+          325000
         ],
         "filename": "jodit.js",
-        "lineno": 8288,
+        "lineno": 8277,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10253,11 +10253,11 @@
       "comment": "/**\n     * Calc whole hierarchy path before some element in editor's tree\n     *\n     * @param {Node | null} elm\n     * @return {number[]}\n     * @private\n     */",
       "meta": {
         "range": [
-          325795,
-          326240
+          325173,
+          325618
         ],
         "filename": "jodit.js",
-        "lineno": 8312,
+        "lineno": 8301,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10308,11 +10308,11 @@
       "comment": "/**\n     * Calc normal offset in joined text nodes\n     *\n     * @param {Node | null} elm\n     * @param {number} offset\n     * @return {number}\n     */",
       "meta": {
         "range": [
-          326402,
-          326735
+          325780,
+          326113
         ],
         "filename": "jodit.js",
-        "lineno": 8332,
+        "lineno": 8321,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10371,11 +10371,11 @@
       "comment": "/**\n     * Creates object a snapshot of editor: html and the current selection. Current selection calculate by offset by start document\n     *\n     * @return {object} {html: string, range: {startContainer: int, startOffset: int, endContainer: int, endOffset: int}} или {html: string} при отсутствии выделения\n     */",
       "meta": {
         "range": [
-          327062,
-          328336
+          326440,
+          327714
         ],
         "filename": "jodit.js",
-        "lineno": 8346,
+        "lineno": 8335,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10420,11 +10420,11 @@
       "comment": "/**\n     * Compare two snapshotes, if and htmls and selections match, then return true\n     *\n     * @param {SnapshotType} first - the first snapshote\n     * @param {SnapshotType} second - second shot\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          328812,
-          328968
+          328190,
+          328346
         ],
         "filename": "jodit.js",
-        "lineno": 8390,
+        "lineno": 8379,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10480,11 +10480,11 @@
       "comment": "/**\n     * Restores the state of the editor of the snapshot. Rebounding is not only html but selected text\n     *\n     * @param {object} snapshot - snapshot of editor resulting from the `{@link Snapshot~make|make}`\n     * @see make\n     */",
       "meta": {
         "range": [
-          329218,
-          329874
+          328596,
+          329252
         ],
         "filename": "jodit.js",
-        "lineno": 8399,
+        "lineno": 8388,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10528,7 +10528,7 @@
       "comment": "/**\n  `Promise.resolve` returns a promise that will become resolved with the\n  passed `value`. It is shorthand for the following:\n\n  ```javascript\n  let promise = new Promise(function(resolve, reject){\n    resolve(1);\n  });\n\n  promise.then(function(value){\n    // value === 1\n  });\n  ```\n\n  Instead of writing the above, your code now simply becomes the following:\n\n  ```javascript\n  let promise = Promise.resolve(1);\n\n  promise.then(function(value){\n    // value === 1\n  });\n  ```\n\n  @method resolve\n  @static\n  @param {Any} value value that the returned promise will be resolved with\n  Useful for tooling.\n  @return {Promise} a promise that will become fulfilled with the given\n  `value`\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9019,
+        "lineno": 9008,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10567,7 +10567,7 @@
       "comment": "/**\n  `Promise.all` accepts an array of promises, and returns a new promise which\n  is fulfilled with an array of fulfillment values for the passed promises, or\n  rejected with the reason of the first passed promise to be rejected. It casts all\n  elements of the passed iterable to promises as it runs this algorithm.\n\n  Example:\n\n  ```javascript\n  let promise1 = resolve(1);\n  let promise2 = resolve(2);\n  let promise3 = resolve(3);\n  let promises = [ promise1, promise2, promise3 ];\n\n  Promise.all(promises).then(function(array){\n    // The array here would be [ 1, 2, 3 ];\n  });\n  ```\n\n  If any of the `promises` given to `all` are rejected, the first promise\n  that is rejected will be given as an argument to the returned promises's\n  rejection handler. For example:\n\n  Example:\n\n  ```javascript\n  let promise1 = resolve(1);\n  let promise2 = reject(new Error(\"2\"));\n  let promise3 = reject(new Error(\"3\"));\n  let promises = [ promise1, promise2, promise3 ];\n\n  Promise.all(promises).then(function(array){\n    // Code here never runs because there are rejected promises!\n  }, function(error) {\n    // error.message === \"2\"\n  });\n  ```\n\n  @method all\n  @static\n  @param {Array} entries array of promises\n  @param {String} label optional string for labeling the promise.\n  Useful for tooling.\n  @return {Promise} promise that is fulfilled when all `promises` have been\n  fulfilled, or rejected if any of them become rejected.\n  @static\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9412,
+        "lineno": 9401,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10615,7 +10615,7 @@
       "comment": "/**\n  `Promise.race` returns a new promise which is settled in the same way as the\n  first passed promise to settle.\n\n  Example:\n\n  ```javascript\n  let promise1 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 1');\n    }, 200);\n  });\n\n  let promise2 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 2');\n    }, 100);\n  });\n\n  Promise.race([promise1, promise2]).then(function(result){\n    // result === 'promise 2' because it was resolved before promise1\n    // was resolved.\n  });\n  ```\n\n  `Promise.race` is deterministic in that only the state of the first\n  settled promise matters. For example, even if other promises given to the\n  `promises` array argument are resolved, but the first settled promise has\n  become rejected before the other promises became fulfilled, the returned\n  promise will become rejected:\n\n  ```javascript\n  let promise1 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      resolve('promise 1');\n    }, 200);\n  });\n\n  let promise2 = new Promise(function(resolve, reject){\n    setTimeout(function(){\n      reject(new Error('promise 2'));\n    }, 100);\n  });\n\n  Promise.race([promise1, promise2]).then(function(result){\n    // Code here never runs\n  }, function(reason){\n    // reason.message === 'promise 2' because promise 2 became rejected before\n    // promise 1 became fulfilled\n  });\n  ```\n\n  An example real-world use case is implementing timeouts:\n\n  ```javascript\n  Promise.race([ajax('foo.json'), timeout(5000)])\n  ```\n\n  @method race\n  @static\n  @param {Array} promises array of promises to observe\n  Useful for tooling.\n  @return {Promise} a promise which settles in the same way as the first passed\n  promise to settle.\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9463,
+        "lineno": 9452,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10654,7 +10654,7 @@
       "comment": "/**\n  `Promise.reject` returns a promise rejected with the passed `reason`.\n  It is shorthand for the following:\n\n  ```javascript\n  let promise = new Promise(function(resolve, reject){\n    reject(new Error('WHOOPS'));\n  });\n\n  promise.then(function(value){\n    // Code here doesn't run because the promise is rejected!\n  }, function(reason){\n    // reason.message === 'WHOOPS'\n  });\n  ```\n\n  Instead of writing the above, your code now simply becomes the following:\n\n  ```javascript\n  let promise = Promise.reject(new Error('WHOOPS'));\n\n  promise.then(function(value){\n    // Code here doesn't run because the promise is rejected!\n  }, function(reason){\n    // reason.message === 'WHOOPS'\n  });\n  ```\n\n  @method reject\n  @static\n  @param {Any} reason value that the returned promise will be rejected with.\n  Useful for tooling.\n  @return {Promise} a promise rejected with the given `reason`.\n*/",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9546,
+        "lineno": 9535,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10693,11 +10693,11 @@
       "comment": "/**\n  Promise objects represent the eventual result of an asynchronous operation. The\n  primary way of interacting with a promise is through its `then` method, which\n  registers callbacks to receive either a promise's eventual value or the reason\n  why the promise cannot be fulfilled.\n\n  Terminology\n  -----------\n\n  - `promise` is an object or function with a `then` method whose behavior conforms to this specification.\n  - `thenable` is an object or function that defines a `then` method.\n  - `value` is any legal JavaScript value (including undefined, a thenable, or a promise).\n  - `exception` is a value that is thrown using the throw statement.\n  - `reason` is a value that indicates why a promise was rejected.\n  - `settled` the final resting state of a promise, fulfilled or rejected.\n\n  A promise can be in one of three states: pending, fulfilled, or rejected.\n\n  Promises that are fulfilled have a fulfillment value and are in the fulfilled\n  state.  Promises that are rejected have a rejection reason and are in the\n  rejected state.  A fulfillment value is never a thenable.\n\n  Promises can also be said to *resolve* a value.  If this value is also a\n  promise, then the original promise's settled state will match the value's\n  settled state.  So a promise that *resolves* a promise that rejects will\n  itself reject, and a promise that *resolves* a promise that fulfills will\n  itself fulfill.\n\n\n  Basic Usage:\n  ------------\n\n  ```js\n  let promise = new Promise(function(resolve, reject) {\n    // on success\n    resolve(value);\n\n    // on failure\n    reject(reason);\n  });\n\n  promise.then(function(value) {\n    // on fulfillment\n  }, function(reason) {\n    // on rejection\n  });\n  ```\n\n  Advanced Usage:\n  ---------------\n\n  Promises shine when abstracting away asynchronous interactions such as\n  `XMLHttpRequest`s.\n\n  ```js\n  function getJSON(url) {\n    return new Promise(function(resolve, reject){\n      let xhr = new XMLHttpRequest();\n\n      xhr.open('GET', url);\n      xhr.onreadystatechange = handler;\n      xhr.responseType = 'json';\n      xhr.setRequestHeader('Accept', 'application/json');\n      xhr.send();\n\n      function handler() {\n        if (this.readyState === this.DONE) {\n          if (this.status === 200) {\n            resolve(this.response);\n          } else {\n            reject(new Error('getJSON: `' + url + '` failed with status: [' + this.status + ']'));\n          }\n        }\n      };\n    });\n  }\n\n  getJSON('/posts.json').then(function(json) {\n    // on fulfillment\n  }, function(reason) {\n    // on rejection\n  });\n  ```\n\n  Unlike callbacks, promises are great composable primitives.\n\n  ```js\n  Promise.all([\n    getJSON('/posts'),\n    getJSON('/comments')\n  ]).then(function(values){\n    values[0] // => postsJSON\n    values[1] // => commentsJSON\n\n    return values;\n  });\n  ```\n\n  @class Promise\n  @param {Function} resolver\n  Useful for tooling.\n  @constructor\n*/",
       "meta": {
         "range": [
-          362270,
-          368777
+          361648,
+          368155
         ],
         "filename": "jodit.js",
-        "lineno": 9700,
+        "lineno": 9689,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10732,7 +10732,7 @@
       "comment": "/**\n  The primary way of interacting with a promise is through its `then` method,\n  which registers callbacks to receive either a promise's eventual value or the\n  reason why the promise cannot be fulfilled.\n   ```js\n  findUser().then(function(user){\n    // user is available\n  }, function(reason){\n    // user is unavailable, and you are given the reason why\n  });\n  ```\n   Chaining\n  --------\n   The return value of `then` is itself a promise.  This second, 'downstream'\n  promise is resolved with the return value of the first promise's fulfillment\n  or rejection handler, or rejected if the handler throws an exception.\n   ```js\n  findUser().then(function (user) {\n    return user.name;\n  }, function (reason) {\n    return 'default name';\n  }).then(function (userName) {\n    // If `findUser` fulfilled, `userName` will be the user's name, otherwise it\n    // will be `'default name'`\n  });\n   findUser().then(function (user) {\n    throw new Error('Found user, but still unhappy');\n  }, function (reason) {\n    throw new Error('`findUser` rejected and we're unhappy');\n  }).then(function (value) {\n    // never reached\n  }, function (reason) {\n    // if `findUser` fulfilled, `reason` will be 'Found user, but still unhappy'.\n    // If `findUser` rejected, `reason` will be '`findUser` rejected and we're unhappy'.\n  });\n  ```\n  If the downstream promise does not specify a rejection handler, rejection reasons will be propagated further downstream.\n   ```js\n  findUser().then(function (user) {\n    throw new PedagogicalException('Upstream error');\n  }).then(function (value) {\n    // never reached\n  }).then(function (value) {\n    // never reached\n  }, function (reason) {\n    // The `PedgagocialException` is propagated all the way down to here\n  });\n  ```\n   Assimilation\n  ------------\n   Sometimes the value you want to propagate to a downstream promise can only be\n  retrieved asynchronously. This can be achieved by returning a promise in the\n  fulfillment or rejection handler. The downstream promise will then be pending\n  until the returned promise is settled. This is called *assimilation*.\n   ```js\n  findUser().then(function (user) {\n    return findCommentsByAuthor(user);\n  }).then(function (comments) {\n    // The user's comments are now available\n  });\n  ```\n   If the assimliated promise rejects, then the downstream promise will also reject.\n   ```js\n  findUser().then(function (user) {\n    return findCommentsByAuthor(user);\n  }).then(function (comments) {\n    // If `findCommentsByAuthor` fulfills, we'll have the value here\n  }, function (reason) {\n    // If `findCommentsByAuthor` rejects, we'll have the reason here\n  });\n  ```\n   Simple Example\n  --------------\n   Synchronous Example\n   ```javascript\n  let result;\n   try {\n    result = findResult();\n    // success\n  } catch(reason) {\n    // failure\n  }\n  ```\n   Errback Example\n   ```js\n  findResult(function(result, err){\n    if (err) {\n      // failure\n    } else {\n      // success\n    }\n  });\n  ```\n   Promise Example;\n   ```javascript\n  findResult().then(function(result){\n    // success\n  }, function(reason){\n    // failure\n  });\n  ```\n   Advanced Example\n  --------------\n   Synchronous Example\n   ```javascript\n  let author, books;\n   try {\n    author = findAuthor();\n    books  = findBooksByAuthor(author);\n    // success\n  } catch(reason) {\n    // failure\n  }\n  ```\n   Errback Example\n   ```js\n   function foundBooks(books) {\n   }\n   function failure(reason) {\n   }\n   findAuthor(function(author, err){\n    if (err) {\n      failure(err);\n      // failure\n    } else {\n      try {\n        findBoooksByAuthor(author, function(books, err) {\n          if (err) {\n            failure(err);\n          } else {\n            try {\n              foundBooks(books);\n            } catch(reason) {\n              failure(reason);\n            }\n          }\n        });\n      } catch(error) {\n        failure(err);\n      }\n      // success\n    }\n  });\n  ```\n   Promise Example;\n   ```javascript\n  findAuthor().\n    then(findBooksByAuthor).\n    then(function(books){\n      // found books\n  }).catch(function(reason){\n    // something went wrong\n  });\n  ```\n   @method then\n  @param {Function} onFulfilled\n  @param {Function} onRejected\n  Useful for tooling.\n  @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9712,
+        "lineno": 9701,
         "columnno": 2,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10778,7 +10778,7 @@
       "comment": "/**\n  `catch` is simply sugar for `then(undefined, onRejection)` which makes it the same\n  as the catch block of a try/catch statement.\n  ```js\n  function findAuthor(){\n  throw new Error('couldn't find that author');\n  }\n  // synchronous\n  try {\n  findAuthor();\n  } catch(reason) {\n  // something went wrong\n  }\n  // async with promises\n  findAuthor().catch(function(reason){\n  // something went wrong\n  });\n  ```\n  @method catch\n  @param {Function} onRejection\n  Useful for tooling.\n  @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9873,
+        "lineno": 9862,
         "columnno": 2,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10816,7 +10816,7 @@
       "comment": "/**\n    `finally` will be invoked regardless of the promise's fate just as native\n    try/catch/finally behaves\n  \n    Synchronous example:\n  \n    ```js\n    findAuthor() {\n      if (Math.random() > 0.5) {\n        throw new Error();\n      }\n      return new Author();\n    }\n  \n    try {\n      return findAuthor(); // succeed or fail\n    } catch(error) {\n      return findOtherAuther();\n    } finally {\n      // always runs\n      // doesn't affect the return value\n    }\n    ```\n  \n    Asynchronous example:\n  \n    ```js\n    findAuthor().catch(function(reason){\n      return findOtherAuther();\n    }).finally(function(){\n      // author was either found, or not\n    });\n    ```\n  \n    @method finally\n    @param {Function} callback\n    @return {Promise}\n  */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 9902,
+        "lineno": 9891,
         "columnno": 2,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -10853,11 +10853,11 @@
       "comment": "/**\n * Class create tooltip for buttons in toolbar\n */",
       "meta": {
         "range": [
-          378782,
-          380393
+          378160,
+          379771
         ],
         "filename": "jodit.js",
-        "lineno": 10317,
+        "lineno": 10306,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10881,11 +10881,11 @@
       "comment": "/**\n * Create helper\n * @type {boolean}\n */",
       "meta": {
         "range": [
-          391447,
-          391490
+          390825,
+          390868
         ],
         "filename": "jodit.js",
-        "lineno": 10640,
+        "lineno": 10629,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10915,11 +10915,11 @@
       "comment": "/**\n * On dbl click on empty space of editor it add new P element\n * @type {boolean}\n */",
       "meta": {
         "range": [
-          391581,
-          391634
+          390959,
+          391012
         ],
         "filename": "jodit.js",
-        "lineno": 10645,
+        "lineno": 10634,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10949,11 +10949,11 @@
       "comment": "/**\n * Whar kind of tags it will be impact\n * @type {string[]}\n */",
       "meta": {
         "range": [
-          391703,
-          391795
+          391081,
+          391173
         ],
         "filename": "jodit.js",
-        "lineno": 10650,
+        "lineno": 10639,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -10983,11 +10983,11 @@
       "comment": "/**\n * Create helper for adding new paragraph(Jodit.defaultOptions.enter tag) before iframe, table or image\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          391937,
-          398032
+          391315,
+          397410
         ],
         "filename": "jodit.js",
-        "lineno": 10656,
+        "lineno": 10645,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11037,11 +11037,11 @@
       "comment": "/**\n * @property{boolean} autofocus=false true After loading the page into the editor once the focus is set\n */",
       "meta": {
         "range": [
-          398579,
-          398622
+          397957,
+          398000
         ],
         "filename": "jodit.js",
-        "lineno": 10821,
+        "lineno": 10810,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11073,11 +11073,11 @@
       "comment": "/**\n * Autofocus plugin - set focus inside the editor after reload\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          398723,
-          399530
+          398101,
+          398908
         ],
         "filename": "jodit.js",
-        "lineno": 10827,
+        "lineno": 10816,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11116,7 +11116,7 @@
       "comment": "/**\n * Plug-in process entering Backspace key\n *\n * @module backspace\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 10873,
+        "lineno": 10862,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -11134,11 +11134,11 @@
       "comment": "/**\n * Bold plugin - change B to Strong, i to Em\n */",
       "meta": {
         "range": [
-          413314,
-          414250
+          412692,
+          413628
         ],
         "filename": "jodit.js",
-        "lineno": 11193,
+        "lineno": 11182,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11168,11 +11168,11 @@
       "comment": "/**\n * Clean HTML after removeFormat and insertHorizontalRule command\n */",
       "meta": {
         "range": [
-          415255,
-          426601
+          414633,
+          425979
         ],
         "filename": "jodit.js",
-        "lineno": 11260,
+        "lineno": 11249,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11210,11 +11210,11 @@
       "comment": "/**\n * Process commands `background` and `forecolor`\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          429929,
-          430604
+          429307,
+          429982
         ],
         "filename": "jodit.js",
-        "lineno": 11587,
+        "lineno": 11576,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11253,7 +11253,7 @@
       "comment": "/**\n * Plug-in copy and paste formatting from elements\n *\n * @module copyformat\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 11627,
+        "lineno": 11616,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -11271,11 +11271,11 @@
       "comment": "/**\n * Insert default paragraph\n *\n * @param {Jodit} editor\n * @param {Node} [fake]\n * @param {String} [wrapperTag]\n * @param {CSSStyleSheet} [style]\n * @return {HTMLElement}\n */",
       "meta": {
         "range": [
-          434707,
-          435599
+          434085,
+          434977
         ],
         "filename": "jodit.js",
-        "lineno": 11739,
+        "lineno": 11728,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11355,11 +11355,11 @@
       "comment": "/**\n * One of most important core plugins. It is responsible for all the browsers to have the same effect when the Enter button is pressed. By default, it should insert the <p>\n */",
       "meta": {
         "range": [
-          435782,
-          442710
+          435160,
+          442088
         ],
         "filename": "jodit.js",
-        "lineno": 11764,
+        "lineno": 11753,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11388,7 +11388,7 @@
       "comment": "/**\n             * Fired on processing `Enter` key. If return some value, plugin `enter` will do nothing. if return false - prevent default Enter behavior\n             *\n             * @event beforeEnter\n             */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 11767,
+        "lineno": 11756,
         "columnno": 12,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -11406,11 +11406,11 @@
       "comment": "/**\n* @property{boolean} showMessageErrors=true\n*/",
       "meta": {
         "range": [
-          443190,
-          443240
+          442568,
+          442618
         ],
         "filename": "jodit.js",
-        "lineno": 11915,
+        "lineno": 11904,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11442,11 +11442,11 @@
       "comment": "/**\n* @property{int} showMessageErrorTime=3000 How long show messages\n*/",
       "meta": {
         "range": [
-          443315,
-          443368
+          442693,
+          442746
         ],
         "filename": "jodit.js",
-        "lineno": 11919,
+        "lineno": 11908,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11478,11 +11478,11 @@
       "comment": "/**\n* @property{int} showMessageErrorOffsetPx=3 Offset fo message\n*/",
       "meta": {
         "range": [
-          443439,
-          443493
+          442817,
+          442871
         ],
         "filename": "jodit.js",
-        "lineno": 11923,
+        "lineno": 11912,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11514,11 +11514,11 @@
       "comment": "/**\n * Plugin toWYSIWYG display pop-up messages in the lower right corner of the editor\n */",
       "meta": {
         "range": [
-          443587,
-          445534
+          442965,
+          444912
         ],
         "filename": "jodit.js",
-        "lineno": 11927,
+        "lineno": 11916,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11550,7 +11550,7 @@
       "comment": "/**\n         * Вывести всплывающее сообщение внизу редактора\n         *\n         * @event errorMessage\n         * @param {string} message  Сообщение\n         * @param {string} className Дополнительный класс собобщения. Допускаются info, error, success\n         * @param {string} timeout Сколько миллисекунд показывать. По умолчанию используется options.showMessageErrorTime = 2000\n         * @example\n         * ```javascript\n         * parent.events.fire('errorMessage', 'Error 123. File has not been upload');\n         * parent.events.fire('errorMessage', 'You can upload file', 'info', 4000);\n         * parent.events.fire('errorMessage', 'File was uploaded', 'success', 4000);\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 11938,
+        "lineno": 11927,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -11600,11 +11600,11 @@
       "comment": "/**\n * Process commands `fontsize` and `fontname`\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          449507,
-          450117
+          448885,
+          449495
         ],
         "filename": "jodit.js",
-        "lineno": 12060,
+        "lineno": 12049,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11643,11 +11643,11 @@
       "comment": "/**\n * Process command - `formatblock`\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          452943,
-          454813
+          452321,
+          454191
         ],
         "filename": "jodit.js",
-        "lineno": 12159,
+        "lineno": 12148,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11685,11 +11685,11 @@
       "comment": "/**\n * Process `toggleFullSize` event, and behavior - set/unset fullsize mode\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          456129,
-          458123
+          455507,
+          457501
         ],
         "filename": "jodit.js",
-        "lineno": 12243,
+        "lineno": 12232,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11733,11 +11733,11 @@
       "comment": "/**\n * When this option is enabled, the editor's content will be placed in an iframe and isolated from the rest of the page.\n *\n * @example\n * ```javascript\n * new Jodit('#editor', {\n *    iframe = true;\n *    iframeStyle = 'html{margin: 0px;}body{padding:10px;background:transparent;color:#000;position:relative;z-index: 2;user-select:auto;margin:0px;overflow:hidden;}body:after{content:\"\";clear:both;display:block}';\n * });\n * ```\n */",
       "meta": {
         "range": [
-          461387,
-          461427
+          460765,
+          460805
         ],
         "filename": "jodit.js",
-        "lineno": 12360,
+        "lineno": 12349,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11765,11 +11765,11 @@
       "comment": "/**\n * Base URL where the root directory for {@link Jodit.defaultOptions.iframe|iframe} mode\n *\n * @example\n * ```javascript\n * new Jodit('#editor', {\n *    iframe: true,\n *    iframeBaseUrl: 'http://xdsoft.net/jodit/docs/',\n * });\n * ```\n */",
       "meta": {
         "range": [
-          461672,
-          461716
+          461050,
+          461094
         ],
         "filename": "jodit.js",
-        "lineno": 12372,
+        "lineno": 12361,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11797,11 +11797,11 @@
       "comment": "/**\n * You can redefine default page\n *\n * @example\n * ```javascript\n * new Jodit('#editor', {\n *    iframe: true,\n *    iframeDefaultSrc: 'http://xdsoft.net/jodit/docs/',\n * });\n * ```\n */",
       "meta": {
         "range": [
-          461908,
-          461966
+          461286,
+          461344
         ],
         "filename": "jodit.js",
-        "lineno": 12384,
+        "lineno": 12373,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11829,11 +11829,11 @@
       "comment": "/**\n * Custom style toWYSIWYG be used inside the iframe toWYSIWYG display content.\n * @example\n * ```javascript\n * new Jodit('#editor', {\n *    iframe: true,\n *    iframeStyle: 'html{margin: 0px;}',\n * })\n * ```\n */",
       "meta": {
         "range": [
-          462184,
-          463779
+          461562,
+          463157
         ],
         "filename": "jodit.js",
-        "lineno": 12395,
+        "lineno": 12384,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11861,11 +11861,11 @@
       "comment": "/**\n * Custom stylesheet files toWYSIWYG be used inside the iframe toWYSIWYG display content.\n *\n * @example\n * ```javascript\n * new Jodit('#editor', {\n *    iframe: true,\n *    iframeCSSLinks: ['styles/default.css'],\n * })\n * ```\n */",
       "meta": {
         "range": [
-          464016,
-          464061
+          463394,
+          463439
         ],
         "filename": "jodit.js",
-        "lineno": 12472,
+        "lineno": 12461,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11893,11 +11893,11 @@
       "comment": "/**\n * Iframe plugin - use `iframe` instead of DIV in editor. It can be need when you want attach custom styles in editor in backend of you system\n */",
       "meta": {
         "range": [
-          464214,
-          468944
+          463592,
+          468322
         ],
         "filename": "jodit.js",
-        "lineno": 12476,
+        "lineno": 12465,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11927,11 +11927,11 @@
       "comment": "/**\n * The number of pixels to use for indenting the current line.\n * @type {number}\n */",
       "meta": {
         "range": [
-          470068,
-          470111
+          469446,
+          469489
         ],
         "filename": "jodit.js",
-        "lineno": 12596,
+        "lineno": 12585,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -11961,11 +11961,11 @@
       "comment": "/**\n * Indents the line containing the selection or insertion point.\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          470211,
-          471690
+          469589,
+          471068
         ],
         "filename": "jodit.js",
-        "lineno": 12601,
+        "lineno": 12590,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12004,11 +12004,11 @@
       "comment": "/**\n * Change editor's size after load all images\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          472232,
-          473140
+          471610,
+          472518
         ],
         "filename": "jodit.js",
-        "lineno": 12658,
+        "lineno": 12647,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12046,11 +12046,11 @@
       "comment": "/**\n * Show dialog with image's options\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          474372,
-          498174
+          473750,
+          497552
         ],
         "filename": "jodit.js",
-        "lineno": 12725,
+        "lineno": 12714,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12089,11 +12089,11 @@
       "comment": "/**\n     * Open dialog editing image properties\n     *\n     * @example\n     * ```javascript\n     * var editor = new Jodit('#editor');\n     *     img = editor.editorDocument.createElement('img');\n     *\n     * img.setAttribute('src', 'images/someimage.png');\n     * editor.{@link Selection~select|select}(img);\n     * // open the properties of the editing window\n     * editor.plugins.image.open.call(img); // `this` must be HTMLImageElement\n     * ```\n     */",
       "meta": {
         "range": [
-          474879,
-          497668
+          474257,
+          497046
         ],
         "filename": "jodit.js",
-        "lineno": 12740,
+        "lineno": 12729,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12153,11 +12153,11 @@
       "comment": "/**\n * Support inline toolbar\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          508364,
-          518620
+          507742,
+          517998
         ],
         "filename": "jodit.js",
-        "lineno": 13485,
+        "lineno": 13474,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12190,11 +12190,11 @@
       "comment": "/**\n         * Popup was opened for some selection text (not for image or link)\n         * @type {boolean}\n         */",
       "meta": {
         "range": [
-          513744,
-          513774
+          513122,
+          513152
         ],
         "filename": "jodit.js",
-        "lineno": 13597,
+        "lineno": 13586,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12224,11 +12224,11 @@
       "comment": "/**\n * Process commands: `justifyfull`, `justifyleft`, `justifyright`, `justifycenter`\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          521450,
-          523220
+          520828,
+          522598
         ],
         "filename": "jodit.js",
-        "lineno": 13792,
+        "lineno": 13781,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12267,7 +12267,7 @@
       "comment": "/**\n * Process link. Insert, dbclick or remove format\n *\n * @module plugins/link\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 13974,
+        "lineno": 13963,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -12285,11 +12285,11 @@
       "comment": "/**\n * @property {boolean | number} limitWords=false limit words count\n */",
       "meta": {
         "range": [
-          531425,
-          531469
+          530803,
+          530847
         ],
         "filename": "jodit.js",
-        "lineno": 14052,
+        "lineno": 14041,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12326,11 +12326,11 @@
       "comment": "/**\n * @property {boolean | number} limitChars=false limit chars count\n */",
       "meta": {
         "range": [
-          531546,
-          531590
+          530924,
+          530968
         ],
         "filename": "jodit.js",
-        "lineno": 14056,
+        "lineno": 14045,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12367,11 +12367,11 @@
       "comment": "/**\n * @property {boolean} limitHTML=false limit html chars count\n */",
       "meta": {
         "range": [
-          531662,
-          531705
+          531040,
+          531083
         ],
         "filename": "jodit.js",
-        "lineno": 14060,
+        "lineno": 14049,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12407,11 +12407,11 @@
       "comment": "/**\n * @property {string} mediaFakeTag='jodit-media' Decorate media element with tag\n */",
       "meta": {
         "range": [
-          534139,
-          534193
+          533517,
+          533571
         ],
         "filename": "jodit.js",
-        "lineno": 14125,
+        "lineno": 14114,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12447,11 +12447,11 @@
       "comment": "/**\n * @property {boolean} mediaInFakeBlock=true Decorate media elements\n */",
       "meta": {
         "range": [
-          534272,
-          534321
+          533650,
+          533699
         ],
         "filename": "jodit.js",
-        "lineno": 14129,
+        "lineno": 14118,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12487,11 +12487,11 @@
       "comment": "/**\n * @property {string[]} mediaBlocks=['video', 'audio'] Media tags\n */",
       "meta": {
         "range": [
-          534397,
-          534455
+          533775,
+          533833
         ],
         "filename": "jodit.js",
-        "lineno": 14133,
+        "lineno": 14122,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12527,11 +12527,11 @@
       "comment": "/**\n * After resize it will change buttons set for different sizes\n *\n * @type {boolean}\n */",
       "meta": {
         "range": [
-          537178,
-          537226
+          536556,
+          536604
         ],
         "filename": "jodit.js",
-        "lineno": 14201,
+        "lineno": 14190,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12561,11 +12561,11 @@
       "comment": "/**\n * Rebuild toolbar in depends of editor's width\n */",
       "meta": {
         "range": [
-          538167,
-          539943
+          537545,
+          539321
         ],
         "filename": "jodit.js",
-        "lineno": 14227,
+        "lineno": 14216,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12597,11 +12597,11 @@
       "comment": "/**\n * Process commands insertOrderedList and insertUnOrderedList\n */",
       "meta": {
         "range": [
-          540754,
-          541640
+          540132,
+          541018
         ],
         "filename": "jodit.js",
-        "lineno": 14304,
+        "lineno": 14293,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12630,7 +12630,7 @@
       "comment": "/**\n * Ask before paste HTML source\n *\n * @module insertHTML\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 14353,
+        "lineno": 14342,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -12648,7 +12648,7 @@
       "comment": "/**\n         * Triggered before pasting something into the Jodit Editor\n         *\n         * @event beforePaste\n         * @param {ClipboardEvent} event\n         * @return Returning false in the handler assigned toWYSIWYG the event will cancel the current action.\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('beforePaste', function (event) {\n             *     return false; // deny paste\n             * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 14477,
+        "lineno": 14466,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -12684,7 +12684,7 @@
       "comment": "/**\n                 * Triggered after the content is pasted from the clipboard into the Jodit. If a string is returned the new string will be used as the pasted content.\n                 *\n                 * @event beforePaste\n                 * @param {ClipboardEvent} event\n                 * @return Return {string|undefined}\n                 * @example\n                 * ```javascript\n                 * var editor = new Jodit(\"#redactor\");\n             * editor.events.on('beforePaste', function (event) {\n                     *     return false; // deny paste\n                     * });\n                 * ```\n                 */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 14519,
+        "lineno": 14508,
         "columnno": 16,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -12726,7 +12726,7 @@
       "comment": "/**\n         * Triggered after pasting something into the Jodit\n         *\n         * @event afterPaste\n         * @param {ClipboardEvent} event\n         * @return Return {string|undefined}\n         * @example\n         * ```javascript\n         * var editor = new Jodit(\"#redactor\");\n         * editor.events.on('afterPaste', function (event) {\n             *     return false; // deny paste\n             * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 14547,
+        "lineno": 14536,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -12768,11 +12768,11 @@
       "comment": "/**\n * @property {boolean} useInputsPlaceholder=true use a placeholder from original input field, if it was set\n * @example\n * ```javascript\n * //<textarea id=\"editor\" placeholder=\"start typing text ...\" cols=\"30\" rows=\"10\"></textarea>\n * var editor = new Jodit('#editor', {\n *    useInputsPlaceholder: true\n * });\n * ```\n */",
       "meta": {
         "range": [
-          556634,
-          556687
+          556012,
+          556065
         ],
         "filename": "jodit.js",
-        "lineno": 14674,
+        "lineno": 14663,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12811,11 +12811,11 @@
       "comment": "/**\n * @property {string} placeholder='Type something' Default placeholder\n * @example\n * ```javascript\n * var editor = new Jodit('#editor', {\n *    placeholder: 'start typing text ...'\n * });\n * ```\n */",
       "meta": {
         "range": [
-          556893,
-          556949
+          556271,
+          556327
         ],
         "filename": "jodit.js",
-        "lineno": 14684,
+        "lineno": 14673,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12854,11 +12854,11 @@
       "comment": "/**\n * Show placeholder inside empty editor\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          557027,
-          560162
+          556405,
+          559540
         ],
         "filename": "jodit.js",
-        "lineno": 14690,
+        "lineno": 14679,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12904,11 +12904,11 @@
       "comment": "/**\n * Custom process Redo and Undo functionality\n */",
       "meta": {
         "range": [
-          561635,
-          562359
+          561013,
+          561737
         ],
         "filename": "jodit.js",
-        "lineno": 14814,
+        "lineno": 14803,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12932,11 +12932,11 @@
       "comment": "/**\n * @property{boolean} useTableResizer=true Use true frame for editing table size\n */",
       "meta": {
         "range": [
-          562972,
-          563020
+          562350,
+          562398
         ],
         "filename": "jodit.js",
-        "lineno": 14858,
+        "lineno": 14847,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -12968,11 +12968,11 @@
       "comment": "/**\n * @property{boolean} useImageResizer=true Use true image editing frame size\n */",
       "meta": {
         "range": [
-          563107,
-          563155
+          562485,
+          562533
         ],
         "filename": "jodit.js",
-        "lineno": 14862,
+        "lineno": 14851,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13004,11 +13004,11 @@
       "comment": "/**\n * @property {object} resizer\n * @property {int} resizer.min_width=10 The minimum width for the editable element\n * @property {int} resizer.min_height=10 The minimum height for the item being edited\n * @property {boolean} resizer.showSize=true Show size\n */",
       "meta": {
         "range": [
-          563419,
-          563543
+          562797,
+          562921
         ],
         "filename": "jodit.js",
-        "lineno": 14869,
+        "lineno": 14858,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13072,11 +13072,11 @@
       "comment": "/**\n * Resize table and img\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          563602,
-          575658
+          562980,
+          575036
         ],
         "filename": "jodit.js",
-        "lineno": 14879,
+        "lineno": 14868,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13138,11 +13138,11 @@
       "comment": "/**\n     * Bind an edit element toWYSIWYG element\n     * @param {HTMLElement} element The element that you want toWYSIWYG add a function toWYSIWYG resize\n     */",
       "meta": {
         "range": [
-          567275,
-          569923
+          566653,
+          569301
         ],
         "filename": "jodit.js",
-        "lineno": 14950,
+        "lineno": 14939,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13185,11 +13185,11 @@
       "comment": "/**\n * Resize editor\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          576236,
-          580768
+          575614,
+          580146
         ],
         "filename": "jodit.js",
-        "lineno": 15173,
+        "lineno": 15162,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13237,11 +13237,11 @@
       "comment": "/**\n     * Show gutter\n     */",
       "meta": {
         "range": [
-          582090,
-          582106
+          581468,
+          581484
         ],
         "filename": "jodit.js",
-        "lineno": 15314,
+        "lineno": 15303,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13264,11 +13264,11 @@
       "comment": "/**\n     * Default theme\n     */",
       "meta": {
         "range": [
-          582149,
-          582180
+          581527,
+          581558
         ],
         "filename": "jodit.js",
-        "lineno": 15318,
+        "lineno": 15307,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13291,11 +13291,11 @@
       "comment": "/**\n     * Default mode\n     */",
       "meta": {
         "range": [
-          582222,
-          582243
+          581600,
+          581621
         ],
         "filename": "jodit.js",
-        "lineno": 15322,
+        "lineno": 15311,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13318,11 +13318,11 @@
       "comment": "/**\n     * Wrap lines. Possible values - \"off\", 80-100..., true, \"free\"\n     */",
       "meta": {
         "range": [
-          582333,
-          582343
+          581711,
+          581721
         ],
         "filename": "jodit.js",
-        "lineno": 15326,
+        "lineno": 15315,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13345,11 +13345,11 @@
       "comment": "/**\n     * Highlight active line\n     */",
       "meta": {
         "range": [
-          582394,
-          582419
+          581772,
+          581797
         ],
         "filename": "jodit.js",
-        "lineno": 15330,
+        "lineno": 15319,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13372,7 +13372,7 @@
       "comment": "/**\n * Plug-in change simple textarea on CodeMirror editor in Source code mode\n *\n * @module source\n */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 15349,
+        "lineno": 15338,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -13390,11 +13390,11 @@
       "comment": "/**\n * The plugin inserts characters that are not part of the standard keyboard.\n */",
       "meta": {
         "range": [
-          605556,
-          609747
+          604934,
+          609125
         ],
         "filename": "jodit.js",
-        "lineno": 15824,
+        "lineno": 15813,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13418,11 +13418,11 @@
       "comment": "/**\n * You can redefine hotkeys for some command\n *\n * var jodit = new Jodit('#editor', {\n *  commandToHotkeys: {\n *      bold: 'ctrl+shift+b',\n *      italic: ['ctrl+i', 'ctrl+b'],\n *  }\n * })\n * @type {{}}\n */",
       "meta": {
         "range": [
-          611020,
-          611267
+          610398,
+          610645
         ],
         "filename": "jodit.js",
-        "lineno": 15942,
+        "lineno": 15931,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13452,11 +13452,11 @@
       "comment": "/**\n * Allow set hotkey for command or button\n */",
       "meta": {
         "range": [
-          611323,
-          614748
+          610701,
+          614126
         ],
         "filename": "jodit.js",
-        "lineno": 15951,
+        "lineno": 15940,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13480,11 +13480,11 @@
       "comment": "/**\n * Process tables in editor\n */",
       "meta": {
         "range": [
-          623042,
-          639755
+          622420,
+          639133
         ],
         "filename": "jodit.js",
-        "lineno": 16245,
+        "lineno": 16234,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13508,11 +13508,11 @@
       "comment": "/**\n     *\n     * @param {Jodit} editor\n     */",
       "meta": {
         "range": [
-          623189,
-          633604
+          622567,
+          632982
         ],
         "filename": "jodit.js",
-        "lineno": 16251,
+        "lineno": 16240,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13556,11 +13556,11 @@
       "comment": "/**\n         *\n         * @param {string} command\n         */",
       "meta": {
         "range": [
-          626766,
-          629096
+          626144,
+          628474
         ],
         "filename": "jodit.js",
-        "lineno": 16318,
+        "lineno": 16307,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13602,11 +13602,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableElement} [table]\n     * @param {HTMLTableCellElement} [current_cell]\n     * @private\n     */",
       "meta": {
         "range": [
-          633741,
-          634187
+          633119,
+          633565
         ],
         "filename": "jodit.js",
-        "lineno": 16455,
+        "lineno": 16444,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13657,11 +13657,11 @@
       "comment": "/**\n     *\n     * @param {HTMLTableCellElement} cell\n     * @param {boolean|null} [wholeTable=null] true - resize whole table by left side, false - resize whole table by right side, null - resize column\n     * @private\n     */",
       "meta": {
         "range": [
-          634531,
-          634869
+          633909,
+          634247
         ],
         "filename": "jodit.js",
-        "lineno": 16474,
+        "lineno": 16463,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13717,11 +13717,11 @@
       "comment": "/**\n     * Calc helper resizer position\n     *\n     * @param {HTMLTableElement} table\n     * @param {HTMLTableCellElement} cell\n     * @param {int} [offsetX=0]\n     * @param {int} [delta=0]\n     *\n     * @private\n     */",
       "meta": {
         "range": [
-          635100,
-          636496
+          634478,
+          635874
         ],
         "filename": "jodit.js",
-        "lineno": 16490,
+        "lineno": 16479,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13801,7 +13801,7 @@
       "comment": "/**\n     * Set cookie value\n     *\n     * @method set\n     * @param {string|number} name\n     * @param {string|number} value\n     * @param {int} [days] if it value < 0 cookie removed\n     * @example\n     * ```javascript\n     * Jodit.modules.Cookie.set('somename', somevalue, 5);\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16607,
+        "lineno": 16596,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -13852,7 +13852,7 @@
       "comment": "/**\n     * Get cookie value by key\n     *\n     * @method get\n     * @param {string} name\n     * @return {string}\n     * @example\n     * ```javascript\n     * console.log(Jodit.modules.Cookie.get('somename'));\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16631,
+        "lineno": 16620,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -13892,7 +13892,7 @@
       "comment": "/**\n     * Remove cookie by key\n     *\n     * @method remove\n     * @param {string} name\n     * @example\n     * ```javascript\n     * Jodit.modules.Cookie.remove('somename');\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16655,
+        "lineno": 16644,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -13923,11 +13923,11 @@
       "comment": "/**\n         * Container for set/get value\n         * @type {Storage}\n         */",
       "meta": {
         "range": [
-          653498,
-          653573
+          652876,
+          652951
         ],
         "filename": "jodit.js",
-        "lineno": 16982,
+        "lineno": 16971,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -13957,7 +13957,7 @@
       "comment": "/**\n         * Get path by url. You can use this method in another modules\n         *\n         * @method getPathByUrl\n         * @param {string} url Full url\n         * @param {function} success\n         * @param {string} success.path path toWYSIWYG file from connector's root (without filename)\n         * @param {string} success.name filename\n         * @param {function} onFailed filename\n         * @param {string} onFailed.message\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 16988,
+        "lineno": 16977,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14029,7 +14029,7 @@
       "comment": "/**\n         * Create a directory on the server\n         *\n         * @method create\n         * @param {string} name Name the new folder\n         * @param {string} path Relative toWYSIWYG the directory in which you want toWYSIWYG create a folder\n         * @param {string} source Server source key\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17034,
+        "lineno": 17023,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14076,7 +14076,7 @@
       "comment": "/**\n         * Move a file / directory on the server\n         *\n         * @method move\n         * @param {string} filepath The relative path toWYSIWYG the file / folder source\n         * @param {string} path Relative toWYSIWYG the directory where you want toWYSIWYG move the file / folder\n         * @param {string} source Source\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17059,
+        "lineno": 17048,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14123,7 +14123,7 @@
       "comment": "/**\n         * Close dialog\n         * @method close\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17082,
+        "lineno": 17071,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14141,11 +14141,11 @@
       "comment": "/**\n         * It opens a web browser window\n         *\n         * @param {Function} callback The function that will be called after the file selection in the browser\n         * @param {boolean} [onlyImages=false] Show only images\n         * @example\n         * ```javascript\n         * var fb = new Jodit.modules.FileBrowser(parent);\n         * fb.open(function (data) {\n         *     var i;\n         *     for (i = 0;i < data.files.length; i += 1) {\n         *         parent.selection.insertImage(data.baseurl + data.files[i]);\n         *     }\n         * });\n         * ```\n         * @return Promise\n         */",
       "meta": {
         "range": [
-          658468,
-          660173
+          657846,
+          659551
         ],
         "filename": "jodit.js",
-        "lineno": 17107,
+        "lineno": 17096,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14208,7 +14208,7 @@
       "comment": "/**\n         * Open Image Editor\n         *\n         * @method openImageEditor\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17151,
+        "lineno": 17140,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14226,11 +14226,11 @@
       "comment": "/**\n     *\n     * @return {boolean}\n     */",
       "meta": {
         "range": [
-          677748,
-          677880
+          677126,
+          677258
         ],
         "filename": "jodit.js",
-        "lineno": 17459,
+        "lineno": 17448,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14262,7 +14262,7 @@
       "comment": "/**\n     * It displays a message in the status bar of filebrowser\n     *\n     * @method status\n     * @param {string} message Message\n     * @param {boolean} [success] true It will be shown a message light . If no option is specified , an error will be shown the red\n     * @example\n     * ```javascript\n     * parent.filebrowser.status('There was an error uploading file', false);\n     * ```\n     */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17462,
+        "lineno": 17451,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14304,11 +14304,11 @@
       "comment": "/**\n     *\n     * @param {string} name\n     * @param {Function} success\n     * @param {Function} error\n     * @return {Promise}\n     */",
       "meta": {
         "range": [
-          682066,
-          682524
+          681444,
+          681902
         ],
         "filename": "jodit.js",
-        "lineno": 17552,
+        "lineno": 17541,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14375,11 +14375,11 @@
       "comment": "/**\n     * Deleting a file\n     *\n     * @param path Relative path\n     * @param file The filename\n     * @param source Source\n     */",
       "meta": {
         "range": [
-          685295,
-          686108
+          684673,
+          685486
         ],
         "filename": "jodit.js",
-        "lineno": 17634,
+        "lineno": 17623,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14428,11 +14428,11 @@
       "comment": "/**\n     * Deleting a folder\n     *\n     * @param path Relative path\n     * @param file The filename\n     * @param source Source\n     */",
       "meta": {
         "range": [
-          686255,
-          687078
+          685633,
+          686456
         ],
         "filename": "jodit.js",
-        "lineno": 17662,
+        "lineno": 17651,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14481,11 +14481,11 @@
       "comment": "/**\n         * Return default timeout period in milliseconds for some debounce or throttle functions. By default return {observer.timeout} options\n         *\n         * @return {number}\n         */",
       "meta": {
         "range": [
-          688062,
-          688199
+          687440,
+          687577
         ],
         "filename": "jodit.js",
-        "lineno": 17710,
+        "lineno": 17699,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14516,11 +14516,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.closeAfterSave=false Close editor after save image\n     */",
       "meta": {
         "range": [
-          689635,
-          689656
+          689013,
+          689034
         ],
         "filename": "jodit.js",
-        "lineno": 17756,
+        "lineno": 17745,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14550,11 +14550,11 @@
       "comment": "/**\n     * @property{string|int} imageeditor.width=85% Default dialog width by screen\n     */",
       "meta": {
         "range": [
-          689760,
-          689772
+          689138,
+          689150
         ],
         "filename": "jodit.js",
-        "lineno": 17760,
+        "lineno": 17749,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14584,11 +14584,11 @@
       "comment": "/**\n     * @property{string|int} imageeditor.height=85% Default dialog height by screen\n     */",
       "meta": {
         "range": [
-          689878,
-          689891
+          689256,
+          689269
         ],
         "filename": "jodit.js",
-        "lineno": 17764,
+        "lineno": 17753,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14618,11 +14618,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.crop=true Show tab cropping\n     */",
       "meta": {
         "range": [
-          689979,
-          689989
+          689357,
+          689367
         ],
         "filename": "jodit.js",
-        "lineno": 17768,
+        "lineno": 17757,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14652,11 +14652,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.resize=true Show tab resizing\n     */",
       "meta": {
         "range": [
-          690079,
-          690091
+          689457,
+          689469
         ],
         "filename": "jodit.js",
-        "lineno": 17772,
+        "lineno": 17761,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14686,11 +14686,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.resizeUseRatio=true Keep aspect ratio on resize\n     */",
       "meta": {
         "range": [
-          690199,
-          690219
+          689577,
+          689597
         ],
         "filename": "jodit.js",
-        "lineno": 17776,
+        "lineno": 17765,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14720,11 +14720,11 @@
       "comment": "/**\n     * @property{int} imageeditor.resizeMinWidth=20 minimal width on resize\n     */",
       "meta": {
         "range": [
-          690317,
-          690335
+          689695,
+          689713
         ],
         "filename": "jodit.js",
-        "lineno": 17780,
+        "lineno": 17769,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14754,11 +14754,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.resizeMinHeight=20 minimal height on resize\n     */",
       "meta": {
         "range": [
-          690439,
-          690458
+          689817,
+          689836
         ],
         "filename": "jodit.js",
-        "lineno": 17784,
+        "lineno": 17773,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14788,11 +14788,11 @@
       "comment": "/**\n     * @property{boolean} imageeditor.cropUseRatio=true Keep aspect ratio on crop\n     */",
       "meta": {
         "range": [
-          690562,
-          690580
+          689940,
+          689958
         ],
         "filename": "jodit.js",
-        "lineno": 17788,
+        "lineno": 17777,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14822,11 +14822,11 @@
       "comment": "/**\n     * @property{string} imageeditor.cropDefaultWidth=70% In the tab, crop the image is displayed not in real size. Boxing default size for it\n     * @property{string} imageeditor.cropDefaultHeight=70%\n     */",
       "meta": {
         "range": [
-          690804,
-          690827
+          690182,
+          690205
         ],
         "filename": "jodit.js",
-        "lineno": 17793,
+        "lineno": 17782,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14862,11 +14862,11 @@
       "comment": "/**\n * The module allows you toWYSIWYG edit the image: resize or cut any part of it\n *\n */",
       "meta": {
         "range": [
-          690957,
-          718890
+          690335,
+          718268
         ],
         "filename": "jodit.js",
-        "lineno": 17800,
+        "lineno": 17789,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -14890,7 +14890,7 @@
       "comment": "/**\n         * Hide image editor\n         *\n         * @method hide\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17808,
+        "lineno": 17797,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -14908,7 +14908,7 @@
       "comment": "/**\n         * Open image editor\n         *\n         * @method open\n         * @param {string} url\n         * @param {function} save\n         * @param {string} [save.name] new filename\n         * @param {object} save.data Bound box for resize and crop operation\n         * @param {string} save.data.action resize or crop\n         * @param {object} save.data.box Bound box\n         * @param {function} save.success called after success operation\n         * @param {function} save.failed called after failed operation\n         * @example\n         * ```javascript\n         * var jodit = new Jodit('.editor', {\n         *     imageeditor: {\n         *         crop: false,\n         *         closeAfterSave: true,\n         *         width: 500\n         *     }\n         * });\n         * jodit.imageeditor.open('http://xdsoft.net/jodit/images/test.png', function (name, data, success, failed) {\n         *     var img = jodit.node.create('img');\n         *     img.setAttribute('src', 'http://xdsoft.net/jodit/images/test.png');\n         *     if (box.action !== 'resize') {\n         *          return failed('Sorry it is work only in resize mode. For croping use FileBrowser');\n         *     }\n         *     img.style.width = data.w;\n         *     img.style.height = data.h;\n         *     jodit.selection.insertNode(img);\n         *     success();\n         * });\n         * ```\n         */",
       "meta": {
         "filename": "jodit.js",
-        "lineno": 17895,
+        "lineno": 17884,
         "columnno": 8,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {}
@@ -15002,11 +15002,11 @@
       "comment": "/**\n * Process navigate keypressing in table cell\n *\n * @param {Jodit} editor\n */",
       "meta": {
         "range": [
-          719447,
-          723405
+          718825,
+          722783
         ],
         "filename": "jodit.js",
-        "lineno": 18332,
+        "lineno": 18321,
         "columnno": 0,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15044,11 +15044,11 @@
       "comment": "/**\n * Search plugin. it is used for custom search in text\n * ![search](https://user-images.githubusercontent.com/794318/34545433-cd0a9220-f10e-11e7-8d26-7e22f66e266d.gif)\n *\n * @example\n * ```typescript\n * var jodit = new Jodit('#editor', {\n *  useSearch: false\n * });\n * // or\n * var jodit = new Jodit('#editor', {\n *  disablePlugins: 'search'\n * });\n * ```\n */",
       "meta": {
         "range": [
-          724987,
-          743182
+          724365,
+          742560
         ],
         "filename": "jodit.js",
-        "lineno": 18459,
+        "lineno": 18448,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15075,11 +15075,11 @@
       "comment": "/**\n * Show stat data - words and chars count\n */",
       "meta": {
         "range": [
-          748513,
-          749974
+          747891,
+          749352
         ],
         "filename": "jodit.js",
-        "lineno": 18951,
+        "lineno": 18940,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15103,11 +15103,11 @@
       "comment": "/**\n * Show path to current element in status bar\n */",
       "meta": {
         "range": [
-          751814,
-          756517
+          751192,
+          755895
         ],
         "filename": "jodit.js",
-        "lineno": 19038,
+        "lineno": 19027,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15131,11 +15131,11 @@
       "comment": "/**\n * Process drag and drop image from FileBrowser and movev image inside the editor\n */",
       "meta": {
         "range": [
-          757710,
-          764102
+          757088,
+          763480
         ],
         "filename": "jodit.js",
-        "lineno": 19177,
+        "lineno": 19166,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15159,11 +15159,11 @@
       "comment": "/**\n * Show dialog choose content to paste\n */",
       "meta": {
         "range": [
-          765262,
-          770753
+          764640,
+          770131
         ],
         "filename": "jodit.js",
-        "lineno": 19346,
+        "lineno": 19335,
         "columnno": 4,
         "path": "/Users/v-chupurnov/WebstormProjects/pet/jodit/build",
         "code": {
@@ -15189,7 +15189,7 @@
       "files": [
         "/Users/v-chupurnov/WebstormProjects/pet/jodit/build/jodit.js"
       ],
-      "___id": "T000002R007711",
+      "___id": "T000002R007902",
       "___s": true
     }
   ]
