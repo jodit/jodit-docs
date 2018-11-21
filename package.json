@@ -1,12 +1,12 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.51",
+  "version": "0.1.52",
   "devDependencies": {
     "@types/ace": "^0.0.35",
     "@types/es6-promise": "^3.3.0",
     "@types/node": "^7.10.2",
     "css-loader": "^0.28.11",
-    "jodit": "^3.2.22",
+    "jodit": "^3.2.24",
     "jsdoc": "^3.5.5",
     "jsdoc-json": "^2.0.2",
     "react": "^16.6.3",
