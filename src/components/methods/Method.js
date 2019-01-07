@@ -49,7 +49,12 @@ export class Method extends DataComponent {
 
         Data.findInfo('', Data.data, (needle, haystack) => {
             if (Methods.isMethod(haystack)) {
-                if (haystack.parent.name + '-' + haystack.name === match.params.name) {
+                let name = haystack.parent.name;
+                if (haystack.parent.name.indexOf(haystack.name) !== haystack.parent.name.length - haystack.name.length) {
+                    name = haystack.parent.name  + '.' + haystack.name;
+                }
+
+                if (Methods.normalizeMethodNameToURL(name) === match.params.name) {
                     info = haystack;
                     return true;
                 }

@@ -9,6 +9,9 @@ import Search from "../Search";
 import {BASE_URL} from "../../consts";
 
 export class Methods extends DataComponent {
+    static normalizeMethodNameToURL(name) {
+        return name.replace(/[^a-zA-Z\$]/g, '-');
+    }
     static isMethod(haystack) {
         return (
                 haystack.kindString === 'Method' ||
@@ -25,7 +28,11 @@ export class Methods extends DataComponent {
             let options = [];
             Data.findInfo('', Data.data, (needle, haystack) => {
                 if (Methods.isMethod(haystack)) {
-                    options.push(haystack.parent.name  + '.' + haystack.name);
+                    if (haystack.parent.name.indexOf(haystack.name) !== haystack.parent.name.length - haystack.name.length) {
+                        options.push(haystack.parent.name  + '.' + haystack.name);
+                    } else {
+                        options.push(haystack.parent.name);
+                    }
                 }
             });
 
@@ -46,7 +53,7 @@ export class Methods extends DataComponent {
             for (let i = 1; i <= Options.columnCount; i += 1) {
                 links[i - 1] = <div key={i}>{options.slice((i - 1) * part, i * part).map((option, index) => (
                     <div key={option}>
-                        <Link to={BASE_URL + "methods/" + option.replace(/\./, '-') + "/"}>{option}</Link>
+                        <Link to={BASE_URL + "methods/" + Methods.normalizeMethodNameToURL(option) + "/"}>{option}</Link>
                     </div>
                 ))}</div>;
             }
