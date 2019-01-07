@@ -1,22 +1,22 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.53",
+  "version": "0.1.54",
   "devDependencies": {
     "@types/ace": "^0.0.35",
     "@types/es6-promise": "^3.3.0",
     "@types/node": "^7.10.2",
     "css-loader": "^0.28.11",
-    "jodit": "^3.2.27",
+    "jodit": "^3.2.28",
     "jsdoc": "^3.5.5",
     "jsdoc-json": "^2.0.2",
-    "react": "^16.6.3",
+    "react": "^16.7.0",
     "react-app-rewired": "^1.5.2",
-    "react-dom": "^16.6.3",
+    "react-dom": "^16.7.0",
     "react-markdown": "^3.4.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.1",
     "react-syntax-highlighter": "^7.0.4",
-    "renamer": "^1.1.0",
+    "renamer": "^1.1.1",
     "typedoc": "^0.13.0"
   },
   "scripts": {
