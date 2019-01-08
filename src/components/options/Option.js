@@ -100,12 +100,28 @@ export const ShortText = (info) => {
     return '';
 };
 
-export const PrintType = (info) => {
+export const PrintType = ({info, plain}) => {
+    const pnt = (arrayOrScalar) => {
+        return Array.isArray(arrayOrScalar) ? arrayOrScalar.map(pnt)
+            : arrayOrScalar;
+    };
+
     if (info.type) {
-        return info.type.toString(info.plain);
+        const type = info.type.toString(plain);
+        return pnt(type);
     }
 
-    return '';
+    const result = [info.kindString + ' ' + info.name + ' {\n'];
+
+    info.children.forEach((elm) => {
+       result.push('  ' + elm.name  + ': ');
+       result.push(PrintType({info: elm, plain}));
+       result.push(',\n');
+    });
+
+    result.push('}');
+
+    return result;
 };
 
 const PrintOption = (props) => {
@@ -116,7 +132,7 @@ const PrintOption = (props) => {
             <tbody>
                 <tr>
                     <td>Type:</td>
-                    <td><span><PrintType {...info} name={info.name}/></span></td>
+                    <td><span><PrintType info = {info} name={info.name}/></span></td>
                 </tr>
                 <tr>
                     <td>Default:</td>

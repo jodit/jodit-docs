@@ -17,6 +17,7 @@ export class Data {
             });
         }
     }
+
     static findInfo(needle, haystack = Data.data, callback = Data.checkInfo) {
         if (!haystack) {
             return;

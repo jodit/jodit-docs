@@ -7,7 +7,7 @@ import Flag from "./Flag";
 import {BASE_URL} from "../../../consts";
 
 
-export default class Node extends Model{
+export default class Node extends Model {
 	/**
 	 * @type Node[]
 	 */
@@ -95,7 +95,7 @@ export default class Node extends Model{
 	}
 
 	getAnchor(plaintext = false) {
-		return !plaintext ? <Link to={this.getID()}>{this.name}</Link> : this.name;//'<a href="' + this.getID() + '">' + this.name + '</a>';
+		return !plaintext ? <Link to={this.getID()}>{this.name}</Link> : <a href={this.getID()}> { this.name }</a>;
 	}
 
 	/**

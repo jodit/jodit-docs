@@ -7,10 +7,12 @@ import {Types} from "./Types";
 import {PrintType, ShortText, Source, Tags} from "../options/Option";
 import Title from "../Title";
 import NotFound from "../NotFound";
-import {TypeScript} from "../methods/Method";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
 
+const ReHTML = (value) => {
+    return value;
+};
 const PrintOption = (props) => {
     const {info} = props;
 
@@ -19,7 +21,8 @@ const PrintOption = (props) => {
             <tbody>
             <tr>
                 <td>Type:</td>
-                <td><TypeScript>{renderToStaticMarkup(<PrintType plain={true} {...info}/>)}</TypeScript></td>
+                <td>
+                    <pre dangerouslySetInnerHTML={{__html: ReHTML(renderToStaticMarkup(<PrintType plain={true} info={info}/>))}}/></td>
             </tr>
             <tr>
                 <td>Source:</td>
