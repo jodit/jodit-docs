@@ -10,7 +10,7 @@ import {BASE_URL} from "../../consts";
 
 export class Methods extends DataComponent {
     static normalizeMethodNameToURL(name) {
-        return name.replace(/[^a-zA-Z\$]/g, '-');
+        return name.replace(/[^a-zA-Z$]/g, '-');
     }
     static isMethod(haystack) {
         return (
@@ -28,7 +28,8 @@ export class Methods extends DataComponent {
             let options = [];
             Data.findInfo('', Data.data, (needle, haystack) => {
                 if (Methods.isMethod(haystack)) {
-                    if (haystack.parent.name.indexOf(haystack.name) !== haystack.parent.name.length - haystack.name.length) {
+                    const index = haystack.parent.name.indexOf(haystack.name);
+                    if (index === -1 || index !== haystack.parent.name.length - haystack.name.length) {
                         options.push(haystack.parent.name  + '.' + haystack.name);
                     } else {
                         options.push(haystack.parent.name);
