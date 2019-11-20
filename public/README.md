@@ -34,8 +34,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/3.1.92/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/3.1.92/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/3.2.46/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/3.2.46/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -61,6 +61,8 @@ $('textarea').each(function () {
 
 ## For contributors:
 ```bash
+git clone https://github.com/xdan/jodit.git
+cd jodit
 npm install
 ```
 
@@ -146,7 +148,7 @@ var editor = new Jodit('.someselector', {
 
 ## Browser Support
 ______________________
-* Internet Explorer 9
+* Internet Explorer 11
 * Latest Chrome
 * Latest Firefox
 * Latest Safari
@@ -160,6 +162,10 @@ https://github.com/xdan/jodit
 
 ## License
 
-Licensed under GNU General Public License v2.0 or later
+Licensed under GNU General Public License v2.0 or later or MIT or [Commercial](https://xdsoft.net/jodit/commercial/)
+Jodit is licensed under a triple license system (MIT or GPL version 2-or-later or Commercial). This means you are free to choose with which of these licenses you want to use this library.
+It does not mean what for commercial products you need `Commercial` license. You can use any of these licenses in commercial and non commercial products.
+
+
 
 
