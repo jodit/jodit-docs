@@ -16875,7 +16875,7 @@
 															"sources": [
 																{
 																	"fileName": "modules/Selection.ts",
-																	"line": 1068,
+																	"line": 1074,
 																	"character": 4
 																}
 															]
@@ -16958,7 +16958,7 @@
 																	"sources": [
 																		{
 																			"fileName": "modules/Selection.ts",
-																			"line": 1070,
+																			"line": 1076,
 																			"character": 17
 																		}
 																	]
@@ -16979,7 +16979,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 1064,
+									"line": 1070,
 									"character": 9
 								}
 							]
@@ -17322,7 +17322,13 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Return current selected HTML"
+										"shortText": "Return current selected HTML",
+										"tags": [
+											{
+												"tag": "example",
+												"text": "\n```javascript\nconst editor = new jodit();\nconsole.log(editor.selection.getHTML()); // html\nconsole.log(Jodit.modules.Helpers.stripTags(editor.selection.getHTML())); // plain text\n```\n"
+											}
+										]
 									},
 									"type": {
 										"type": "intrinsic",
@@ -17333,7 +17339,7 @@
 							"sources": [
 								{
 									"fileName": "modules/Selection.ts",
-									"line": 1041,
+									"line": 1047,
 									"character": 8
 								}
 							]
