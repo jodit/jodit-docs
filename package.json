@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.62",
+  "version": "0.1.63",
   "devDependencies": {
     "@types/ace": "^0.0.35",
     "@types/es6-promise": "^3.3.0",

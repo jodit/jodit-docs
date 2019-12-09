@@ -17,6 +17,7 @@ registerLanguage('typescript', ts);
 export const TypeScript = (props) => {
     return <SyntaxHighlighter showLineNumbers={false} language='typescript' style={codeStyle}>{props.children}</SyntaxHighlighter>;
 };
+
 const PrintOption = (props) => {
     /**
      * @type Node
