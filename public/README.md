@@ -13,6 +13,7 @@ An excellent WYSIWYG editor written in pure TypeScript without the use of additi
  * [Documentation](https://xdsoft.net/jodit/doc/)
  * [Download&Changes](https://github.com/xdan/jodit/releases)
  * [Changelog](https://github.com/xdan/jodit/blob/master/CHANGELOG.MD)
+ * [Examples](https://xdan.github.io/jodit/examples/)
 
 > For old version, please follow here [https://github.com/xdan/jodit2](https://github.com/xdan/jodit2)
 
@@ -146,7 +147,7 @@ var editor = new Jodit('#editor', {
 ```javascript
 Jodit.plugins.yourplugin = function (editor) {
     editor.events.on('afterInit', function () {
-        editor.selection.insertHTMl('Text');
+        editor.s.insertHTMl('Text');
     });
 }
 ```
@@ -159,7 +160,7 @@ var editor = new Jodit('.someselector', {
             name: 'insertDate',
             iconURL: 'http://xdsoft.net/jodit/logo.png',
             exec: function (editor) {
-                editor.selection.insertHTML((new Date).toDateString());
+                editor.s.insertHTML((new Date).toDateString());
             }
         }
     ]
@@ -175,7 +176,7 @@ var editor = new Jodit('.someselector', {
             name: 'insertDate',
             iconURL: 'http://xdsoft.net/jodit/logo.png',
             exec: function (editor) {
-                editor.selection.insertHTML((new Date).toDateString());
+                editor.s.insertHTML((new Date).toDateString());
             }
         }
     }
@@ -187,7 +188,7 @@ button with plugin
 ```javascript
 Jodit.plugins.add('insertText', function (editor) {
     editor.events.on('someEvent', function (text) {
-        editor.selection.insertHTMl('Hello ' + text);
+        editor.s.insertHTMl('Hello ' + text);
     });
 });
 
