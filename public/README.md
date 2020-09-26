@@ -47,8 +47,8 @@ ES2018 Version (if your users use only modern browsers)
 
 ### CDN
 ```html
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/3.3.1/jodit.min.css"/>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/3.3.1/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/3.4.25/jodit.min.css"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/3.4.25/jodit.min.js"></script>
 ```
 
 ### USAGE
@@ -196,30 +196,30 @@ Jodit.plugins.add('insertText', function (editor) {
 
 Jodit.plugins.add('textLength', {
 	init(editor) {
-        const div = editor.create.div('jodit_div');
-        editor.container.appendChild(div);
-        editor.events.on('change.textLength', () => {
-        	div.innerText = editor.value.length;
-        });
+		const div = editor.create.div('jodit_div');
+		editor.container.appendChild(div);
+		editor.events.on('change.textLength', () => {
+			div.innerText = editor.value.length;
+		});
 	},
 	destruct(editor) {
-        editor.events.off('change.textLength')
-    }
+		editor.events.off('change.textLength')
+	}
 });
 
 // or use class
 
 Jodit.plugins.add('textLength', class textLength {
 	init(editor) {
-        const div = editor.create.div('jodit_div');
-        editor.container.appendChild(div);
-        editor.events.on('change.textLength', () => {
-        	div.innerText = editor.value.length;
-        });
+		const div = editor.create.div('jodit_div');
+		editor.container.appendChild(div);
+		editor.events.on('change.textLength', () => {
+			div.innerText = editor.value.length;
+		});
 	}
 	destruct(editor) {
-        editor.events.off('change.textLength')
-    }
+		editor.events.off('change.textLength')
+	}
 });
 
 var editor = new Jodit('.someselector', {
