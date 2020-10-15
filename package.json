@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.87",
+  "version": "0.1.88",
   "devDependencies": {
     "@types/ace": "^0.0.35",
     "@types/es6-promise": "^3.3.0",
@@ -9,9 +9,9 @@
     "jodit": "https://github.com/xdan/jodit/tarball/master",
     "jsdoc": "^3.6.6",
     "jsdoc-json": "^2.0.2",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-app-rewired": "^1.5.2",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-markdown": "^3.4.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.1",
