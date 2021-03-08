@@ -9,14 +9,12 @@ An excellent WYSIWYG editor written in pure TypeScript without the use of additi
 [![Gitter](https://badges.gitter.im/xdan/jodit.svg)](https://gitter.im/xdan/jodit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
  * [Demo and Official site](https://xdsoft.net/jodit/)
+ * [PRO Version](https://xdsoft.net/jodit/pro/)
  * [Playground - play with options](https://xdsoft.net/jodit/play.html)
  * [Documentation](https://xdsoft.net/jodit/doc/)
  * [Download&Changes](https://github.com/xdan/jodit/releases)
  * [Changelog](https://github.com/xdan/jodit/blob/master/CHANGELOG.MD)
  * [Examples](https://xdan.github.io/jodit/examples/)
-
-> For old version, please follow here [https://github.com/xdan/jodit2](https://github.com/xdan/jodit2)
-
 
 ## Get Started
 ## How use

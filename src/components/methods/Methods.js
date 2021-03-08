@@ -58,6 +58,10 @@ export class Methods extends DataComponent {
                     </div>
                 ))}</div>;
             }
+
+            if (!options.length) {
+                links = 'No match found';
+            }
         }
 
         return (

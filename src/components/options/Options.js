@@ -46,12 +46,18 @@ export class Options extends DataComponent {
                     </div>
                 ))}</div>;
             }
+
+            if (!options.length) {
+                links = 'No match found';
+            }
         }
 
         return (
             <div className={styles.root}>
                 <Title>Options</Title>
+
                 <Search onSearch={this.onSearch}/>
+
                 <div className={styles.options}>
                     {links}
                 </div>

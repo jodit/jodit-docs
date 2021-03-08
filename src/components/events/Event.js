@@ -8,6 +8,7 @@ import Title from "../Title";
 import NotFound from "../NotFound";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
+import {Syntax} from "../Markdown";
 
 const ShortText = (info) => {
     if (info.description) {
@@ -32,7 +33,7 @@ const Fires = (props) => {
         <tbody>
             {fires.fires.map((data) => {
                 return  (<tr key={data}>
-                    <td><pre>{data.expr}</pre></td>
+                    <td><Syntax language={'typescript'}>{data.expr}</Syntax></td>
                     <td><span><Source sources={[{fileName: data.file, line: data.line}]}/></span></td>
                 </tr>);
             })}

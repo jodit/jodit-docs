@@ -39,6 +39,10 @@ export class Types extends DataComponent {
                     </div>
                 ))}</div>;
             }
+
+            if (!options.length) {
+                links = 'No match found';
+            }
         }
 
         return (

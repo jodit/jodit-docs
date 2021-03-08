@@ -95,7 +95,11 @@ export default class Node extends Model {
 	}
 
 	getAnchor(plaintext = false) {
-		return !plaintext ? <Link to={this.getID()}>{this.name}</Link> : <a href={this.getID()}> { this.name }</a>;
+    	if (plaintext) {
+    		return this.name;
+		}
+
+		return !plaintext ? <Link to={this.getID()}>{this.name}</Link> : `<a href="${this.getID()}">${ this.name }</a>`;
 	}
 
 	/**

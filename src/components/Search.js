@@ -5,6 +5,7 @@ export default class  Search extends Component {
     onChange = (event) => {
         this.props.onSearch(event.target.value);
     };
+
     render() {
         return  (<div  className={styles.search}>
             <input type="text" onChange={this.onChange} placeholder="Search"/>

@@ -1,22 +1,14 @@
 import React from 'react';
 import styles from './style.module.css';
 import {Data} from "../data/Data";
-import Jodit from "jodit";
+import {Jodit} from "jodit";
 import {Link} from "react-router-dom";
 import {DataComponent} from "../data/DataComponent";
-import SyntaxHighlighter, { registerLanguage } from "react-syntax-highlighter/light";
-import js from 'react-syntax-highlighter/languages/hljs/javascript';
-import css from 'react-syntax-highlighter/languages/hljs/css';
-import { agate as codeStyle} from 'react-syntax-highlighter/styles/hljs';
 import NotFound from "../NotFound";
 import Title from "../Title";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
-
-
-registerLanguage('javascript', js);
-registerLanguage('css', css);
-
+import {Syntax} from "../Markdown";
 
 export const stringify = (obj, replacer, space) => {
     return JSON.stringify(obj, (key, value) => {
@@ -72,7 +64,7 @@ export const Tag = (tag, index) => {
 
             return (<div key={index} className={styles.code}>
                 <label>EXAMPLE</label>
-                <SyntaxHighlighter showLineNumbers={false} language='javascript' style={codeStyle}>{code}</SyntaxHighlighter>
+                <Syntax showLineNumbers={false} language='javascript' style={codeStyle}>{code}</Syntax>
             </div>)
         }
         default: return (<div key={index} >

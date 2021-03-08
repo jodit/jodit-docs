@@ -104,6 +104,7 @@ export default class NodeType extends Node{
 	toString(plaintext = false) {
 		if (this.name || this.type) {
 			let name = this.name || this.type;
+
 			switch (name.toLowerCase()) {
 				case '__type':
 					if (this.parent.inheritedFrom) {
@@ -132,7 +133,8 @@ export default class NodeType extends Node{
                 default:
                     break;
 			}
-            return (!this.id || empty(Node.links[this.id])) ? name : Node.links[this.id].getAnchor(plaintext);
+
+			return (!this.id || empty(Node.links[this.id])) ? name : Node.links[this.id].getAnchor(plaintext);
 		}
 		if (this.types) {
 			return this.printTypes(this.types, plaintext);

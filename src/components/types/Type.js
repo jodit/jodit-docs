@@ -9,6 +9,7 @@ import Title from "../Title";
 import NotFound from "../NotFound";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
+import {Syntax} from "../Markdown";
 
 const ReHTML = (value) => {
     return value;
@@ -22,7 +23,8 @@ const PrintOption = (props) => {
             <tr>
                 <td>Type:</td>
                 <td>
-                    <pre dangerouslySetInnerHTML={{__html: ReHTML(renderToStaticMarkup(<PrintType plain={true} info={info}/>))}}/></td>
+                    <Syntax language={'typescript'} value={ReHTML(renderToStaticMarkup(<PrintType plain={true} info={info}/>))}/>
+                </td>
             </tr>
             <tr>
                 <td>Source:</td>

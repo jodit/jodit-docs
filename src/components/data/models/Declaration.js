@@ -19,6 +19,7 @@ export default class Declaration extends NodeType{
 
 		return prefix;
 	}
+
 	toString(plaintext = false) {
 		let prefix = this.getPrefix();
 

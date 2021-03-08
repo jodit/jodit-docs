@@ -4,18 +4,15 @@ import {Data} from "../data/Data";
 import {DataComponent} from "../data/DataComponent";
 import {ShortText, Source, Tags} from "../options/Option";
 import {Methods} from "./Methods";
-import {agate as codeStyle} from "react-syntax-highlighter/styles/hljs/index";
-import SyntaxHighlighter, { registerLanguage } from "react-syntax-highlighter/light";
-import ts from 'react-syntax-highlighter/languages/hljs/typescript';
 import Title from "../Title";
 import NotFound from "../NotFound";
 import Back from "../Back";
 import {BASE_URL} from "../../consts";
+import {Syntax} from "../Markdown";
 
-registerLanguage('typescript', ts);
 
 export const TypeScript = (props) => {
-    return <SyntaxHighlighter showLineNumbers={false} language='typescript' style={codeStyle}>{props.children}</SyntaxHighlighter>;
+    return <Syntax language='typescript'>{props.children}</Syntax>;
 };
 
 const PrintOption = (props) => {
