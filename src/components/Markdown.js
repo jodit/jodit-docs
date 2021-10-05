@@ -16,7 +16,10 @@ export const Syntax = ({value, children, language}) => <SyntaxHighlighter
 />
 
 export const renderers = {
-    code: ({ language, value }) => <Syntax language={language} value={value}/>
+    code({ node, inline, className, children, ...props }) {
+        const match = /language-(\w+)/.exec(className || '');
+        return <Syntax language={match ? match[1] : 'js'} value={children}/>
+    }
 };
 
-export const Markdown = ({source}) => <ReactMarkdown renderers={renderers} source={source} />
+export const Markdown = ({source}) => <ReactMarkdown components={renderers} children={source} />
