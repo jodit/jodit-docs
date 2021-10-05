@@ -61,6 +61,7 @@ export const Tag = (tag, index) => {
             </table>);
         case 'example': {
             const code = tag.text.replace(/```([\w]+)?/g, '').replace(/^[\s]+/g, '').replace(/[\s;]+$/g, '');
+            const codeStyle = '';
 
             return (<div key={index} className={styles.code}>
                 <label>EXAMPLE</label>

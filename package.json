@@ -1,23 +1,27 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.99",
+  "version": "0.1.100",
+  "resolutions": {
+    "webpack": "4.44.2",
+    "typedoc": "0.15.8"
+  },
   "devDependencies": {
-    "@types/ace": "^0.0.44",
+    "@types/ace": "^0.0.47",
     "@types/es6-promise": "^3.3.0",
-    "@types/node": "^14.14.32",
-    "css-loader": "^5.1.1",
+    "@types/node": "^16.10.2",
+    "css-loader": "^6.3.0",
     "jodit": "https://github.com/xdan/jodit/tarball/master",
-    "jsdoc": "^3.6.6",
+    "jsdoc": "^3.6.7",
     "jsdoc-json": "^2.0.2",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-app-rewired": "^2.1.8",
-    "react-dom": "^17.0.1",
-    "react-markdown": "^5.0.3",
-    "react-router-dom": "^5.2.0",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^7.0.1",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
-    "react-syntax-highlighter": "^15.4.3",
-    "renamer": "^2.0.1",
-    "typedoc": "^0.15.8"
+    "react-syntax-highlighter": "^15.4.4",
+    "renamer": "^4.0.0",
+    "typedoc": "0.15.8"
   },
   "scripts": {
     "copy": "cp ./node_modules/jodit/README.md ./public/README.md",
@@ -26,8 +30,8 @@
     "doc-ts": "typedoc --mode modules  --module umd --json ./public/data.json --includeDeclarations  --excludeExternals  --ignoreCompilerErrors --tsconfig ./node_modules/jodit/tsconfig.json ./node_modules/jodit/src",
     "doc": "npm run doc-ts && npm run doc-jsdoc && npm run doc-fires && npm run copy",
     "build-rename": "renamer --path-element name --find \"/^main\\.[a-z0-9]+/i\" --replace \"main\" build/static/*/**",
-    "newversion": "npm update && npm run doc && npm run newversion2",
-    "newversion2": "npm run build && npm version patch --no-git-tag-version && cp ./package.json ./build/package.json && npm run github &&  npm publish build",
+    "newversion": "yarn upgrade && npm run doc && npm run newversion2",
+    "newversion2": "npm run build && npm version patch --no-git-tag-version && cp ./package.json ./build/package.json && npm run github &&  npm publish ./build",
     "github": "git add --all  && git commit -m \"New version $npm_package_version. Read more https://github.com/xdan/jodit/releases/tag/$npm_package_version \" && git tag $npm_package_version && git push --tags origin HEAD:master",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
@@ -47,5 +51,8 @@
       "Firefox ESR",
       "not ie < 11"
     ]
+  },
+  "dependencies": {
+    "typescript": "^4.4.3"
   }
 }
