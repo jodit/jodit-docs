@@ -1,6 +1,7 @@
 const fs = require('fs');
 const p = require("path");
 const root = p.resolve(__dirname, '../jodit/src').replace(/\\/g, '/');
+
 const read = (path, callback, ext = []) => {
     return new Promise((resolve) => {
         fs.readdir(path, (err, files) => {

@@ -1,6 +1,6 @@
 {
   "name": "jodit-docs",
-  "version": "0.1.101",
+  "version": "0.1.102",
   "resolutions": {
     "webpack": "4.44.2",
     "typedoc": "0.15.8"

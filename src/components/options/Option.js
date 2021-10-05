@@ -43,8 +43,10 @@ const DefaultValue = (info) => {
 };
 
 export const Source = (info) => {
-    return (<a target="_blank" href={`https://github.com/xdan/jodit/blob/master/src/${info.sources[0].fileName}#L${info.sources[0].line}`}>
-        {info.sources[0].fileName}
+    const fn = info.sources[0].fileName.replace(/^jodit\/src/, '');
+
+    return (<a target="_blank" href={`https://github.com/xdan/jodit/blob/master/src/${fn}#L${info.sources[0].line}`}>
+        {fn}
     </a>);
 };
 
